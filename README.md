@@ -31,7 +31,7 @@ The world of web application Delivery and Digital Project Management moves incre
 ## Software Engineering
 [TODO - Introduction to Software Engineering]
 
-* [5 TDD Antipatterns](publish/5_tdd_antipaterns.md)
+* [5 TDD Antipatterns](published/5_tdd_antipaterns.md)
 
 ## Spree Commerce
 [TODO - Introduction to Ruby on Rails]
