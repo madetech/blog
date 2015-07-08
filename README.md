@@ -6,10 +6,11 @@ We're going to continue investing time in our blog and would like to make a conc
 
 Moving fowards, we will be using this repository to collate our posts and to solicit feedback from the team. *Everyone* is encouraged to contribute new topic ideas to this document. I've included a few headlines and some initial blog posts ideas, though feel free to expand upon these.
 
+### Instructions
+To create a blog post, fork the repository and write about your chosen topic. Once you've written a post, issue a pull request to the team. *You need to have issued the pull request by Friday lunchtime.*
+
 Once you've written a post, make sure you link through to it from this document, so nobody writes about the same thing.
 
-## Instructions
-To create a blog post, fork the repository and write about your chosen topic. Once you've written a post, issue a pull request to the team. *You need to have issued the pull request by Friday lunchtime.*
 
 #Introduction
 **MadeTech Blog - Best practices & thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the experts at Made Tech and guest posts by selected industry experts.*
