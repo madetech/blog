@@ -4,7 +4,7 @@ Our company blog is a critical channel for inbound marketing efforts, lead gener
 
 Moving forwards, we’re going to make a concerted effort to ensure the blog align closely with our positioning and we will be using this repository to gather our posts.
 
-Everyone is encouraged to contribute ideas to this document and update link through to the relevant post, once it's been written.
+Everyone is encouraged to contribute ideas to this document and add links through to the relevant posts, once they have been written.
 
 #Introduction
 **MadeTech Blog - Best practices & thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the experts at Made Tech and guest posts by selected industry experts.*
@@ -29,7 +29,9 @@ The world of web application Delivery and Digital Project Management moves incre
 [TODO - Introduction to Ruby on Rails]
 
 ## Software Engineering
-[TODO - Introduction to Ruby on Rails]
+[TODO - Introduction to Software Engineering]
+
+* [5 TDD Antipatterns](publish/5_tdd_antipaterns.md)
 
 ## Spree Commerce
 [TODO - Introduction to Ruby on Rails]
