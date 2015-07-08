@@ -7,9 +7,7 @@ Moving forwards, we’re going to make a concerted effort to ensure the blog ali
 Everyone is encouraged to contribute ideas to this document and update link through to the relevant post, once it's been written.
 
 #Introduction
-MadeTech Blog - Best practices & thought leadership
-
-### Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the experts at Made Tech and guest posts by selected industry experts.
+**MadeTech Blog - Best practices & thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the experts at Made Tech and guest posts by selected industry experts.*
 
 ## Agile Delivery
 [TODO - Introduction to Agile Delivery]
