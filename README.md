@@ -15,8 +15,7 @@ Once you've written a post, make sure you link through to it from this document,
 **MadeTech Blog - Best practices & thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the team at Made Tech and guest posts by selected industry experts.*
 
 ## Agile Delivery
-[View Landing Page](https://www.madetech.com/news/tag/agile)
-The world of sofware delivery and agile project management moves incredibly fast. Where do you go to learn about the techniques you should be using? Check out our blog posts on Agile, SCRUM, Kanban, XP etc and always be in the know.
+The world of sofware delivery and agile project management moves incredibly fast. Where do you go to learn about the techniques you should be using? Check out our blog posts on Agile, SCRUM, Kanban, XP etc and always be in the know. [View Page](https://www.madetech.com/news/tag/agile)
 
 * Using Agile for Non-Software Projects
 * Waterfall vs Agile, Things You Should Consider
@@ -29,15 +28,13 @@ The world of sofware delivery and agile project management moves incredibly fast
 * Agile Ad-Hoc Support
 
 ## Ruby on Rails
-[View Landing Page](https://www.madetech.com/news/tag/ruby-on-rails)
-[TODO - Introduction to Ruby on Rails]
+TODO - Introduction to Ruby on Rails. [View Page](https://www.madetech.com/news/tag/ruby-on-rails)
 
-## Spree Commerce (https://www.madetech.com/news/tag/spree-commerce)
-[TODO - Introduction to Spree Commerce]
+## Spree Commerce
+TODO - Introduction to Spree Commerce. [View Page](https://www.madetech.com/news/tag/spree-commerce)
 
 ## Continuous Delivery
-[View Landing Page](https://www.madetech.com/news/tag/continuous-delivery)
-[TODO - Introduction to Continuous Delivery]
+TODO - Introduction to Continuous Delivery. [View Page](https://www.madetech.com/news/tag/continuous-delivery)
 
 * Build Pipelines
 * Blue / Green Deployments
@@ -47,8 +44,7 @@ The world of sofware delivery and agile project management moves incredibly fast
 * Code Reviews
 
 ## Devops
-[View Landing Page](https://www.madetech.com/news/tag/devops)
-[TODO - Introduction to Devops]
+TODO - Introduction to Devops. [View Page](https://www.madetech.com/news/tag/devops)
 
 * Stop Creating Snowflakes
 * Your Server Is Not A Pet
@@ -57,8 +53,7 @@ The world of sofware delivery and agile project management moves incredibly fast
 * Vagrant
 
 ## Software Development
-[View Landing Page](https://www.madetech.com/news/tag/software-development)
-[TODO - Introduction to Software Engineering]
+TODO - Introduction to Software Engineering. [View Page](https://www.madetech.com/news/tag/software-development)
 
 * [5 TDD Antipatterns](published/5_tdd_antipaterns.md)
 * Why Drupal (and any big CMS systems) is a horrible solution for web applications
