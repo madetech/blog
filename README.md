@@ -14,7 +14,8 @@ Once you've written a post, make sure you link through to it from this document,
 #Introduction
 **MadeTech Blog - Best practices & thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the team at Made Tech and guest posts by selected industry experts.*
 
-## Agile Delivery (https://www.madetech.com/news/tag/agile)
+## Agile Delivery
+[View Landing Page](https://www.madetech.com/news/tag/agile)
 The world of sofware delivery and agile project management moves incredibly fast. Where do you go to learn about the techniques you should be using? Check out our blog posts on Agile, SCRUM, Kanban, XP etc and always be in the know.
 
 * Using Agile for Non-Software Projects
@@ -27,13 +28,15 @@ The world of sofware delivery and agile project management moves incredibly fast
 * Our Favourite Retrospective Ideas
 * Agile Ad-Hoc Support
 
-## Ruby on Rails (https://www.madetech.com/news/tag/ruby-on-rails)
+## Ruby on Rails
+[View Landing Page](https://www.madetech.com/news/tag/ruby-on-rails)
 [TODO - Introduction to Ruby on Rails]
 
 ## Spree Commerce (https://www.madetech.com/news/tag/spree-commerce)
 [TODO - Introduction to Spree Commerce]
 
-## Continuous Delivery (https://www.madetech.com/news/tag/continuous-delivery)
+## Continuous Delivery
+[View Landing Page](https://www.madetech.com/news/tag/continuous-delivery)
 [TODO - Introduction to Continuous Delivery]
 
 * Build Pipelines
@@ -43,7 +46,8 @@ The world of sofware delivery and agile project management moves incredibly fast
 * Code Quality Metrics
 * Code Reviews
 
-## Devops (https://www.madetech.com/news/tag/devops)
+## Devops
+[View Landing Page](https://www.madetech.com/news/tag/devops)
 [TODO - Introduction to Devops]
 
 * Stop Creating Snowflakes
@@ -52,7 +56,8 @@ The world of sofware delivery and agile project management moves incredibly fast
 * Cloudfoundry
 * Vagrant
 
-## Software Development (https://www.madetech.com/news/tag/software-development)
+## Software Development
+[View Landing Page](https://www.madetech.com/news/tag/software-development)
 [TODO - Introduction to Software Engineering]
 
 * [5 TDD Antipatterns](published/5_tdd_antipaterns.md)
