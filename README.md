@@ -4,7 +4,7 @@ Our company blog is a critical channel for inbound marketing efforts, lead gener
 
 We're going to continue investing time in our blog and would like to make a concerted effort to ensure our blog posts closely align with our positioning and provides interesting and thought provoking reading to our customers.
 
-Moving fowards, we will be using this repository to collate the posts and to solicit feedback from the team. **Everyone** is encouraged to contribute new topic ideas to this document. I've included a few categories and blog posts ideas below, though we should expand upon these.
+Moving fowards, we will be using this repository to collate the posts and to solicit feedback from the team. **Everyone** is encouraged to contribute to this document. I've included a few categories and blog posts ideas below. The introduction text for the categories is suggestions on what we could include on the landing pages (as will be good for SEO) and the blog posts are initial ideas, that we should expand upon.
 
 ### Instructions
 To create a blog post, fork the repository and write about your chosen topic. Once you've written a post, issue a pull request to the team. **You'll need to have issued the pull request by Friday lunchtime to avoid the Sauerkraut penalty**
@@ -12,7 +12,8 @@ To create a blog post, fork the repository and write about your chosen topic. On
 Once you've written a post, make sure you link through to it from this document, so nobody writes about the same thing.
 
 #Introduction
-**MadeTech Blog - Best practices & thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the team at Made Tech and guest posts by selected industry experts.*
+**MadeTech Blog - Best practices & thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the team at Made Tech and guest posts by selected industry experts.* [View Page](https://www.madetech.com/news/)
+
 
 ## Agile Delivery
 The world of sofware delivery and agile project management moves incredibly fast. Where do you go to learn about the techniques you should be using? Check out our blog posts on Agile, SCRUM, Kanban, XP etc and always be in the know.
