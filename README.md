@@ -46,13 +46,6 @@ TODO - Introduction to Spree Commerce.
 * [Scalability with Spree Commerce] (https://www.madetech.com/news/spree-scalability)
 * [Spree Custom Gateway] (https://www.madetech.com/news/spree-custom-gateway)
 
-* Build Pipelines
-* Blue / Green Deployments
-* Code Quality Metrics
-* Automated Security Scans
-* Code Quality Metrics
-* Code Reviews
-
 ## Continuous Delivery
 TODO - Introduction to Continuous Delivery.
 [View Page](https://www.madetech.com/news/tag/continuous-delivery)
