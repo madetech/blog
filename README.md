@@ -61,11 +61,11 @@ TODO - Introduction to Ruby on Rails.
 TODO - Introduction to Spree Commerce.
 [View Page](https://www.madetech.com/news/tag/spree-commerce)
 
-* [Spree vs Magento] (https://www.madetech.com/news/spree-vs-magento)
-* [Why companies are choosing Spree Commerce to power their online storefronts] (https://www.madetech.com/news/why-companies-are-choosing-spree-commerce-to-power-their-online-storefronts)
-* [Spree vs Shopify] (https://www.madetech.com/news/spree-vs-shopify)
-* [Scalability with Spree Commerce] (https://www.madetech.com/news/spree-scalability)
-* [Spree Custom Gateway] (https://www.madetech.com/news/spree-custom-gateway)
+* [Spree vs Magento](https://www.madetech.com/news/spree-vs-magento)
+* [Why companies are choosing Spree Commerce to power their online storefronts](https://www.madetech.com/news/why-companies-are-choosing-spree-commerce-to-power-their-online-storefronts)
+* [Spree vs Shopify](https://www.madetech.com/news/spree-vs-shopify)
+* [Scalability with Spree Commerce](https://www.madetech.com/news/spree-scalability)
+* [Spree Custom Gateway](https://www.madetech.com/news/spree-custom-gateway)
 
 ## Continuous Delivery
 TODO - Introduction to Continuous Delivery.
