@@ -11,6 +11,26 @@ To create a blog post, fork the repository and write about your chosen topic. On
 
 Once you've written a post, make sure you link through to it from this document, so nobody writes about the same thing.
 
+#### Post Publish Checklist
+Historically, sharing a link to a post on sites like Reddit and RubyFlow has resulted in a huge spike in traffic on our site, so it's important we all take responsibility for our own posts and share them each time they're published.
+
+Below is a list of popular traffic sources we should be sharing those links on. It's by no means exhaustive, and not all of them are relevant to every type of post, so do share the link anywhere else you think may be appropriate.
+
+- [RubyFlow](http://www.rubyflow.com)
+- [/r/programming (627,812 readers)](http://www.reddit.com/r/programming)
+- [/r/ruby (29,716 readers)](http://www.reddit.com/r/ruby)
+- [/r/rails (14,851 readers)](http://www.reddit.com/r/rails)
+- [/r/agile (3,322 readers)](http://www.reddit.com/r/agile)
+- [Hacker News](https://news.ycombinator.com/submit)
+- [DZone](https://dzone.com/links)
+- [Slashdot](http://developers.slashdot.org/)
+- [Bootstrappers](http://www.bootstrappers.io/)
+
+Some additional things we should be doing include:
+
+- Retweeting the [MadeTech](https://twitter.com/madetech_com) tweets regarding the post as Seb sends them out.
+- Liking/sharing the [company Facebook](https://www.facebook.com/madetech) post.
+
 #Introduction
 **MadeTech Blog - Best practices & thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the team at Made Tech and guest posts by selected industry experts.* [View Page](https://www.madetech.com/news/)
 
