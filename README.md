@@ -72,7 +72,7 @@ TODO - Introduction to Continuous Delivery.
 [View Page](https://www.madetech.com/news/tag/continuous-delivery)
 
 * Build Pipelines
-* Blue / Green Deployments
+* [Blue / Green Deployments](posts/green_blue_deploys.md)
 * Code Quality Metrics
 * Automated Security Scans
 * Code Quality Metrics
@@ -92,7 +92,7 @@ TODO - Introduction to Devops.
 TODO - Introduction to Software Engineering.
 [View Page](https://www.madetech.com/news/tag/software-development)
 
-* [5 TDD Antipatterns](published/5_tdd_antipaterns.md)
+* [5 TDD Antipatterns](posts/5_tdd_antipaterns.md)
 * Why Drupal (and any big CMS systems) is a horrible solution for web applications
 * Test Driven Development
 * Quality Assurance
