@@ -72,7 +72,7 @@ TODO - Introduction to Continuous Delivery.
 [View Page](https://www.madetech.com/news/tag/continuous-delivery)
 
 * Build Pipelines
-* [Blue / Green Deployments](posts/green_blue_deploys.md)
+* [Blue / Green Deployments](published/green_blue_deploys.md)
 * Code Quality Metrics
 * Automated Security Scans
 * Code Quality Metrics
