@@ -26,23 +26,29 @@ be eating your sauerkraut forfeit.**
 If you follow this checklist you won't be eating kraut.
 
  - [x] Add your blog post idea to [INDEX.md](INDEX.md) if it isn't already
+ - [x] Add your blog post idea to the [editorial calendar][ed-cal]
  - [x] Fork repository and create your blog post in [/posts/](/posts/)
  - [x] Issue a pull request and get the post reviewed
+ - [x] Move to "Ready to publish" on [editorial calendar][ed-cal]
  - [x] Get the post on the MadeTech blog
+ - [x] Move to "Ready to market" on [editorial calendar][ed-cal]
  - [x] Link your post in [INDEX.md](INDEX.md)
  - [x] Share post on popular traffic sources
  - [x] Tweet the post from [@madetech_com](https://twitter.com/madetech_com)
  - [x] Get your colleagues to retweet the post
  - [x] Share post on our [company Facebook](https://www.facebook.com/madetech)
  - [x] Get your colleagues to like/share your post
+ - [x] Move to "Done" on [editorial calendar][ed-cal]
 
 ### Editorial Calendar
 
-Please use the [editorial calendar](https://trello.com/b/jDROwI93/editorial-calendar)
-to track when your blog post has been published, when it's been marketed and
-when it's considered to be fully live.
+Please use the [editorial calendar][ed-cal] to track when your blog post has
+been published, when it's been marketed and when it's considered to be fully
+live.
 
 This allows us to see what posts need marketing, tweeting, etc.
+
+[ed-cal]: https://trello.com/b/jDROwI93/editorial-calendar
 
 ### Popular traffic sources
 
