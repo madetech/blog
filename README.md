@@ -29,6 +29,7 @@ If you follow this checklist you won't be eating kraut.
  - [x] Fork repository and create your blog post in [/posts/](/posts/)
  - [x] Issue a pull request and get the post reviewed
  - [x] Get the post on the MadeTech blog
+ - [x] Link your post in [INDEX.md](INDEX.md)
  - [x] Share post on popular traffic sources
  - [x] Tweet the post from [@madetech_com](https://twitter.com/madetech_com)
  - [x] Get your colleagues to retweet the post
