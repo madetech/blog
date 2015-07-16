@@ -2,7 +2,7 @@
 
 You've found the place for your Made blogging needs. In the repo you can find
 some of the [whys to our blogging](#why-are-we-blogging). You can also find some
-[ideas](ideas/README.md) and our [critical checklist](#checklist).
+[ideas](INDEX.md) and our [critical checklist](#checklist).
 
 ## Why are we blogging?
 
@@ -21,9 +21,9 @@ Then post it and share it online.
 **If you don't submit you blog post in a pull request by Friday lunchtime you'll
 be eating your sauerkraut forfeit.**
 
-Please find below an easy to follow checklist.
-
 ### Checklist
+
+If you follow this checklist you won't be eating kraut.
 
  - [x] Add your blog post idea to [INDEX.md](INDEX.md) if it isn't already
  - [x] Fork repository and create your blog post in [/posts/](/posts/)
