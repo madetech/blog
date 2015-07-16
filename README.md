@@ -25,15 +25,15 @@ Please find below an easy to follow checklist.
 
 ### Checklist
 
- [x] Add your blog post idea to [INDEX.md](INDEX.md) if it isn't already
- [x] Fork repository and create your blog post in [/posts/](/posts/)
- [x] Issue a pull request and get the post reviewed
- [x] Get the post on the MadeTech blog
- [x] Share post on popular traffic sources
- [x] Tweet the post from [@madetech_com](https://twitter.com/madetech_com)
- [x] Get your colleagues to retweet the post
- [x] Share post on our [company Facebook](https://www.facebook.com/madetech)
- [x] Get your colleagues to like/share your post
+ - [x] Add your blog post idea to [INDEX.md](INDEX.md) if it isn't already
+ - [x] Fork repository and create your blog post in [/posts/](/posts/)
+ - [x] Issue a pull request and get the post reviewed
+ - [x] Get the post on the MadeTech blog
+ - [x] Share post on popular traffic sources
+ - [x] Tweet the post from [@madetech_com](https://twitter.com/madetech_com)
+ - [x] Get your colleagues to retweet the post
+ - [x] Share post on our [company Facebook](https://www.facebook.com/madetech)
+ - [x] Get your colleagues to like/share your post
 
 ### Popular traffic sources
 
