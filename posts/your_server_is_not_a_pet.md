@@ -3,7 +3,7 @@ Your server is not a pet
 
 You should treat your servers as cattle, not as pets. While we can't claim to have coined this catchphrase here at Made, it is certainly a philosophy that we subscribe to.
 
-Pets are things you form a bond with, give a fluffy name, exhibit a unique personality, and are nurtured when they become sick. Cattle on the other hand are branded with an identifier, are near identical to one another, and if they become sick, you put them down.
+Pets are things you form a bond with and give a fluffy name to, that exhibit a unique personality, and are nurtured when they become sick. Cattle on the other hand are branded with an identifier, are near identical to one another, and if they become sick, you put them down.
 
 We view manual configuration of both servers and network infrastructure as an antipattern that should be avoided. The role of a sysadmin logging in to a server and making changes is A Bad Thing, and an activity that should be resigned to history.
 
