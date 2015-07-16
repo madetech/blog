@@ -36,6 +36,14 @@ If you follow this checklist you won't be eating kraut.
  - [x] Share post on our [company Facebook](https://www.facebook.com/madetech)
  - [x] Get your colleagues to like/share your post
 
+### Editorial Calendar
+
+Please use the [editorial calendar](https://trello.com/b/jDROwI93/editorial-calendar)
+to track when your blog post has been published, when it's been marketed and
+when it's considered to be fully live.
+
+This allows us to see what posts need marketing, tweeting, etc.
+
 ### Popular traffic sources
 
 Historically, sharing a link to a post on sites like Reddit and RubyFlow has resulted in a huge spike in traffic on our site, so it's important we all take responsibility for our own posts and share them each time they're published.
