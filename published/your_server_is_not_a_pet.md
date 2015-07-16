@@ -3,7 +3,7 @@ Your server is not a pet
 
 You should treat your servers as cattle, not as pets. While we can't claim to have coined this catchphrase here at Made, it is certainly a philosophy that we subscribe to.
 
-Pets are things you form a bond with, give a fluffy name, exhibit a unique personality, and are nurtured when they become sick. Cattle on the other hand are branded with an identifier, are near identical to one another, and if they become sick, you shoot them.
+Pets are things you form a bond with, give a fluffy name, exhibit a unique personality, and are nurtured when they become sick. Cattle on the other hand are branded with an identifier, are near identical to one another, and if they become sick, you put them down.
 
 We view manual configuration of both servers and network infrastructure as an antipattern that should be avoided. The role of a sysadmin logging in to a server and making changes is A Bad Thing, and an activity that should be resigned to history.
 
@@ -13,7 +13,7 @@ Don't hand-rear your servers
 
 There is a whole industry of configuration management tools that exist to allow you to provision servers in to a known good state quickly and repeatably. Ranging from the likes of [Chef](https://www.chef.io/) and [Ansible](http://www.ansible.com/home) which provide operating system-up configuration management, to [BOSH](https://github.com/cloudfoundry/bosh) and [Terraform](https://www.terraform.io/) that enable you to manage the network, servers, and everything beyond.
 
-As soon as somebody logs in to a server and starts issuing commands to change the state of that server, its integrity has been compromised. You have no reliable way to get a server in to that state again and your ability to trust pre-production/production parity has now been removed. You've created a [snowflake](http://martinfowler.com/bliki/SnowflakeServer.html). 
+As soon as somebody logs in to a server and starts issuing commands to change the state of that server, its integrity has been compromised. You have no reliable way to get a server in to that state again and your ability to trust pre-production/production parity has now been removed. You've created a [snowflake](http://martinfowler.com/bliki/SnowflakeServer.html).
 
 
 Keep state where you can see it
@@ -29,9 +29,9 @@ If you really can't avoid storing application state on your own infrastructure, 
 So what?
 --------
 
-So you've told your sysadmin to stop typing, invested in building a library of Chef recipes, and ensured your app is built to [Twelve-Factor](http://12factor.net/) principles. What now? 
+So you've told your sysadmin to stop typing, invested in building a library of Chef recipes, and ensured your app is built to [Twelve-Factor](http://12factor.net/) principles. What now?
 
-We realise a number of significant benefits from adopting this approach to infrastructure management:
+We see a number of significant benefits from adopting this approach to infrastructure management:
 
 1. Scalability: scaling is now as easy as either reprovisioning a node on better hardware (vertical scaling), or provisioning a new node on similar hardware (horizontal scaling)
 
@@ -44,9 +44,9 @@ We realise a number of significant benefits from adopting this approach to infra
 5. Ability to reproduce production-like environments: For running things such as performance tests or destructure security testing, spinning up a complete replica of the production environment for a short time, particularly when paired with a pay-per-hour infrastructure provider gives significant flexibility.
 
 
-So what, next?
+So, what next?
 --------------
 
-We see significant interest in tooling such as BOSH and Terraform. The likes of Chef, Ansible, Puppet and friends provide excellent tooling for managing your server configuration; though we still often see manual steps involved in provisioning in the underlying infrastructure and configuration of things like network interfaces.
+We see significant interest in tooling such as BOSH and Terraform. The likes of Chef, Ansible, Puppet and friends provide excellent tooling for managing your server configuration, though we still often see manual steps involved in provisioning in the underlying infrastructure and configuration of things like network interfaces.
 
 Tools such as BOSH and Terraform either compliment or replace what is offered by these tools by taking management a step further - by interfacing direct with the underlying infrastructure. We're actively investigating Terraform as a means to document and manage our AWS fleet ongoing.
