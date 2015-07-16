@@ -41,7 +41,7 @@ We see a number of significant benefits from adopting this approach to infrastru
 
 4. Reduced vendor lock-in: As you have the means to recreate your entire herd, usually in a matter of minutes, the barrier to moving to new infrastructure providers can be significantly reduced.
 
-5. Ability to reproduce production-like environments: For running things such as performance tests or destructure security testing, spinning up a complete replica of the production environment for a short time, particularly when paired with a pay-per-hour infrastructure provider gives significant flexibility.
+5. Ability to reproduce production-like environments: For running things such as performance tests or destructive security testing, spinning up a complete replica of the production environment for a short time, particularly when paired with a pay-per-hour infrastructure provider gives significant flexibility.
 
 
 So, what next?
