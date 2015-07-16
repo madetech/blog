@@ -83,7 +83,7 @@ TODO - Introduction to Devops.
 [View Page](https://www.madetech.com/news/tag/devops)
 
 * Stop Creating Snowflakes
-* Your Server Is Not A Pet
+* [Your Server Is Not A Pet](writing/your_server_is_not_a_pet.md)
 * Cloud Automation
 * Cloudfoundry
 * Vagrant
