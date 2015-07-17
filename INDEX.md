@@ -26,8 +26,7 @@ The world of sofware delivery and agile project management moves fast. Where do 
 * [Building a Product in a Day](https://www.madetech.com/news/building-a-product-in-a-day)
 
 ## Ruby on Rails
-
-TODO - Introduction to Ruby on Rails.
+Having grown an extremely passionate and productive community around itself, Rails is constantly evolving on an almost daily basis. Stay up to date with the latest discussions around best practices and design patterns with these blog posts.
 [View Page](https://www.madetech.com/news/tag/ruby-on-rails)
 
 * Benefits of Ruby on Rails in delivering web applications
