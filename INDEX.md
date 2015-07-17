@@ -32,8 +32,7 @@ Having grown an extremely passionate and productive community around itself, Rai
 * Benefits of Ruby on Rails in delivering web applications
 
 ## Spree Commerce
-
-TODO - Introduction to Spree Commerce.
+As an open source, flexible solution that scales extremely well, Spree is our e-commerce platform of choice. In these posts we talk about why you should be using Spree, as well as share the knowledge we've acquired during development on a multitude of Spree projects.
 [View Page](https://www.madetech.com/news/tag/spree-commerce)
 
 * [Spree vs Magento](https://www.madetech.com/news/spree-vs-magento)
