@@ -54,8 +54,10 @@ TODO - Introduction to Continuous Delivery.
 * Code Quality Metrics
 * Code Reviews
 
-## Devops
-TODO - Introduction to Devops.
+## DevOps
+
+We're big proponents of the "you build it, you run it" philosophy. Check out our posts ranging from continuous integration to configuration management, from PaaS to IaaS, and just about everything in between.
+
 [View Page](https://www.madetech.com/news/tag/devops)
 
 * [Your Server Is Not A Pet](posts/your_server_is_not_a_pet.md)
@@ -66,7 +68,7 @@ TODO - Introduction to Devops.
 
 ## Software Engineering
 
-Here we talk about software engineering best practice, tools and techniques. From test-driven development, to design patterns, we share insight from delivering hundreds of software projects.
+Here we talk about software engineering best practice, tools and techniques. From test-driven development to design patterns, we share insight from delivering hundreds of software projects.
 
 [View Page](https://www.madetech.com/news/tag/software-development)
 
