@@ -1,4 +1,4 @@
-# Working Around IE7 When It Comes To Cross Browser Testing
+# Cross Browser Testing in IE7
 
 We're getting ever closer to the point where we can finally stop supporting certain legacy browsers; [IE6 is officially dead](https://www.modern.ie/en-us/ie6countdown), and [the support Microsoft provides for clients running IE7 is extremely limited](https://support.microsoft.com/en-us/gp/microsoft-internet-explorer), but it's still not particularly uncommon to meet a client that requires support for IE7.
 
