@@ -1,4 +1,4 @@
-# MadeTech Blog
+# Made Tech Blog
 
 You've found the place for your Made blogging needs. In the repo you can find
 some of the [whys to our blogging](#why-are-we-blogging). You can also find some
@@ -30,7 +30,8 @@ If you follow this checklist you won't be eating kraut.
  - [x] Fork repository and create your blog post in [/posts/](/posts/)
  - [x] Issue a pull request and get the post reviewed
  - [x] Move to "Ready to publish" on [editorial calendar][ed-cal]
- - [x] Get the post on the MadeTech blog
+ - [x] Get the post on the Made Tech blog
+ - [x] Canvas opinion on whether the post should appear on the website homepage
  - [x] Move to "Ready to market" on [editorial calendar][ed-cal]
  - [x] Link your post in [INDEX.md](INDEX.md)
  - [x] Share post on popular traffic sources

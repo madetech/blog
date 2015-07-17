@@ -1,4 +1,4 @@
-# MadeTech Blog Index
+# Made Tech Blog Index
 
 Here we list ideas of blog posts and also links when they have been written.
 
@@ -11,13 +11,14 @@ The world of sofware delivery and agile project management moves incredibly fast
 [View Page](https://www.madetech.com/news/tag/agile)
 
 * Using Agile for Non-Software Projects
-* Waterfall vs Agile, Things You Should Consider
-* Scrum vs Kanban
+* Waterfall vs. Agile, Things You Should Consider
+* Scrum vs. Kanban
 * Scrum, The Bad Parts
 * How To Create Your First Product Backlog
 * Using Planning Poker to Estimate Features
 * How To Run An Effective Daily Standup
 * Our Favourite Retrospective Ideas
+* Effective Testing in an Agile Team
 * Agile Ad-Hoc Support
 * [Challenges in Contracting Agile Software Projects](https://www.madetech.com/news/challenges-in-contracting-agile-software-projects)
 * [Busting Agile Myths: Story Points and Time](https://www.madetech.com/news/busting-agile-myths-story-points-and-time)
@@ -29,7 +30,7 @@ The world of sofware delivery and agile project management moves incredibly fast
 TODO - Introduction to Ruby on Rails.
 [View Page](https://www.madetech.com/news/tag/ruby-on-rails)
 
-* No ideas yet
+* Benefits of Ruby on Rails in delivering web applications
 
 ## Spree Commerce
 
@@ -46,9 +47,9 @@ TODO - Introduction to Spree Commerce.
 TODO - Introduction to Continuous Delivery.
 [View Page](https://www.madetech.com/news/tag/continuous-delivery)
 
+* Pull Requests and Continuous Delivery
 * Build Pipelines
 * [Blue / Green Deployments](posts/green_blue_deploys.md)
-* Code Quality Metrics
 * Automated Security Scans
 * Code Quality Metrics
 * Code Reviews
@@ -57,11 +58,11 @@ TODO - Introduction to Continuous Delivery.
 TODO - Introduction to Devops.
 [View Page](https://www.madetech.com/news/tag/devops)
 
-* Stop Creating Snowflakes
 * [Your Server Is Not A Pet](posts/your_server_is_not_a_pet.md)
 * Cloud Automation
-* Cloudfoundry
+* Cloud Foundry
 * Vagrant
+* PaaS vs. IaaS, What We've Learned
 
 ## Software Development
 TODO - Introduction to Software Engineering.
@@ -73,4 +74,4 @@ TODO - Introduction to Software Engineering.
 * Quality Assurance
 * Open Source
 * Solving the hardest software problems
-* Interview legendary software engineers. People like the Boeing 747 engineers, TFL tube, nuclear reactors, Jet rockets, NASA engineers etc
+* Interview legendary software engineers. People like the Boeing 747 engineers, TfL tube, nuclear reactors, Jet rockets, NASA engineers etc.
