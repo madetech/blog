@@ -8,6 +8,7 @@ Here we list ideas of blog posts and also links when they have been written.
 
 ## Agile Delivery
 The world of sofware delivery and agile project management moves fast. Where do you go to learn about the techniques you should be using? Check out our blog posts on Agile, Scrum, Kanban, XP and always be in the know.
+
 [View Page](https://www.madetech.com/news/tag/agile)
 
 * Using Agile for Non-Software Projects
@@ -27,12 +28,14 @@ The world of sofware delivery and agile project management moves fast. Where do 
 
 ## Ruby on Rails
 Having grown an extremely passionate and productive community around itself, Rails is constantly evolving on an almost daily basis. Stay up to date with the latest discussions around best practices and design patterns with these blog posts.
+
 [View Page](https://www.madetech.com/news/tag/ruby-on-rails)
 
 * Benefits of Ruby on Rails in delivering web applications
 
 ## Spree Commerce
 As an open source, flexible solution that scales extremely well, Spree is our e-commerce platform of choice. In these posts we talk about why you should be using Spree, as well as share the knowledge we've acquired during development on a multitude of Spree projects.
+
 [View Page](https://www.madetech.com/news/tag/spree-commerce)
 
 * [Spree vs Magento](https://www.madetech.com/news/spree-vs-magento)
@@ -43,6 +46,7 @@ As an open source, flexible solution that scales extremely well, Spree is our e-
 
 ## Continuous Delivery
 TODO - Introduction to Continuous Delivery.
+
 [View Page](https://www.madetech.com/news/tag/continuous-delivery)
 
 * Pull Requests and Continuous Delivery
