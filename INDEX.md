@@ -45,7 +45,7 @@ As an open source, flexible solution that scales extremely well, Spree is our e-
 * [Spree Custom Gateway](https://www.madetech.com/news/spree-custom-gateway)
 
 ## Continuous Delivery
-TODO - Introduction to Continuous Delivery.
+We believe wholeheartedly in the Continuous Delivery idea. Being secure in the knowledge that everything we commit to a repository can be deployed to a production environment with no risk is of benefit to all of us, and here we talk about why that is, as well as how you can move to a Continuous Delivery workflow.
 
 [View Page](https://www.madetech.com/news/tag/continuous-delivery)
 
