@@ -4,10 +4,10 @@ Here we list ideas of blog posts and also links when they have been written.
 
 ## Introduction
 
-**MadeTech Blog - Best practices & thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the team at Made Tech and guest posts by selected industry experts.* [View Page](https://www.madetech.com/news/)
+**Made Tech Blog - Best practices and thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the team at Made Tech and guest posts by selected industry experts.* [View Page](https://www.madetech.com/news/)
 
 ## Agile Delivery
-The world of sofware delivery and agile project management moves incredibly fast. Where do you go to learn about the techniques you should be using? Check out our blog posts on Agile, SCRUM, Kanban, XP etc and always be in the know.
+The world of sofware delivery and agile project management moves fast. Where do you go to learn about the techniques you should be using? Check out our blog posts on Agile, Scrum, Kanban, XP and always be in the know.
 [View Page](https://www.madetech.com/news/tag/agile)
 
 * Using Agile for Non-Software Projects
@@ -64,8 +64,10 @@ TODO - Introduction to Devops.
 * Vagrant
 * PaaS vs. IaaS, What We've Learned
 
-## Software Development
-TODO - Introduction to Software Engineering.
+## Software Engineering
+
+Here we talk about software engineering best practice, tools and techniques. From test-driven development, to design patterns, we share insight from delivering hundreds of software projects.
+
 [View Page](https://www.madetech.com/news/tag/software-development)
 
 * [5 TDD Antipatterns](posts/5_tdd_antipaterns.md)
