@@ -2,7 +2,7 @@
 
 Keeping applications organised takes a lot of work. Furious bursts of
 development where deadlines are tight can lead to poorer design decisions. The
-frontend in particular is harder to get right when the pressure is on.
+frontend in particular for me is harder to get right when the pressure is on.
 I'm writing this post in order to clarify my hard and fast rules for writing
 modular stylesheets in a rush.
 
