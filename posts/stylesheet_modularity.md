@@ -31,11 +31,29 @@ Without further ado, here are my rules:
 
 ### Why
 
-Easier to find modules if the filename matches the BEM Block class name.
+It is easier to find modules if you name your stylesheet files after their BEM
+Block class name. Not only that but longer files are a pain.
 
 ### Notable exceptions
 
 None.
+
+## Keep your BEM modules less than 100 lines long
+
+### Example of doing it wrong
+
+I think you can understand this one without an example.
+
+### Why
+
+If your BEM module is getting lengthy then it's often a sign it's doing too much.
+Breaking down large modules makes your code easier to reason about. It also
+makes finding styles much easier!
+
+### Notable exceptions
+
+If it's just over 100 lines don't go crazy on yourself. If you're hitting
+150-200 then you ought to start breaking your module down.
 
 ## Never reference one BEM Block from another
 
@@ -45,13 +63,13 @@ None.
 .primary_navigation {
   .secondary_navigation {}
 }
-
 ```
 
 ### Why
 
-Easier to reason about where styles come from if all responsible styles are
-defined in one file.
+It is easier to reason about where styles come from if all responsible styles are
+defined in one file. You can often tie yourself in knots when BEM modules become
+concerned with one another. This also breaks the first rule.
 
 ### Notable exceptions
 
@@ -80,7 +98,7 @@ inside one another. It simplifies specificity problems.
 
 ### Notable exceptions
 
-When Block is a modified block.
+When the BEM Block is a modified Block.
 
 ``` scss
 .primary_navigation__link {}
@@ -89,6 +107,8 @@ When Block is a modified block.
   .primary_navigation__link {}
 }
 ```
+
+This is okay since the modified Block should affect the styles of the ELement.
 
 ## Move repeating Element classes into their own Blocks
 
@@ -120,23 +140,6 @@ become `.primary_navigation_link`.
 
 If it's one or two classes that are showing signs of being a new BEM Block I
 might leave it until their are three.
-
-## Keep your BEM modules less than 100 lines long
-
-### Example of doing it wrong
-
-I think you can understand this one without an example.
-
-### Why
-
-If you BEM module is getting lengthy then it's often a sign it's doing too much.
-Breaking down large modules makes your code easier to reason about. It also
-makes finding styles much easier!
-
-### Notable exceptions
-
-If it's just over 100 lines don't go crazy on yourself. If you're hitting
-150-200 then you ought to start breaking your module down.
 
 ## Never name more than one class on an element
 
