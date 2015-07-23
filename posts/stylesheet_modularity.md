@@ -15,10 +15,10 @@ Without further ado, here are my rules:
  - Never reference one BEM Block from another
  - Never reference one BEM Element from another
  - Move repeating Element classes into their own Blocks
- - Keep your modules less than 100 lines long (break this regularly)
- - Never name more than one class on an element (unless stateful)
- - Do not style elements without classes (unless user generated content)
- - Compose rather than inherit (use includes rather than extends)
+ - Keep your modules less than 100 lines long
+ - Never name more than one class on an element
+ - Do not style elements without classes
+ - Compose rather than inherit
 
 ## One BEM module per file
 
