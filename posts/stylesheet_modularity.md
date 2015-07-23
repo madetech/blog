@@ -7,7 +7,8 @@ I'm writing this post in order to clarify my hard and fast rules for writing
 modular stylesheets in a rush.
 
 My flavour of stylesheet modularity is in many ways a BEM implementation though
-I'd certainly say I am no expert in BEM.
+I'd certainly say I am no expert in BEM. Also it's worth noting these rules
+are applicable to all stylesheets whether CSS, SCSS, LESS, or whatever.
 
 Without further ado, here are my rules:
 
