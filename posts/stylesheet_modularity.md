@@ -140,7 +140,7 @@ become `.primary_navigation_link`.
 ### Notable exceptions
 
 If it's one or two classes that are showing signs of being a new BEM Block I
-might leave it until their are three.
+might leave it until there are three.
 
 ## Never name more than one class on an element
 
@@ -170,7 +170,7 @@ A corrected version:
 
 One exception to this rule would be Modifier classes applied by JS. Imagine
 you have an expanded version of your primary navigation,
-`.primary_navigation--expanded` than gets enabled and disabled by JS. Instead of
+`.primary_navigation--expanded` that gets enabled and disabled by JS. Instead of
 removing the existing class you might instead just add the class to the element.
 This is okay since a Modifier extends from the original class.
 
@@ -205,8 +205,8 @@ confusing results.
 In the example above, when hovering over a link in `.primary_navigation` the
 link would in fact go blue instead of staying red like you may expect.
 
-Instead of styling HTML elements you should add a class to the said element
-and style that, like so:
+Instead of styling HTML elements you should add a class to the element and style
+that, like so:
 
 ``` scss
 .header__link {
