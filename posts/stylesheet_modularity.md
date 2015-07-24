@@ -257,10 +257,10 @@ broken rule.
 Inheriting using `@extend` in SCSS couples your BEM modules too close together.
 When this rule is broken alone it's not so much a problem. However if you break
 my "Do not style elements without classes" or "Never reference one BEM Element
-from another Block or Element" rule as well then you can get some funky results
-especially if the class or placeholder you extended comes later in the alphabet
-than the class extending it. I'll leave the rest of this why to the reader at
-home.
+from another Block or Element" rule as well then you can get some funky results.
+This is especially true if the class or placeholder you extended comes later in
+the alphabet than the class extending it. I'll leave the rest of this why to the
+reader at home.
 
 ### Notable exceptions
 
