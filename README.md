@@ -18,7 +18,7 @@ Creating a blog post is easy. You clone this repo and write your blog post on
 your chosen topic. Once written create a pull request and get it reviewed.
 Then post it and share it online.
 
-**If you don't submit you blog post in a pull request by Friday lunchtime you'll
+**If you don't submit your completed blog post in a pull request by Friday lunchtime you'll
 be eating your sauerkraut forfeit.**
 
 ### Checklist
