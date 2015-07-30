@@ -129,7 +129,7 @@ end
 subject { test_this }
 ```
 
-### Expecting things to work (different heading please!)
+### Great Expectations
 
 Once the tests are all setup and ready, it's time for those assertions. Depending on your test subject, you might choose to use `it` or `its`. 
 
