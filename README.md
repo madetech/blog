@@ -23,17 +23,21 @@ be eating your sauerkraut forfeit.**
 
 ### Checklist
 
-If you follow this checklist you won't be eating kraut.
+#### Submitting your blog post (to avoid kraut)
 
+ - [x] Fork repository and create your blog post in [/posts/](/posts/)
  - [x] Add your blog post idea to [INDEX.md](INDEX.md) if it isn't already
  - [x] Add your blog post idea to the [editorial calendar][ed-cal]
- - [x] Fork repository and create your blog post in [/posts/](/posts/)
  - [x] Issue a pull request and get the post reviewed
+
+#### Post-approval
+
  - [x] Move to "Ready to publish" on [editorial calendar][ed-cal]
- - [x] Get the post on the Made Tech blog
+
+#### Post-publish
+
  - [x] Canvas opinion on whether the post should appear on the website homepage
  - [x] Move to "Ready to market" on [editorial calendar][ed-cal]
- - [x] Link your post in [INDEX.md](INDEX.md)
  - [x] Share post on popular traffic sources
  - [x] Tweet the post from [@madetech_com](https://twitter.com/madetech_com)
  - [x] Get your colleagues to retweet the post
