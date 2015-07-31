@@ -21,6 +21,7 @@ The world of sofware delivery and agile project management moves fast. Where do 
 * Our Favourite Retrospective Ideas
 * Effective Testing in an Agile Team
 * Agile Ad-Hoc Support
+* Picking the rioght Product Owner
 * [Challenges in Contracting Agile Software Projects](https://www.madetech.com/news/challenges-in-contracting-agile-software-projects)
 * [Busting Agile Myths: Story Points and Time](https://www.madetech.com/news/busting-agile-myths-story-points-and-time)
 * [Busting Agile Myths: Story Points](https://www.madetech.com/news/busting-agile-myths-story-points-and-time)
