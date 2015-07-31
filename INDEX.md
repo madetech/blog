@@ -18,7 +18,7 @@ The world of sofware delivery and agile project management moves fast. Where do 
 * How To Create Your First Product Backlog
 * Using Planning Poker to Estimate Features
 * How To Run An Effective Daily Standup
-* Our Favourite Retrospective Ideas
+* Our Favourite Retrospective Ideas [Fareed]
 * Effective Testing in an Agile Team
 * Agile Ad-Hoc Support
 * Picking the rioght Product Owner
@@ -50,7 +50,7 @@ We believe wholeheartedly in the Continuous Delivery idea. Being secure in the k
 
 [View Page](https://www.madetech.com/news/tag/continuous-delivery)
 
-* Pull Requests and Continuous Delivery
+* Pull Requests and Continuous Delivery [Fareed, In Progress]
 * Build Pipelines
 * [Blue / Green Deployments](posts/green_blue_deploys.md)
 * Automated Security Scans
