@@ -3,7 +3,7 @@ Your server is not a pet
 
 You should treat your servers as cattle, not as pets. While we can't claim to have coined this catchphrase here at Made, it is certainly a philosophy that we subscribe to.
 
-Pets are things you form a bond with, give a fluffy name, exhibit a unique personality, and are nurtured when they become sick. Cattle on the other hand are branded with an identifier, are near identical to one another, and if they become sick, you put them down.
+Pets are things you form a bond with and give a fluffy name to, that exhibit a unique personality, and are nurtured when they become sick. Cattle on the other hand are branded with an identifier, are near identical to one another, and if they become sick, you put them down.
 
 We view manual configuration of both servers and network infrastructure as an antipattern that should be avoided. The role of a sysadmin logging in to a server and making changes is A Bad Thing, and an activity that should be resigned to history.
 
@@ -41,7 +41,7 @@ We see a number of significant benefits from adopting this approach to infrastru
 
 4. Reduced vendor lock-in: As you have the means to recreate your entire herd, usually in a matter of minutes, the barrier to moving to new infrastructure providers can be significantly reduced.
 
-5. Ability to reproduce production-like environments: For running things such as performance tests or destructure security testing, spinning up a complete replica of the production environment for a short time, particularly when paired with a pay-per-hour infrastructure provider gives significant flexibility.
+5. Ability to reproduce production-like environments: For running things such as performance tests or destructive security testing, spinning up a complete replica of the production environment for a short time, particularly when paired with a pay-per-hour infrastructure provider gives significant flexibility.
 
 
 So, what next?
