@@ -18,7 +18,7 @@ The world of sofware delivery and agile project management moves fast. Where do 
 * How To Create Your First Product Backlog
 * Using Planning Poker to Estimate Features
 * How To Run An Effective Daily Standup
-* Our Favourite Retrospective Ideas [Fareed]
+* [Our Favourite Retrospective Ideas] (https://www.madetech.com/news/our-favourite-retrospective-ideas)
 * Effective Testing in an Agile Team
 * Agile Ad-Hoc Support
 * Picking the rioght Product Owner
