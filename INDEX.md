@@ -84,3 +84,4 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 * Interview legendary software engineers. People like the Boeing 747 engineers, TfL tube, nuclear reactors, Jet rockets, NASA engineers etc.
 * [Focus with well structured rspec tests](posts/tdd_rspec.md)
 * [Stream Everything](posts/stream_everything.md)
+* Pair programming [Scott]
