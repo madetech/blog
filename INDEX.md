@@ -53,7 +53,7 @@ We believe wholeheartedly in the Continuous Delivery idea. Being secure in the k
 * Pull Requests and Continuous Delivery [Fareed, In Progress]
 * Build Pipelines
 * [Blue / Green Deployments](posts/green_blue_deploys.md)
-* Automated Security Scans
+* Automated Security Scans [Seb]
 * Code Quality Metrics
 * Code Reviews
 
