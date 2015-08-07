@@ -1,6 +1,6 @@
 #There is more to code quality than coverage
 
-As developers we always strive to write the best code possible. And while we test for it, coverage doesn’t alway tell the full story of the quality of your code output.
+As developers we always strive to write the best code possible. And while we test for it, coverage doesn’t always tell the full story of the quality of your code output.
 
 Previously we’ve shown you our [complete deployment pipeline](https://www.madetech.com/news/continuous-delivery-with-jenkins). In this article I am going to talk about the current tooling we use during the first step of our deployment pipeline - the build step - to keep our code at a consistently high standards.
 
