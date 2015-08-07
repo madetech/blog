@@ -2,7 +2,7 @@
 
 As developers we always strive to write the best code possible. And while we test for it, coverage doesn’t always tell the full story of the quality of your code output.
 
-Previously we’ve shown you our [complete deployment pipeline](https://www.madetech.com/news/continuous-delivery-with-jenkins). In this article I am going to talk about the current tooling we use during the first step of our deployment pipeline - the build step - to keep our code at a consistently high standards.
+Previously we’ve shown you our [complete deployment pipeline](https://www.madetech.com/news/continuous-delivery-with-jenkins). In this article I am going to talk about the current tooling we use during the first step of our deployment pipeline - the build step - to keep our code at a consistently high standard.
 
 The majority of our code quality testing happens before any unit or feature testing, the exception being any security testing. The reasoning being that you don’t want to be waste a build slave running "bad code”.
 
