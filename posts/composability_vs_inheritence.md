@@ -1,9 +1,9 @@
-# Composability versus Inheritence
+# Composition versus Inheritence
 
-Before I compare composability and inheritence I'll start with my definitions
+Before I compare composition and inheritence I'll start with my definitions
 of both of them.
 
-Composability is the splitting of complex business rules into simpler pieces.
+Composition is the splitting of complex business rules into simpler pieces.
 These pieces are unaware of one another and are generally useless alone. When
 these simple composable units are put together, or composed, they perform
 business requirements.
