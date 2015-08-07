@@ -86,3 +86,4 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 * [Stream Everything](posts/stream_everything.md)
 * Pair programming [Scott]
 * [Stylesheet Modularity](posts/stylesheet_modularity.md)
+* [Composability vs Inheritence](posts/composability_vs_inheritence.md)
