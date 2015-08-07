@@ -53,7 +53,7 @@ We believe wholeheartedly in the Continuous Delivery idea. Being secure in the k
 * Pull Requests and Continuous Delivery [Fareed, In Progress]
 * Build Pipelines
 * [Blue / Green Deployments](posts/green_blue_deploys.md)
-* Automated Security Scans 
+* Automated Security Scans
 * Code Quality Metrics [Seb]
 * Code Reviews
 
@@ -85,3 +85,4 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 * [Focus with well structured rspec tests](posts/tdd_rspec.md)
 * [Stream Everything](posts/stream_everything.md)
 * Pair programming [Scott]
+* [Stylesheet Modularity](posts/stylesheet_modularity.md)
