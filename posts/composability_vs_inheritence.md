@@ -1,7 +1,12 @@
 # Composability versus Inheritence
 
-Before I compare composability and inheritence I'll start with definitions
-for both of them.
+As responsible programmers we like to keep our programs DRY, that is, we do not
+like to repeat ourselves. Object Oriented languages provide us a number of
+useful ways to share logic within a system to keep things DRY.
+
+Composability and Inheritence are two such ways of not repeating yourself. They
+both have their uses but I suspect more people lean on the latter rather than
+the former. In this post I'll describe them both and then provide a comparison.
 
 ## Composability
 
