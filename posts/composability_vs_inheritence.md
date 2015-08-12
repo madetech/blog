@@ -133,3 +133,7 @@ fred.transfer(luke, 100)
 
 As you can see the `BankAccount` objects can deal with each other without any
 third parties.
+
+## A conclusion of sorts
+
+Composability is always better than inheritence.
