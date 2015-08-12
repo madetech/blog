@@ -26,6 +26,7 @@ The world of sofware delivery and agile project management moves fast. Where do 
 * [Busting Agile Myths: Story Points and Time](https://www.madetech.com/news/busting-agile-myths-story-points-and-time)
 * [Busting Agile Myths: Story Points](https://www.madetech.com/news/busting-agile-myths-story-points-and-time)
 * [Building a Product in a Day](https://www.madetech.com/news/building-a-product-in-a-day)
+* 4 Ways To Break Your Code For The Great Good
 
 ## Ruby on Rails
 Having grown an extremely passionate and productive community around itself, Rails is constantly evolving on an almost daily basis. Stay up to date with the latest discussions around best practices and design patterns with these blog posts.
