@@ -2,6 +2,8 @@
 
 As developers we always strive to write the best code possible. And while we test for it, coverage doesn’t always tell the full story of the quality of your code output.
 
+Firstly, what is coverage? Within a coding context coverage refers to code coverage. Once calculated code coverage is a way of seeing how much of your source code is covered by tests. So the higher your code coverage the better tested your source is and less likely to suffer from any bugs or regressions during its life time, and in theory better quality.
+
 Previously we’ve shown you our [complete deployment pipeline](https://www.madetech.com/news/continuous-delivery-with-jenkins). In this article I am going to talk about the tooling we currently use during the first step of our deployment pipeline - the build step - to keep our code at a consistently high standard.
 
 The majority of our code quality testing happens before any unit, or feature tests are run. The exception being to this being security testing. The reason being that this static code analysis takes a lot less time to run than an entire test suite does, so you don’t want to waste a build slave running "bad code”.
