@@ -263,14 +263,103 @@ of using composable functions over wrapping larger concepts in objects.
 
 If you're a rails programmer you will have seen some rather large objects in
 your time. You'll know that classes become harder and harder to reason about
-the more lines they have.
+the more lines they have. Ask yourself for a moment:
 
-Why are objects with many methods harder to reason about?
+> Why are objects with many methods harder to reason about?
 
-The answer to this question is boundaries, or interfaces. When
+The answer to this question lies in the boundaries or lack thereof in large
+objects. Remember, objects are encapsulations of ideas. The greater that idea
+gets the harder it will eventually be to grasp. The more data an object is
+responsibile for, the more behaviour it has, the harder it is to fit into your
+brain.
 
+Functional composition is a remedy for when things get too tough. I wouldn't
+argue you should build your rails apps with everything split out into tiny
+units of work. I would argue that when things get tough functional composition
+can make things easier for you.
 
-You will have experimented with moving logic out into
-concerns. The problem with
+The more data an object has, the more moving parts, the harder it is to get
+under test. If it's hard to get under test, it's probably hard for your head
+to think about too. It's a sign that you've pushed your object too far.
 
-Let me try illustrating the benefits of using composition to simplify your
+Let's go back to our example one more time. I want to implement the transfer
+functionality without composition:
+
+``` ruby
+class BankAccount
+  class AmountExceedsWithdrawLimitError < RuntimeError; end
+
+  attr_reader :balance, :limit
+
+  def initialize(balance)
+    @balance = balance
+    @limit = 200
+  end
+
+  def withdraw(amount)
+    if amount > limit
+      raise AmountExceedsWithdrawLimitError
+    else
+      @balance -= amount
+    end
+  end
+
+  def deposit(amount)
+    @balance += amount
+  end
+
+  def transfer(to_account, amount)
+    withdraw(amount)
+    to_account.deposit(amount)
+  end
+end
+```
+
+As our object gets larger, and let's be honest this object isn't that large yet,
+it will have an increasing amount of responsibilities. The more responsibilities
+the more edge cases that object may have. The more complicated your tests will
+be to setup and tear down.
+
+Let's use our remedy to keep the same interface above, but move our logic out
+into composable units that can be individually tested away from the
+`BankAccount`:
+
+``` ruby
+class BankAccount
+  attr_reader :balance, :limit
+
+  def initialize(balance)
+    @balance = balance
+    @limit = 200
+  end
+
+  def withdraw(amount)
+    Withdrawer.new.withdraw(self, amount)
+  end
+
+  def deposit(amount)
+    Depositor.new.deposit(self, amount)
+  end
+
+  def transfer(to_account, amount)
+    Transferrer.new.transfer(self, to_account, amount)
+  end
+end
+```
+
+We have fused our two ideas together. Now we have one object, a `BankAccount`
+that still encapsulates all the behaviours associated with a bank account.
+However we've drawn some boundaries. We now have other objects responsible for
+carrying out the behaviour. These composable units only accept data via their
+method parameters, no other complexity can travel through into them.
+
+Lines are important for our mental well being as programmers. Knowing when and
+where to draw a line can help you reason about your program that much easier.
+
+When you draw a line with an interface you now have two separate concerns that
+are individually testable. Not only that but your mental model only has to
+concern itself up to the line. This allows you to mentally step through your
+program a lot better than if everything were in one file.
+
+Without these lines both you and your program are essentially evaluating in a
+global scope. We all know how bad globals are, don't we?
