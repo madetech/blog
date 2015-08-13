@@ -20,7 +20,7 @@ Language style guides aren’t anything new, but the enforcement of a consistent
 Writing secure code has to be a top priority, so identifying any potential vulnerabilities in your codebase as early as possible is a must. The vulnerabilities you should be looking are Remote code execution, cross site scripting, SQL injection, and string formating. We run static analysis after feature and unit testing to guard against these common pitfalls, the thinking being that this [build] could reach production. In addition to static analysis, you could run any number of security scans on your application once it is deployed out.
 
 ###Self-Discipline
-All the previous areas I have discussed are easily automated, but there is a human aspect to writing good code. Without self-disipline everything else could be in vein. It is down to the individual to write clean, and readable code. This responsibility to be disciplined also rests on the team too.
+All the previous areas I have discussed are easily automated, but there is a human aspect to writing good code. Without self-disipline everything else could be in vein. It is down to the individual to write clean, and readable code. But this responsibility to be disciplined also rests on the team too.
 
 As a team you should be spending time looking at each others commits, to keep yourselves honest. When you find an area of code that could be tidier, consider pair-programming with the author of the code.
 
