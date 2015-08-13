@@ -2,7 +2,7 @@
 
 As developers we always strive to write the best code possible. And while we test for it, coverage doesn’t always tell the full story of the quality of your code output.
 
-Firstly, what is coverage? Within a coding context coverage refers to code coverage. Once calculated code coverage is a way of seeing how much of your source code is covered by tests. So the higher your code coverage the better tested your source is and less likely to suffer from any bugs or regressions during its life time, and in theory better quality.
+Firstly, what is coverage? Within a coding context coverage refers to code coverage. Once calculated code coverage is a way of seeing how much of your source code is covered by tests. So the higher your code coverage the better tested your source code is and less likely to suffer from any bugs or regressions during its life time, and in theory better quality.
 
 Previously we’ve shown you our [complete deployment pipeline](https://www.madetech.com/news/continuous-delivery-with-jenkins). In this article I am going to talk about the tooling we currently use during the first step of our deployment pipeline - the build step - to keep our code at a consistently high standard.
 
@@ -19,14 +19,19 @@ Language style guides aren’t anything new, but the enforcement of a consistent
 ###Security
 Writing secure code has to be a top priority, so identifying any potential vulnerabilities in your codebase as early as possible is a must. The vulnerabilities you should be looking are Remote code execution, cross site scripting, SQL injection, and string formating. We run static analysis after feature and unit testing to guard against these common pitfalls, the thinking being that this [build] could reach production. In addition to static analysis, you could run any number of security scans on your application once it is deployed out.
 
-To test these areas we use [at time of writing] the following gems:
+###Discipline
+All the previous areas are all automated, but there is a human aspect to writing good code, and without it everything else could be in vein. It is down to the individual to write clean, and readable code. This responsibility to be disciplined also rests amongst the team too. As a team you should be spending time looking at each others commits, to keep yourselves honest. When you find an area of code that could be tidier, consider pair-programming with the author of the code.
+
+##Testing
+
+To test for complexity, style, and security we use [at time of writing] the following gems:
 
 - **Tailor** - Style analysis tool for Ruby, that like its peers is configurable based on the [Ruby community style guide](https://github.com/bbatsov/ruby-style-guide).
 - **Cane** - Code analysis tool for Ruby that enforces the ABC metric, and some basic styles like line length, trailing whitespace, and new line at the end of a file.
 - **SCSS-Lint** - Style analysis for SCSS, which like Tailor can be configured to your SCSS
 - **Brakeman** - A vulnerability scanner for Ruby on Rails that will find security issues. The vulnerabilities it identifies are shown [here](http://brakemanscanner.org/docs/warning_types/) which is quite comprehensive.
 
-Additionally all of these tools all come bundled with Rake tasks, so we can switch them in or out at will, which enables our code analysis to be flexible from project to project. So we can always evolve our code quality testing.
+All of these gems come bundled with Rake tasks, so we can switch them in or out if we find a better gem for the job. This enables our code analysis to be flexible from project to project. So we can always evolve our code quality testing.
 
 ###Looking forward
 
