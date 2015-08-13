@@ -17,7 +17,7 @@ More specifically the complexity of Assignments, Branches and Conditionals (ABC)
 Language style guides aren’t anything new, but the enforcement of a consistent code style within the team aids readability, and understanding. We run style analysis on both our Ruby and SCSS files, and fail the build for anything deemed a serious violation. For example, missing spaces around a brace will fail the build, while an unnecessary double quote will just get you a warning.
 
 ###Security
-Writing secure code has to be a top priority, so identifying any potential vulnerabilities in your codebase as early as possible is a must. The vulnerabilities you should be looking are Remote code execution, cross site scripting, SQL injection, and string formating. We run this analysis on a build thats successfully passed all unit and feature test, the thinking being that this [build] is code could reach production.
+Writing secure code has to be a top priority, so identifying any potential vulnerabilities in your codebase as early as possible is a must. The vulnerabilities you should be looking are Remote code execution, cross site scripting, SQL injection, and string formating. We run static analysis after feature and unit testing to guard against these common pitfalls, the thinking being that this [build] could reach production. In addition to static analysis, you could run any number of security scans on your application once it is deployed out.
 
 To test these areas we use [at time of writing] the following gems:
 
