@@ -1,9 +1,9 @@
 Pull requests and Continuous Integration
 ----------------------------------------
 
-A few months ago at Madetech the [Finery](http://www.finerylondon.com) team switched to Github. Before the move we pushed commits directly into the master branch. Commit notifications with links to the diffs would then come up on the Finery channel on our HipChat server, and members of the team could review the commits at their own leisure. There was no commitment to code review.
+A few months ago at Made Tech the [Finery](http://www.finerylondon.com) team switched to GitHub. Before the move we pushed commits directly into the master branch. Commit notifications with links to the diffs would then come up on the Finery channel on our HipChat server, and members of the team could review the commits at their own leisure. There was no commitment to code review.
 
-When we switched to Github we put in two rules for committing into the Finery project. 1) Features and solutions to tickets go into pull requests and 2) You can’t merge your own pull requests — another member of the team has to do it for you.
+When we switched to GitHub we put in two rules for committing into the Finery project. 1) Features and solutions to tickets go into pull requests and 2) You can’t merge your own pull requests — another member of the team has to do it for you.
 
 As with any new process, this has its cons. Pull requests slow the process down. Code doesn’t get merged in straight away if all members of the team are busy. Branches have the capacity to go stale. The pros, on the other hand, have been pretty huge.
 
@@ -15,4 +15,4 @@ Having someone else approve the code means that there is a shared responsibility
 
 The other, slightly less widely-cited benefit of compulsory code review is that if you know that someone else in the team is going to have to sign off on the code, you’ll probably write it better the first time round. You can’t cut corners. You can’t sneak stuff in. Let’s face it, this happens even in the best software teams. The very idea that a code review is going to happen on a pull request ensures a reduction of technical debt.
 
-I’ll end with a nice little pro that I’m personally the happiest about since switching to continuous integration with pull requests on Github: it’s easy and to leave someone an encouraging note on their pull request. ‘This is great.’ ‘Nice job here.’ Sometimes it’s the little things that keep you loving the work.
+I’ll end with a nice little pro that I’m personally the happiest about since switching to continuous integration with pull requests on GitHub: it’s easy and to leave someone an encouraging note on their pull request. ‘This is great.’ ‘Nice job here.’ Sometimes it’s the little things that keep you loving the work.
