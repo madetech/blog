@@ -33,7 +33,7 @@ Having grown an extremely passionate and productive community around itself, Rai
 
 [View Page](https://www.madetech.com/news/tag/ruby-on-rails)
 
-* Benefits of Ruby on Rails in delivering web applications
+* [Benefits of Ruby on Rails in delivering web applications](posts/benefits_of_ruby_on_rails.md)
 
 ## Spree Commerce
 As an open source, flexible solution that scales extremely well, Spree is our e-commerce platform of choice. In these posts we talk about why you should be using Spree, as well as share the knowledge we've acquired during development on a multitude of Spree projects.
