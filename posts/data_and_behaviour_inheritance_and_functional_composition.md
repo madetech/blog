@@ -256,7 +256,7 @@ composition gives us the ability to write small units of work and compose
 them together into bigger ideas. We can continue to stack concepts on top of
 one another to create an entire application.
 
-## Harmonising the functional with object orientation
+## Unifying the two worlds
 
 Unless you're a functional flirter or fanatic you may not yet see the advantages
 of using composable functions over wrapping larger concepts in objects.
