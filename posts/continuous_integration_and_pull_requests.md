@@ -7,7 +7,7 @@ When we switched to GitHub we put in two rules for committing into the Finery pr
 
 As with any new process, this has its cons. Pull requests slow the process down. Code doesn’t get merged in straight away if all members of the team are busy. Branches have the capacity to go stale. The pros, on the other hand, have been pretty huge.
 
-You’d think that the biggest pro would be that it helps keep the build pipeline clear if important fixes have to be pushed through quickly, but in reality pushing into master just means that the team couldn’t push unfinished commits, or groups of commits that didn’t constitute full features. The biggest pro has actually been the ability to have a conversation around the code, inline with the actual code itself. ‘Is there a better way of doing this?’ ‘I didn’t know you could do it like this!’ ‘Can we DRY this up a bit?’, etc.
+You’d think that the biggest pro would be that it helps keep the build pipeline clear if important fixes have to be pushed through quickly, but in reality pushing into master just means that the team couldn’t push unfinished commits, or groups of commits that didn’t constitute full features. The biggest pro has actually been the ability to have a conversation around the code, inline with the actual code itself. ‘Is there a better way of doing this?’ ‘I didn’t know you could do it like this!’ ‘Would using X work better here?’, etc.
 
 Having an extra pair of eyes on a group of commits almost always highlights things worth looking at: bugs, style issues, possible simplifications, the list goes on. It also helps to form conversations around the way we write code. It helps form culture. Knowledge is shared quicker. Bus factor is lower. 
 
