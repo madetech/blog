@@ -2,7 +2,8 @@
 
 In this article I'd like to discuss two concepts that you might not immediately
 think to compare. I've written previously on keeping your
-[stylesheets modular](blah) and also on [Object Oriented ideas](blah) so today I
+[stylesheets modular][stylesheet-modularity-post] and also on
+[Object Oriented ideas][oop-post] so today I
 bring the two loosely together.
 
 Object Oriented Programming gives us the ability to organise our programs
@@ -21,8 +22,8 @@ only designing pages and interfaces we instead build a library of independant
 widgets that can then be pulled together to build pages and interfaces.
 
 Very much in vogue at the moment, various conversations and solutions are
-gaining popularity such as [Atomic design](blah), [BEM](blah),
-[styleguide driven development](blah), [twitter bootstrap](blah).
+gaining popularity such as [Atomic design][atomic-design], [BEM][BEM],
+[styleguide driven development][sdd], [Twitter's Bootstrap][twitter-bootstrap].
 
 Styleguides are often used to pull together an applications components into a
 navigatable list of examples. Mock ups can pull in these components to show
@@ -35,4 +36,12 @@ pages reusing these resources. Such libraries are becoming a new currency in
 client relationships for UI and UX. Instead of the old Photoshop .psd we're
 selling the building blocks for unimagined structures.
 
+Open source component libraries are popular too. The aforementioned Bootstrap
+library by Twitter is perhaps the most predominant one.
 
+[stylesheet-modularity-post]: https://www.madetech.com/news/rules-for-stylesheet-modularity
+[oop-post]: google.com
+[atomic-design]: http://bradfrost.com/blog/post/atomic-web-design/
+[BEM]: http://getbem.com/introduction/
+[sdd]: http://www.smashingmagazine.com/2015/03/automating-style-guide-driven-development/
+[twitter-bootstrap]: http://getbootstrap.com/
