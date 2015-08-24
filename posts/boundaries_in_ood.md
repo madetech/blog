@@ -1,18 +1,20 @@
-# Data and Behaviour;<br />Inheritance and Functional Composition
+# Boundaries in Object Oriented Design
 
 As responsible programmers we like to write programs to the best of our ability.
-As our profession has evolved so too have our languages and the tools we use.
-We identify around concepts, patterns and principles.
+As our profession has evolved so too have our languages and the tools we use. We
+identify around concepts, patterns and principles.
 
-Today I want to explore 4 common programming concepts together. I want to
-illustrate how they relate to each other and finally I want to draw
+Today I want to explore 4 common programming concepts together and highlight how
+they can help to draw boundaries within your application to make it easier to
+maintain. I will illustrate how they relate to each other and then draw
 conclusions on how they can work together to build better programs.
 
-Of course from the title of this post you already know what four concepts I
-am talking about. Data, behaviour, inheritance and functional composition.
-However from the title I have also paired them, data and behaviour,
-inheritance and functional composition. This pairing is intentional as you will
-discover shortly.
+The four concepts I am talking about are:
+
+ - Data
+ - Behaviour
+ - Inheritance
+ - Functional composition
 
 ## Data and Behaviour
 
