@@ -2,7 +2,7 @@
 
 As developers we always strive to write the best code possible. And while we test for it, coverage doesn’t always tell the full story of the quality of your code output.
 
-Firstly, what is coverage? Within a coding context coverage refers to the number of lines of code covered by tests. Once calculated code coverage is a way of seeing how much of your source code is covered by tests. So the higher your code coverage the better tested your source code is and less likely to suffer from any bugs or regressions during its life time, and in theory better quality.
+Firstly, what is coverage? Within a coding context coverage refers to the number of lines of code covered by tests. Once calculated code coverage is a way of seeing how much of your source code is covered by tests. So the higher your code coverage the better tested your source code is, and less likely to suffer from any bugs or regressions during its life time.
 
 Previously we’ve shown you our [complete deployment pipeline](https://www.madetech.com/news/continuous-delivery-with-jenkins). In this article I am going to talk about the tooling we currently use during the first step of our deployment pipeline - the build step - to keep our code at a consistently high standard.
 
@@ -19,9 +19,13 @@ The ABC metric of method (or function) is calculated by evaluating the number of
 Language style guides aren’t anything new, but the enforcement of a consistent code style within the team aids readability, and understanding. We run style analysis on both our Ruby and SCSS files, and fail the build for anything deemed a serious violation. For example, missing spaces around a brace will fail the build, while an unnecessary double quote will just get you a warning.
 
 ###Security
-Writing secure code has to be a top priority, so identifying any potential vulnerabilities in your codebase as early as possible is a must. The vulnerabilities you should be looking are Remote code execution, cross site scripting, SQL injection, and string formating.
+Writing secure code has to be a top priority, so identifying any potential vulnerabilities in your codebase as early as possible is a must. Some of the common vulnerabilities you should be looking for are:
+- Remote code execution
+- Cross site scripting
+- SQL injection
+- String formating
 
-We run static analysis after feature and unit testing to guard against these common pitfalls, the thinking being that this [build] could reach production. In addition to static analysis, you could run any number of security scans on your application once it is deployed out.
+We run our security analysis after feature and unit testing to guard against these common pitfalls, the thinking being that this [build] could reach production. In addition to this security analysis, you could run any number of security scans on your application once it is deployed out.
 
 ###Self-Discipline
 All the previous areas I have discussed are easily automated, but there is an important human aspect to writing good code. Without self-disipline everything else could be in vein. It is down to the individual to write clean, and readable code. But this responsibility to be disciplined also rests on the team too.
