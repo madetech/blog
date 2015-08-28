@@ -69,6 +69,7 @@ We're big proponents of the "you build it, you run it" philosophy. Check out our
 * Cloud Foundry
 * Vagrant
 * PaaS vs. IaaS, What We've Learned
+* [Dashboard](posts/all_looking_rather_dashing.md)
 
 ## Software Engineering
 
