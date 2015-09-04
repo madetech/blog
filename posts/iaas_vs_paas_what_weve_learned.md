@@ -15,6 +15,8 @@ Performance
 
 Day-to-day, you're unlikely to see significant difference between IaaS and PaaS for a typical application at runtime. That said, as PaaS is further away from the 'tin', in much the same way as comparing physical and virtualised hardware, you're going to see some loss.
 
+The noisy-neighbour problem, where other workloads on the same public PaaS provider can adversely affect your application's performance, manifest themselves in much the same way as they do on public IaaS providers. On IaaS you have the option to use larger instance types, which often means you end up with dedicated access to an underlying physical machine, leaving you no neighbours to contend with.
+
 Round 1: IaaS. But not by much.
 
 
@@ -27,17 +29,19 @@ If you're looking at reliability from an application management perspective, and
 
 However, if we're looking at the platform as a whole, we find PaaS to be more unrealiable than IaaS. Because of the increase in moving parts involved in a PaaS system, there are more components to fail, and subsequently, increased instances where intervention is required.
 
+Over the past month, for example, we've seen 3 separate (albeit short) outages on the Pivotal Web Services Cloud Foundry platform, whereas our AWS EC2 fleet has experienced no such issues. This would broadly mirror a typical month that we've seen over the past year.
+
 Round 2: IaaS.
 
 
 Scalability
 -----------
 
-In this area PaaS offers some benefits over PaaS, though does fall short on autoscaling options.
+In this area PaaS offers some benefits over IaaS, though does fall short on autoscaling options.
 
 In a typical PaaS setup, increasing or decreasing the number of application workers is no more complex than issuing a command. This can be particularly useful for predictable high traffic events, or for manually reacting moderately quickly to unexpected bursts in traffic.
 
-IaaS offers little out of the box in terms of instance scale. Assuming your application servers are behind a load-balancer, you can add more instances and then deploy the latest version of your application to these instances to achieve the same outcome - though you're probably looking at 15 minutes over the 15 seconds for PaaS.
+IaaS offers little out of the box in terms of instance scale. Assuming your application servers are behind a load balancer, you can add more instances and then deploy the latest version of your application to these instances to achieve the same outcome - though you're probably looking at 15 minutes over the 15 seconds for PaaS.
 
 IaaS, and particularly the AWS platform, offers some strong tooling around autoscaling, though there's a heavy amount of customisation required to generate machine images for every release and to manually configure rules that trigger up- and down-scales.
 
@@ -63,13 +67,17 @@ Round 4: PaaS. But we crave better transparency.
 Cost
 ----
 
-For the purpose of this article I'll focus on cost in terms of the cash you need to part with to make use of these services.
+For the purpose of this post I'll focus on cost in terms of the cash you need to part with to make use of these services.
 
-This of course depends very much on the specific choices you make on provider. As customers of Cloud Foundry, we've found the cost to be broadly in-line with what we'd expect to pay to run a similar number of applications direct on AWS. What we often find is that the ease of spinning up applications, you often inadvertently end up using more resource than you might otherwise, certainly without good discipline to clean up after yourself.
+This of course depends very much on the specific choices you make on provider. As customers of Cloud Foundry, we've found the cost to be broadly in-line with what we'd expect to pay to run a similar number of applications direct on AWS. What we often find is that the ease of spinning up applications, you often inadvertently end up using more resource than you might otherwise; certainly without good discipline to clean up after yourself.
+
+For a comparison between Pivotal Web Services and AWS, on which its built, an average application which needs 512MB RAM and 5 worker processes would cost you at time of writing in the region of $55 USD per month. A comparable EC2 medium instance with 3.75GB RAM would cost you around $40 USD per month.
+
+Another factor to bear in mind is how closely IaaS costs are able to mirror your workload. By nature there are some incremental jumps between instance sizes which may not exactly match your needs, meaning that you may be carrying excess capacity that you don't need. PaaS on the other hand allows you to provision and pay for precisely the resources that you need to run your application workload.
 
 There are many discussions about the costs of other platforms, particularly Heroku, where the costs can very quickly become uncompetitive with IaaS.
 
-Round 5: swings around roundabouts.
+Round 5: swings and roundabouts.
 
 
 IaaS or PaaS, then?
