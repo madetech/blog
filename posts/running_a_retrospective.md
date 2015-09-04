@@ -7,6 +7,7 @@ You get out of a retrospective what you put into it. Before even stepping into t
 
 ## Structure
 Much like every good story needs a beginning, middle and an end, so too does a good retrospective need structure. The details of each section can and should vary, but I like to try and keep the overall format familiar. I try and stick to something along these lines:
+
 1. Icebreaker - something to get people talking. It could be summarising the sprint in a Tweet, writing notes you would have like to have received at the start of the sprint. Keep it short but make it's something everyone can do.
 2. Review actions from the last retrospective - two weeks is a long time, so it's important to remind people where we were back then. Did the ideas we came up with fix our problems?
 3. Data gathering - gather up the wins and losses for the last sprint, and group things into themes. We're not trying to solve anything just yet, but give everyone a chance to raise issues for the group to consider. We'd then use a vote to decide which are our big issues for discussion.
