@@ -6,16 +6,29 @@ think to compare. I've written previously on keeping your
 [Object Oriented ideas][oop-post] so today I
 bring the two loosely together.
 
-Object Oriented Programming gives us the ability to organise our programs
+## OOP
+
+Object Oriented Programming provides the ability to organise our programs
 or applications into objects. Objects represent real life things and also
 computationally important things. They can represent a product, a cart that
-holds products, the algorithm to find relevant products for a specific user, etc.
+holds products or the algorithm to find relevant products for a specific user.
 
-Object design draws the boundaries between the logic of our application and we
-can then envisage the interaction of such logic. When designing with
-objects we can visually imagine how they interact with each other. This broke
-with previous ideas of proceedural program where we were forced to think of
-programs as a continuous operation, one big list of commands to be executed.
+Object design is the drawing of boundaries between the logic of our
+application and we can then envisage the interaction of such logic. When
+designing with objects we can visually imagine how they interact with each
+other. This broke with previous ideas of proceedural program where we were
+forced to think of programs as a continuous operation, one big list of
+commands to be executed.
+
+Say we want to devise yet another address book application. What real world
+objects do physical address books have? They have entries which represent
+one address. They have people whom may have one or more entries. There is
+the address book itself too. Not only that but each entry could be made of
+smaller objects such as an address and phone number. Physically imagining
+objects is a powerful tool. Teams can discuss their programs in terms of
+objects.
+
+## Component based design / Styleguide driven development / Pattern library
 
 Component based design teaches us to design UI in a modular way. Instead of
 only designing pages and interfaces we instead build a library of independant
