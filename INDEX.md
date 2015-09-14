@@ -80,7 +80,7 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 * [5 TDD Antipatterns](posts/5_tdd_antipaterns.md)
 * Why Drupal (and any big CMS systems) is a horrible solution for web applications
 * Test Driven Development
-* Quality Assurance
+* [Testing without QA](posts/testing_without_qa.md)
 * The Internal vs External quality of software
 * Open Source
 * Solving the hardest software problems
