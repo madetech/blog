@@ -1,6 +1,6 @@
-# Hiring Engineers - The Questions 
+# Effective duidiligance on a software company
 
-It's difficult to hire good programmers, 
+It's difficult to hire good engineers, especially when you're not a programmer yourself. 
 
 In this post, we take you through the traits we look for in engineers and what we would consider to be positive indicators and what you should be wary of. 
 
@@ -12,6 +12,8 @@ In practice, these people choose to think are good programmers (it says here on 
 
 Then they're mystified to find that their startup lumbers along like a World War II bomber while their competitors scream past like jet fighters. This kind of startup is in the same position as a big company, but without the advantage.
 
+[X] Are you practicing TDD
+[X] Have you got examples of working 
 
 
 * 
