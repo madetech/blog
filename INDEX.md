@@ -88,4 +88,3 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 * [Stream Everything](posts/stream_everything.md)
 * [Pair programming](posts/pair_programming.md)
 * [Stylesheet Modularity](posts/stylesheet_modularity.md)
-* [Hiring Programmers](posts/hiring_programmers.md)
