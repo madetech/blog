@@ -11,6 +11,7 @@ The world of sofware delivery and agile project management moves fast. Where do 
 
 [View Page](https://www.madetech.com/news/tag/agile)
 
+* Introduction to Agile (posts/introduction_to_agile_scrum.md)
 * Using Agile for Non-Software Projects
 * Waterfall vs. Agile, Things You Should Consider
 * Scrum vs. Kanban

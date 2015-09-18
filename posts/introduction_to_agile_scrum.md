@@ -1,4 +1,4 @@
-#A Guide to Agile, focused on Scrum.
+#A Guide to Agile (focused on Scrum).
 
 ###Introduction
 Over the last five years, Agile has gained significant traction and has been adopted by organizations of all shapes and sizes. 
