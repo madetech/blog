@@ -18,7 +18,7 @@ The world of sofware delivery and agile project management moves fast. Where do 
 * How To Create Your First Product Backlog
 * Using Planning Poker to Estimate Features
 * How To Run An Effective Daily Standup
-* [Our Favourite Retrospective Ideas] (https://www.madetech.com/news/our-favourite-retrospective-ideas)
+* [Our Favourite Retrospective Ideas](https://www.madetech.com/news/our-favourite-retrospective-ideas)
 * Effective Testing in an Agile Team
 * Agile Ad-Hoc Support
 * Picking the rioght Product Owner
@@ -26,13 +26,14 @@ The world of sofware delivery and agile project management moves fast. Where do 
 * [Busting Agile Myths: Story Points and Time](https://www.madetech.com/news/busting-agile-myths-story-points-and-time)
 * [Busting Agile Myths: Story Points](https://www.madetech.com/news/busting-agile-myths-story-points-and-time)
 * [Building a Product in a Day](https://www.madetech.com/news/building-a-product-in-a-day)
+* 4 Ways To Break Your Code For The Great Good
 
 ## Ruby on Rails
 Having grown an extremely passionate and productive community around itself, Rails is constantly evolving on an almost daily basis. Stay up to date with the latest discussions around best practices and design patterns with these blog posts.
 
 [View Page](https://www.madetech.com/news/tag/ruby-on-rails)
 
-* Benefits of Ruby on Rails in delivering web applications
+* [Benefits of Ruby on Rails in delivering web applications](posts/benefits_of_ruby_on_rails.md)
 
 ## Spree Commerce
 As an open source, flexible solution that scales extremely well, Spree is our e-commerce platform of choice. In these posts we talk about why you should be using Spree, as well as share the knowledge we've acquired during development on a multitude of Spree projects.
@@ -54,7 +55,7 @@ We believe wholeheartedly in the Continuous Delivery idea. Being secure in the k
 * Build Pipelines
 * [Blue / Green Deployments](posts/green_blue_deploys.md)
 * Automated Security Scans
-* Code Quality Metrics
+* Code Quality Metrics [Seb]
 * Code Reviews
 
 ## DevOps
@@ -67,7 +68,7 @@ We're big proponents of the "you build it, you run it" philosophy. Check out our
 * Cloud Automation
 * Cloud Foundry
 * Vagrant
-* PaaS vs. IaaS, What We've Learned
+* [IaaS vs. PaaS: what we've learned](posts/iaas_vs_paas_what_weve_learned.md)
 
 ## Software Engineering
 
@@ -84,4 +85,6 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 * Interview legendary software engineers. People like the Boeing 747 engineers, TfL tube, nuclear reactors, Jet rockets, NASA engineers etc.
 * [Focus with well structured rspec tests](posts/tdd_rspec.md)
 * [Stream Everything](posts/stream_everything.md)
-* Pair programming [Scott]
+* [Pair programming](posts/pair_programming.md)
+* [Stylesheet Modularity](posts/stylesheet_modularity.md)
+* [Boundaries in Object Oriented Design](posts/boundaries_in_ood.md)
