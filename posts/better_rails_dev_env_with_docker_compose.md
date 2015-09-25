@@ -13,9 +13,9 @@ Today we'll be using [Docker](http://docker.io) and [docker-compose](https://doc
 
 ## Setup
 
-Download and install the [Docker Toolbox](https://www.docker.com/toolbox). Once this is done, you will have an app in Applications called 'Docker Quickstart Terminal'.
+Download and install the [Docker Toolbox](https://www.docker.com/toolbox).
 
-Open 'Docker Quickstart Terminal'. The first time this runs it should create a VM and set you up. If you prefer your own shell, you can use the following bash command:
+Open your terminal of choice. Run the following command to bootstrap the required env vars:
 
 ```
 eval $(docker-machine env default)
@@ -42,11 +42,18 @@ Now it's time to launch the app. This will pull the db image if you don't have i
 ```
 docker-compose up
 ```
+
 ![Pulled the DB](http://i.imgur.com/9Rc9nqU.png)
 
 Once that's done, have a look at that pretty cluster output!
 
 ![Cluster output](http://i.imgur.com/r76o3aj.png)
+
+**NOTE** There's an issue with docker-compose `1.4.1` that means this output might cut out at `Attaching to`. If you get this issue, run the following command to upgrade docker-compose:
+
+```
+sudo pip install -U docker-compose
+```
 
 Open a new terminal tab or window. Use the following command (again) to get the env vars you need.
 
