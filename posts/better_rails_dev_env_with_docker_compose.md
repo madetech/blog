@@ -27,7 +27,7 @@ git clone https://github.com/madetech/rails-docker-dev.git
 cd rails-docker-dev
 ```
 
-Use `docker-compose` to build the app
+Use docker-compose to build the app
 
 ```
 docker-compose build
