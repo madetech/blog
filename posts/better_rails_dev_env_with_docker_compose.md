@@ -18,7 +18,7 @@ Download and install the [Docker Toolbox](https://www.docker.com/toolbox). Once 
 Open 'Docker Quickstart Terminal'. The first time this runs it should create a VM and set you up. If you prefer your own shell, you can use the following bash command:
 
 ```
-eval "$(docker-machine env default)"
+eval $(docker-machine env default)
 ```
 
 Clone our repository down and enter the folder:
