@@ -33,7 +33,7 @@ Use docker-compose to build the app
 docker-compose build
 ```
 
-Go and make a coffee. If you don't already have the images it will have to pull and build a LOT of stuff, which will take a quite a while.
+This downloads the images you need from the Docker registry and creates the containers needed to run our app. Go and make a coffee. If you don't already have the images it will have to pull and build a LOT of stuff, which will take a quite a while.
 
 Once that's done, create the database:
 
@@ -41,7 +41,7 @@ Once that's done, create the database:
 docker-compose run web rake db:create
 ```
 
-Now it's time to launch the app:
+Now it's time to launch the app. This command will launch the app. If you don't already have the db image it will pull that, but that is a small image and shouldn't take long.
 
 ```
 docker-compose up
