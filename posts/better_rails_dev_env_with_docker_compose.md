@@ -33,21 +33,23 @@ Use docker-compose to build the app
 docker-compose build
 ```
 
-This downloads the images you need from the Docker registry and creates the containers needed to run our app. Go and make a coffee. If you don't already have the images it will have to pull and build a LOT of stuff, which will take a quite a while.
+This downloads the images the app needs from the Docker registry and creates the containers to run our app. Go and make a coffee. If you don't already have the images (which you probably don't), it will have to pull and build a LOT of stuff, which will take a quite a while. If this stuff hangs for a long time, try Ctrl+C'ing out and using `docker-machine restart default` to refresh the state of your VM.
 
-Once that's done, create the database:
 
-```
-docker-compose run web rake db:create
-```
-
-Now it's time to launch the app. This command will launch the app. If you don't already have the db image it will pull that, but that is a small image and shouldn't take long.
+Now it's time to launch the app. This will pull the db image if you don't have it already.
 
 ```
 docker-compose up
 ```
 
-You can use the following command to get the ip of your docker host:
+Have a look at that pretty cluster output! Now open a new terminal tab. Use the following command (again) to get the env vars you need.
+
+```
+eval $(docker-compose env default)
+```
+
+
+You can now use the following command to get the ip of your docker host:
 
 ```
 EXAMPLE:
@@ -62,6 +64,12 @@ EXAMPLE:
 http://192.168.99.100:3000
 ```
 
+It will tell you that you haven't created the database yet, so in your second tab, run the following command.
+
+```
+docker-compose run web rake db:create
+```
+
 For future convenience, you can then add that line to your `/etc/hosts` file to access your app more easily in future.
 
 ## Replacement Functions
@@ -73,6 +81,7 @@ As we're developing within Docker containers using docker-compose, we'll need to
 | `rails c`          | `docker-compose run web rails c` |
 | `RAILS_ENV=test rake db:create` | `docker-compose run -e RAILS_ENV=test web rake db:create` |
 | `rspec spec/path/to/spec.rb`    | `docker-compose run web rspec spec/path/to/spec.rb` |
+| `bundle install`                | `docker-compose run web bundle install` |
 
 ## Conclusion
 
