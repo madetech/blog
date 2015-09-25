@@ -27,7 +27,7 @@ git clone https://github.com/madetech/rails-docker-dev.git
 cd rails-docker-dev
 ```
 
-Use docker-compose to build the app
+Use docker-compose to build the app:
 
 ```
 docker-compose build
@@ -64,13 +64,19 @@ EXAMPLE:
 http://192.168.99.100:3000
 ```
 
-It will tell you that you haven't created the database yet, so in your second tab, run the following command.
+It will tell you that you haven't created the database yet, so in your second tab, `cd` into the same `rails-docker-dev` folder we've been working run the following command.
 
 ```
 docker-compose run web rake db:create
 ```
 
-For future convenience, you can then add that line to your `/etc/hosts` file to access your app more easily in future.
+Now refresh your browser window and you should see the app running!
+
+For future convenience, you can then add a line to your `/etc/hosts` file to access your app more easily. Example:
+
+```
+192.168.99.100 dockerdev
+```
 
 ## Replacement Functions
 
