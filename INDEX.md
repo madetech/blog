@@ -80,6 +80,7 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 * Why Drupal (and any big CMS systems) is a horrible solution for web applications
 * Test Driven Development
 * Quality Assurance
+* The Internal vs External quality of software
 * Open Source
 * Solving the hardest software problems
 * Interview legendary software engineers. People like the Boeing 747 engineers, TfL tube, nuclear reactors, Jet rockets, NASA engineers etc.
