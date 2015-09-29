@@ -62,7 +62,7 @@ feature required a table, the table would be added to the pattern library as
 an individual module. Below is an example of Mailchimp's table from their
 [pattern library](http://ux.mailchimp.com/patterns/tables).
 
-![Screenshot from Mailchimp's pattern library](https://www.dropbox.com/s/eoiy4z43qq1442u/Screenshot%202015-09-29%2012.53.22.png?dl=0)
+![Screenshot from Mailchimp's pattern library](https://photos-5.dropbox.com/t/2/AAApkKwZl3nLRgK1Gs_CvKcuuPCd5dtaCZiPF7-Va0QoKg/12/8165609/png/32x32/1/1443535200/0/2/Screenshot%202015-09-29%2012.53.22.png/COmx8gMgASACIAMgBCAFIAYgBygBKAI/PYbVnE3v32CWUmFcbS24py8dtpZCKoY8bqJUFrxCSrI?size=1280x960&size_mode=2)
 
 For each visual component in a feature the same process is applied until the
 entire UI for the feature is documented as a set of modular components. Some
