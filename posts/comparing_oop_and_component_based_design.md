@@ -27,7 +27,7 @@ could be made of smaller objects such as an address and phone number.
 
 Splitting out our code into objects that represent real world "things" allow us
 to discuss our code more easily. I can't imagine what it was like describing
-a peace of procedural code.
+a piece of procedural code.
 
 > "Oh I think the if statement on line 45 for adding an item to the address book
 > table is not quite working as expected"
