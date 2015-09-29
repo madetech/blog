@@ -21,7 +21,7 @@ commands to be executed.
 If we wanted to devise yet another address book application we need to
 encapsulate the ideas of an address book in code. We need to think about what
 real world objects do physical address books have? Well for one they have
-entries which represent one address. They also have people whom may have one or
+entries which represent one address. They also have people who may have one or
 more entries. There is the address book itself too. Not only that but each entry
 could be made of smaller objects such as an address and phone number.
 
