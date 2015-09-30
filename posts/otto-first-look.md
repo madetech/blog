@@ -18,7 +18,9 @@ Otto will create a bunch of setup files within a `.otto` directory in your proje
 
 If your project requires any packages or configuration other than those specified in the predefined application type, there is currently no easy way of changing this. The two options you have is to specify a [custom application type](https://ottoproject.io/docs/apps/custom/index.html) that uses a `Vagrantfile` with your specific needs, or, \*gulp\*, `ssh` into the machine and install manually with `apt`.
 
-Specifying a custom `Vagrantfile` would also then give you the option to specify any other customisations, such as memory and CPU values, which can't currently be done via any of the Otto customisations. This was a frustration I run into when I was trying to seed a database with data. Currently, if needing to specify a `Vagrantfile` for use with Otto, I don't see how it can currently replace Vagrant itself.
+Specifying a custom `Vagrantfile` would also then give you the option to specify any other customisations, such as memory and CPU values, which can't currently be done via any of the Otto customisations. This was a frustration I run into when I was trying to seed a database with data. Currently, if needing to specify a `Vagrantfile` for use with Otto, I don't see how it can currently replace Vagrant itself. Mitchell Hashimoto has [commented](https://news.ycombinator.com/item?id=10292417) on Hacker News regarding this point:
+
+> Otto is a lot of magic, we're not trying to hide that. It is a magical tool. But we also give you access to the details (OS, memory, etc.) using "customizations." We'll improve customizations and increase the number of knobs over time.
 
 So if your project uses MySQL rather than Postgres, then you're currently in for a rough ride and it might be best to hold out for the project to mature. Hopefully it's not a big deal, as it should be just a case of adding `libmysqlclient-dev` to the otto setup so that the `mysql2` gem can communicate with a MySQL server.
 
