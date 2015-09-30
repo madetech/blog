@@ -24,7 +24,7 @@ Specifying a custom `Vagrantfile` would also then give you the option to specify
 
 So if your project uses MySQL rather than Postgres, then you're currently in for a rough ride and it might be best to hold out for the project to mature. Hopefully it's not a big deal, as it should be just a case of adding `libmysqlclient-dev` to the otto setup so that the `mysql2` gem can communicate with a MySQL server.
 
-Assuming that happens, the next step would be to define MySQL as a dependency of the app. The otto documentation has an example of using Mongo, so adapting that for MySQL was quite simple by creating the following Appfile inside a new directory I created `private/otto/mysql/Appfile`:
+Assuming that happens, the next step would be to define MySQL as a dependency of the app. The Otto documentation has an example of using Mongo, so adapting that for MySQL was quite simple by creating the following Appfile inside a new directory I created `private/otto/mysql/Appfile`:
 
 ```
 application {
@@ -57,10 +57,10 @@ You can then start the development environment with `otto dev` and updating your
 
 This dependency configuration all seems very similar to the way `docker-compose` and `wercker` are setup. However, otto seems currently less flexible, though it is early days.
 
-Making changes in otto currently [require a destroy and rebuild](https://ottoproject.io/intro/getting-started/customization.html
+Making changes in Otto currently [require a destroy and rebuild](https://ottoproject.io/intro/getting-started/customization.html
 ) of the entire machine. So you don't currently get the speed of a `vagrant provision` as you might be familiar with in your current setups.
 
-Once you have an otto environment up and running, you are ready to `otto dev ssh` and run a bundle install and get your server running. Run `otto dev address` to get the IP address assigned to the machine and then you can visit it directly in your browser. Continue developing away at this point.
+Once you have an Otto environment up and running, you are ready to `otto dev ssh` and run a bundle install and get your server running. Run `otto dev address` to get the IP address assigned to the machine and then you can visit it directly in your browser. Continue developing away at this point.
 
 ***
 
