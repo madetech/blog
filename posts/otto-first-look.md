@@ -32,7 +32,7 @@ application {
     type = "docker-external"
 }
 
-customization "mysql" {
+customization "docker" {
     image = "mysql"
     run_args = "-e MYSQL_ROOT_PASSWORD=my-secret-pw -e MYSQL_DATABASE=localdev -p 3306:3306"
 }
@@ -50,8 +50,6 @@ application {
   dependency { source = "mysql" }
 }
 ```
-
-**There appears to currently be a bug where the `run_args` aren't be compiled into the application `Vagrantfile` - based on the Mongo example. Awaiting comment/clarification.**
 
 You can then start the development environment with `otto dev` and updating your `database.yml` file to reference the MySQL host with the hostname of `mysql.service.consul`.
 
