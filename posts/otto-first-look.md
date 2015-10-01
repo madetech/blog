@@ -10,7 +10,7 @@ Otto, along with claiming to replace Vagrant, also intends to make the jump acro
 
 In this first look article, I'm going to focus on the development side of Otto and how it currently fares as a Vagrant replacement in developer's day-to-day work.
 
-## Development
+## Successor to Vagrant?
 
 Under the hood Otto is still using Vagrant. When you setup Otto using `otto compile` it will take a stab at detecting the type of application you're developing; Ruby, PHP, Node for example. I was playing with Otto using an existing Ruby application with the intention of being able to convert it to an Otto project.
 
