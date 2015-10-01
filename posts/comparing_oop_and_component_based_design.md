@@ -20,10 +20,14 @@ commands to be executed.
 
 If we wanted to devise yet another address book application we need to
 encapsulate the ideas of an address book in code. We need to think about what
-real world objects do physical address books have? Well for one they have
-entries which represent one address. They also have people who may have one or
-more entries. There is the address book itself too. Not only that but each entry
-could be made of smaller objects such as an address and phone number.
+real world objects do physical address books have?
+
+<img src="https://photos-2.dropbox.com/t/2/AABJ9YFWcNbhd38wD9LFT2bwM16QbPbkT48UoUbW8yaZhQ/12/8165609/png/32x32/1/1443708000/0/2/address_book_topology.png/COmx8gMgASACIAMgBiAHKAEoAg/K4oBg_ho_Sey5wDagTCqsdV7gV4eYIK9wHcGNIr6Kes?size=1280x960&size_mode=2" />
+
+We first of all have the idea of an address book. The address book will then
+have a number of entries. They have entries that may have one or
+more addresses. Each address could be made of smaller objects such as an
+address and phone number.
 
 Splitting out our code into objects that represent real world "things" allow us
 to discuss our code more easily. I can't imagine what it was like describing
