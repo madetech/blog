@@ -22,7 +22,7 @@ If we wanted to devise yet another address book application we need to
 encapsulate the ideas of an address book in code. We need to think about what
 real world objects do physical address books have?
 
-<img src="https://photos-2.dropbox.com/t/2/AABJ9YFWcNbhd38wD9LFT2bwM16QbPbkT48UoUbW8yaZhQ/12/8165609/png/32x32/1/1443708000/0/2/address_book_topology.png/COmx8gMgASACIAMgBiAHKAEoAg/K4oBg_ho_Sey5wDagTCqsdV7gV4eYIK9wHcGNIr6Kes?size=1280x960&size_mode=2" />
+![Address book topology diagram](https://dl.dropboxusercontent.com/s/cnch9wakyq5ng3n/address_book_topology.png?dl=0)
 
 We first of all have the idea of an address book. The address book will then
 have a number of entries. They have entries that may have one or
@@ -66,7 +66,7 @@ feature required a table, the table would be added to the pattern library as
 an individual module. Below is an example of Mailchimp's table from their
 [pattern library](http://ux.mailchimp.com/patterns/tables).
 
-![Screenshot from Mailchimp's pattern library](https://photos-5.dropbox.com/t/2/AAApkKwZl3nLRgK1Gs_CvKcuuPCd5dtaCZiPF7-Va0QoKg/12/8165609/png/32x32/1/1443535200/0/2/Screenshot%202015-09-29%2012.53.22.png/COmx8gMgASACIAMgBCAFIAYgBygBKAI/PYbVnE3v32CWUmFcbS24py8dtpZCKoY8bqJUFrxCSrI?size=1280x960&size_mode=2)
+![Screenshot from Mailchimp's pattern library](https://dl.dropboxusercontent.com/s/eoiy4z43qq1442u/Screenshot%202015-09-29%2012.53.22.png?dl=0)
 
 For each visual component in a feature the same process is applied until the
 entire UI for the feature is documented as a set of modular components. Some
