@@ -1,7 +1,5 @@
 # Canary Releases
 
-At Made we employ Continuous Delivery practices to keep our software delivery fast and regular.
-
 Continuous Delivery is an approach to software delivery which promotes small incremental releases rather than huge iterations. Every push to master which passes its test suite is considered to be production ready, and as a result our deployment pipeline is optimised to get it out to production websites as quickly as possible, without sacrificing security and safety. This benefits us as developers and our customers in the same ways. New features and bug fixes are deployed rapidly, and code is safer by virtue of having smaller changes. How much can you break in a day or two? We are all spared the anxiety of large, lengthy deploys where weeks of work can be released to production at once.
 
 ## What we're doing now
