@@ -55,6 +55,8 @@ You can then start the development environment with `otto dev` and updating your
 
 This dependency configuration all seems very similar to the way `docker-compose` and `wercker` are setup. However, Otto seems currently less flexible, though it is early days.
 
+Otto currently lacks multiple environment support, where you might wish to have a staging version of your project, though this is being introduced in the upcoming [0.2 version](https://github.com/hashicorp/otto/issues/161).
+
 Making changes in Otto currently [require a destroy and rebuild](https://ottoproject.io/intro/getting-started/customization.html
 ) of the entire machine. So you don't currently get the speed of a `vagrant provision` as you might be familiar with in your current setups.
 
