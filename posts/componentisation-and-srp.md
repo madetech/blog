@@ -1,6 +1,6 @@
 # Componentisation and the Single Responsibility Principle
 
-Keeping a good separation of concerns means writing code which only handles as much as it needs to. It's a concept which should affect every piece of code that you write, from class definitions to database tables. Only store the data which is relevant. Only encapsulate the logic which is covered by the responsibility of your class. My colleague wrote about this recently when discussing [Inheritance and Composition][luke_inheritance_composition].
+Keeping a good separation of concerns means writing code that only handles as much as it needs to. It's a concept that should affect every piece of code you write, from class definitions to database tables. Only store the data which is relevant. Only encapsulate the logic which is covered by the responsibility of your class. My colleague wrote about this recently when discussing [Inheritance and Composition][luke_inheritance_composition].
 
 Keeping a good separation of concerns has historically been tricky in front end code. Having to bind Javascript classes to `window` for example, and use classes to link together Javascript, HTML and CSS. These are loose ways to tie together disparate code. Ideally code should be tied directly to any relevant aspects.
 
