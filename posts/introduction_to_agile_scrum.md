@@ -14,14 +14,14 @@ Agile started to gain traction in early 90's as a reaction to the widespread fai
 At its core, Agile is a set of principles that can be used to guide the delivery of a software project. It encourages communication, collaboration and working software over documentation and plans that cannot change.  
 
 ###The Agile Manifesto
-The bible has the ten commandments. Scientologists has Dianetics and the auditors code. Agile practitioners follow **The Agile Manifesto**: 
+The bible has the ten commandments. Scientologists has Dianetics and their auditors code. Agile practitioners follow something called the **The Agile Manifesto**: 
 
 1. **Individuals and interactions** over processes and tools
 2. **Working software** over comprehensive documentation
 3. **Customer collaboration** over contract negotiation
 4. **Responding to change** over following a plan
 
-The Manifesto is embraced by all good Agile teams. They value the items on the right hand side (the text that is not in bold), but favour the left hand side (text in bold). You'll often hear Agilists citing items from the Manifesto as a rationale behind a decision or approach. 
+The Manifesto is embraced by all good Agile teams. Teams value the items on the right hand side (the text that is not in bold), but favour the left hand side (text in bold). You'll often hear Agilists citing items from the Manifesto as a rationale behind a decision or approach. 
 
 In addition to the manifesto, Agile practitioners also follow a more granular set of principles, which guide the day-to-day running of a an agile project:
 
@@ -69,7 +69,7 @@ A sprint is a timeboxed period (typically between 1-4 weeks) where a team commit
 Velocity is the rate at which the team is completing user stories. Once a project is underway, and the team is in a rhythm, you would expect to see a consistent velocity between sprints. 
 
 * ### Planning Poker
-Estimating complexity is particularly difficult in software projects. Scrum uses Planning Poker to help with this. It's a card game in which the team is given a set of cards that contain a modified Fibonacci sequence on them: 1, 2, 3, 5, 8, 13, 20, 40 & 100. The numbers get further apart as you get higher to emphasise bigger things are inherently harder to estimate.<br /><br />The Product Owner describes the User Story and each team member puts a card face down on the table. All cards are turned over simultaniously, and then the team discusses the differences in estimations. This technique encourages discussion and helps to provide fair estimates that the team is agreed upon.
+Estimating complexity is particularly difficult in software projects. Scrum uses Planning Poker to help with this. It's a card game in which the team is given a set of cards that contain a modified Fibonacci sequence on them: 1, 2, 3, 5, 8, 13, 20, 40 & 100. The numbers get further apart as you get higher to emphasise bigger things are inherently harder to estimate.<br /><br />The Product Owner describes the User Story and each team member puts a card face down on the table. All cards are turned over simultaneously, and then the team discusses the differences in estimations. This technique encourages discussion and helps to provide fair estimates that the team has agreed upon.
 
 * ### Blockers
 A blocker is an impediment that is holding up progress on User Story. For example, if a User Story was to setup Tax Rates for a particular country, but the engineer didn't have this data. The missing data would be considered a Blocker. Blockers should be flagged to the team and if the team cannot resolve them, then the Scrum Master should try to.
@@ -84,10 +84,10 @@ A Potentially Shipping Increment is a piece of functionality which can launch on
 Once a project is underway, it's easy for the Product Backlog to grow and grow until it becomes a bit of a mess. One of the tasks of the Scrum Master and Product Owner (and sometimes the team) is to sit down together and go through the items in the backlog and remove duplicates and those that are not a priority and are not going to deliver value to the business. 
 
 * ### Sprint Planning
-Before a sprint begins, it's important the team are all aligned, and we have up-to-date story points for the features. The role of the sprint planning session is to go through the highest priority items in the project backlog and agree. 
+Before a sprint begins, it's important the team are all aligned, and we have up-to-date story points for the features. The role of the Sprint Planning session is to go through the highest priority items in the Product Backlog and agree which User Stories will be included within the next Sprint. 
 
 ##Scrum Roles
-Within a Scrum project there are a number of key roles that are necessary:
+Within a Scrum project there are a number of key roles that are required:
 
 * ####Product Owner
 The Product Owner is in charge of the project vision. This person is typically somebody senior within a business, who has the authority to make decisions about direction, features and understands the business objectives. <br /><br />Their primary role is to mediate between the internal stakeholders and the Scrum team delivering the project and ensure the team is delivering the most value to the business within each sprint.
