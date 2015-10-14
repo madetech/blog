@@ -8,20 +8,20 @@ At Made, we run all of our software delivery through an Agile methodology called
 We're getting to the point where we would consider ourselves experienced practitioners of agile, so in this post, we'll share some of our learnings and provide an introduction to Agile and explain how we are using Scrum to deliver software at Made. 
 
 ###History of Agile
-Agile started to gain traction in early 90's as a reaction to the widespread failure of many large software projects. Back then, the software development process tended to be slow and documentation heavy. The first few months of a project would be spent detailing everything within a specification document that was often several hundred pages in length. Nobody ever read these documents, but when requirements invariably changed, people ended up in dispute and claims of scope and cost adjustments ensueed. People realised there must be a better and baby Agile was born.
+Agile started to gain traction in early 90's as a reaction to the widespread failure of many large software projects. Back then, the software development process tended to be slow and documentation heavy. The first few months of a project would be spent detailing everything within a specification document, which would often end up being several hundred pages in length. Nobody ever read these documents, but when requirements changed, people ended up in dispute and claims of scope and cost adjustments ensueed. People realised there must be a better and Agile was born.
 
 ###What is Agile?
-At its core, Agile is a set of principles that can be used to guide the delivery of a software project. It encourages ongoing collaboration and advocates software being delivery incrementally from the start, instead of trying to deliver it all in one lump at the end. 
+At its core, Agile is a set of principles that can be used to guide the delivery of a software project. It encourages communication, collaboration and working software over documentation and plans that cannot change.  
 
 ###The Agile Manifesto
-The bible has the ten commandments. Ghandi has the XX. Agile practicioners follow The Agile Manifesto: 
+The bible has the ten commandments. Scientologists has Dianetics and the auditors code. Agile practitioners follow **The Agile Manifesto**: 
 
 1. **Individuals and interactions** over processes and tools
 2. **Working software** over comprehensive documentation
 3. **Customer collaboration** over contract negotiation
 4. **Responding to change** over following a plan
 
-The Manifesto is embraced by all good Agile teams and although they will value the right hand side (the text that is not in bold), they will always look to favour the left hand side (text in bold). You'll often hear Agilists citing items from the Manifesto as a rationale behind a decision or approach. 
+The Manifesto is embraced by all good Agile teams. They value the items on the right hand side (the text that is not in bold), but favour the left hand side (text in bold). You'll often hear Agilists citing items from the Manifesto as a rationale behind a decision or approach. 
 
 In addition to the manifesto, Agile practitioners also follow a more granular set of principles, which guide the day-to-day running of a an agile project:
 
@@ -39,28 +39,28 @@ In addition to the manifesto, Agile practitioners also follow a more granular se
 12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
 #Scrum
-Scrum is an Agile methodology. Its name comes from the sport of Rugby, where a team needs to work together to drive forward and achieve a common goal. It follows the principles set out in the Agile Manifesto, with some additional concepts that sit on-top of it, such as Sprints, Product Backlog, Daily Standup etc.<br /><br />Scrum is the most popular of the Agile methodologies, so it can be seen as the same thing as Agile. **It's not**, and you should explain the difference when you hear people refer to Agile and Scrum as one.
+Scrum is an Agile methodology. Its name comes from the sport of Rugby, where a team needs to work together to drive forward and achieve a common goal. It follows the principles set out in the Agile Manifesto, with some additional concepts that sit on-top of it, such as Sprints, Product Backlogs and Daily Standups.<br /><br />Scrum is the most popular of the Agile methodologies, so it's often considered to be the same as Agile. **It's not**, and you should explain the difference when you hear people refer to Agile and Scrum as one.
 
 ###How does Scrum work?
 [![alt text](https://www.mountaingoatsoftware.com/system/asset/file/17/ScrumLargeLabelled.png "Scrum Diagram")](https://www.mountaingoatsoftware.com/system/asset/file/17/ScrumLargeLabelled.png)
 
 ##Terminology
-There is **a lot** of domain specific terminology within Scrum, which can make it difficult to understand and adopt as a newbie. For those who are not familiar with its practices, I've outlined the key concepts below:
+There is **a lot** of jargon within Scrum, which can make it difficult for newbies to adopt and understand. For those who are not familiar with the Scrum practices, here are the main terms you're likely to encounter. 
 
 * ### User Story
 A User Story is a feature written from a user's perspective. For example, "As a Customer, I would like you to remember my credit card details, so I don't have to enter them each time I purchase a product". User stories are preferred to feature lists as they allow the team to more easily understand the business value. 
 
 * ### Product Backlog
-The Product Backlog is a list of user stories for a particular project. It is prioritized by business value.
+The Product Backlog is a list of user stories for a particular project. It is essentially a to-do list, which has been prioritised by the Product Owner according to the expected business value to be gained on a user stories completion.  
 
 * ### Story Points
-The Story Point is the estimated effort required to complete a User Story. A story point is a relative measure of complexity, rather than some number of hours. We have written a more detailed article which [explains story points here](blog/story-points).
+A Story Point is the estimated effort required to complete a User Story. It's a relative measure of complexity, rather than some number of hours. We have written a more detailed article which [explains story points here](https://www.madetech.com/news/busting-agile-myths-story-points).
 
 * ### Spring Backlog
-A Sprint Backlog is a list of User Stories that the team should complete during a sprint. All of the User Stories will have Story Point estimates next to them, and this total should align with velocity achieved in the previous sprints.
+A Sprint Backlog is a list of User Stories that the team will aim to complete during a sprint. All of the User Stories will have Story Point estimates alongside them, and this total should align with velocity achieved in the previous sprints.
 
 * ### Spike
-A Spike is a fixed period used to investigate uncertainty. For example, you could run a 2-day spike to evaluate a new technology that the team hasn't used before. 
+A Spike is a fixed period used to investigate uncertainty. For example, you could run a 2-day spike to evaluate a new technology that the team hasn't used before.
 
 * ### Sprint
 A sprint is a timeboxed period (typically between 1-4 weeks) where a team commits to complete a set of defined User Stories. A project is comprised of multiple sprints.
@@ -106,7 +106,7 @@ Each morning, the sprint team comes together to have their Daily Standup. The 's
 1. What did you complete yesterday?
 2. What are you going to complete today?
 3. Is there anything that is blocking you from achieving this?.
-<br />Standups are regular opportunity for the entire team to communicate progress, understand blockers, cross-pollinate information and evaluate risks.<br /><br />At Made (where we work primarily with external customers) we encourage the Product Owner to attend. 
+<br />Standups are regular opportunity for the entire team to communicate progress, understand blockers, cross-pollinate information and evaluate risks.
 
 * ####Sprint Showcase
 On sprint completion, a Sprint Showcase meeting takes place. In the Showcase, all the completed User Stories are showcased to the project stakeholders. The idea behind this session is that the team is sharing what should be a shipping increment. Something that the business can release to end consumers and that the business can start seeing some return on their investment from. It's, therefore, *critical* that at the end of each sprint, the Scrum team are delivering features that are truly launchable. 
@@ -116,10 +116,16 @@ Following Sprint Showcase, a Retrospective is run. This is a fun exercise used t
 
 
 ##Putting this into practice
-So, how does all of this work within Made?<br /><br />
-1) **Before the project **We'll typically kickoff a project by running a story planning workshop. (You can see the presentation we use for this here.)[Link to Nick's deck]. In this workshop we'll capture an initial product backlog and work with the attendees to prioritise stories into an appropriate order. We'll take the backlog back to the team and run an initial high level pa
-2) **Before the first sprint** - We'll run a Planning Poker session with the entire team. We'll add Story Point estimations to the highest priority items in the Product Backlog and create a sprint candidate for review by the Product Owner
-3) **Kickoff sprint** - We'll then move into the sprint. Each
+Now lets look at how this works at Made:
+
+1. **Before the project starts - **We'll typically run a story planning workshop. In this workshop we'll capture an initial product backlog from the attendees and work together to prioritise stories into an appropriate order. 
+2. **Before the first sprint - **We'll run a high-level Planning Poker session with the team. We'll add Story Point estimations to the items in the Product Backlog and work with the Product Owner to agree a first sprint.
+3. **Sprint starts - **The team will work their way through the User Stories within the Sprint Backlog.
+4. **Daily Standups - **Each morning at 10am the team will get together to have their Daily Standup. 
+5. **Showcase - **At the end of the Sprint, the team will organise a Showcase session, where the completed work is demoed to key stakeholders and feedback is captured. 
+6. **Sprint Planning & Retrospectives - **Following the showcase, the team will get together to have the next sprint planning session. Any feedback will be included in the backlog and the next sprint will be agreed. If necessary, a sprint Retrospective will take place. 
+7. **Repeat - ** The next sprint starts and we repeat from step 3 onwards.
+
 
 ##Where next?
-In more recent years, Agile principles have started to be adopted by non-software projects and you see XX
+In recent years, we've seen Agile principles being adopted by non-software teams such as by the [Lonely Planet legal team](http://lunatractor.com/not-just-an-it-thing-our-book/lonely-planet-legal-affairs-smart-people-lean-work-practices-innovation/), [teachers of degree courses](https://www.petroc.ac.uk/content/courses/computing-it-electronics/foundation-degree-in-computing-north-devon) and [by marketing teams](http://www.agile-ux.com/2010/12/23/agile-marketing-why-marketers-love-it/). We find this really interesting and are looking forward to seeing Agile being used cross-functional departments and the impact this will bring to organisations and teams across the world. 
