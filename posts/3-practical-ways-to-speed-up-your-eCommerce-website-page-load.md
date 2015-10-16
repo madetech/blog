@@ -4,7 +4,7 @@ For an eCommerce website every millisecond counts, and page speed is a common st
 
 1. Image Optimisation
 
-Images are by far single largest group of resources a visitor to your site will download.
+Images are by far the single largest group of resources a visitor to your site will download.
 
 When creating image assets, both designers and developers are used to “Saving for Web” from photoshop or running site assets through apps like TinyPNG or SmushIt which all compress and optimise your images [hopefully] without loss of detail.
 
