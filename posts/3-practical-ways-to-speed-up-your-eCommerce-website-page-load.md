@@ -8,7 +8,7 @@ Images are by far the single largest group of resources a visitor to your site w
 
 When creating image assets, both designers and developers are used to “Saving for Web” from Photoshop or running site assets through apps like TinyPNG or SmushIt, which all compress and optimise your images (hopefully) without loss of detail.
 
-Another technique that has been around for a while, but will have a positive effect on your page load is CSS sprites, although with a modern SVG twist. I won’t do into detail on the implementation but for those wishing to read up Chris Colier has a great tutorial over on [CSS Tricks](https://css-tricks.com/svg-sprites-use-better-icon-fonts/).
+Another technique that has been around for a while, but will have a positive effect on your page load, is CSS sprites, although with a modern SVG twist. I won’t go do into detail on the implementation but for those wishing to read up Chris Colier has a great tutorial over on [CSS Tricks](https://css-tricks.com/svg-sprites-use-better-icon-fonts/).
 
 These are great ways of saving bytes on images you create, but what assets uploaded through a CMS or by a user? Thoughtbot maintain a great ruby gem, called [Paperclip](https://github.com/thoughtbot/paperclip) which leverages imagemagick to crop, resize, and optimise your uploaded assets. You could then take this one step further, and implement the (picture element)[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture] and serve the correct image for the correct viewport.
 
