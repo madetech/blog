@@ -1,22 +1,39 @@
-#Feature Toggles
+#More toggles, fewer branches 
 
-###Introduction
-When practicing Continuous Delivery, it's important that your master branch is deployable at all times. This can introduce some challenges when you have features that requires weeks or even months of development. 
+###Feature Toggles
+When practising Continuous Delivery, it's important that your application is deployable at all times. This can introduce some challenges, especially when you have features that span multiple builds, or bug fixes that need to get into production quickly. 
 
-You'll often end up with some code that is working but is not ready for end-users. When this happens, you'll have blocked your Continuous Delivery pipeline and will be preventing production deploys. In this article, we're going to look at some of the practices that can be used to circumvent this and ensure you keep your pipeline clear and 
+In this article, we're going to look at some of the techniques that we use to keep our applications deployable. We'll look at why branches (particularly long-lived ones) can be the kiss-of-death for a continuous integration project. Why techniques like feature toggles are useful, but should be used with caution. Why release toggles are frounded upon by Margi else, once we've completed the article. 
 
 ###Decoupling deployment and release
-The first thing you need to do is decouple the deployment and the release of the code changes. When we talk about deployments, we are referring to the code being in the production environment, but not necessarily run or executed. When we refer to a release, we're talking about end users (or a subset of users) being able to use a feature and the code actual executing. 
+I'm sure we've all run into this problem before: You've got a set of changes which have been in development for weeks. For whatever reason, these can't be deployed through to production. Suddenly there's small bugfix that is urgently required and which need to be deployed right away. What do you do?
 
-There are a number of reasons why decoupling these is important. To start with, it reduces your risk. Deploying code often involves complex things like database migrations, XXX and XXX. If you can separate these from 
+Well it's time to start looking at ways in which you can decouple the deployment and release of your code changes. 
+
+If you had used a feature toggle and were able to enable / disable features, you could disable the offending feature and continue your continuous delivery practices Without this, you may have to perform a revert, implement the bug fix and then deploy this through your pipeline, before re-applying the bug fix to master. This is risky, potentially very complex and the sort of thing you really should be trying to avoid. 
+
+###Small Releases
+One of the first things we 
+
+###Prevent long lived branches
+
+###Branches go stale
+
+###Branches create merge nightmares
+
+###Feature flags a
+
+#Feature Toggles
+The basic idea behind feature files is to have a configuration file that defines a bunch of toggles for various features you have pending. The running application then uses these toggles in order to decide whether or not to show the new feature.
+
+###Branching in code vs branching in source control
+One of the criticisms of feature toggles is that they can introduce unnecessary code branches within your application. This is fair, as you're effectively putting features into conditionals statements and therefore increasing the cyclomatic complexity of your application. 
+
+###Added test complexity
+This also adds further complexity to things like your test suite, as you may need to test significantly more pathways through your application. 
+
+
+
 
 ##Dark launching
-One of the approaches that we advocate is called a 'Dark Launch'. 
-
-* Dark launching
-* Phased rollouts
-* Branching
-** Prevent long lived branches
-** Branching in code vs branching in source control
-
-
+One of the approaches that we recommend is 'dark launching'. This involves deploying your application changes into production, but having them hidden to end users. At it's most simple, you can achieve this through hidden URLs or by not making a feature visible to all or a subset of users of your application.  
