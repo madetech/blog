@@ -2,10 +2,10 @@
 
 When practising Continuous Delivery, it's important that your application is deployable at all times. This can introduce some challenges, especially when you have features that span multiple builds, or bug fixes that need to get into production quickly. 
 
-In this article, we're going to look at some of the techniques that we use to keep our applications deployable. We'll look at why branches (particularly long-lived ones) can be the kiss-of-death for a continuous integration project. Why techniques like feature toggles are useful, but should be used with caution. And why you should focus on actually delivering small incremental changes to production, as this will make everything else much easier. 
+In this article, we're going to look at some of the techniques that we use to keep our applications deployable. We'll look at why branches (particularly long-lived ones) can be the kiss-of-death for a continuous integration project. Why techniques like feature toggles are useful, but should be used with caution, and why you should focus on actually delivering small incremental changes to production. 
 
 ###Decoupling deployment and release
-I'm sure we've all run into this problem before: You've got a set of changes that have been in development for weeks. For whatever reason, they cannot be deployed through to production. Suddenly there is a small bugfix that is urgently required and which need to be deployed right away. What do you do?
+I'm sure we've all run into this problem before: You've got a set of changes that have been in development for weeks. For whatever reason, they cannot be deployed through to production. Suddenly there is a small bugfix that is urgently required and which needs to be deployed right away. What do you do?
 
 It is time to start looking at ways in which you can decouple the deployment and release of your code changes. 
 
@@ -21,16 +21,16 @@ If you've ever tried to merge a long-lived branch, then you probably know how di
 The one type of branch that we would use is a very short-lived feature branch, as part of a pull request type workflow. My colleague Fareed has [written an article about this and how we use these](https://www.madetech.com/blog/pull-requests-and-continuous-integration) and explains some of the techniques that we try to use to avoid merge difficulties. 
 
 #Feature Toggles
-Moving onto feature toggles. The basic idea behind them is that you have a configuration system that allows you to toggles features on or off depending on some factors, such as environment, user profile or market. The running application then uses these toggles to decide whether or not to show the feature.
+The basic idea behind them is that you have a configuration system that allows you to toggle features on or off depending on some factors, such as environment, user profile or market. The running application then uses these toggles to decide whether or not to show the feature.
 
 The actual implementation can take many forms. At its simplest, you will have a static configuration file within your application, which you deploy to production for the toggled changes to take effect. Some companies use more complex feature toggling systems, to allow runtime feature toggling via web interfaces or for toggling features within a canary build or quality assurance environment.
 
-There are obviously a number of benefits to feature toggles, such as the ability to gradually roll out new features to users, properly decoupling of the deployment and release of code, and obviously the huge benefits around keeping your continuous delivery process working.  
+There are obviously a number of benefits to feature toggles, such as the ability to gradually roll out new features to users, proper decoupling of the deployment and release of code, and obviously the huge benefits around keeping your continuous delivery process working.  
 
 ###Branching in code vs. branching in source control
 One of the big criticisms of feature toggles is that they can introduce unnecessary code branching into your application. You are effectively moving the branches a level down, so out of version control and into your application.You're effectively putting features into conditionals and therefore increasing the cyclomatic complexity of your application. 
 
-This code branching needs to be managed or you are fairly quickly going to start accruing technical debt. Jim Bird wrote an interesting article on this and [described some techniques](http://swreflections.blogspot.co.uk/2014/08/feature-toggles-are-one-of-worst-kinds.html) that he would recommend using to prevent the accrual of too much debt in your application. 
+This code branching needs to be managed or you are fairly quickly going to start accruing technical debt. Jim Bird wrote an interesting article on this and [described some techniques](http://swreflections.blogspot.co.uk/2014/08/feature-toggles-are-one-of-worst-kinds.html) that he recommends using to prevent the accrual of too much debt in your application. 
 
 As a general rule, the quicker you can remove a feature toggle, the better. Toggles should be a short-term solution and not code that remains within your application for years to come. 
 
