@@ -69,6 +69,8 @@ We're big proponents of the "you build it, you run it" philosophy. Check out our
 * Cloud Foundry
 * Vagrant
 * [IaaS vs. PaaS: what we've learned](posts/iaas_vs_paas_what_weve_learned.md)
+* [Otto: first look](posts/otto-first-look.md)
+* [Dashboard](posts/all_looking_rather_dashing.md)
 
 ## Software Engineering
 
@@ -80,6 +82,7 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 * Why Drupal (and any big CMS systems) is a horrible solution for web applications
 * Test Driven Development
 * [Testing without QA](posts/testing_without_qa.md)
+* The Internal vs External quality of software
 * Open Source
 * Solving the hardest software problems
 * Interview legendary software engineers. People like the Boeing 747 engineers, TfL tube, nuclear reactors, Jet rockets, NASA engineers etc.

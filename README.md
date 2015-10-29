@@ -1,7 +1,5 @@
 # Made Tech Blog
-
-You've found the place for your Made blogging needs. In the repo you can find
-some of the [whys to our blogging](#why-are-we-blogging). You can also find some
+This is the place for Made's blogging needs. In this repo you'll find [why we're blogging](#why-are-we-blogging). You can also find some blog post
 [ideas](INDEX.md) and our [critical checklist](#checklist).
 
 ## Why are we blogging?
@@ -14,12 +12,13 @@ Moving fowards, we will be using this repository to collate the posts and to sol
 
 ## How to blog
 
-Creating a blog post is easy. You clone this repo and write your blog post on
-your chosen topic. Once written create a pull request and get it reviewed.
-Then post it and share it online.
+Clone this repo and write your blog post on a topic of your choosing. Once written, create a pull request and get it reviewed. You should be aiming to have this first draft completed a week before your deadline. Once it's been reviewed (poke and nag other people to make comments on your post in good time), resolve any issues that have been raised and update your pull request.
 
-**If you don't submit your completed blog post in a pull request by Friday lunchtime you'll
-be eating your sauerkraut forfeit.**
+**If you don't submit your completed blog post in a pull request by Friday lunchtime you'll incur the sauerkraut & no beer forfeit.**
+
+## Loopholes
+
+There are none. Even if you find one, it's just your imagination, and it'll vanish as soon as you ask anyone about it.
 
 ### Checklist
 
