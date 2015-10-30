@@ -22,3 +22,7 @@ The thinking behind Extreme Programming is to place an emphasis in development o
 Where it relates to Continuous Delivery is in how it promotes the idea of [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration), which, put simply, is the process of a team of developers regularly (i.e. several times a day) reintegrating their work with that of each other and then continuing their work from the amalgamation.
 
 The process doesn't altogether prevent integration problems, but it does mean that when they occur they are usually small enough to prevent another trip into Integration Hell.
+
+### The evolution of Continuous Integration
+
+Over at [Thoughtworks](https://www.thoughtworks.com/), Matt Foemmel, who'd been practiscing Extreme Programming, realised that Continuous Integration could stand on its own, and sought to push it further, to the point where integration could become a fully automated process.
