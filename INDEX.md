@@ -79,6 +79,7 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 [View Page](https://www.madetech.com/news/tag/software-development)
 
 * [5 TDD Antipatterns](posts/5_tdd_antipaterns.md)
+* [5 Of My Favourite Software AntiPatterns That I Love To Hate](posts/5_of_my_favourite_most_hated_software_antipatterns.md)
 * Why Drupal (and any big CMS systems) is a horrible solution for web applications
 * Test Driven Development
 * [Testing without QA](posts/testing_without_qa.md)
