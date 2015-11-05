@@ -30,6 +30,14 @@ The pair wrote about their experiences in [this popular article](http://www.mart
 
 There is still (and most likely always will be) a manual process to Continuous Integration in that each developer is responsible for reintegrating several times a day, but since frequent integration makes merge conflicts demonstrably less painful, it is not an idea usually met with much resistance.
 
-## How Does Continuous Integration Differ From Continuous Delivery?
+## So what is Continuous Delivery?
 
 If Continuous Integration is about making it easier for multiple developers to work on the same project together, then Continuous Delivery is about how we make it easy to get that work quickly and safely to production, and into the hands of clients and users.
+
+Continuous Integration is a process that takes place specifically in the development environment, but most projects will typically also have a continuous, staging and production environment, in that order, with each successive environment more closely resembling the all important production environment.
+
+Each environment serves a different purpose: continuous allows developers to test their code in its first exposure to a production-like environment, while staging is typically where the client will be given their first look at new features, as well as the chance to start populating the database with content ready for launch. Production is, of course, the ultimate destination for our code.
+
+The process of advancing our code through each of these environments is usually handled by what's known as a build pipeline, whereby upon a successful build in a given environment (which includes our automated tests), we are then able to trigger a build in the next environment, either automatically or manually.
+
+What Continuous Delivery is, then, is the ability to push that code to production, with confidence, at a moment's notice. Your client may not want those new features you've created to go live just yet, but by getting the code successfully all the way through to the staging environment and having both you and the client review it, you can be sure that when you _are_ given the go ahead, the push to production will be a painless one.
