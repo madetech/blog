@@ -1,30 +1,43 @@
-# Migrations
+# Migrations, seeds and pipelines
 
- * What migrations are
- * How they affect schema.rb
- * Onboarding new devs should use rake db:setup
- * Reseting DB, rake db:reset
- * Seeds - app critical data you need
- * Break out into multiple files
- * Pushing changes through a pipeline
- * Keeping seeds up to date
- * Make seeds indomepedant
- * Graveyarding migrations
+Most apps you write rely on data that is essential for it to work. That data defines your business logic as much as the code. That data should be represented _in_ code. 
 
-Are you able to delete all of your migrations in your Rails app, drop your database and get up and running again in less than a minute or two? If the answer is no, then that means you're probably not treating the data your app depends on seriously enough.
+If you're currently doing that correctly, you'd be able to delete your database and migration files, and be in a production-like state in less than a minute with a couple of commands. You don't want to have to manually setup—or try and remember—what data you need so that you're in a position to code if you're starting afresh.
 
-Migrations are a means to alter your database schema, but also potentially alter the data contained within it too. As you're building your app, you write migrations as you go along. When you run `rake db:migrate`, your `db/schema.rb` file is updated to reflect your current schema. When you run a migration, the changes are applied in this file, and then the version is updated at the top to reflect the timestamp of the latest migration.
+You should only need to run `rake db:setup` or `rake db:reset` if you've already got a database created. These commands will handle the setting up of the structure (or schema) of your database, and the data that it contains.
 
-When you or another developer wants to work on the project, they should be able to just run `rake db:setup` in order for your database to be created, and for the current version of your schema to be setup too. There's no need to run through `rake db:migrate` for a fresh project clone, as `schema.rb` is the single source of truth.
+## Structure
 
-As you continue to develop the project in a team, you'll use `rake db:migrate` to get the latest changes.
+As you're building your app, you write migrations incrementally as you go along. You run `rake db:migrate` so that your database structure is altered and for the changes to be reflected in your `db/schema.rb` file. This is the single source of truth for the current structure of your database.
 
-Along with a database schema, your app probably also depends on a set of data being present in the database for it to function. This is app critical. It might be a list of categories, or an admin user for example. You might either use a migration to populate this data, or do this manually via an admin interface or the Rails console. But the thing to keep in mind is that your `schema.rb` file is only used for your db structure. Any data you add to the database, isn't persisted anywhere. So if you have to reset your database, or someone new works on the project, if they run a `rake db:setup` they'll get a DB with the correct structure and zero data.
+When you or another developer wants to work on the project, you should be able to just run `rake db:setup` in order for the database to be created, and for the current version of your schema to be setup. There's no need to run the migrations for a fresh project clone. Why run through each migration sequentially when `db/schema.rb` has the end result?
 
-This is where `seeds.rb` comes in. This file is to data what `schema.rb` is for structure. The difference though is that you have to manage this file yourself. When you create a migration that alters the data somehow, Rails won't be updating the `seeds.rb` file for you.
+As you continue to develop the project in a team, you'll want to run `rake db:migrate` to get the latest changes that differ from what you already have.
 
-When you run `rake db:setup` or `rake db:reset` Rails will create/empty your database, load your current schema, and then run the `seeds.rb` file to populate  it. So by keeping your `seeds.rb` file in sync with the data your app requires, with a single command, you can get yourself or others up to speed much quicker.
+## Data
 
-You should try and write your seed code so that it's idempotent. That is, if you run it multiple times, you won't get duplicated data added. If you're using ActiveRecord, that's where `find_or_create_by!` comes in very handy.
+Migrations are a means to alter your database schema, but also can potentially be used to alter the data contained within it. You might have used a migration to populate your app data, or have done it manually via an admin interface or the Rails console. But the thing to bear in mind is that your `db/schema.rb` file only contains your database structure. The data you add to the database isn't persisted anywhere in code. So if you have to reset your database, or someone new works on the project, if they run a `rake db:setup` they'll get a database with the correct structure and zero data.
 
-This isn't to say that you should stop writing migrations to get your data into your database. You probably have a Continuous Delivery pipeline (right?) where you need to get seed data up to your production environment. Put that in a migration. But just be sure to make sure that code 
+This is where `db/seeds.rb` comes in handy. This file is to data what `db/schema.rb` is for the structure. The difference though is that you have to manage this file yourself. When you create a migration that alters the data somehow, Rails won't be updating the `db/seeds.rb` file for you.
+
+When you run `rake db:setup` or `rake db:reset` Rails will create/empty your database, load your current schema, and then run the `db/seeds.rb` file to populate  the database. By mirroring the data your app requires in code in the `db/seeds.rb` file, you can get yourself or others up to speed much quicker. That may be a set of categories, tags or users, for example.
+
+Breaking down your seed data into multiple files helps you organise it into logical pieces. `require_relative` is your friend to load in additional files. Setting up a bunch of users? Throw that all in a `db/seeds/users.rb` file. Then `require_relative('seeds/users.rb')` in your `db/seeds.rb` file.
+
+## Up the pipeline
+
+This isn't to say that you should stop writing migrations to get your data into your database. You'll want to get the data into your local environment via a migration as you want to be sure it works fine for others. Also, because you probably have a Continuous Delivery pipeline (right?) where you need to get seed data up to your production environment. That migration will be run eventually on a production environment. But just be sure to make sure that whatever data changes the migration is making, that they are reflected in the seed data too.
+
+## Graveyarding
+
+Once your migrations have been pushed through your pipeline, and your `db/seeds.rb` file is current, it's safe to delete your old migrations. Though I'd recommend keeping the last 5 just in case you're developing, trying something out, and may need to revert back.
+
+## Summary
+
+Discipline is essential. And the best way to make sure you're disciplined is to not be afraid to run a `rake db:reset` every so often. If there's something you find yourself manually adding to the data, it probably belongs in a seed. If you're ever tempted to add something to the db that is essential and should be in code, then:
+
+ 1. Write a migration with the change
+ 2. Ensure that the data migration is changing is reflected in `db/seeds.rb` so that if you `rake db:reset` you'd have the same state of data
+ 3. Push the migration through your pipeline
+ 4. Remove all but the last 5 migrations in your project to keep things clean
+
