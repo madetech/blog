@@ -3,23 +3,23 @@
 In order to enjoy the benefits of Continuous Delivery it is imperative to be
 able to deploy all the way to production at any time. Any reason as to why you
 cannot deploy to production is a blocker. Keeping the pathway clear is also
-the hardest part of implementing and maintaining a Continuous Delivery.
+the hardest part of implementing and maintaining a continuous delivery of
+software.
 
 ## Broken builds
 
 The first step of a Continuous Delivery pipeline is the build step. A typical
 build step will run your tests, check the style of your code, point out overly
-complex methods and more. Your build step therefore has a lot of ways to fail
-and it fails for good reason, you do not want easily caught problems to be
-deployed out to production. This is a Good Thing but also means it's a prime
-candidate for blocker status.
+complex methods and more. This means your build step has a lot of ways to fail.
+This is a Good Thing because it catches issues early but also means it's a
+prime candidate for blocker status.
 
 The solution to broken builds is obvious, you fix them and you fix them fast.
-Our biggest rule at Made Tech is to own your build failure. As soon as the build
-breaks you tell your colleagues in Slack that you are looking into it. You drop
-whatever you are doing and try to fix it immediately. If you cannot fix the
-problem quickly you back your changes out with a `git revert` or something
-similar.
+We have a rule at Made Tech that you must own your build failure. As soon as
+the build breaks you tell your colleagues in Slack that you are looking into
+it. You drop whatever you are doing and try to fix it immediately. If you
+cannot fix the problem quickly you back your changes out with a `git revert`
+or something similar.
 
 Preventative measures can be taken to reduce the likelihood of broken builds.
 Your developers can run the build script locally. We usually have a rake task
@@ -30,18 +30,18 @@ seeing them pass to then see them fail when they run on the build server is
 never fun. We have found bugs can arise from using different databases in
 development from test, for example running SQLite in test but MySQL everywhere
 else. Where possible use the same database management system everywhere. Same
-goes for asset storage, if you use s3 in production you better use it in
-development and test too.
+goes for asset storage, if you use Amazon S3 for file storage in production
+you better use it in development and test too.
 
 ### On flickering builds
 
 In the past we have suffered from flickering tests. These are tests that
-sometimes pass and sometimes fail. Often the cause will be tests that setup
-state and do not clear it down properly therefore affecting a subsequent
-test's result. Another cause we have found to be tests that run in headless
-browsers like selenium, phantomjs and the like. Sometimes expectations on
-page content will fail because an asynchronous request has no completed yet
-and therefore hasn't changed the page content as expected yet.
+sometimes pass and sometimes fail. Often the cause will be a test that sets
+up state and does not clear it down afterwards therefore affecting the result
+of a subsequent test run. Another cause we have found to be tests that run
+in headless browsers like Selenium, PhantomJS and the like. Sometimes
+expectations on page content will fail because an asynchronous request has
+no completed yet and therefore hasn't changed the page content as expected yet.
 
 The nature of flickering tests is corrosive to Continuous Delivery discipline.
 You will often find engineers just rerun tests several times in the hope they
@@ -51,7 +51,7 @@ build could fail at any time, and if your build time is in the tens of minutes
 
 The cure to flickering tests is to either resolve their flickering nature as
 soon as you notice them or delete them. No test is better than a flickering
-test due to their ability to demoralise your engineers.
+test in their ability to demoralise your engineers.
 
 ## Work In Progress
 
@@ -72,23 +72,23 @@ but it works very well for us.
 
 Feature toggles are a more advanced way of dark launching. Simply wrap up your
 feature in a toggle and ensure it's disabled in production. We tend to use
-feature toggles if a feature is actually a change to an existing feature or
-is provided by a URL already accessible to users.
+feature toggles if a feature is a change to an existing feature or is provided
+by a URL already accessible to users.
 
 ## Unreviewed work
 
 We have found that sometimes features can sit complete on staging, undeployable
-to production since the feature requires verification from a client or another
-colleague that has not gotten round to it yet. The external dependency on a
-client can really block your pipeline.
+to production since the feature requires verification from a Customer, Product
+Owner or a colleague that has not gotten round to it yet. The external
+dependency on a Customer can really block your pipeline.
 
-If you have limited reviews by clients before deployment to production you are
+If you have limited reviews by Customers before deployment to production you are
 in luck. In these situations we encourage engineers to not move onto another
 task until the one they have just completed is reviewed. In fact we consider it
 incomplete until it's reviewed and deployed to production. This often forces
 the engineer to get up and get a colleague to immediately review their work.
 
-If the feature must be checked by a client then the solution is more nuanced.
+If the feature must be checked by a Customer then the solution is more nuanced.
 We try and send features over to clients via instant messaging as soon as they
 are ready to be reviewed. This is similar to our internal approach above.
 Failing that, if we need to deploy a hotfix to production we will back the
@@ -99,7 +99,7 @@ lines of communication with your clients.
 ## Dependency on other releases
 
 From time to time we work with other teams to deliver software. We try and
-integrate into a single team where possible working on the same code base.
+integrate into a single team where possible working on the same codebase.
 However we have dealt with situations where the other team is delivering an
 API that our team will have to interact with. Often we know the spec of the
 API before it is built so we can mock it out. Problems arise when a change to
@@ -115,7 +115,7 @@ The first solution we jump to is to hack the setup. We try and get their team
 to deliver the API in the same sprint and codebase as us so we can't deploy them
 separately. This way we can always keep in sync. We would always recommend
 running migrations on deployment and not having a silo'd DBA run them instead.
-You can often convince the ops person or DBA to allow you to run migrations if
+You can often convince the Ops Person or DBA to allow you to run migrations if
 you promise to only commit non-destructive migrations or get them to lock down
 DB permissions so you cannot drop tables, remove columns, etc.
 
