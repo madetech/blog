@@ -125,7 +125,7 @@ API call. If this field doesn't exist in the database, don't render it. This can
 get messy and should be cleaned up as soon as you can but it does unblock you.
 
 Success of your Continuous Delivery practice depends on your ability to react
-and unblock your pipeline whenever issues arrise. Broken builds occur and that's
+and unblock your pipeline whenever issues arise. Broken builds occur and that's
 okay, your team needs to be drilled to respond and fix them as soon as possible.
 Work in progress and work ready for review is part of the software delivery
 process but too must be dealt with sensibly. Dependency on other releases should
