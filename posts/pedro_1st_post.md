@@ -7,11 +7,11 @@ My name is Pedro Martin, I have little experience as a programmer. I only began 
 
 During the course, in addition to classes, we had talks with experts in different areas, some of them were able to express domain concepts in simple words, others not so much, making it very difficult to understand the subject.
 
-This situation, where experts did not express in simple words their domain areas I have found it very often in discussions about technology. To be good or an  expert in something does not imply that such knowledge can be conveyed in a concise manner.
+However, when listening to experts discuss technology, I have often found that they are less able to express themselves in simple terms. To be good or an  expert in something does not imply that such knowledge can be conveyed in a concise manner.
 
 Before being a programmer I was a Rope Access Technician and before that I was a teacher of Environmental Sciences in secondary schools in Venezuela. Part of my job was to explain in simple words how complex systems rule in natural environments.
 
-One of my inspirations to become a teacher is the late Carl Sagan, for me, he was the perfect example in how to explain complex scientific or technical subjects into little pieces of knowledge.
+One of my inspirations to become a teacher was the late Carl Sagan, for me, he was the perfect example in how to explain complex scientific or technical subjects into little pieces of knowledge.
 
 The following is a practical guide to break down a complex subject in simple pieces of knowledge.
 
@@ -51,7 +51,7 @@ A facilitation model to make presentation easier.
 * During the program.
 * Monitor the group.
 
-## DADDA
+## DDADA
 An easy to remember acronym for presenting ideas.
 
 ###Describe:
@@ -74,6 +74,6 @@ Check if people are having fun, big part of the learning experience is about fee
 
 These guides are made to give you structure in your presentation. As you are learning and developing your own style you would find out maybe one of the steps is more useful than another. Remember it is only a guide, modify it to suit your needs.
 
-I am not aware if Sagan knew this process, but if you have heard, of watched the TV series **Cosmos** you would find this pattern to explain complex subjects.
+I don't know whether Sagan knew of this process, but if you were to watch the TV series Cosmos, you would find that he uses a similar pattern to explain complex subjects.
 
 I hope you will find this as useful as I did.
