@@ -1,0 +1,12 @@
+digraph cd_pipeline {
+    label = "Continuous Delivery Pipeline";
+    rankdir = LR;
+    node [shape=box];
+    Staging [shape=box, peripheries=2];
+    Production [shape=box, peripheries=2];
+    Flip [shape=box, peripheries=2];
+    Build -> Continuous;
+    Continuous -> Staging;
+    Staging -> Production;
+    Production -> Flip;
+}
