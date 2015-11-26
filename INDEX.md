@@ -1,10 +1,4 @@
-# Made Tech Blog Index
-
-Here we list ideas of blog posts and also links when they have been written.
-
-## Introduction
-
-**Made Tech Blog - Best practices and thought leadership.** *Read about the latest trends and techniques being used to deliver modern web applications. Featuring articles from the team at Made Tech and guest posts by selected industry experts.* [View Page](https://www.madetech.com/news/)
+# Made Tech Blogging Topics & Posts
 
 ## Agile Delivery
 The world of sofware delivery and agile project management moves fast. Where do you go to learn about the techniques you should be using? Check out our blog posts on Agile, Scrum, Kanban, XP and always be in the know.
@@ -15,18 +9,17 @@ The world of sofware delivery and agile project management moves fast. Where do 
 * Waterfall vs. Agile, Things You Should Consider
 * Scrum vs. Kanban
 * Scrum, The Bad Parts
-* How To Create Your First Product Backlog
+* [Planning an Agile backlog](https://www.madetech.com/blog/planning-an-agile-backlog)
 * Using Planning Poker to Estimate Features
 * How To Run An Effective Daily Standup
 * [Our Favourite Retrospective Ideas](https://www.madetech.com/news/our-favourite-retrospective-ideas)
 * Effective Testing in an Agile Team
 * Agile Ad-Hoc Support
-* Picking the rioght Product Owner
+* [Picking the right Product Owner](https://www.madetech.com/blog/picking-the-right-product-owner)
 * [Challenges in Contracting Agile Software Projects](https://www.madetech.com/news/challenges-in-contracting-agile-software-projects)
 * [Busting Agile Myths: Story Points and Time](https://www.madetech.com/news/busting-agile-myths-story-points-and-time)
 * [Busting Agile Myths: Story Points](https://www.madetech.com/news/busting-agile-myths-story-points-and-time)
 * [Building a Product in a Day](https://www.madetech.com/news/building-a-product-in-a-day)
-* 4 Ways To Break Your Code For The Great Good
 
 ## Ruby on Rails
 Having grown an extremely passionate and productive community around itself, Rails is constantly evolving on an almost daily basis. Stay up to date with the latest discussions around best practices and design patterns with these blog posts.
@@ -51,11 +44,11 @@ We believe wholeheartedly in the Continuous Delivery idea. Being secure in the k
 
 [View Page](https://www.madetech.com/news/tag/continuous-delivery)
 
-* Pull Requests and Continuous Delivery [Fareed, In Progress]
-* Build Pipelines
+* [Pull Requests and Continuous Integration](https://www.madetech.com/blog/pull-requests-and-continuous-integration)
+* [Continuous Delivery with Jenkins](https://www.madetech.com/blog/continuous-delivery-with-jenkins)
 * [Blue / Green Deployments](posts/green_blue_deploys.md)
 * Automated Security Scans
-* Code Quality Metrics [Seb]
+* [Ensuring the code quality of your SCSS](https://www.madetech.com/blog/ensuring-the-code-quality-of-your-scss)
 * Code Reviews
 
 ## DevOps
@@ -80,15 +73,13 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 
 * [5 TDD Antipatterns](posts/5_tdd_antipaterns.md)
 * [5 Of My Favourite Software AntiPatterns That I Love To Hate](posts/5_of_my_favourite_most_hated_software_antipatterns.md)
-* Why Drupal (and any big CMS systems) is a horrible solution for web applications
-* Test Driven Development
+* [You don't really want a CMS](https://www.madetech.com/blog/you-dont-really-want-a-cms)
+* [Feature Testing with RSpec](https://www.madetech.com/blog/feature-testing-with-rspec)
 * [Testing without QA](posts/testing_without_qa.md)
-* The Internal vs External quality of software
-* Open Source
-* Solving the hardest software problems
-* Interview legendary software engineers. People like the Boeing 747 engineers, TfL tube, nuclear reactors, Jet rockets, NASA engineers etc.
+* [The Internal vs External quality of software](https://www.madetech.com/blog/internal-vs-external-quality-of-software)
 * [Focus with well structured rspec tests](posts/tdd_rspec.md)
 * [Stream Everything](posts/stream_everything.md)
 * [Pair programming](posts/pair_programming.md)
 * [Stylesheet Modularity](posts/stylesheet_modularity.md)
 * [Boundaries in Object Oriented Design](posts/boundaries_in_ood.md)
+* [Four Ways To Break Your Code For The Greater Good](https://www.madetech.com/blog/mutation-testing-fuzz-testing-fault-injection-bebugging)
