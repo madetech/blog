@@ -1,3 +1,5 @@
+# Good Coder, Better Speaker
+
 > “*The value of an idea lies in using it*” <br>
 > Thomas Edison.
 
@@ -7,7 +9,9 @@ During the course in addition to classes, we had talks with experts in different
 
 This situation, where experts did not express in simple words their domain areas I have found it very often in discussions about technology. To be good or an  expert in something does not imply that such knowledge can be transmitted in simple words.
 
-Before being programmer I was Rope Access Technician and before that I was teacher of Environmental Science in secondary schools. Part of my job was to explain in simple words how complex systems rules in the natural environment.
+Before being programmer I was Rope Access Technician and before that I was teacher of Environmental Sciences in secondary schools in Venezuela. Part of my job was to explain in simple words how complex systems rules in the natural environment.
+
+One of my inspirations to become a teacher is the late Carl Sagan, for me, he was the perfect example in how to explain complex scientific or technical subjects into little pieces of knowledge.
 
 The following is a practical guide to break down a complex subject in simple pieces of knowledge.
 
@@ -69,5 +73,7 @@ Before starting a new topic, ask questions to the audience to see if anybody nee
 Check if people are having fun, big part of the learning experience is about feelings and emotions, if your audience is having fun would improve their learning experience.
 
 These guides are made to give  you structure in your presentation. As you are learning and developing your own style you would find out maybe one of the steps is more useful than another. Remember is only a guide, modify as best as suit you.
+
+I am not aware if Sagan follow knew this process, but if you have heard of watch Cosmos you would find this pattern to explain things.
 
 I hope you would find useful as I did.
