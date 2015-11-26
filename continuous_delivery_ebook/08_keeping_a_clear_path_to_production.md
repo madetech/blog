@@ -123,3 +123,8 @@ Alternatively if we cannot deliver as a single team, we get smart. Getting smart
 means using `if` statements. If this API call fails, fallback to using the older
 API call. If this field doesn't exist in the database, don't render it. This can
 get messy and should be cleaned up as soon as you can but it does unblock you.
+
+Success of your Continuous Delivery practice depends on your ability to react
+and unblock your pipeline whenever issues arrise. If you develop a culture of
+responsibility for keeping the pathway clear then you will reap the reward
+tenfold.
