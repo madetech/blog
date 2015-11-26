@@ -51,7 +51,7 @@ build could fail at any time, and if your build time is in the tens of minutes
 
 The cure to flickering tests is to either resolve their flickering nature as
 soon as you notice them or delete them. Removing the test is better than 
-having it flicker due to its ability to demoralise your engineers.
+having it flicker due to its ability to disparage your engineers.
 
 ## Work In Progress
 
@@ -71,7 +71,7 @@ it under a new URL and not link to the URL from anywhere. This might seem crude
 but it works very well for us.
 
 Feature toggles are a more advanced way of dark launching. Simply wrap up your
-feature in a toggle and ensure it's disabled in production. We tend to use
+feature in a toggle and ensure it is disabled in production. We tend to use
 feature toggles if a feature is a change to an existing feature or is provided
 by a URL already accessible to users.
 
