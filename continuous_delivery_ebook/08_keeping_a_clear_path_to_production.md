@@ -23,7 +23,7 @@ or something similar.
 
 Preventative measures can be taken to reduce the likelihood of broken builds.
 Your developers can run the build script locally. We usually have a rake task
-that our build server runs so this can easily be run locally to.
+that our build server runs so this can easily be run locally too.
 
 Parity between environments is also important. Running your tests locally and
 seeing them pass to then see them fail when they run on the build server is
@@ -41,7 +41,7 @@ up state and does not clear it down afterwards therefore affecting the result
 of a subsequent test run. Another cause we have found to be tests that run
 in headless browsers like Selenium, PhantomJS and the like. Sometimes
 expectations on page content will fail because an asynchronous request has
-no completed yet and therefore hasn't changed the page content as expected yet.
+not completed yet and therefore hasn't changed the page content as expected yet.
 
 The nature of flickering tests is corrosive to Continuous Delivery discipline.
 You will often find engineers just rerun tests several times in the hope they
@@ -50,8 +50,8 @@ build could fail at any time, and if your build time is in the tens of minutes
 (another problem for another time) a flickering test can really slow you down.
 
 The cure to flickering tests is to either resolve their flickering nature as
-soon as you notice them or delete them. No test is better than a flickering
-test in their ability to demoralise your engineers.
+soon as you notice them or delete them. Removing the test is better than 
+having it flicker due to its ability to demoralise your engineers.
 
 ## Work In Progress
 
@@ -64,7 +64,7 @@ The problem with your engineers pushing code is that the tests may pass but
 the feature is not necessarily complete enough to be released to users.
 Incomplete work in your master branch that would affect a user is a blocker.
 
-We practice dark launching of code regularly to practice this. Dark launching
+We practice dark launching of code regularly to circumvent this. Dark launching
 simply means the code is able to be deployed out to production but it is never
 accessed by users. The simplest way to dark launch a new feature is to release
 it under a new URL and not link to the URL from anywhere. This might seem crude
