@@ -60,13 +60,13 @@ With branches and tags in your source code control, you can easily mirror the st
 
 When a build is triggered for a pipeline it's given a number. Making use of this number and a repository tag will give a good historical reference and make browsing different releases easier in tools such as GitHub. Or if you have a bug for a previous release, you can easily checkout based on a tag name (or branch) rather than trying to find a specific commit based on a date.
 
-## Build steps and shell scripts
+## Build step commands
 
 Besides a step leading to another step, how do we get them to actually do something? Such as running tests, or deploying code?
 
-All tools come with a mechanism to execute an action or actions for a particular step. Depending on which you're using, it might be an integration with another service online, or one that allows you to specify custom commands, such as a shell script. These give you the most flexibiltiy if your needs are complex.
+All tools come with a mechanism to execute an action or actions for a particular step. Depending on which you're using, it might be an integration with another service online, or one that allows you to specify custom commands. These give you the most flexibiltiy if your needs are more complex.
 
-It's best to use a shell script rather than specifying each of the commands in the tool. That allows you to keep the script in your repository, with all the benefits you get from that. A step that needs to run tests? Why not have a script called `pipeline/tests`. Performance? `pipeline/performance`. Be descriptive with the names of your shell scripts. Then in your pipeline tool, you just need to tell it to execute a single script.
+You could list the various commands that your step requires to complete, one after the other in the pipeline tool configuration. However, it's good practice to use a shell script as that allows you to group those multiple commands into one, and to keep the script in your repository. Be descriptive with the names of your shell scripts. A step that needs to run tests? Why not have a script called `pipeline/tests`. Performance? `pipeline/performance`. Your pipeline tool then only needs to know of one command to run per step. And you've then got all the benefits of source code control for your pipeline logic, with the added benefit of being able to run these locally too.
 
 It's worth noting that there might be limitations with what you execute at each step. If you have a self hosted tool (for example, Jenkins), then anything your scripts are running, you need to ensure those dependencies are on the system that Jenkins is running on. For example, if you're using `rspec` for tests, your system would need Ruby, Rubygems and rspec installed. If you're using a hosted tool, then build steps are usually run within virtual containers, and often the services allow you to install any of your step dependencies before they are run, or they have common virtual containers already that you can specify. For example, there might be a Ruby container that would already have most common dependencies in place.
 
