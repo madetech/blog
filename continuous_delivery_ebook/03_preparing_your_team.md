@@ -5,7 +5,7 @@
     - Developer Confidence obstacles
     - Production awareness
     - Big bang deploys are your enemy
-    - Moving forward
+    - Summary
 
 ## Introduction
 
@@ -95,7 +95,7 @@
 
   Beyond that I am going to assume that you have battle tested your feature as much as possible in your staging environment and your automated tests prove, to a certain degree, that it is correct.
 
-  If you have something like a blue/green or canary release system, it makes it much easier to verify the actual production system by running the actual code.
+  If you have something like a [blue/green](https://www.madetech.com/blog/a-guide-to-blue-green-deployments-and-going-live-every-day) or [canary release system](https://www.madetech.com/blog/canary-releases), it makes it much easier to verify the actual production system by running the actual code.
 
   Assuming you do have a zero downtime deployment system, you generally are forced to share resources between the different versions of your application.
 
@@ -119,9 +119,11 @@
   Small commits are easy to reason about. You get instant feedback on the quality of your small change as soon as it is released.
   Should something go wrong, you only have a handful of potential suspects to debug.
 
-## Moving forward
+## Summary
 
   Whenever you write a new piece of code for a feature, consider the earliest point at which it makes sense to commit it in.
   Even if it's a small schema change, send it up to production and be done with it.
 
   Constantly evolve the current system, and don't try and introduce large amounts of new functionality at once.
+
+  Above all, Continuous Delivery means having the discipline to stick to these principles even when it is difficult to do so.
