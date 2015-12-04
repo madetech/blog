@@ -1,18 +1,18 @@
 # Migrations, seeds and pipelines
 
-Most apps you write rely on data that is essential for it to work. That data defines your business logic as much as the code. That data should be represented _in_ code. 
+Most applications you write rely on certain data stored in a database that is essential for it to work. That data defines your business logic as much as the code. That data should be represented _in_ code. In this post I'll discuss how we handle migrations and seed data through our Continuous Delivery pipeline at Made.
 
 If you're currently doing that correctly, you'd be able to delete your database and migration files, and be in a production-like state in less than a minute with a couple of commands. You don't want to have to manually setup—or try and remember—what data you need so that you're in a position to code if you're starting afresh.
 
 You should only need to run `rake db:setup` or `rake db:reset` if you've already got a database created. These commands will handle the setting up of the structure (or schema) of your database, and the data that it contains.
 
-## Structure
+## Schema
 
 As you're building your app, you write migrations incrementally as you go along. You run `rake db:migrate` so that your database structure is altered and for the changes to be reflected in your `db/schema.rb` file. This is the single source of truth for the current structure of your database.
 
 When you or another developer wants to work on the project, you should be able to just run `rake db:setup` in order for the database to be created, and for the current version of your schema to be setup. There's no need to run the migrations for a fresh project clone. Why run through each migration sequentially when `db/schema.rb` has the end result?
 
-As you continue to develop the project in a team, you'll want to run `rake db:migrate` to get the latest changes that differ from what you already have.
+As you continue to develop the project in a team, add more migrations, you'll want to run `rake db:migrate` to get the latest changes that differ from what you already have.
 
 ## Data
 
