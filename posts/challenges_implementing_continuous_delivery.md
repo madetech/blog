@@ -1,6 +1,7 @@
-## Intro
+# Organisational challenges with adopting Continuous Delivery #
 
-## Culture/organisation isn't ready
+## Part I: Culture/organisation isn't ready
+
 
 Adopting CD for a single team is tough, adopting CD across multiple teams is infintely more complex. In a 'traditional' software setup, with separate product, architecture, development, Quality Control and Operations teams, a move to continuous likely impossible unless you have exceptional levels of communication between all these teams. Such a team structure almost invariably leads to a 'throwing it over the wall' mentality though. Where each team does its job, before throwing the feature to the next team in the pipeline thus:
 
@@ -18,7 +19,7 @@ The opposite problem is equally likely, lets imagine the development team can bu
                          |--------------|
 
 
-In such a system water will flow at a rate of the thinnest pipe. You can't mitigate this by expanding a single pipe, as that will just move the bottle neck elsewhere. Bottlenecks are a disfunction and they'll lead to frutration of the team, and a culture of blaming others for slowing the whole down.
+In such a system water will flow at a rate of the thinnest pipe. You can't fix the whole system by expanding a single pipe, as that will just move the bottle neck elsewhere. Bottlenecks are a disfunction and they'll lead to frutration of the team, and a culture of blaming others when they inevitable slow the system down.
 
 Fixing the problem needs a complete rework of the plumbing, rather than each team being responsible for their part of the pipe, the team as a whole need to be responsible for the entire throughput of the system, this can only happen when the team is equally responsible for the whole:
 
@@ -34,20 +35,45 @@ Another key mindset that is important to change when moving a business over to C
 
 Delivering value to customers is the ultimate goal of any software project, actually measuring this is generally quite difficult with a large change set though. Once you are delivering atomic units of value in a continuous delivery fashion it becomes much easier to measure this. By tracking key performance metrics from build to build you can easily see which builds had the biggest impact on customer value. Combine this with cycle time and you have two very powerful tools for determining the most valuable work for the team to focus on.
 
-<!-- Where a lot of companies struggle is in valuing of individuals over the team as a whole. That is the output of the team is controlled by one or two ey people, whether that is business stakeholders, or a lead developer, it's important t -->
-Broadly speaking, there are two kinds of deadlines - soft deadlines, and hard deadlines. I define them as such
-
+Broadly speaking, there are two kinds of deadlines - soft deadlines, and hard deadlines. I define them as follows:
 * Hard deadlines - a fixed date in the calendar, where something must be delivered otherwise significant business harm will result. e.g. We must complete our tax return by the end of the year otherwise we will pay heavy fines.
 * Soft deadlines - these are everything else. Most deadlines should be soft deadlines.
+#todo how to change deadline types
 
 How your business treats deadlines is a useful indicator of how successfully they might adopt continuous delivery. The following are all 'smells' which are going to make CD difficult:
  * Soft deadlines frequently masquerade as hard deadlines: i.e. we need this feature by this date because this is when we've promised it to customers.
  * Teams have no control over their soft deadlines
  * Teams are heavily punished for failing to meet soft deadlines
+In an ideal world there are no hard deadlines, and the team are able to set their own deadlines. Reaching this ideal is a tough slog though, and requires lengthy periods of building trust between engineers and business people. Developers need to trust the business to communicate estimates, as estimates, to stakeholders, and not use them as a weapon to blugeon teams to work extra hours. Similarly salespeople need to trust developers to set realistic expectations of what they can delivery, and more oftern than not, meet the soft deadlines that they choose to communicate. 
 
-It's common for concepts such as technical debt & code health/quality are alien concepts outside of your immediate tech team. Which is odd, as they have perhaps the biggest impact over speed of delivery - or as we defined it above, cycle time. Exposing these metrics as loudly as you can is a great way to encourage the business to take more of an interest in them. This also gives a yardstick to measure the success of initiatives to improve these metrics. It's much easier to make the business care about these metrics when faced with concrete data such as "We spent half a sprint and increased test coverage in this section of our application by 50%, and sped up build times by 15% - this has removed a day from our mean cycle time for this component meaning we can get new features in front of customers 10-20% faster."
+It's common for concepts such as technical debt & code health/quality are alien concepts outside of your immediate tech team. Which is odd, as they have perhaps the biggest impact over speed of delivery - or as we defined it above, cycle time. Exposing these metrics as loudly as you can is a great way to encourage the business to take more of an interest in them. This also gives a yardstick to measure the success of initiatives to improve these metrics. It's much easier to make the business care about these metrics when faced with concrete data such as "We spent a week on increasing test coverage in this section of our application by 50%, and sped up build times by 15% - this has removed a day from our mean cycle time for this component meaning we can get new features in front of customers 10-20% faster." The converse is also true "Test coverage has dropped this month 20% and as a result we've seen more build failures and an increased cycle time" will soon (given good leadership) encourage remedial steps to be taken - the big step is exposing, and using these metrics correctly.
 
-Focussing on the wrong stuff too much time on new stuff vs 
+Note that keeping an eye on these metrics long term isn't a unique problem for continuously delivering teams . It's key to the success of any long-lived software project. Not enough time spent paying back technical debt will eventually lead to technical backruptancy: the point at which is becomes cheaper to rewrite from scratch than to add new features. That's not to say our aim is to remove technical debt completely - if we draw a parallel with economics, a little debt can be a good thing - the key is the rate of interest. A loan at 1% would be extremely valuable if #TODO finish this metaphor They key is to ensure the interest on the loan (in our case the increase in cycle time) is manageable. 
+
+## customers aren't ready
+
+Some of the hardest relationships to maintain as a software company is the one with your most important resource - your customers. They can also be one of the biggest obstacles to continuous delivery. Changing your application frequently has in equal  parts the ability to empower or completely alienate your entire user base. AS with many things, the devil is in the details.
+
+Unless you're working in the rarified sector of delivering software to other developers, then it's highly likely that you customer base don't understand how software is made, at least not at anything more than a superficial level. The first quesiont you must ask youself when adopting CD is 'can our users handle a constantly evolving product?'. If the answer to this question is 'no' then it's possible that continuous delivery is not for you.
+
+People by nature are extremely skeptical of change, so much so that the entire field of 'Change Management'[link to wiki?] exists to conquer this fear.  These traditional approaches to change break down somewhat when faced with continued incremental change - the ultimate embodiment of a CD workflow.
+
+That's not to say we can't borrow some concepts from existing CM and repopose them for a CD workflow:
+
+
+I'm not advocating for a rigorous change mangement scheme every time we relaease to production
+
+
+
+not consulted about upcoming changes
+
+no comms channel between tech & customers
+
+Consider tiering your customer base into stable and unstable channels
+
+
+
+# Part II Technical Challenges with adopting CD
 
 ## developers aren't ready
 
@@ -96,17 +122,7 @@ Do you track deployment success rate?
 Seldom is a development team entirely self contained, at some point you will have some sort of reliance on an external team, this can be 
 external parties on long feedback/change cycles
 
-## customers aren't ready
-
-Customers complain when things change often
-
-don't understand how software is written
-
-don't understand incremental change
-
-not consulted about upcoming changes
-
-no comms channel between tech & customers
 
 ## conclusion
+
 
