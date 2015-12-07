@@ -4,14 +4,11 @@
 
 ## Developers aren't ready
 
-Truth be told, the majority of existing code bases aren't ready for Continuous Delivery.
+Truth be told, the majority of existing codebases aren't ready for Continuous Delivery, particularly in the case where there is a lack of automated test coverage and where the codebase can be "fragile" to change.
 
-Monolithic code base - not split into components
+Moving to CD takes enormous amounts of discipline. Nowhere is this more apparent that with your developers. Particularly in environments where developers have been used to throwing their work over the fence for QA to test, developers may lack the required discipline to bake-in sufficient high-level test coverage, and to complete a sufficient level of self-validation before committing a feature in.
 
-Moving to CD takes enormous amounts of discipline. Nowhere else is this more apparent that with your developers.
-
-Not disciplined enough to check their work before commmitting
-With new CD adptions this lack of discipline most commonly manifests itself, at least initially with an increase in errors/defects in production. A lot of this stems from a developers treating QA as a safety net, to catch their mistakes before they get there. In a CD setup, your QA funtion is much more than a final check of quality. Quality instead should be built into foeatures from the start, Testers should work with Developers from the very beginning of building a new feature,
+With new CD adptions this lack of discipline most commonly manifests itself, at least initially, with an increase in errors and defects in production. A lot of this stems from a developers treating QA as a safety net, to catch their mistakes before they get there. In a CD setup, your QA function is much more than a final check of quality. Quality instead should be built into features from the start. Testers should work hand-in-hand with Developers during the delivery of a feature to ensure it can be verified as soon as it hits the pipeline.
 
 No code reviews/pairing
 
@@ -20,7 +17,7 @@ No code reviews/pairing
 ## QA aren't ready
 
 There is a general general priciple which states that the cost of fixing a defect increases exponentially the closer to production those bugs are discovered.
-Your biggest protection against introducing defects in production is a robust automated test plan.
+Your biggest protection against introducing defects in production is a robust automated test suite.
 
 ### Lack of, or lack of trust in automated tests
 
