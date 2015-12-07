@@ -18,7 +18,40 @@ As you continue to develop the project in a team, add more migrations, you'll wa
 
 Migrations are a means to alter your database schema, but also can potentially be used to alter the data contained within it. You might have used a migration to populate your app data, or have done it manually via an admin interface or the Rails console. But the thing to bear in mind is that your `db/schema.rb` file only contains your database structure. The data you add to the database isn't persisted anywhere in code. So if you have to reset your database, or someone new works on the project, if they run a `rake db:setup` they'll get a database with the correct structure and zero data.
 
+_An example Rails migration:_
+
+```
+class AddPreferencesToSpreeOrders < ActiveRecord::Migration
+  def change
+    add_column :spree_orders, :preferences, :text
+  end
+end
+```
+
+_The changes in this file will be reflected in the `db/schema.rb` file._
+
 This is where `db/seeds.rb` comes in handy. This file is to data what `db/schema.rb` is for the structure. The difference though is that you have to manage this file yourself. When you create a migration that alters the data somehow, Rails won't be updating the `db/seeds.rb` file for you.
+
+_An example Rails seed file:_
+
+```
+Spree::ReturnAuthorizationReason.create!(name: 'Not satisfied with the item')
+Spree::ReturnAuthorizationReason.create!(name: 'Colour appearance')
+Spree::ReturnAuthorizationReason.create!(name: 'Wrong size')
+```
+
+_And corresponding migration file to include it:_
+
+```
+class SeedDefaultReturnAuthorizationReasons < ActiveRecord::Migration
+  def change
+    Spree::ReturnAuthorizationReason.delete_all
+    require_relative('../seeds/return_authorization_reasons')
+  end
+end
+```
+
+_Anything altered in the database as a result of this migration will not be reflected in the `db/schema.rb` file._
 
 When you run `rake db:setup` or `rake db:reset` Rails will create/empty your database, load your current schema, and then run the `db/seeds.rb` file to populate  the database. By mirroring the data your app requires in code in the `db/seeds.rb` file, you can get yourself or others up to speed much quicker. That may be a set of categories, tags or users, for example.
 
