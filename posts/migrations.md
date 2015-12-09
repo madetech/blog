@@ -59,7 +59,9 @@ Breaking down your seed data into multiple files helps you organise it into logi
 
 ## Up the pipeline
 
-This isn't to say that you should stop writing migrations to get your data into your database. You'll want to get the data into your local environment via a migration as you want to be sure it works fine for others. Also, because you probably have a Continuous Delivery pipeline (right?) where you need to get seed data up to your production environment. That migration will be run eventually on a production environment. But just be sure to make sure that whatever data changes the migration is making, that they are reflected in the seed data too.
+This isn't to say that you should stop writing migrations and use seeds solely as a means to get your data into your database. It's not practical to reset your database everytime, nor can you expect other developers on your team to do this. You'll want to get the data into your local environment via a migration as you want to be sure it works fine for others. 
+
+Also, because you probably have a Continuous Delivery pipeline (right?) where you need to get seed data up to your production environment, it's completely unrealistic to reset the production database. Migrations are the only solution. This is why it's important that the data in your migrations and seed data mirror one another so that if someone were to do a `db:reset` they'd have that same data as if it were added via a migration.
 
 ## Graveyarding
 
@@ -70,7 +72,7 @@ Once your migrations have been pushed through your pipeline, and your `db/seeds.
 Discipline is essential. And the best way to make sure you're disciplined is to not be afraid to run a `rake db:reset` every so often. If there's something you find yourself manually adding to the data, it probably belongs in a seed. If you're ever tempted to add something to the db that is essential and should be in code, then:
 
  1. Write a migration with the change
- 2. Ensure that the data migration is changing is reflected in `db/seeds.rb` so that if you `rake db:reset` you'd have the same state of data
+ 2. Ensure that the data the migration is changing is reflected in `db/seeds.rb` so that if you `rake db:reset` you'd have the same state of data
  3. Push the migration through your pipeline
  4. Remove all but the last 5 migrations in your project to keep things clean
 
