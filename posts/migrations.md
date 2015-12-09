@@ -2,7 +2,7 @@
 
 Most applications you write rely on certain data stored in a database that is essential for it to work. That data defines your business logic as much as the code. That data should be represented _in_ code. In this post I'll discuss how we handle migrations and seed data through our Continuous Delivery pipeline at Made.
 
-If you're currently doing that correctly, you'd be able to delete your database and migration files, and be in a production-like state in less than a minute with a couple of commands. You don't want to have to manually setup—or try and remember—what data you need so that you're in a position to code if you're starting afresh.
+If you're currently practising this correctly, you'd be able to delete your database and migration files, and be in a production-like state in less than a minute with a couple of commands. You don't want to have to manually setup—or try and remember—what data you need so that you're in a position to code if you're starting afresh.
 
 You should only need to run `rake db:setup` or `rake db:reset` if you've already got a database created. These commands will handle the setting up of the structure (or schema) of your database, and the data that it contains.
 
