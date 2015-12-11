@@ -1,47 +1,47 @@
 #Continuous Delivery Tools
 
-Finding the right platform to form them basis of your Continuous Delivery is key. And you really need a solution that is going to fit into your existing way of working with minimal effort.
+Finding the right platform to form the basis of your Continuous Delivery is key, And you really need a solution that is going to fit into your existing way of working with minimal effort.
 
-In this article, we'll discuss the key features which are fundamental to running a successful Continuous Delivery pipeline, and some of the - open source - self-hosted and SaaS (Software as a Service) solutions on the market.
+In this article, we'll discuss the key features which are fundamental to running a successful Continuous Delivery pipeline, and some of the - open source - self-hosted and [Software as a Service](https://en.wikipedia.org/wiki/Software_as_a_service) (SaaS) solutions on the market.
 
 ## Selecting your solution
 
-When choosing your solution, be it a SaaS or self-hosted you need have confidence that it will offer you and your team a pain free Continuous Delivery work flow.
+When choosing your solution, be it SaaS or self-hosted, you need to have confidence that it will offer you and your team a pain free Continuous Delivery work flow.
 
 Factors that can influence this decision will range from the amount of work needed for initial setup, to the time it will take to undertake any ongoing maintenance, and finally how easily it integrates with your PaaS or server infrastructure.
 
-Whilst its great to shop about you really want to get it right first time because you don't want to invest project time on an "Ok" solution that you will have to migrate away from 6 months down the line.
+Whilst it's great to shop about you really want to get it right first time, as you don't want to invest project time on an "Ok" solution that you will have to migrate away from 6 months down the line.
 
 ##Essential Features
-Whilst every SaaS or self-hosted solution on the market boast a myriad of different and "wonderful" feature sets, there are a handful of core features that are essential to operating a successful pipeline.
+Whilst every SaaS or self-hosted solution on the market boast a myriad of different feature sets, there are a handful of core features that are essential to operating a successful pipeline.
 
 ###Integration with version control
-Version control integration is the most crucial feature your chosen solution should possess. And when I say integration I meaning it should poll your repository, or use web hooks to detect changes, which should then initiate a new build and subsequently trigger the rest of your CD pipeline process.
+Version control integration is the most crucial feature your chosen solution should possess. When I say integration, I mean it should poll your repository, or use web hooks to detect changes, which should then initiate a new build and subsequently trigger the rest of your CD pipeline process.
 
 ###Custom script execution
 Custom script execution within a pipeline step is a key feature especially if you deliver a diverse number of projects.
 
-Thanks to [buildpacks](http://docs.cloudfoundry.org/buildpacks/) many common deployments are very simple, but often the need arises to run a custom deploy scripts.
+Thanks to [buildpacks](http://docs.cloudfoundry.org/buildpacks/) many common deployments are very simple, but often the need arises to run custom deploy scripts.
 
 Tools like [Capistrano](http://capistranorb.com/documentation/overview/what-is-capistrano/) enable you to execute deployment tasks, and while its written in ruby it can be used to deploy any project.
 
 ###A Pipeline
-A pipeline view, is a visual representation of all you deployment steps. These steps should all be linear. A single step, e.g. unit testing could fan out to run multiple test in parallel. Then any upstream step should be executed automatically once the previous step(s) have passed. However before any deployment to a client or public facing environment, you should implement a manual acceptance step so a human has ensured these build is a good.
+A pipeline view is a visual representation of all you deployment steps. These steps should all be linear. A single step, e.g. unit testing, could fan out to run multiple tests in parallel. Then any dependent step should be executed automatically once the previous steps have passed. The final step in the process should be a manual one, in order for one of the team to make certain that the build is in a good state before releasing to any publicly facing environment.
 
 ###Notifications
 As a software engineer, switching contexts can be really distracting so your continuous delivery solution should offer an alerting system to inform your team to any successful or failed deploys without them needing to check a web interface.
 
-In a basic form this can manifest itself as a simple email, however many continuous delivery platforms will also integrate with the populate team chat programs, like HipChat and Slack.
+In a basic form this can manifest itself as a simple email, however many continuous delivery platforms will also integrate with the popular team chat programs, like HipChat and Slack.
 
 ##Self Hosted vs SaaS
 The argument for self-hosted or SaaS solutions will not be resolved in this article, as both have their flaws, and their advantages.
 
-A self-hosted solution for example will require a lot more initial set up than an a SaaS solution, as most of these are one click installs, and simple to configure using a YAML file (or similar).
+A self-hosted solution for example will require a lot more initial set up than a SaaS solution, as most of these are one click installs, and simple to configure using a YAML file (or similar).
 
-However the up front investment in infrastructure, and other set up required with a self-hosted solution will be netted out over a number of projects, and will allow you flexibility in the long term as you are free to add features provided from community plugins and extensions. This is flexibility you just don't get with a SaaS solution, where you are tied to their feature set an development cycle of adding new features.
+However the up front investment in infrastructure, and other set up required with a self-hosted solution will be netted out over a number of projects, and will allow you flexibility in the long term as you are free to add features provided from community plugins and extensions. This is flexibility you just don't get with a SaaS solution, where you are tied to their feature set and development cycle of adding new features.
 
 ##Options
-So having discussed the recommended features, and pitfalls of both options. What are the current solutions in the marketplace that provide the features mentioned earlier? A selection of which are mentioned below.
+Having discussed the recommended features (and pitfalls) of both options, below is a selection of solutions that provide said features, which the market currently offers:
 
 ###Self Hosted
 
@@ -64,3 +64,5 @@ Snap like many SaaS offerings is tied to GitHub (at time of writing) enabling yo
 
 ####Harrow IO (https://www.harrow.io/)
 Harrow IO a SaaS solution from the folks that maintain Capistrano. It integrates with   so whilst you can use any script to run your integration, and delivery steps they provide simple integration if you are using
+
+##Summary
