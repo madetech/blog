@@ -121,10 +121,11 @@ Lets go into a bit more detail with our example pipeline. For each of the steps,
 
 ## The pipeline and your team
 
- * Ownership of deploys, recording who triggered what and when (Jenkins with Users for example)
- * Accountability and visibility
- * Having good communcation with team, before moving between steps
- * Integrations with chat apps for different steps, success/failures
+Even with an automated pipeline, it's important to retain communication within your team throughout the development of features. You're more than likely using a chat application, so setting up integrations with your pipeline to notify users when a new build has passed or failed, is a great aid.
+
+Before deploying between your various environments, it's always a good idea to communicate with the team to see if that's ok. For example, if you have clients using your staging environment to preview changes before they go to production, you might want to check these yourselves on the continuous environment before deploying. You may be happy with your own work, but your colleagues might want some time to check over their work before it continues up.
+
+Most pipeline tools have good visibility on what changes triggered builds, and with manual steps, who triggered the build. This isn't to associate blame in the event something goes wrong, but it brings ownership to a deploy by having this visibility. 
 
 ## Variations
 
