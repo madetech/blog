@@ -129,9 +129,9 @@ Most pipeline tools have good visibility on what changes triggered builds, and w
 
 ## Variations
 
- * Variations on pipeline? Not sure if needed, but discuss option to have additional steps between staging and production that just pushes to a branch (manual step) that sits between actual deploys to those environments (automated after a push to branch)
- * Non-linear pipelines. Concurrent tests (smoke, performance)
+Even though the example we've used in this article is linear, not all pipelines need to be. A pipeline step could trigger multiple other steps allowing for different tasks to run in parallel. Unit tests, code standard checks and performance metrics are all things that could be run independently of one another.
 
-**@wip - brain dump** 
-Tests may pass, and things might look great on the surface, but other steps in your pipeline could be assessing the performance of your application. Has it increased or decreased as a result of the changes? These sorts of metrics could determine whether the build continues through a pipeline through to a production deploy, or halt it.
+The benefit of running tasks in parallel is a reduced feedback loop. This is the time it takes to know whether a pipeline build can continue or whether it fails. The quicker you have the result of a build failing, the quicker a resolution can be made.
+
+Other variations to pipelines could include post-deploy tasks that run smoke tests on a deploy to ensure it was successful, or to run security checks. These would save the need for you having to do this manually, saving you time, and letting you know sooner when things aren't as they should.
 
