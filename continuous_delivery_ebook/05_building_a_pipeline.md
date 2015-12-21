@@ -135,3 +135,6 @@ The benefit of running tasks in parallel is a reduced feedback loop. This is the
 
 Other variations to pipelines could include post-deploy tasks that run smoke tests on a deploy to ensure it was successful, or to run security checks. These would save the need for you having to do this manually, saving you time, and letting you know sooner when things aren't as they should.
 
+## Improvements to your pipeline
+
+Don't let your pipeline remain static and fixed once it has been setup. Be on the look out for tasks that you or your team perform manually that could be included in the pipeline process to automate instead. Because including that in one of your build steps might take an hour or less, but be thinking of the time that will save in the long run. Each time you manually perform that task, multiply it by the average number of builds you have each month, and that'll be your saving over the same time.
