@@ -64,3 +64,6 @@ Snap like many SaaS offerings is tied to GitHub (at time of writing). Snap enabl
 Harrow IO a SaaS solution from the folks that maintain Capistrano. Whilst you can use any script to run your integration, and delivery steps Harrow provides simple integration if you are already using Capistrano scripts to execute deployments.
 
 ##Summary
+I don't think its possible to ever be definitive and say _this_ is the platform you should be using, or _that_ is the correct solution for you to chose. Different teams will have different requirements for their Continuous Delivery tooling. However if you are maintaining a single product a SaaS solution will most likely be your best bet, as you wont have to worry about the additional infrastructure. On the other side of the coin if you deliver a large number client of projects, a self-hosted solution that can be tailored to your needs will most likely be a better fit.
+
+
