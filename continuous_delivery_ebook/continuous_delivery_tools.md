@@ -21,9 +21,7 @@ Version control integration is the most crucial feature your chosen solution sho
 ###Custom script execution
 Custom script execution within a pipeline step is a key feature especially if you deliver a diverse number of projects.
 
-Thanks to [buildpacks](http://docs.cloudfoundry.org/buildpacks/) many common deployments are very simple, but often the need arises to run custom deploy scripts.
-
-Tools like [Capistrano](http://capistranorb.com/documentation/overview/what-is-capistrano/) enable you to execute deployment tasks, and while its written in ruby it can be used to deploy any project.
+Thanks to [buildpacks](http://docs.cloudfoundry.org/buildpacks/) many common deployments are very simple, but often the need arises to run custom deploy scripts. In these instances the ability to use tools like [Capistrano](http://capistranorb.com/documentation/overview/what-is-capistrano/) to execute deployment tasks is vital. While it is written in ruby it can be used to deploy almost any project, thanks to the open source community behind it.
 
 ###A Pipeline
 A pipeline view is a visual representation of all you deployment steps. These steps should all be linear. A single step, e.g. unit testing, could fan out to run multiple tests in parallel. Then any dependent step should be executed automatically once the previous steps have passed. The final step in the process should be a manual one, in order for one of the team to make certain that the build is in a good state before releasing to any publicly facing environment.
@@ -60,9 +58,9 @@ The newest option in the list - Spinnaker - differs from the previous two as it 
 Cloudbees is Jenkins in the cloud. Cloudbees uses a [Workflow plugin](http://documentation.cloudbees.com/docs/cje-user-guide/workflow.html) - which you could implement on your self-hosted Jenkins instance - to add Continuous Delivery functionality. So if you like your self-hosted Jenkins but no longer want to maintain the infrastructure, then this could be an option for you.
 
 ####Snap CI (https://snap-ci.com/)
-Snap like many SaaS offerings is tied to GitHub (at time of writing) enabling you to set up flexible pipelines based on those repositories.
+Snap like many SaaS offerings is tied to GitHub (at time of writing). Snap enables you to build both simple linear pipelines, and advanced branched pipelines from either a single, or multiple repositories.
 
 ####Harrow IO (https://www.harrow.io/)
-Harrow IO a SaaS solution from the folks that maintain Capistrano. It integrates with   so whilst you can use any script to run your integration, and delivery steps they provide simple integration if you are using
+Harrow IO a SaaS solution from the folks that maintain Capistrano. Whilst you can use any script to run your integration, and delivery steps Harrow provides simple integration if you are already using Capistrano scripts to execute deployments.
 
 ##Summary
