@@ -8,6 +8,7 @@
 | Homepage exit rate | 43.14% | N/A |
 | Homepage (via Navobile) exit rate | 79.61% | N/A |
 | Twitter followers | 3,630 | N/A |
+| Newsletter subscribers | 146 | N/A |
 
 ## Top 10 Blog posts
 
