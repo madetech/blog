@@ -21,7 +21,7 @@
 |3 |Creating a Better Rails Development Environment with Docker Compose | 99 | Fareed | ▲ |
 |4 |An APPLE a Day: The Key To A Successful Presentation | 85 | Pedro | New Entry |
 |5 |Migrations, Seeds & Pipelines | 77 | David | Re-Entry |
-|6 |Otto: Truly a Successor To Vagrant? | 56 | Fareed | ▲ |
+|6 |Otto: Truly a Successor To Vagrant? | 56 | David | ▲ |
 |7 |Making Multiple Browserify Bundles with Gulp | 45 | Fareed | - |
 |8 |Feature Testing with RSpec | 42 | Luke | ▼ |
 |9 |Continuous Delivery: Continuous Improvement | 35 | Fareed | ▼ |
@@ -39,7 +39,7 @@
 |6 |Creating a Better Rails Development Environment with Docker Compose | 367 | Fareed | - |
 |7 |Continuous Delivery: Organisational Challenges | 292 | Nick | - |
 |8 |Continuous Delivery: Keeping a Clear Path to Production | 270 | Luke | - |
-|9 |Otto: Truly a Successor To Vagrant? | 225 | Fareed | ▲ |
+|9 |Otto: Truly a Successor To Vagrant? | 225 | David | ▲ |
 |10 |Continuous Delivery: Continuous Improvement | 209 | Fareed | ▼ |
 
 ### All time
