@@ -1,15 +1,15 @@
 # 29/01/16 - 04/02/16
 
-| Stat | Figure | Increase/Decrease |
-| :--- | :----- | :---------------- |
-| Total visitors | 1,061 | +17 |
-| Total page views | 2,270 | +172 |
-| Average session duration | 01:12| N/A |
-| Visits from SEO | 676 | +80 |
-| Homepage exit rate | 41.55% | -8.21% |
-| Homepage (via Navobile) exit rate | 79.70% | +2.83% |
-| Twitter followers | 3,638 | -1 |
-| Newsletter subscribers | 149 | +2 |
+| Stat | Figure | Increase/Decrease | All Time Best |
+| :--- | :----- | :---------------- | ------------- |
+| Total visitors | 1,061 | +17 | 1,061 |
+| Total page views | 2,270 | +172 | 2,270 |
+| Average session duration | 01:12| N/A | 01:12 |
+| Visits from SEO | 676 | +80 | 676 |
+| Homepage exit rate | 41.55% | -8.21% | 41.55% |
+| Homepage (via Navobile) exit rate | 79.70% | +2.83% | 79.70% |
+| Twitter followers | 3,638 | -1 | 3,638 |
+| Newsletter subscribers | 149 | +2 | 149 |
 
 ## Top 10 Blog posts
 
