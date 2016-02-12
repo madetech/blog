@@ -57,4 +57,4 @@
 |7 |Pair Programming | 1,223 | Scott | ▲ |
 |8 |Your Server Is Not A Pet | 1,221 | Chris | ▼ |
 |9 |Pull Requests & Continuous Integration | 1,191 | Fareed | - |
-|10 |A Guide To Blue/Green Deployment and Going Live Every Day | 1,082 | Rory | Re-Entry |
+|10 |Otto: Truly a Successor To Vagrant? | 1,055 | David | New Entry |
