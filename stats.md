@@ -56,6 +56,5 @@
 |6 |Boundaries in Object Oriented Design | 1,233 | Luke | - |
 |7 |Pair Programming | 1,223 | Scott | ▲ |
 |8 |Your Server Is Not A Pet | 1,221 | Chris | ▼ |
-
 |9 |Pull Requests & Continuous Integration | 1,191 | Fareed | - |
 |10 |A Guide To Blue/Green Deployment and Going Live Every Day | 1,082 | Rory | Re-Entry |
