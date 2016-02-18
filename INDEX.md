@@ -77,6 +77,7 @@ Here we talk about software engineering best practice, tools and techniques. Fro
 * [Feature Testing with RSpec](https://www.madetech.com/blog/feature-testing-with-rspec)
 * [Testing without QA](posts/testing_without_qa.md)
 * [The Internal vs External quality of software](https://www.madetech.com/blog/internal-vs-external-quality-of-software)
+* [The Building Blocks of Reliable Software](https://www.madetech.com/blog/the_building-blocks-of-reliable-software)
 * [Focus with well structured rspec tests](posts/tdd_rspec.md)
 * [Stream Everything](posts/stream_everything.md)
 * [Pair programming](posts/pair_programming.md)
