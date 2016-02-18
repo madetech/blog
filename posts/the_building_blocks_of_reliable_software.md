@@ -32,7 +32,7 @@ State as a separation of concerns
   I will call non-stateful object a Value Object.  The stateful object is a Service Object.
 
   The value object exists solely to represent the data needed by the stateful object.  It acts as a filter which transforms the shape of the data.
-  In a perfect world your data would conform to your program exactly meaning that you have to write almost no code to utilise it.
+  In a perfect world your data would conform to your program exactly, meaning that you have to write almost no code to utilise it.
   This is rarely the case though.
 
   Stateful objects coordinate actions like writing to a database, sending emails, uploading csv's and all those other volatile things which are undependable might fail.  We need to separate the dependable from the potentially volatile, and the likely to change from the more static code.
