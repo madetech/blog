@@ -13,7 +13,7 @@
 
   The lazy path is to solve problems directly where you encounter them such as in the controller, model or view (given you are using MVC of course).
 
-  You are missing a 'Code Seam' (as coined by Micheal Feathers in his book Working Effectively with Legacy Code) that you can hook into to get the desired functionality from.
+  You are missing a 'Code Seam' (as coined by Micheal Feathers in his book "Working Effectively with Legacy Code") that you can hook into to get the desired functionality from.
 
   Instead you should create very simple, small objects (generally less than a hundred lines), with verbose names describing exactly what problem
   they solve.  In Ruby these are known as PORO's (Plain Old Ruby Objects).
