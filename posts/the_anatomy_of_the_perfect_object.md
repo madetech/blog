@@ -1,52 +1,58 @@
-The Service Object / Value Object pair in Ruby
------------------------------------------------
+The Building blocks of reliable software
+-----------------------------------------
 
+  - Introduction
   - State as a separation of concerns
-  - The anatomy of the single public method
+  - Single public method and it's anatomy
   - Hashes as the transport mechanism
-  - The poor mans referential transparency
   - Principle of least surprise
-  - Small methods
   - Easy testing
+  - Show me
 
 Introduction
 -------------
   When solving requirements for a system, you should extract specific roles out into service objects.
-  These are known as PORO's in Ruby and you want a lot of them.
 
-  The lazy path is to solve problems directly where you encounter them such as the controller, model or view (If you are using MVC).
+  The lazy path is to solve problems directly where you encounter them such as in the controller, model or view (given you are using MVC of course).
 
-  You are missing a 'code seam' where you can hook into to get the desired functionality from.
+  You are missing a 'code seam' that you can hook into to get the desired functionality from.
 
   Instead you should create very simple, small objects (generally less than a hundred lines), with verbose names describing exactly what problem
-  they solve.
+  they solve.  In Ruby these are known as PORO's.
 
 State as a separation of concerns
 ---------------------------------
-  Functional programmers place high value and trust in systems that are referentially transparent.
-  That is systems that accept input as explicit arguments, operate on the input and return output.
-  These are considered dependable because they are not affected by the outside world beyond what they are given as arguments.
-
   A referentially transparent (or pure) function will always return the same output given the same input.
 
-  In this setup I propose having two objects.  One which does state and another one which operates only on it's arguments.
-  The non-stateful object is also known as a value object.  It exists to represent the data needed by the stateful object exactly.
-  In a perfect world your data would be perfect and conform to the exact requirements of your program but this is hardly ever the case.
+  These are considered dependable because they are not affected by the outside world beyond what they are given as arguments.
 
-  The stateful objects do things like write to databases, set sessions, upload csv's and all those other volatile things which are undependable might fail.
-  The non-stateful objects on the other hand are more predictable.
-  They are easy to test and require no interaction with the outside world.
+  In this setup I propose having atleast a pair objects for accomplishing tasks.
+  One which deals with stateful things and the other operates only on it's arguments.
 
-The anatomy of the single public method
-----------------------------------------
+  I will call non-stateful object a Value Object.  The stateful object is a Service Object.
+
+  The value object exists solely to represent the data needed by the stateful object.  It acts as a filter which transforms the shape of the data.
+  In a perfect world your data would conform to your program exactly meaning that you have to write almost no code to utilise it.
+  This is rarely the case though.
+
+  Stateful objects coordinate actions like writing to a database, sending emails, uploading csv's and all those other volatile things which are undependable might fail.  We need to separate the dependable from the potentially volatile, and the likely to change from the more static code.
+
+  One could argue that the stateless object may change more frequently due to changing requirements, where the stateful object is less likely to.
+
+  In other words, if you were sending an email, the means by which you do this is less likely to change than the data contained within the email over
+  a period of time.
+
+Single public method and it's anatomy
+-------------------------------------
   Apart from the constructor, there should be only one public method that you can call.
   This method is special and should be comprised of only methods that you have defined.
-  It should be a sequence of steps and by simply reading it you should be able to understand everything the object does.
-  Notice that below every method sits at the same level of abstraction.  A layer of abstraction that we have defined.
+
+  It should be a sequence of steps and by simply reading it you should be able to understand everything that the object does.
+  Notice that below every method sits at the same level of abstraction.  A layer of abstraction that we have defined ourselves in plain English.
 
   Good
 
-    def register_employee
+    def signup_employee
       find_or_create_user
       set_user_as_employee
 
@@ -55,7 +61,7 @@ The anatomy of the single public method
 
   Bad
 
-    def register_employee
+    def signup_employee
       find_or_create_user
       set_user_as_employee
 
@@ -64,40 +70,106 @@ The anatomy of the single public method
 
   The mail method above is an abstraction that sits at a lower level than the rest of the methods.
   This applies to both the value objects that are instantiated in the service object and the service object itself.
-  In fact all methods that you write should adhere to this principle.
+  In fact I would advise that all methods you write adhere to this.  Adopting this as a discipline will lead to more cohesive code.
 
 Hashes as the transport mechanism
 ----------------------------------
-  Hashes are beatiful data-structures that are comprised of keys and values.
+  Hashes/Maps are primitives that are composed of keys and values and are perfect for packaging up data to be sent to another object.
   They are descriptive enough to make sense on their own just by reading the contents.
 
   I instantiate both the service objects and value objects with hashes.
 
-  By doing this you do not have to consider the order of arguments when being passed to a method.
+  A benefit of using hashes is that you sidestep ordering complexity that you get with positional arguments.
+  It does not matter what the order of the contents of your hash is as they are referenced explicitly by key.
 
-  Always prefer to use the .fetch method over [ for accessing values that you expect to be present.
-  This is important because it will throw a key not found error instead of having a nil value percolate through your stack undetected.
+  Always prefer to use the .fetch method over [ for accessing values that you expect to be present in your hash.
+  This is important because it will throw a key not found error instead of having a nil value percolate through your program undetected.
 
 The Principle of Least Surprise
 --------------------------------
-  Never try be fancy with code.
+  Be weary of writing fancy code.
 
-  Write the most boring code possible.  Write it as if a 5 year old was going to inherit the code base from you.
+  Even if it saves you from writing an extra line or two.  It may not be worth it in the long run.
+
+  Write boring, predictable, simplified code.  Write it as if a 5 year old was going to inherit the code base from you.
   Long descriptive names and no abbreviations are the law.
 
-  If something could be given a name, do it.  first_name is much more intention revealing than person[0].
+  You will be surprised how hard a piece of code may become to understand after 2 months of not working on it.
+
+  If something could be given a name, do it. first_name is much more intention revealing than person[0] even if the method looks like this:
+
+  def first_name
+    person[0]
+  end
+
+  You could argue that person[0] is less code but first_name has more meaning and is far superior.
 
 Easy testing
 -------------
   When testing these objects, you only assert the outcome of the one public method that the object has.
 
   With the service object / value object pair testing becomes much easier.
-  For testing the value object it need simply be instantiated with a (hash / map) of params and you can assert that it has transformed the data into
-  the values you require (a hash / map).
+  For testing the value object it need simply be instantiated with a hash of parameters to assert that it has transformed the data into
+  the values you require for your service object.  This type of test will be fast and isolated.
 
-  Testing the service object itself has also become easier as the only thing you need to test is how it affects the world.
+  Testing the service object itself has also become easier as there is less setup required and it's been untangled from the data it needs.
+  I have no problem with stubs and mocks for testing this at the unit level.
 
-Disclaimer
------------
-  I am a Ruby programmer and this blog post will focus mainly on Ruby.
-  These principles should apply to whichever language you use but it is mainly imperative languages where we have to be extra disciplined.
+Show me
+--------
+
+The Sateful Service Object
+--------------------------
+
+  class CaptureUserPdf
+    def initialize(params)
+      @user = params.fetch(:user)
+    end
+
+    def run
+      write_pdf
+      mark_as_exported
+    end
+
+    private
+
+    def mark_as_exported
+      @user.mark_as_exported
+    end
+
+    def write_pdf
+      SomePdfClass.new.write(pdf_user)
+    end
+
+    def pdf_user
+      PdfUser.new(@user).to_pdf
+    end
+  end
+
+The Non-Sateful Value Object
+-----------------------------
+
+  class PdfUser
+    def initialize(params)
+      @user = params.fetch(:user)
+    end
+
+    def to_pdf
+      {
+        name:   name,
+        status: status
+      }
+    end
+
+    private
+
+    def name
+      @user.name.capitalize
+    end
+
+    def status
+      return 'manager' if @user.roles.include?(:manager?)
+
+      'worker'
+    end
+  end
