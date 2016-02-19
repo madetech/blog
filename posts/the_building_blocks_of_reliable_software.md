@@ -2,7 +2,7 @@
 
   - Introduction
   - State as a separation of concerns
-  - Single public method and it's anatomy
+  - Single public method and its anatomy
   - Hashes as the transport mechanism
   - Principle of least surprise
   - Easy testing
@@ -13,7 +13,7 @@
 
   The lazy path is to solve problems directly where you encounter them such as in the controller, model or view (given you are using MVC of course).
 
-  You are missing a 'Code Seam' (as coined by Micheal Feathers in his book "Working Effectively with Legacy Code") that you can hook into to get the desired functionality from.
+  You are missing a "Code Seam" (as coined by Micheal Feathers in his book "Working Effectively with Legacy Code") that you can hook into to get the desired functionality from.
 
   Instead you should create very simple, small objects (generally less than a hundred lines), with verbose names describing exactly what problem
   they solve.  In Ruby these are known as PORO's (Plain Old Ruby Objects).
@@ -23,23 +23,23 @@
 
   These are considered dependable because they are not affected by the outside world beyond what they are given as arguments.
 
-  In this setup I propose having atleast a pair objects for accomplishing tasks.
-  One which deals with stateful things and the other operates only on it's arguments.
+  In this setup I propose having at least a pair of objects for accomplishing tasks.
+  One which deals with stateful things and the other operates only on its arguments.
 
   I will call non-stateful object a Value Object.  The stateful object is a Service Object.
 
-  The value object exists solely to represent the data needed by the stateful object.  It acts as a filter which transforms the shape of the data.
+  The value object exists solely to represent the data needed by the stateful object.  It acts as a filter that transforms the shape of the data.
   In a perfect world your data would conform to your program exactly, meaning that you have to write almost no code to utilise it.
   This is rarely the case though.
 
-  Stateful objects coordinate actions like writing to a database, sending emails, uploading csv's and all those other volatile things which are undependable might fail.  We need to separate the dependable from the potentially volatile, and the likely to change from the more static code.
+  Stateful objects coordinate actions like writing to a database, sending emails, uploading CSVs and all those other volatile things that are undependable might fail.  We need to separate the dependable from the potentially volatile, and the likely to change from the more static code.
 
   One could argue that the stateless object may change more frequently due to changing requirements, where the stateful object is less likely to.
 
   In other words, if you were sending an email, the means by which you do this is less likely to change than the data contained within the email over
   a period of time.
 
-## Single public method and it's anatomy
+## Single public method and its anatomy
   Apart from the constructor, there should be only one public method that you can call.
   This method is special and should be comprised of only methods that you have defined.
 
@@ -89,16 +89,25 @@ end
 
   Even if it saves you from writing an extra line or two.  It may not be worth it in the long run.
 
-  Write boring, predictable, simplified code.  Write it as if a 5 year old was going to inherit the code base from you.
+  Write boring, predictable, simplified code.  Write it as if a 5 year old was going to inherit the codebase from you.
   Long descriptive names and no abbreviations are the law.
 
   You will be surprised how hard a piece of code may become to understand after 2 months of not working on it.
 
-  If something could be given a name, do it. first_name is much more intention revealing than person[0] even if the method looks like this:
+  If something could be given a name, do it. first_name is much more intention revealing than person[0].
+
+good
+```ruby
+  if @person[0] == 'Sally'
+```
+
+bad
 
 ```ruby
+  if first_name == 'Sally'
+
   def first_name
-    person[0]
+    @person[0]
   end
 ```
 
@@ -107,7 +116,7 @@ end
 ## Easy testing
   When testing these objects, you only assert the outcome of the one public method that the object has.
 
-  With the service object / value object pair testing becomes much easier.
+  With the Service Object / Value Object pattern, pair testing becomes much easier.
   For testing the value object it need simply be instantiated with a hash of parameters to assert that it has transformed the data into
   the values you require for your service object.  This type of test will be fast and isolated.
 
@@ -116,7 +125,7 @@ end
 
 ## Show me
 
-### The Sateful Service Object
+### The Stateful Service Object
 
 ```ruby
 class CaptureUserPdf
@@ -131,12 +140,12 @@ class CaptureUserPdf
 
   private
 
-  def mark_as_exported
-    @user.mark_as_exported
-  end
-
   def write_pdf
     SomePdfClass.new.write(pdf_user)
+  end
+
+  def mark_as_exported
+    @user.mark_as_exported
   end
 
   def pdf_user
@@ -145,7 +154,7 @@ class CaptureUserPdf
 end
 ```
 
-### The Non-Sateful Value Object
+### The Non-Stateful Value Object
 
 ```ruby
 class PdfUser
@@ -167,9 +176,11 @@ class PdfUser
   end
 
   def status
-    return 'manager' if @user.roles.include?(:manager?)
-
-    'worker'
+    if @user.roles.include?(:manager?)
+      'manager'
+    else
+      'worker'
+    end
   end
 end
 ```
