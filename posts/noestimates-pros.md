@@ -4,9 +4,11 @@ In this first of a pair of articles about software project estimations, I'll be 
 
 The #NoEstimates movement/hashtag has been gaining much press over the past couple of years, particularly when tied to a Kanban-style workflow. It takes the viewpoint that instead of expending effort estimating, or some may argue, guessing, as to how long the implementation of a feature may take, you're better to spend that effort delivering the feature instead.
 
-Delivery methodologies such as Scrum are heavily underpinned by estimations. Planning sessions typically preceed the start of every iteration, during which the team will estimate the complexity involved in a set of features, drawing a line in the backlog when the estimates say that the team is at capacity.
+Popular delivery methodologies such as Scrum are heavily underpinned by estimations. Planning sessions typically preceed the start of every iteration, during which the team will estimate the complexity involved in a set of features, drawing a line in the backlog when the estimates say that the team is at capacity.
 
-Here are our 7 top reasons to consider adopting #NoEstimates on your next software project:
+Other contemporary methodologies such as XP focus more militantly on delivering the most valuable feature at any given time, rather than estimating and committing to larger bodies of work.
+
+Here are our 7 top reasons to consider adopting #NoEstimates on your next software project, or indeed transitioning estimates out of your workflow on your current project:
 
 
 1\. Humans are bad at estimation
@@ -47,3 +49,5 @@ One of the common themes of resistance to abandoning estimates is that it also r
 
 Instead of big planning up front, the team can shift their focus to break features down on a just-in-time basis. In addition, with discipline, each of these features can be delivered as an incremental delivery out in to the hands of customers on a far more regular basis. This shortens feedback loops and empowers the Product Owner to make more frequent prioritisation calls.
 
+
+Where the team's discipline allows, adopting increasingly agile workflows that don't rely on estimation, can, in our experience, often result in reduced waste when compared to methodologies that encourage longer-term commitments. There are a number of drawbacks, or at least areas that require closer full-team collaboration and discipline when removing some of the structure that estimates can help to provide. We'll be covering these in a follow-up post that looks at the pros behind retaining estimates in your software deliveries.
