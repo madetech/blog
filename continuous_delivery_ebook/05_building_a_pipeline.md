@@ -46,7 +46,7 @@ Lets now talk about how we progress a new set of code changes through a pipeline
 
 ## Triggers
 
-Each step in your pipeline needs to be initiated by some means. These can be manual or automatic triggers. 
+Each step in your pipeline needs to be initiated by some means. These can be manual or automatic triggers.
 
 New builds through your pipeline should be triggered automatically when new code is pushed into your central code repository. This involves either periodic polling of the repository by your tool, or push notifications from the repository. Either of which will trigger a new build. This gets the ball rolling.
 
@@ -125,7 +125,7 @@ Even with an automated pipeline, it's important to retain communication within y
 
 Before deploying between your various environments, it's always a good idea to communicate with the team to see if that's ok. For example, if you have clients using your staging environment to preview changes before they go to production, you might want to check these yourselves on the continuous environment before deploying. You may be happy with your own work, but your colleagues might want some time to check over their work before it continues up.
 
-Most pipeline tools have good visibility on what changes triggered builds, and with manual steps, who triggered the build. This isn't to associate blame in the event something goes wrong, but it brings ownership to a deploy by having this visibility. 
+Most pipeline tools have good visibility on what changes triggered builds, and with manual steps, who triggered the build. This isn't to associate blame in the event something goes wrong, but it brings ownership to a deploy by having this visibility.
 
 ## Variations
 
