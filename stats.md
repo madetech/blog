@@ -1,18 +1,17 @@
-# 19/02/16 - 25/02/16
+# 26/02/16 - 03/03/16
 
 | Stat | Figure | Increase/Decrease | All Time Best |
 | :--- | :----- | :---------------- | ------------- |
-| Total visitors | 2,723 | +1,157 | 2,723 |
-| Total page views | 4,159 | +1,260 | 4,159 |
-| Average session duration | 00:46| -10s | 01:12 |
-| Visits from SEO | 652 | +51 | 676 |
-| Homepage exit rate | 45.95% | +6.29% | 39.66% |
-| Homepage (via Navobile) exit rate | 75.18% | -1.24% | 75.18% |
-| Twitter followers | 3,643 | +9 | 3,643 |
-| Newsletter subscribers | 165 | +2 | 165 |
-| New Business Enquiries | 3 | +1 | 3 |
-| Book Sales To Date (Kindle) | 13 | +10| 13 |
-| Book Sales To Date (Physical) | 5 | N/A | 5 |
+| Total visitors | 1,232 | -1,491 | 2,723 |
+| Total page views | 2,188 | -1,971 | 4,159 |
+| Average session duration | 00:54| +8s | 01:12 |
+| Visits from SEO | 669 | +17 | 676 |
+| Homepage exit rate | 48.57% | +2.62% | 39.66% |
+| Homepage (via Navobile) exit rate | 73.61% | -1.57% | 73.61% |
+| Twitter followers | 3,713 | +70 | 3,713 |
+| Newsletter subscribers | 167 | +2 | 167 |
+| Book Sales To Date (Kindle) | 19 | +6| 19 |
+| Book Sales To Date (Physical) | 11 | +6 | 11 |
 
 ## Top 10 Blog posts
 
@@ -20,43 +19,44 @@
 
 | Position | Title | Views | Author | Activity |
 | -------- | ----- | ----- | ------ | -------- |
-|1 |7 Reasons to Adopt #noestimates in Software Delivery | 989 | Chris | New Entry |
-|2 |The Building Blocks of Reliable Software | 779 | Emile | New Entry |
-|3 |One Week of Remote Working: The Good & The Bad | 267 | Scott | ▼ |
-|4 |Pros & Cons of Ruby on Rails | 219 | Rory | ▼ |
-|5 |Continuous Delivery with Jenkins | 104 | David | ▼ |
-|6 |Creating a Better Rails Development Environment with Docker Compose | 84 | Fareed | ▼ |
-|7 |Otto: Truly a Successor To Vagrant? | 63 | David | - |
-|8 |Feature Testing with RSpec | 61 | Luke | ▼ |
-|9 |Making Multiple Browserify Bundles With Gulp | 56 | Fareed | Re-Entry |
-|10 |A Guide To Blue/Green Deployment and Going Live Every Day | 54 | Rory | Re-Entry |
+|1 |7 Reasons to Adopt #noestimates in Software Delivery | 197 | Chris | - |
+|2 |Pros & Cons of Ruby on Rails | 191 | Rory | ▲ |
+|3 |Continuous Delivery with Jenkins | 117| David | ▲ |
+|4 |Creating a Better Rails Development Environment with Docker Compose | 98 | Fareed | ▼ |
+|5 |One Week of Remote Working: The Good & The Bad | 86 | Scott | ▼ |
+|6 |Feature Testing with RSpec | 61 | Luke | ▲ |
+|7 |The Building Blocks of Reliable Software | 49 | Emile | ▼ |
+|8 |Making Multiple Browserify Bundles With Gulp | 56 | Fareed | ▲ |
+|9 |Otto: Truly a Successor To Vagrant? | 37 | David | ▼ |
+|10 |A Guide To Blue/Green Deployment and Going Live Every Day | 31 | Rory | - |
 
 ### This month
 
 | Position | Title | Views | Author | Activity |
 | -------- | ----- | ----- | ------ | -------- |
-|1 |7 Reasons to Adopt #noestimates in Software Delivery | 989 | Chris | New Entry |
-|2 |One Week of Remote Working: The Good & The Bad | 919 | Scott | New Entry |
-|3 |Pros & Cons of Ruby on Rails | 791 | Rory | ▼ |
-|4 |The Building Blocks of Reliable Software | 779 | Emile | New Entry |
-|5 |9 Benefits of Test Driven Development | 659 | David | ▼ |
-|6 |Continuous Delivery with Jenkins | 464 | David | ▼ |
-|7 |Creating a Better Rails Development Environment with Docker Compose | 455 | Fareed | ▼ |
-|8 |Otto: Truly a Successor To Vagrant? | 275 | David | ▼ |
-|9 |Feature Testing with RSpec | 231 | Luke | - |
-|10 |Making Multiple Browserify Bundles With Gulp | 205 | Fareed | - |
+|1 |7 Reasons to Adopt #noestimates in Software Delivery | 1,186 | Chris | - |
+|2 |One Week of Remote Working: The Good & The Bad | 1,005 | Scott | - |
+|3 |The Building Blocks of Reliable Software | 828 | Emile | ▲ |
+|4 |Pros & Cons of Ruby on Rails | 788 | Rory | ▼ |
+|5 |9 Benefits of Test Driven Development | 683 | David | - |
+|6 |Continuous Delivery with Jenkins | 438 | David | - |
+|7 |Creating a Better Rails Development Environment with Docker Compose | 414 | Fareed | - |
+|8 |Feature Testing with RSpec | 234 | Luke | ▲ |
+|9 |Otto: Truly a Successor To Vagrant? | 225 | David | ▼ |
+|10 |How To Create Font Styles That Match The Design | 191 | Seb | Re-Entry |
 
 ### All time
 
 | Position | Title | Views | Author | Activity |
 | -------- | ----- | ----- | ------ | -------- |
-|1 |Pros & Cons of Ruby on Rails | 4,382 | Rory | - |
-|2 |Creating a Better Rails Development Environment with Docker Compose | 2,907 | Fareed | -
-|3 |Continuous Delivery with Jenkins | 2,020 | David | - |
+|1 |Pros & Cons of Ruby on Rails | 4,573 | Rory | - |
+|2 |Creating a Better Rails Development Environment with Docker Compose | 3,005 | Fareed | -
+|3 |Continuous Delivery with Jenkins | 2,137 | David | - |
 |4 |A Guide To Blue/Green Deployment and Going Live Every Day | 1,346 | Rory | - |
 |5 |Stream Everything | 1,279 | Richard | - |
-|6 |Boundaries in Object Oriented Design | 1,251 | Luke | - |
-|7 |Pair Programming | 1,235 | Scott | - |
+|6 |Boundaries in Object Oriented Design | 1,252 | Luke | - |
+|7 |Pair Programming | 1,245 | Scott | - |
 |8 |Your Server Is Not A Pet | 1,221 | Chris | - |
-|9 |Pull Requests & Continuous Integration | 1,198 | Fareed | - |
-|10 |Otto: Truly a Successor To Vagrant? | 1,183 | David | - |
+|9 |Otto: Truly a Successor To Vagrant? | 1,220 | David | ▲ |
+|10 |Pull Requests & Continuous Integration | 1,198 | Fareed | ▼ |
+
