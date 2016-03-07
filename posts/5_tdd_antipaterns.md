@@ -52,10 +52,10 @@ Introduction
 5. The Flickering Test
 -----------------------
   This anti pattern is usually caused by race conditions.
-  Ruby waiting for Javascript or vice versa is something that is very common in web apps these days.
+  Ruby waiting for JavaScript or vice versa is something that is very common in web apps these days.
   "Meh it's just a flicker" the developer said, and ran the suite again, but what this test has done is declare the entire test suite as unreliable.
   These flickering tests need to be solved, and if that is not possible, need to be isolated from the healthy tests.
-  I prefer to not enable javascript in my Rspec tests, and if a piece of javascript is complicated enough, it should be tested with a Javascript
+  I prefer to not enable javascript in my Rspec tests, and if a piece of javascript is complicated enough, it should be tested with a JavaScript
   testing framework.
 
 Keep your tests clean and reasonable or you will very quickly lose faith in them.
