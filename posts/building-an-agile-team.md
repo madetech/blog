@@ -254,6 +254,8 @@ big stories down in traditional scrum, goals should be broken down into their
 smallest possible incarnation. Team members should be allocated to a single
 team and that team to a single goal.
 
+## Team work should be fun
+
 So there you have it: autonomy, craftship and focus. Three properties that will
 empower, encourage and endeavour a team to achieve a goal. A team needs to know
 they have the power and responsibility to solve a challenge. A team needs to be
