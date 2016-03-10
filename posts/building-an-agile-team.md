@@ -103,8 +103,8 @@ of the above. A team must have permission to carry out their purpose.
 
 ### Making mistakes
 
-When teams are autonomous they will make mistakes. They'll often make more
-mistakes but they'll also be fixing them faster. Making mistakes early means
+When teams are autonomous they will make mistakes. They will often make more
+mistakes but they will also be fixing them faster. Making mistakes early means
 the team can learn and adapt. Autonomous teams may be fast to break things but
 also fast to fix them.
 
@@ -171,8 +171,8 @@ communication does come with a team who are good at their craft.
 
 Bringing together a group of people who care for their work is key to achieving
 goals. The positive energy from a team's excitement is the fuel to going the
-extra mile, to achieving goals more efficiently. With care of craft comes best
-practices that will help ensure the quality of work delivered. Healthy
+extra mile and to achieving goals more efficiently. With care of craft comes
+best practices that will help ensure the quality of work delivered. Healthy
 communication means problems will be solved collaboratively with the combined
 expertise of a team rather than by siloed individuals. Craftship is a must for
 solving problems.
