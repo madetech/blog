@@ -38,14 +38,7 @@ failure. In order to build a unit that can win trust you must first build a
 framework around a team that enables them.
 
 When pulling together teams you are shaping your delivery process. There are
-three virtues I believe your process should embody:
-
- - Autonomy
- - Craft
- - Focus
-
-When your process embodies and enshrines these virtues you will have yourself
-a good foundation on which to deliver.
+three virtues I believe your process should embody autonomy, craft and focus.
 
 ## Autonomy
 
