@@ -40,7 +40,7 @@ framework around a team that enables them.
 When pulling together teams you are shaping your delivery process. There are
 three virtues I believe your process should embody autonomy, craft and focus.
 
-## Autonomy
+### Autonomy
 
 Working towards a common goal requires buy-in from a team. They need to be
 interested enough in working together in order to achieve the desired outcome.
@@ -49,7 +49,7 @@ achieve a goal. They must be allowed to make mistakes so that they can learn
 from the pain of failure. A team must have permission to solve a problem how
 they see fit. This is autonomy.
 
-### Thriving on responsibility
+#### Thriving on responsibility
 
 Given to a team, autonomy is powerful in that the responsibility for
 delivery is felt strongly. When they can make their own decisions there are
@@ -62,7 +62,7 @@ therefore move faster. When such barriers are lifted a team will know that the
 buck stops with them and more often than not teams thrive with such
 responsibility.
 
-### Realisation of responsibility
+#### Realisation of responsibility
 
 Transitioning a team into a self organising structure can take time. Sometimes
 we find a team isn't used to such responsibility. They can be unaware of it and
@@ -80,7 +80,7 @@ showcase dates to change so that a team has to explain to stakeholders when they
 haven't achieved their goal. This drives them to make changes to avoid the
 embarrassment in future.
 
-### Ask forgiveness, not permission
+#### Ask forgiveness, not permission
 
 When we work with businesses where teams don't have so much autonomy as we're
 used to, frustration can soon ensue. Autonomous engineers quickly get
@@ -94,7 +94,7 @@ deploy anything will soon be saddened. Same goes for not having permission to
 create new taskboards, email addresses, etc. Teams must be empowered to do all
 of the above. A team must have permission to carry out their purpose.
 
-### Making mistakes
+#### Making mistakes
 
 When teams are autonomous they will make mistakes. They will often make more
 mistakes but they will also be fixing them faster. Making mistakes early means
@@ -106,7 +106,7 @@ deploy freeze on their project after breaking stuff that they could have fixed
 in 5 minutes. This is not the way to deal with failure, a team must have the
 autonomy to fail and correct such failure.
 
-### Empower your teams
+#### Empower your teams
 
 A team becomes empowered when they can self organise and complete their purpose
 with minimal blockers from the outside world. They should be allowed the chance
@@ -114,7 +114,7 @@ to show off their agility when making mistakes. Their autonomy will strengthen
 their resolve when they feel the responsibility and power to deliver is with
 themselves.
 
-## Craft
+### Craft
 
 A culture of craftship is important to an agile team. A team who are excited
 by their ability to solve a problem the way they want will enjoy working towards
@@ -123,7 +123,7 @@ are both indicators of excellence and also improve the ability to achieve a
 goal. A team who are excited to discuss their work will be having the
 conversations necessary to solve a problem as a team.
 
-### Love for the job
+#### Love for the job
 
 When an individual loves their craft they will be excited to solve problems.
 A group of excited people solving problems have a collective energy that can be
@@ -136,7 +136,7 @@ story board discussing their next task.
 Positive energy goes a long way and can keep a team interested and undistracted
 for longer.
 
-### Best practice
+#### Best practice
 
 A software team practicing Test Driven Development and Continuous Delivery will
 be exposed to industry best practices enough to know about these methodologies
@@ -148,7 +148,7 @@ an expert team. It can also help up skill other members although there will
 always be a cost to productivity when expert members divert attention to
 assisting others.
 
-### Thrill of craftship
+#### Thrill of craftship
 
 The buzz in the air when you walk into a team's room is a good sign of healthy
 communication. Those excited and caring of their craft will be happy to discuss
@@ -160,7 +160,7 @@ may have a problem. You want the communication to be flowing.
 Of course communication and craftship aren't the same thing but good
 communication does come with a team who are good at their craft.
 
-### Cultivate your craft
+#### Cultivate your craft
 
 Bringing together a group of people who care for their work is key to achieving
 goals. The positive energy from a team's excitement is the fuel to going the
@@ -170,7 +170,7 @@ communication means problems will be solved collaboratively with the combined
 expertise of a team rather than by siloed individuals. Craftship is a must for
 solving problems.
 
-## Focus
+### Focus
 
 Bringing a team together to solve a problem is hard. The bigger the goal the
 more likely you are not to succeed so you best keep those goals small. A team
@@ -179,7 +179,7 @@ necessity but is to be avoided whenever possible as context switching isn't fun.
 Same goes to a team working towards multiple goals, context switching isn't fun
 so don't do it.
 
-### Defining a goal
+#### Defining a goal
 
 Carefully defining a team's goal is crucial to their success. We find the
 smaller the goal the more likely we can accurately predict a completion time.
@@ -191,7 +191,7 @@ Undiscovered complexity is also less likely to disrupt an iteration. The smaller
 the problem we are solving the less likely it will explode into a massive piece
 of work that affects our deadlines.
 
-### 100% commitment
+#### 100% commitment
 
 A common problem we've found working with clients is that team members are often
 not committed 100% to a particular team.
@@ -204,7 +204,7 @@ before switching focus onto another. This means a team member will be at most
 busy for a couple of days before being able to move to another team to provide
 their expertise.
 
-### Ronin engineers
+#### Ronin engineers
 
 A similar problem is that of the ronin engineer, or more simply, a teamless
 engineer. They are usually in charge of a piece of technology rather than
@@ -216,7 +216,7 @@ or deployments. We try to move these engineers into a single team. We also try
 and knowledge share their expertise as soon as possible so they do not become a
 blocker for other teams when they are busy.
 
-### Solve one goal at a time
+#### Solve one goal at a time
 
 Teams should have a single goal when they are brought together. A single goal
 means they can focus on solving that problem properly before starting another
@@ -226,7 +226,7 @@ We often setup taskboards per goal and only let a team work from that
 board. If other work emerges we ask teams to make note of it and bring it up
 in the showcase of their current goal.
 
-### When goals change
+#### When goals change
 
 Sometimes mid-iteration a goal will change based on some learnings. You may find
 that another change must be made before your original goal can be achieved. At
@@ -240,7 +240,7 @@ together stakeholders.
 After debriefing everyone you can redefine the goal you want the team to solve
 first. Remember, solve one goal at a time.
 
-### Focus is paramount
+#### Focus is paramount
 
 Focus within a team is paramount to getting a problem solved. Just like breaking
 big stories down in traditional Scrum, goals should be broken down into their
