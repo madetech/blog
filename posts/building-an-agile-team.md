@@ -256,8 +256,13 @@ team and that team to a single goal.
 
 ## Team work should be fun
 
-So there you have it: autonomy, craftship and focus. Three properties that will
-empower, encourage and endeavour a team to achieve a goal. A team needs to know
-they have the power and responsibility to solve a challenge. A team needs to be
-excited about their solutions, conversating and learning from each other. A team
-needs small focussed goals in order to deliver on time. Go out and conquer!
+The framework on top of which you form teams should make team work fun.
+Autonomy, craft and focus are all properties that can help you achieve this.
+
+A team needs to know they have the power and responsibility to solve a
+challenge. A team needs to be excited about their solutions, conversating and
+learning from each other. A team needs small focussed goals in order to deliver
+on time.
+
+I'm interest to hear what your experience is with building agile teams. Does
+the above ring true for you? What properties do you foster when building teams?
