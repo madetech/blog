@@ -56,44 +56,64 @@ achieve a goal. They must be allowed to make mistakes so that they can learn
 from the pain of failure. A team must have permission to solve a problem how
 they see fit. This is autonomy.
 
-> more often than not teams thrive with such responsibility
+### Thriving on responsibility
 
 When given to a team, autonomy is powerful in that the responsibility for
 delivery is felt strongly. When they can make their own decisions there are
-fewer reasons to not deliver, fewer blockers. A software engineering team who
-can push their code directly to production as often as they like have no process
-to hide behind. When you can QA yourself there is no need to wait for someone
-else to check your work and you can therefore move faster. When such barriers
-are lifted a team will know that the buck stops with them and more often than
-not teams thrive with such responsibility.
+fewer reasons to not deliver, fewer blockers.
+
+A software engineering team who can push their code directly to production as
+often as they like have no process to hide behind. When you can QA yourself
+there is no need to wait for someone else to check your work and you can
+therefore move faster. When such barriers are lifted a team will know that the
+buck stops with them and more often than not teams thrive with such
+responsibility.
+
+### Realisation of responsibility
 
 Transitioning a team into a self organising structure can take a little bit of
-time. Sometimes we find a team isn't used to such responsibility and they can
-try to avoid it. Process can be introduced by team members not ready to move so
-fast. I've found some teams feature creep or change spec completely
-mid-iteration. Such sabotage comes from an engrained sense that work is
-continuous, without a start or a finish. Introducing ceremony around delivery
-cycles such as showcases where a team presents their work at the end of an
-iteration when they reach a milestone can really help a team self organise.
-The key is to not allow showcase dates to change so that a team has to explain
-to stakeholders at their showcase when they haven't achieved their goal. This
-drives them to make changes to avoid the embarrassment in future.
+time. Sometimes we find a team isn't used to such responsibility. They can
+sometimes be unaware of it and sometimes even actively try to avoid it.
 
-You can find the opposite problem going the other way. Teams used to autonomy
-quickly get frustrated quickly at being unable to solve problems themselves.
+We have noticed that process can be introduced by team members who are not ready
+to move so fast. We find some teams feature creep or change their goal
+completely mid-iteration. Such sabotage comes from an engrained sense that work is
+continuous, without a start or a finish.
+
+Introducing ceremony around delivery cycles such as a showcase during and at the
+end of the iteration can help. Getting the team to present their work when they
+reach a milestone can really help a team self organise. The key is to not allow
+showcase dates to change so that a team has to explain to stakeholders when they
+haven't achieved their goal. This drives them to make changes to avoid the
+embarrassment in future.
+
+### Ask forgiveness, not permission
+
+When we drop a team into a business where teams do not have as much autonomy as
+we are used to frustration can soon ensue. Autonomous engineers quickly get
+frustrated quickly at being unable to solve problems themselves.
+
+> A team must have permission to carry out their purpose
+
 When deployments of certain applications must be performed by a particular
 someone, especially someone outside the team, then those used to being able to
-deploy anything will soon be saddened. Same goes for anything from creating
-new trello boards to github repos. Teams must be empowered to do all of the
-above. A team must have permission to carry out their purpose.
+deploy anything will soon be saddened. Same goes for not having permission to
+create new trello boards and github repos. Teams must be empowered to do all of
+the above. A team must have permission to carry out their purpose.
+
+### Making mistakes
 
 When teams are autonomous they will make mistakes. They'll often make more
 mistakes but they'll also be making them faster. Making mistakes early means
 the team can learn and adapt. Autonomous teams may be fast to break things but
-also fast to fix them. I've heard horror stories of a fast moving autonomous
-team having a 2 month deploy freeze on their project after breaking stuff that
-they could have fixed in 5 minutes. This is not the way to deal with failure, a
-team must have the autonomy to fail and correct such failure.
+also fast to fix them.
+
+We have heard horror stories of a fast moving autonomous team having a 2 month
+deploy freeze on their project after breaking stuff that they could have fixed
+in 5 minutes. This is not the way to deal with failure, a team must have the
+autonomy to fail and correct such failure.
+
+### Empower your teams
 
 A team becomes empowered when they can self organise and complete their purpose
 with minimal blockers from the outside world. They should be allowed the chance
