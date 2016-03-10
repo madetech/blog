@@ -121,7 +121,7 @@ to show off their agility when making mistakes. Their autonomy will strengthen
 their resolve when they feel the responsibility and power to deliver is with
 themselves.
 
-## Craftship
+## Craft
 
 A culture of craftship is important to an agile team. A team who are excited
 by their ability to solve a problem the way they want will enjoy working towards
@@ -130,34 +130,52 @@ are both indicators of excellence and also improve the ability to achieve a
 goal. A team who are excited to discuss their work will be having the
 conversations necessary to solve a problem as a team.
 
+### Love for the job
+
 When an individual loves their craft they will be excited to solve problems.
 A group of excited people solving problems have a collective energy that can be
-felt when you walk into the room they occupy. Good signs include seeing two
-people sitting at one computer discussing a problem, or perhaps they're standing
-by their story board discussing their next task. Positive energy goes a long way
-and can keep a team interested and undistracted for longer.
+felt when you walk into the room they occupy.
 
-A software team practicing TDD and CD will be exposed to industry best practices
-enough to know about these methodologies and more. If they've been practicing
-them for a while you may well have yourself an expert team. Expertise within a
-team will accelerate the speed at which problems can be solved. It can also help
-up skill other members although there will always be a cost to productivity when
-expert members divert attention to assisting others.
+A good sign of a team that love their job include seeing two people sitting at
+one computer discussing a problem. Another perhaps when they're standing by a
+story board discussing their next task.
 
-The buzz in the air when you walk into a teams room is a good sign of healthy
+Positive energy goes a long way and can keep a team interested and undistracted
+for longer.
+
+### Best practice
+
+A software team practicing Test Driven Development and Continuous Delivery will
+be exposed to industry best practices enough to know about these methodologies
+and more.
+
+Expertise within a team will accelerate the speed at which problems can be
+solved.  If they've been practicing them for a while you may well have yourself
+an expert team. It can also help up skill other members although there will
+always be a cost to productivity when expert members divert attention to
+assisting others.
+
+### Thrill of craftship
+
+The buzz in the air when you walk into a team's room is a good sign of healthy
 communication. Those excited and caring of their craft will be happy to discuss
 their techniques with colleagues who may in turn offer up even better solutions.
-If you walk into a room and everyone has their headphones on it's a sign you
-may have a problem. You want the communication to be flowing. Of course
-communication and craftship aren't the same thing but good communication does
-come with good team craftship.
+
+Walking into a room and everyone has their headphones on it's a sign you
+may have a problem. You want the communication to be flowing.
+
+Of course communication and craftship aren't the same thing but good
+communication does come with a team who are good at their craft.
+
+### Cultivate your craft
 
 Bringing together a group of people who care for their work is key to achieving
 goals. The positive energy from a teams excitement is the fuel to going the extra
-mile, to achieving goals more efficiently. With craftship comes best practices
-that will help ensure the quality of work delivered. Healthy communication
-means problems will be collaboratively with the combined expertise of a team
-rather than by siloed individuals. Craftship is a must for solving problems.
+mile, to achieving goals more efficiently. With care of craft comes best
+practices that will help ensure the quality of work delivered. Healthy
+communication means problems will be collaboratively with the combined expertise
+of a team rather than by siloed individuals. Craftship is a must for solving
+problems.
 
 ## Focus
 
