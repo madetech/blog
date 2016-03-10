@@ -186,39 +186,68 @@ necessity but is to be avoided whenever possible as context switching isn't fun.
 Same goes to a team working towards multiple goals, context switching isn't fun
 so don't do it.
 
+### Defining a goal
+
 Carefully defining a team's goal is crucial to their success. We find the
 smaller the goal the more likely we can accurately predict a completion time.
-We also find that smaller goals are easier to put live, affecting a smaller
-surface area means there is less risk. Same goes for undiscovered complexity,
-the smaller the problem we are solving the less likely it will explode into a
-massive piece of work putting out our deadlines.
+
+Smaller goals are easier to put live since a goal affecting a smaller
+surface area means there is less risk associated with change.
+
+Undiscovered complexity is also less likely to disrupt an iteration. The smaller
+the problem we are solving the less likely it will explode into a massive piece
+of work that affects our deadlines.
+
+### 100% commitment
 
 A common problem we've found working with clients is that team members are often
-not committed 100% to a particular team. Often team members will be pulled from
-one team to another to help out with a problem. Sometimes team members are
-actually committed to both teams. We try and stop this as soon as we can as
-it completely breaks focus. We try and ensure goals are broken down enough
-that we can finish one goal before switching focus onto another. This means a
-team member will be at most busy for a couple of days before being able to
-move to another team to provide their expertise.
+not committed 100% to a particular team.
 
-A similar problem is that of the ronin engineer, a teamless engineer. They are
-usually in charge of a piece of technology rather than working within a team.
-Service desk type operations is a variant of this where you have a team
-dedicated to a technology rather than a team. We try and move these engineers
-into a single team, we also try and knowledge share their expertise as soon as
-possible so they do not become a blocker for other teams when they are busy.
+Often team members will be pulled from one team to another to help out with a problem. Sometimes team members are actually committed to both teams. We try and
+stop this as soon as we can as it completely breaks focus.
+
+We try and ensure goals are broken down enough so that we can finish one goal
+before switching focus onto another. This means a team member will be at most
+busy for a couple of days before being able to move to another team to provide
+their expertise.
+
+### Ronin engineers
+
+A similar problem is that of the ronin engineer, or more simply a teamless
+engineer. They are usually in charge of a piece of technology rather than
+working within a team.
+
+Service desk type system operations is a variant of the ronin. This is where you
+have a team dedicated to a technology rather than a team such as infrastructure
+or deployments. We try and move these engineers into a single team. We also try
+and knowledge share their expertise as soon as possible so they do not become a
+blocker for other teams when they are busy.
+
+### Solve one goal at a time
 
 Teams should have a single goal when they are brought together. A single goal
 means they can focus on solving that problem properly before starting another
-one. We often setup trello boards per goal and only let a team work from that
+one.
+
+We often setup trello boards per goal and only let a team work from that
 board. If other work emerges we ask teams to make note of it and bring it up
 in the showcase of their current goal.
 
-Sometimes mid-iteration a goal will change based on some learnings. It may split
-into several goals. At this point you cancel the iteration and pull stakeholders
-together to share learnings. You can then redefine the goal you want the team
-to solve first.
+### When goals change
+
+Sometimes mid-iteration a goal will change based on some learnings. You may find
+that another change must be made before your original goal can be achieved. At
+this point you cancel the iteration and pull stakeholders together to share
+learnings.
+
+Goals may sometimes actually be two goals in disguise. It is not always obvious
+until you start work. This realisation is again a good time to stop and pull
+together stakeholders.
+
+After debriefing everyone you can redefine the goal you want the team to solve
+first. Remember, solve one goal at a time.
+
+### Focus is paramount
 
 Focus within a team is paramount to getting a problem solved. Just like breaking
 big stories down in traditional scrum, goals should be broken down into their
