@@ -18,19 +18,19 @@ Before we build a team we must first come up with a definition of a team. What
 does a team mean to us? Who is it comprised of? What is it's purpose?
 
 Let us just say a team is a group of people brought together for a purpose. It
-will be made up of everyone who are required to realise it's purpose. In the
-world of software development, teams are brought together to implement new
-functionality, to bring improvements to systems and to solve issues.
+will be made up of everyone required to realise its purpose. In the world of
+software development, teams are brought together to implement new functionality,
+to bring improvements to systems and to solve issues.
 
 The purpose of a team is also important. We can define a team's purpose or goal
-as something that will be reached within one short iteration. Perhaps two weeks
+as something that will be reached within one short iteration, perhaps two weeks
 at most. A team must begin with a goal and end with the delivery of the goal.
 
 We can take this definition a bit further and apply it to building a team.
 To build a great team is to engage a group of people around a particular goal
 with enough energy to see it through to a conclusion.
 
-## Properties of an agile team
+## Virtues of an agile team
 
 Great agile teams deliver often. They get something out in the wild and respond
 to feedback. Agile teams win trust from their successes and recovery from
@@ -38,18 +38,18 @@ failure. In order to build a unit that can win trust you must first build a
 framework around a team that enables them.
 
 When pulling together teams you are shaping your delivery process. There are
-three properties I believe your process should embody:
+three virtues I believe your process should embody:
 
  - Autonomy
  - Craft
  - Focus
 
-When your process embodies and enshrines these properties you will have yourself
+When your process embodies and enshrines these virtues you will have yourself
 a good foundation on which to deliver.
 
 ## Autonomy
 
-Working towards a common goal requires buy in from a team. They need to be
+Working towards a common goal requires buy-in from a team. They need to be
 interested enough in working together in order to achieve the desired outcome.
 The feeling of responsibility and ownership will strengthen their resolve to
 achieve a goal. They must be allowed to make mistakes so that they can learn
@@ -58,9 +58,9 @@ they see fit. This is autonomy.
 
 ### Thriving on responsibility
 
-When given to a team, autonomy is powerful in that the responsibility for
+Given to a team, autonomy is powerful in that the responsibility for
 delivery is felt strongly. When they can make their own decisions there are
-fewer reasons to not deliver, fewer blockers.
+fewer reasons to not deliver and fewer blockers.
 
 A software engineering team who can push their code directly to production as
 often as they like have no process to hide behind. When you can QA yourself
@@ -71,9 +71,9 @@ responsibility.
 
 ### Realisation of responsibility
 
-Transitioning a team into a self organising structure can take a little bit of
-time. Sometimes we find a team isn't used to such responsibility. They can
-sometimes be unaware of it and sometimes even actively try to avoid it.
+Transitioning a team into a self organising structure can take time. Sometimes
+we find a team isn't used to such responsibility. They can be unaware of it and
+even actively try to avoid it.
 
 We have noticed that process can be introduced by team members who are not ready
 to move so fast. We find some teams feature creep or change their goal
@@ -89,22 +89,22 @@ embarrassment in future.
 
 ### Ask forgiveness, not permission
 
-When we drop a team into a business where teams do not have as much autonomy as
-we are used to frustration can soon ensue. Autonomous engineers quickly get
-frustrated quickly at being unable to solve problems themselves.
+When we work with businesses where teams don't have so much autonomy as we're
+used to, frustration can soon ensue. Autonomous engineers quickly get
+frustrated at being unable to solve problems themselves.
 
 > A team must have permission to carry out their purpose
 
 When deployments of certain applications must be performed by a particular
-someone, especially someone outside the team, then those used to being able to
+person, especially someone outside the team, then those used to being able to
 deploy anything will soon be saddened. Same goes for not having permission to
-create new trello boards and github repos. Teams must be empowered to do all of
-the above. A team must have permission to carry out their purpose.
+create new taskboards, email addresses, etc. Teams must be empowered to do all
+of the above. A team must have permission to carry out their purpose.
 
 ### Making mistakes
 
 When teams are autonomous they will make mistakes. They'll often make more
-mistakes but they'll also be making them faster. Making mistakes early means
+mistakes but they'll also be fixing them faster. Making mistakes early means
 the team can learn and adapt. Autonomous teams may be fast to break things but
 also fast to fix them.
 
@@ -161,7 +161,7 @@ The buzz in the air when you walk into a team's room is a good sign of healthy
 communication. Those excited and caring of their craft will be happy to discuss
 their techniques with colleagues who may in turn offer up even better solutions.
 
-Walking into a room and everyone has their headphones on it's a sign you
+Walking into a room and everyone has their headphones on is a sign you
 may have a problem. You want the communication to be flowing.
 
 Of course communication and craftship aren't the same thing but good
@@ -170,12 +170,12 @@ communication does come with a team who are good at their craft.
 ### Cultivate your craft
 
 Bringing together a group of people who care for their work is key to achieving
-goals. The positive energy from a teams excitement is the fuel to going the extra
-mile, to achieving goals more efficiently. With care of craft comes best
+goals. The positive energy from a team's excitement is the fuel to going the
+extra mile, to achieving goals more efficiently. With care of craft comes best
 practices that will help ensure the quality of work delivered. Healthy
-communication means problems will be collaboratively with the combined expertise
-of a team rather than by siloed individuals. Craftship is a must for solving
-problems.
+communication means problems will be solved collaboratively with the combined
+expertise of a team rather than by siloed individuals. Craftship is a must for
+solving problems.
 
 ## Focus
 
@@ -203,23 +203,23 @@ of work that affects our deadlines.
 A common problem we've found working with clients is that team members are often
 not committed 100% to a particular team.
 
-Often team members will be pulled from one team to another to help out with a problem. Sometimes team members are actually committed to both teams. We try and
+Often team members will be pulled from one team to another to help out with a problem. Sometimes team members are actually committed to both teams. We try to
 stop this as soon as we can as it completely breaks focus.
 
-We try and ensure goals are broken down enough so that we can finish one goal
+We try to ensure goals are broken down enough so that we can finish one goal
 before switching focus onto another. This means a team member will be at most
 busy for a couple of days before being able to move to another team to provide
 their expertise.
 
 ### Ronin engineers
 
-A similar problem is that of the ronin engineer, or more simply a teamless
+A similar problem is that of the ronin engineer, or more simply, a teamless
 engineer. They are usually in charge of a piece of technology rather than
 working within a team.
 
 Service desk type system operations is a variant of the ronin. This is where you
 have a team dedicated to a technology rather than a team such as infrastructure
-or deployments. We try and move these engineers into a single team. We also try
+or deployments. We try to move these engineers into a single team. We also try
 and knowledge share their expertise as soon as possible so they do not become a
 blocker for other teams when they are busy.
 
@@ -229,7 +229,7 @@ Teams should have a single goal when they are brought together. A single goal
 means they can focus on solving that problem properly before starting another
 one.
 
-We often setup trello boards per goal and only let a team work from that
+We often setup taskboards per goal and only let a team work from that
 board. If other work emerges we ask teams to make note of it and bring it up
 in the showcase of their current goal.
 
@@ -250,19 +250,19 @@ first. Remember, solve one goal at a time.
 ### Focus is paramount
 
 Focus within a team is paramount to getting a problem solved. Just like breaking
-big stories down in traditional scrum, goals should be broken down into their
+big stories down in traditional Scrum, goals should be broken down into their
 smallest possible incarnation. Team members should be allocated to a single
 team and that team to a single goal.
 
 ## Team work should be fun
 
 The framework on top of which you form teams should make team work fun.
-Autonomy, craft and focus are all properties that can help you achieve this.
+Autonomy, craft and focus are all virtues that can help you achieve this.
 
 A team needs to know they have the power and responsibility to solve a
 challenge. A team needs to be excited about their solutions, conversating and
 learning from each other. A team needs small focussed goals in order to deliver
 on time.
 
-I'm interest to hear what your experience is with building agile teams. Does
-the above ring true for you? What properties do you foster when building teams?
+I'm interested to hear what your experience is with building agile teams. Does
+the above ring true for you? What virtues do you foster when building teams?
