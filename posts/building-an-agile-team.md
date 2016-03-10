@@ -1,37 +1,71 @@
 # Building an agile team
 
-Continuous delivery of product requires great teams but building a team well is
-challenging. It's easy enough to stick a group of people in a room, give them a
-list of tasks and ask them to complete them by a date. What isn't guaranteed is
-that any of the tasks will be completed when you expect. Top down dictation of
-how to achieve the teams goal certainly won't inspire a team to do well.
+There are many challenges in building an agile team. We hear about self
+organising teams but how can a CTO ensure a roadmap is kept? We hear about
+\#noestimates but how can we plan anything without estimates? Failure is an
+important part of agile but how can we accept failure in production?
+Communication is key so how can we encourage it? In this article I will attempt
+to address these questions and more.
 
+Delivering great product takes great teams but putting them together is
+challenging. It is easy enough to stick a group of people in a room, give them a
+list of tasks and ask them to complete them by a date. What is not guaranteed is
+that any of the tasks will be completed when you expect.
+
+## Start with a definition
+
+Before we build a team we must first come up with a definition of a team. What
+does a team mean to us? Who is it comprised of? What is it's purpose?
+
+Let us just say a team is a group of people brought together for a purpose. It
+will be made up of everyone who are required to realise it's purpose. In the
+world of software development, teams are brought together to implement new
+functionality, to bring improvements to systems and to solve issues.
+
+The purpose of a team is also important. We can define a team's purpose or goal
+as something that will be reached within one short iteration. Perhaps two weeks
+at most. A team must begin with a goal and end with the delivery of the goal.
+
+We can take this definition a bit further and apply it to building a team.
 To build a great team is to engage a group of people around a particular goal
-with enough energy to see it through to a conclusion. I believe a successful
-team embodies autonomy, craftship and focus.
+with enough energy to see it through to a conclusion.
 
-I'm writing this as an engineer who has worked with several clients to empower
-developers to get more code to production, sooner. Building teams takes time
-and consideration, no team is the same and neither are the goals that bring
-teams together.
+## Properties of an agile team
+
+Great agile teams deliver often. They get something out in the wild and respond
+to feedback. Agile teams win trust from their successes and recovery from
+failure. In order to build a unit that can win trust you must first build a
+framework around a team that enables them.
+
+When pulling together teams you are shaping your delivery process. There are
+three properties I believe your process should embody:
+
+ - Autonomy
+ - Craft
+ - Focus
+
+When your process embodies and enshrines these properties you will have yourself
+a good foundation on which to deliver.
 
 ## Autonomy
 
-Working towards a common goal requires buy in from a team. Teams need to be
+Working towards a common goal requires buy in from a team. They need to be
 interested enough in working together in order to achieve the desired outcome.
-The feeling of responsibility and ownership by the team will strengthen their
-resolve to achieve their goal. Teams must be allowed to make mistakes so that
-they can learn from the pain of failure. A team must have permission to solve a
-problem how they see fit. This is autonomy.
+The feeling of responsibility and ownership will strengthen their resolve to
+achieve a goal. They must be allowed to make mistakes so that they can learn
+from the pain of failure. A team must have permission to solve a problem how
+they see fit. This is autonomy.
+
+> more often than not teams thrive with such responsibility
 
 When given to a team, autonomy is powerful in that the responsibility for
-delivery is felt strongly by the team. A team that can make decisions for
-themselves has less of a reason to not deliver, less blockers. A software
-engineering team who can push their code directly to production as often as they
-like have no process to hide behind. A team who can QA themselves do not need
-to wait for someone else to check their work and can therefore move faster. When
-such barriers are lifted a team will know that the buck stops with them and more
-often than not teams thrive with such responsibility.
+delivery is felt strongly. When they can make their own decisions there are
+fewer reasons to not deliver, fewer blockers. A software engineering team who
+can push their code directly to production as often as they like have no process
+to hide behind. When you can QA yourself there is no need to wait for someone
+else to check your work and you can therefore move faster. When such barriers
+are lifted a team will know that the buck stops with them and more often than
+not teams thrive with such responsibility.
 
 Transitioning a team into a self organising structure can take a little bit of
 time. Sometimes we find a team isn't used to such responsibility and they can
