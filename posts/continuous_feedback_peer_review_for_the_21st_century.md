@@ -12,9 +12,9 @@ The era of annual performance reviews is over, and before we get on to the matte
 
 2. A performance review is based on the core tenet that one’s manager or one’s direct colleagues cannot be trusted to give an accurate assessment of an employee’s worth or potential and therefore layers of bureaucracy and managers have to weigh in with their suggestions, all being weighted in a way to get a manufactured output.
 
-3. The system relies heavily on internal politics and the company, where having friendly relationships with one’s managers and superiors is far more important than how you work. This ferments an atmosphere of a) fear and b) political bureaucracy which is not healthy to a happy work environment and punishes people who just work hard and don’t “play the game”.
+3. The system relies heavily on internal politics and the company, where having friendly relationships with one’s managers and superiors is far more important than how you work. This ferments an atmosphere of a) fear and b) political bureaucracy which is not conducive to a happy work environment and punishes people who just work hard and don’t “play the game”.
 
-4. While some employees have underlying performance problems and therefore are likely are poor employees, these issues should be addressed immediately, not at the end of the year.
+4. While some employees have underlying performance problems and therefore are likely to bew poor employees, these issues should be addressed immediately, not at the end of the year.
 
 5. Nobody can accurately assess someone’s work over the space of a year. Any feedback you receive is most likely going to be useless and out of date. Thinking of how much one can improve as a developer in the space of a year makes the feedback from March completely extraneous by October.
 
@@ -24,7 +24,7 @@ The era of annual performance reviews is over, and before we get on to the matte
 
 The reasons for large companies with this structure in place to not want to change the status quo are manifold.
 
-* It gives the impression of fairness when it comes to promotions, salary increases as opposed to it being one person’s decision.
+* It gives the impression of fairness when it comes to promotions or salary increases as opposed to it being one person’s decision.
 * Hedges against employment litigation so you have a record of poor performance when letting someone go.
 * Helps to build “the file” on an employee giving HR the massive amounts of data that they feel they need to do their jobs effectively.
 
@@ -42,7 +42,7 @@ The feedback is split into three different categories. They are as follows:
 
 ### Feedback from others
 
-This covers what others have said, concrete examples of said feedback (which forces people to back up their feedback), and what is the impact/what can we take away from this. The benefit of this is clear, it helps us to gauge where we stand within our peer group, how the work we are doing has been perceived and where we are falling short. It also helps to remove the politics since it encourages us to be up front and honest with our peers. The person giving the feedback and the feedback-ee can discuss the feedback and whether we feel that feedback is fair and whether it is actionable.
+This covers what others have said, concrete examples of said feedback (which forces people to back up their feedback), and what is the impact/what can we take away from this. The benefit of this is clear, it helps us to gauge where we stand within our peer group, how the work we are doing has been perceived and where we are falling short. It also helps to remove the politics since it encourages us to be up front and honest with our peers. The person giving the feedback and the feedback-ee can discuss the feedback and whether they feel that feedback is fair and whether it is actionable.
 
 ### Long Term Goals and Objectives
 
@@ -50,7 +50,7 @@ This covers where we want to be in 3-5 years, how the company can help us to ach
 
 ### Short Term Measurable Goals
 
-This covers what we can do to action the feedback often received in section 1. An example of this would be to give a talk at a meet up or work on a different part of the tech stack. When we put in a short term measurable goal it is important to set a time when this can be reviewed to ensure that these objectives are at the forefront of our mind. In order to stop these changes from being ephemeral, we keep them noted down after they are done to remind us to keep doing them.
+This covers what we can do to action the feedback received from others. An example of this would be to give a talk at a meet up or work on a different part of the tech stack. When we put in a short term measurable goal it is important to set a time when this can be reviewed to ensure that these objectives are at the forefront of our mind. In order to stop these changes from being ephemeral, we keep them noted down after they are done to remind us to keep doing them.
 
 ## The Argument For Continuous Feedback
 
