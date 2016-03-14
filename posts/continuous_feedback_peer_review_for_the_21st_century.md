@@ -6,15 +6,15 @@ A key point before we start here is that companies focus on what value they add 
 
 ## The Annual Performance Review
 
-The era of annual performance reviews has reached its denouement, and before we get on to the matter at hand, it makes sense to illustrate why.
+The era of annual performance reviews is over, and before we get on to the matter at hand, it makes sense to illustrate why.
 
 1. Conventional performance reviews have a negative connotation right off the bat. They have been traditionally used by companies who use the so called “rank and yank” system, whereby employees are ranked according to their output and promoted/fired accordingly.
 
-2. A performance review is based on the core tenet that one’s manager or one’s direct colleagues cannot be trusted to give an accurate assessment of an employee’s worth or potential and therefore layers of bureaucracy and managers have to way in with their suggestions, all being weighted in a way to get a manufactured output.
+2. A performance review is based on the core tenet that one’s manager or one’s direct colleagues cannot be trusted to give an accurate assessment of an employee’s worth or potential and therefore layers of bureaucracy and managers have to weigh in with their suggestions, all being weighted in a way to get a manufactured output.
 
 3. The system relies heavily on internal politics and the company, where having friendly relationships with one’s managers and superiors is far more important than how you work. This ferments an atmosphere of a) fear and b) political bureaucracy which is not healthy to a happy work environment and punishes people who just work hard and don’t “play the game”.
 
-4. While some employees are a poor fit and likely are poor employees, these issues should be addressed immediately, not at the end of the year.
+4. While some employees have underlying performance problems and therefore are likely are poor employees, these issues should be addressed immediately, not at the end of the year.
 
 5. Nobody can accurately assess someone’s work over the space of a year. Any feedback you receive is most likely going to be useless and out of date. Thinking of how much one can improve as a developer in the space of a year makes the feedback from March completely extraneous by October.
 
@@ -54,7 +54,7 @@ This covers what we can do to action the feedback often received in section 1. A
 
 ## The Argument For Continuous Feedback
 
-It is estimated that in the workplace, 85% of problems are caused by a lack of communication. Regular feedback clears up miscommunications, gives you as an employee a sense of self worth and understanding of where you are and how you can improve. Knowledge is power and as an employee, the more you know about your strengths and weaknesses, the better equipped you are to improve and to head off problems before they become a critical issue.
+In the workplace, a large proportion of problems are caused by a lack of communication. Regular feedback clears up miscommunications, gives you as an employee a sense of self worth and understanding of where you are and how you can improve. Knowledge is power and as an employee, the more you know about your strengths and weaknesses, the better equipped you are to improve and to head off problems before they become a critical issue.
 
 However there are several much more deep rooted needs for continuous feedback. In Branham’s book [The Seven Hidden Reasons Why Employees Leave](http://www.amazon.co.uk/The-Hidden-Reasons-Employees-Leave/dp/0814408516), he elucidates that one of the primary reasons why employees leave is because of a lack of feedback. If you have employees who want to improve, then they want feedback and to be pushed by others. If you have employees who do not want to improve or are merely happy treading water, then you probably don’t want them at your company.
 
