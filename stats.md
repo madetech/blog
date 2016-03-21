@@ -1,5 +1,18 @@
 # 11/03/16 - 17/03/16
 
+### Made Merits Awarded For Blogging
+| Stark | Baratheon | Targaryen | Lannister |
+| :--- | :----- | :---------------- | ------------- |
+| Rory: 0 | Scott: 0 | David: 0 | Fareed: 0 |
+| Nick: 0 | Alex: 0 | Andrew: 0 | Seb: 0 |
+| Emile: 0 | Luke: 0 | Richard: 0 | Chris: 0 |
+| **Total: 0** | **Total: 0** | **Total: 0** | **Total: 0** |
+
+- 50 Made Merits for meeting the deadline
+- 25 Made Merits per 500 views within the 12 week period
+
+--------
+
 | Stat | Figure | Increase/Decrease | All Time Best |
 | :--- | :----- | :---------------- | ------------- |
 | Total visitors | 1,678 | -368 | 2,723 |
