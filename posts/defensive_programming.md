@@ -1,4 +1,4 @@
-# Why being so defensive when programming ?
+# Why being so defensive about programming ?
 
 Programming style is often categorised on the architecture of the code itself but the code style also can differ a lot within the same kind of architecture. Defensive Programming is derivated from the notion that very few things can be trusted when running a program and adding more checks are helping to improve the stability of it.
 It's a clear defense against Murphy’s famous law which states that whatever you do, everything will go wrong anyway.
@@ -46,11 +46,16 @@ Consider the following product being sent to this method :
  
 Here we can see that this particular product lacks a proper "groups" property and instead has a "Groups" property with a capital G. This error which was introduced by another system which likely never be discovered and raised properly. The user probably just won't see any group associated in the interface and these data errors might never be fixed. 
 
-## Issues with Defensive programming
+## Main issues with Defensive programming
 
 ### Maintainability
 
+Maintainting code with every function starting with a ten line null check on every object is not an easy task. Every time any object is changing, the code needs to be updated everywhere on every method.
+Because of all the checks, even if some part of the code is not updated, nobody might know about it until it's too late.
+
+Because errors are hidden and not being raised properly, it becomes difficult to know if the software is working as intended and testing also becomes harder. Unit tests are exploiting the fact that the program will raise errors if a problem occurs to cancel the tests. In some Unit tests, it's difficult to make the difference between "no data returned" or "no data returned because the data is invalid". 
+
 ### Readability
 
-// Defensive programming makes harder to read the actual logic of the code.
-// At the beginning of each function, a 10 line null check [...]
+Defensive programming makes much harder to read the actual logic of the code. The checks themselves are taking a lot of space on every part of the program and it might become complicated to figure out what was the actual goal the programmer had in mind when writing the functions.
+
