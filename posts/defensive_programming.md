@@ -60,7 +60,7 @@ User.prototype.getGroup() {
   }
   return null;
 }
-``
+```
 
 I obviously wrote here a terrible example to illustrate my point but examples in real life can also be really similar to this one. What is the point to check for the **this** keyword here ? It's obviously all going to be defined there since the function should be called with the context from the object itself. If someone is trying to execute something like:
 
