@@ -48,7 +48,7 @@ Here we can see that this particular product lacks a proper "groups" property an
 
 ## Checks which are always true
 
-Sometimes, we just want to be sure that EVERYTHING is in order and the world still works as it should so we add checks directly inside the classes on the private variables.
+Sometimes, we just want to be sure that EVERYTHING is in order and the world still works as it should so we add checks directly inside the class methods.
 Here is another example in JavaScript :
 
 ```javascript
@@ -62,13 +62,13 @@ User.prototype.getGroup() {
 }
 ```
 
-I obviously wrote here a terrible example to illustrate my point but examples in real life can also be really similar to this one. What is the point to check for the **this** keyword here ? It's obviously all going to be defined there since the function should be called with the context from the object itself. If someone is trying to execute something like:
+I obviously wrote here a terrible example to illustrate my point but examples in real life can be really similar to this one. What is the point to check for the **this** keyword here ? It's obviously going to be defined there since the function should be called with the context from the object itself. If someone is trying to execute something like:
 
 ```javascript
-User.prototype.getGroup.call(null) // this usless call only works in strict mode
+User.prototype.getGroup.call(null) // this useless call only works in strict mode
 ```
 
-And if someone is trying to call your code like that, what is even the point of trying to check anything ? Since the code is not called with a User object, nothing is going to work in any of the User calls anyway.
+And if someone is trying to call your code like that, what is even the point of trying to check anything ? Since the code is not called with a User object, nothing is going to work in any of the User calls, whatever checks are in place.
 
 ## Main issues with Defensive programming
 
@@ -83,5 +83,9 @@ Proper error tracebacks are also difficult to get since no errors are actually r
 
 ### Readability
 
-Defensive programming makes much harder to read the actual logic of the code. The checks themselves are taking a lot of space on every part of the program and it might become complicated to figure out what was the actual goal the programmer had in mind when writing the functions.
+Defensive programming makes much harder to read the actual logic of the code. The checks themselves are taking a lot of space on every part of the program and it might become complicated to figure out what was the actual goal the programmer had in mind when writing the function
+It makes it also more difficult for other team members to dig into the code to figure out how the code works.
 
+## Conclusion
+
+Defensive programming is far from a new concept, the C standard library is full of NULL checks, overflow and memory checks on almost every function. While this concept can be useful at a lower level to detect major errors, preventing the program to crash can sometimes only mean allowing the program continue to malfunction, which can lead to wrong results.
