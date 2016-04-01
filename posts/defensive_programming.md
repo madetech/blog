@@ -77,14 +77,14 @@ And if someone is trying to call your code like that, what is even the point of 
 Maintainting code with every function starting with a ten line null check on every object is not an easy task. Every time any object is changing, the code needs to be updated everywhere on every method.
 Because of all the checks, even if some part of the code is not updated, nobody might know about it until it's too late.
 
-Because errors are hidden and not being raised properly, it becomes difficult to know if the software is working as intended and testing also becomes harder. Unit tests are exploiting the fact that the program will raise errors if a problem occurs to cancel the tests. In some Unit tests, it's difficult to make the difference between "no data returned" or "no data returned because the data is invalid".
+Because errors are hidden and not being raised properly, it becomes difficult to know if the software is working as intended and [testing](/blog/9-benefits-of-test-driven-development) also becomes harder. Unit tests are exploiting the fact that the program will raise errors if a problem occurs to cancel the tests. In some Unit tests, it's difficult to make the difference between "no data returned" or "no data returned because the data is invalid".
 Proper error tracebacks are also difficult to get since no errors are actually raised, debugging becomes then a harder task where every piece of code need to be checked.
 
 
 ### Readability
 
-Defensive programming makes much harder to read the actual logic of the code. The checks themselves are taking a lot of space on every part of the program and it might become complicated to figure out what was the actual goal the programmer had in mind when writing the function
-It makes it also more difficult for other team members to dig into the code to figure out how the code works.
+Defensive programming makes much harder to read the actual logic of the code. The checks themselves are taking a lot of space on every part of the program and it might become complicated to figure out what was the actual goal the programmer had in mind when writing the function.
+Readability is one of the main requirements for building [reliable software](/blog/the-building-blocks-of-reliable-software). As a side effect, adding a lot of checks makes it more difficult for other team members to dig into the code to figure out how the code works.
 
 ## Conclusion
 
