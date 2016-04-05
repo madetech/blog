@@ -1,6 +1,6 @@
 #Introducing QuizBuzz!
 
-We've been running internal [Code Dojo sessions](https://www.madetech.com/blog/the-made-code-dojo) for a couple of years now, and last year our newest member, Andrew, suggested putting a new spin on the traditional format. We enjoyed it so much that we had to share it with the wider community, so, to help celebrate our move to a swanky new office, we're opening our doors to the public and launching Made's first monthly event: QuizBuzz!
+We've been running internal [Code Dojo sessions](https://www.madetech.com/blog/the-made-code-dojo) for a couple of years now, and last year our newest member, Andrew, suggested putting a new spin on the traditional format. We enjoyed it so much that we had to share it with the wider community so, to help celebrate our move to a swanky new office, we'll be opening our doors to the public and launching Made's first monthly event: QuizBuzz!
 
 // put image here
 
@@ -14,7 +14,7 @@ A game of two halves and five rounds, with myself as your quiz master, each team
 
 When the victors have been declared, we'll then head to the nearby Prince William Henry pub for another drink or two, where everyone will have a chance to get to know the other teams a little better.
 
-There's limited places, so claim a spot [here on meetup.com](http://www.meetup.com/QuizBuzz/events/229484828/), and we'll see you all on the night!
+There are limited places, so claim a spot [here on meetup.com](http://www.meetup.com/QuizBuzz/events/229484828/), and we'll see you all on the night!
 
 ## Essential Info
 
