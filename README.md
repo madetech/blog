@@ -20,6 +20,8 @@ Over the course of twelve weeks, each team will be competing to score the most h
 
 - Everyone will be given an individual deadline for their post. Everyone that gets their post in by the deadline will be given 50 house points. Miss a deadline, you forfeit the points.
 
+- Deadlines are 2pm on the date assigned in Trello.
+
 - For particularly popular posts, an extra 25 house points per 500 views are awarded, regardless of whether your deadline was missed.
 
 - Within the twelve week period, everyone should have produced two posts. Any additional, publishable posts submitted awards 75 house points to the author.
