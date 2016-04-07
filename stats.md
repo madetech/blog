@@ -3,10 +3,10 @@
 ### Made Merits Awarded For Blogging
 | Stark | Baratheon | Targaryen | Lannister |
 | :--- | :----- | :---------------- | ------------- |
-| Rory: 100 | Scott: 50 | David: 0 | Fareed: 50 |
+| Rory: 100 | Scott: 50 | David: 50 | Fareed: 50 |
 | Nick: 0 | Alex: 0 | Andrew: 0 | Seb: 0 |
 | Emile: 0 | Luke: 0 | Richard: 0 | Chris: 50 |
-| **Total: 100** | **Total: 50** | **Total: 0** | **Total: 100** |
+| **Total: 100** | **Total: 50** | **Total: 50** | **Total: 100** |
 
 - 50 Made Merits for meeting the deadline
 - 25 Made Merits per 500 views within the 12 week period
