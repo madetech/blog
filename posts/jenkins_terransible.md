@@ -1,8 +1,8 @@
 # Build a CD Pipeline with Terraform and Ansible
 
-At Made, the majority of our projects use Continuous Delivery pipelines to provide a clear path to deploying to production. It's common for these to be setup on the first day of a project kick-off.
+At Made, the majority of our projects use Continuous Delivery pipelines to provide a clear path for deploying to production. It's common for these to be setup on the first day of a project kick-off.
 
-In the past we've always setup these manually, and as with all things you do manually, subtle differences creep in over time. We needed a way to automate this process so that firstly it would standardise our setups, and secondly, save us a lot of time. What used to take at least a couple of hours, can now be accomplished in a matter of minutes.
+In the past we've always setup these manually, and as with all things you do manually, subtle differences creep in over time. We needed a way to automate this process so that firstly it would standardise our setups, and secondly, save us a lot of time. What used to take at least a couple of hours can now be accomplished in a matter of minutes.
 
 Using Terraform and Ansible, and with a Makefile acting as glue, we have a command that we can run, configurable with some variables, to get a Continuous Delivery Pipeline setup for a git repository by running `make jenkins`. The basic flow of the tool is:
 
@@ -138,11 +138,11 @@ The Makefile itself takes four arguments:
 
 Currently, to make setup easier, we use HTTPS to clone the git repository, using an OAuth token, which means we don't need to worry about SSH key setup to connect to Github.
 
-After the `make jenkins` command has finished, in the Ansible output, there'll be an IP address. You can then visit that in a browser, where you'll be prompted with an authentication prompt, where you can supply the HTTP auth credentials to login to your pipeline.
+After the `make jenkins` command has finished, in the Ansible output, there'll be an IP address. You can then visit that in a browser where you'll be prompted with an authentication prompt and there you can supply the HTTP auth credentials to login to your pipeline.
 
 ## Taking it further
 
-We're still developing this tool, and in it's current form, which was a proof-of-concept, we have plans to build on top of it support for the following:
+We're still developing this tool, and in its current form, which was a proof-of-concept, we have plans to build on top of it support for the following:
 
  * Support multiple projects/repos. Currently this tool only accepts one git repository. We'd like to be able to support multiple, in turn creating multiple pipelines on a single Jenkins.
  * Ability to add Jenkins slaves rather than everything run on one instance.
