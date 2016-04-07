@@ -1,4 +1,4 @@
-# Build a CD Pipeline with Terraform and Ansible
+# Building a Continuous Delivery Pipeline in 5 minutes
 
 At Made, the majority of our projects use Continuous Delivery pipelines to provide a clear path for deploying to production. It's common for these to be setup on the first day of a project kick-off.
 
