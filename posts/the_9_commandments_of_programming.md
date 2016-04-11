@@ -9,3 +9,43 @@
  7. Never have more than one public method per class
  8. Never mutate any object
  9. Break any of the previous rules within encapsulated interfaces
+
+## 1. Never use variables
+
+Variables can change, this fact is indicated by their name. The more parts of
+your program that can change, the harder your program will be to reason with.
+It is for this reason you should try to avoid using them.
+
+``` ruby
+def handle_request(request)
+  response = {}
+
+  if request.erroneous?
+    response[:status] = 500
+  else
+    response[:status] = 200
+  end
+  
+  response[:body] = build_response_body(request)
+  response
+end
+```
+
+``` ruby
+def handle_request(request)
+  if request.erroneous?
+    erroneous_response(request)
+  else
+    success_response(request)
+  end
+end
+
+def erroneous_response(request)
+  { status: 500, body: build_response_body(request) }
+end
+
+def success_response(request)
+  { status: 200, body: build_response_body(request) }
+end
+```
+
