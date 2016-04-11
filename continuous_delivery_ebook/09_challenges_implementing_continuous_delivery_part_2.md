@@ -1,66 +1,47 @@
-
-
 # Part II: Technical Challenges with adopting CD
 
-I spoke last time about the organisational challenges of adopting CD last time. One of the key takeaways was the importance of blurring the boundaries between teams in order to facilitate better adoption. This time around I wanted to zoom in a bit and focus specifically on the challenges faces by specific parts of the pipeline. NB Depending on how far through adoption you likely no longer have dedicated teams for each of these functions, though the problems outlined here can still exist and derail any team
+I spoke last time about the organisational challenges of adopting Continuous Delivery. One of the key takeaways was the importance of blurring the boundaries between teams in order to facilitate better adoption. This time around I wanted to zoom in a bit and focus specifically on the challenges faces by specific parts of the pipeline. NB Depending on how far through adoption you likely no longer have dedicated teams for each of these functions, though the problems outlined here can still exist and derail even the most cross functional of teams
 
-Unless your codebase has been written with CD in mind, or is very new, then it's very likely your first headache will be getting it ready to be built and deployed many times per day. In practice theres anumber of obstacles to this
+Most applications, unless specifically developed with continuous delivery principles in mind, are a long way away from being able to be built and deployed many times per day - a core tenet of continuous delivery. This is generally the first issue teams should tackle and there are many components to it
 
-##Automated tests
+## Automated testing
 
-When deploying as regularly as a couple of times per day, even to a UAT environment, being reliant on a manual test phase just isn't feasible. If the application doesn't have automated tests, particularly for the most critical paths, your ability to deploy regularly is going to be significantly compromised.
+When deploying as regularly as a couple of times per day, even to a UAT environment, being reliant on a manual test phase is totally impractical. If the application doesn't have automated tests, particularly for the most critical paths, your ability to deploy a working application regularly is going to be significantly compromised.
 
 Even if you have automated most of your tests, almost as detrimrental is a test suite that you don't trust. If you frequently suffer from flickering tests (where a test can seem to randomly pass and fail between different test runs); or simply where the tests aren't of sufficient quality to be providing meaningful coverage, the confidence in the test suite can be eroded, increasing the reliance on manual testing and thus slowing down your deployment pipeline.
 
-The final big testing headaache is a long running test suite can pose challenges in your ability to move quickly. If you need to wait more than 10 minutes or so for feedback (and we've seen cases of close to an hour!), not only is your workflow is likely to be impacted, but subsequently, your ability to deploy fast is going to be compromised - because every change needs to be pushed through the pipeline, starting at the build step.
+The final big testing headache is a long running test suite. If you need to wait more than 10 minutes or so for feedback (and we've seen cases of close to an hour!), not only is your workflow is likely to be impacted, but subsequently, your ability to deploy fast is going to be compromised - because every change needs to be pushed through the pipeline, starting at the build step.
 
-### Caveat that we don't have a QA team at Made
-QA should build use cases with developers before any code is written
-QA testing code in staging/continuous - should be involved much earlier ideally writing tests before code is written
+Automated testing in the absence of incredible amounts of hardware is a trade off. For an application of any meaningful size, having a test suite which covers 100% of your application, whilst also running in a few minutes isn't a realistic goal. It's important to analyze your test suite to ensure it's delivering you the most possible value, especially for the longer running tests. 
 
-##No code reviews/pairing
-valuing specialism over generalism siloed knowledge etc,
+My final word on testing is to trust your tests! I've worked with teams who had great automated test coverage, but after a deployment the team insisted on testing user journeys manually. Some call this superstition, I call it madness! Why spend all that time writing the tests if you're going to ignore what they tell you!
 
+##Automated deployments
 
-##Poor code quality:
- toggling WIP features off in production can lead to code duplication / messy ‘toggle’ statements inline temporarily
+Long build times are also a huge blocker to CD adoption. If your deployment currently takes 8 hours, then it's obviously impractical to do this multiple times per day! Considered another way, once you adopt-CD your cycle time per feature is 8 hours longer than it needs to be. In order to build 4 features per week and deploy them individually (at Made we strive for 4 features per day), means you only have 2 hours to build and test each feature - in other words, it's not going to happen.
 
+Are your servers [cattle or pets?](cf Your server is not a pet). Much as we like to think every deploy is safe, you can't control everything and some deploys are just going to fail no matter what. This risk is compounded when deploying to existing machines rather than cleans slates everytime. When a bad deploy happens your infrastructure can end up in a weird state and rather than trying to unpick everything it's far easier and quicker to blow it all away and start again. This is only possible with automated build scripts, and all your configuration as code using something like Chef. 
 
-##Monlithic architecture
+Canaries servers can be a good way to detect issues early in a deployment. The idea behind these is to have a single instance running the new version of the code and gradually introduce it to live traffic. By watching error rates and tracking key consumer metrics (using automated tools of course) you can quickly flag problems which might prompt you to pull out of a deploy. In practice this is much easier than having to roll back a whole deployment.
 
-##Long build times
-Long build times are also a factor here, if a deployment currently takes 8 hours regardless of whether this is an automatic or manual proess, that's an extra 8 hours added to each and every feature you build in a CD environment. If you want your team to build 4 features a week, that only leaves 2 hours to plan, build and test each feature!
-
-## automated deployments servers as code
-
-Does each server have its own custom configuration (cf Your server is not a pet). How automated is your recovery plan? In a pure CD environment each deployment is treated the same as a complete hardware failure, we tear everything down and start again (with the caveats that our Database is probably a special case, and in a deployment, we'd spin up our new estate /prior/ to tearing down the old!)
-
-If you have a multitude of snowflake servers, and little configuration committed to source control, you're going to have a hard time moving to CD.
-
-### Frequent rollbacks
-
-Rolling back (or forwards) production deployments often is a smell that some earlier parts of the pipeline aren't as optimised as they could be.
-
-If significant issues are finding their way in to production undetected, you're probably not baking enough quality in to your process from the outset. If the production deployment behaves differently to deployments to pre-production environments, you don't have sufficient parity in your environments.
-
-We'd recommend tracking your deployment success rate to as a good measure of the overall quality of your delivery pipeline.
-
-##Over-reliance on brittle third-party dependencies
+## Over-reliance on brittle third-party dependencies
 Seldom is a development team entirely self contained. At some point you will have some sort of reliance on an external team.
 
-Particularly where an external team isn't able to work using a similarly compatible delivery method, your team's ability to move fast and release often can easily be compromised. Where possible, we try to isolate high-cadence teams from any external factors that may slow down releases, making use of techniques such as mocking to allow early integration against unknown interfaces, to feature toggling to allow features to be enabled in production when a third party's development schedule has caught up.
+Particularly where an external team isn't able to work using a rapid delivery method, your team's ability to move fast and release often can easily be compromised. Where possible, we try to isolate high-cadence teams from any external factors that may slow down releases. We use techniques such as mocking and API integration tests, to define the contract between our application and external dependencies. 
 
-Too often smoke tests are overlooked. Without them, there's generally a period post-deployment where critical pathways need to be manually verified, increasing the human burden required in deploy changes.
+Such tests become not only the documentation for the APIs, but also notify us if and when a third party changes their integration, so we can quickly respond. We deploy such feautures usually behind a feature toggle, so we can deploy the changes to production and move onto the next. Once the third party has caught up, as long as the integration tests are all green, turning on the new feature then just requires a configuration change within the application.
 
-Where there's an integration suite to keep confidence high that change hasn't broken pre-existing features at a code level, smoke tests provide the same confidence that the critical application pathways are working as expected post-deployment.
+## Clean up after yourself
 
-errors and defects rate in production. A lot of this stems from a developers treating QA as a safety net, to catch their mistakes before they get there. In a CD setup, your QA function is much more than a final check of quality. Quality instead should be built into features from the start. Testers should work hand-in-hand with Developers during the delivery of a feature to ensure it can be verified as soon as it hits the pipeline.
+Too often CD is seen as an excuse to make rash decisions and never come back to clean them up later. This is something we're all guilty of to some extent. Things like:
+ * Didn't address a couple of the comments from code review because we had to get the feature out today
+ * Duplicate an existing class and modify it slightly, rather then refactor the existing code.
+ * Deployed a feature without adequate tests.
+ * Found an edge case but didn't have time to fix it.
+ * Activated a feature via a feature toggle, but never removed the code for the feature toggle which is no longer needed.
 
+I'm not saying the rationalisation of any of these things are good, but in a rapidly evolving code base these sorts of things are going to stack up fast. It's important to realise that building an deploying features rapidly, does not mean doing things half-arsed. There are times when cutting a corner is necessary, my rule of thumb is that this is ok only if you have a good reason (which you are comfortable justifying to others) and a plan to make it good within the next few days.
 
-## conclusion
-#measure and break down 'time to production'
-#deployment success rate
-#error/defect rate
-Long build times are also a factor here, if a deployment currently takes 8 hours regardless of whether this is an automatic or manual proess, that's an extra 8 hours added to each and every feature you build in a CD environment. If you want your team to build 4 features a week, that only leaves 2 hours to plan, build and test each feature!
-m
+## Conclusion
+
 
