@@ -3,8 +3,8 @@
 | :--- | :----- | :---------------- | ------------- |
 | Rory: 150 | Scott: 50 | David: 50 | Fareed: 50 |
 | Nick: 0 | Alex: 25 | Andrew: 0 | Seb: 50 |
-| Emile: 0 | Luke: 0 | Richard: 0 | Chris: 375 |
-| **Total: 150** | **Total: 75** | **Total: 50** | **Total: 475** |
+| Emile: 0 | Luke: 0 | Richard: 0 | Chris: 400 |
+| **Total: 150** | **Total: 75** | **Total: 50** | **Total: 500** |
 
 - 50 House Points for meeting the deadline
 - 25 House Points per 500 views within the 12 week period
