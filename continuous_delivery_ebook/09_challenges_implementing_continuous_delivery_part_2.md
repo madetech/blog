@@ -1,8 +1,8 @@
-# Part II: Technical Challenges with adopting CD
+# Part II: Technical Challenges with adopting Continuous Delivery
 
-I spoke last time about the organisational challenges of adopting Continuous Delivery. One of the key takeaways was the importance of blurring the boundaries between teams in order to facilitate better adoption. This time around I wanted to zoom in a bit and focus specifically on the challenges faces by specific parts of the pipeline. NB Depending on how far through adoption you likely no longer have dedicated teams for each of these functions, though the problems outlined here can still exist and derail even the most cross functional of teams
+I spoke last time about the organisational challenges of adopting Continuous Delivery. One of the key takeaways was the importance of blurring the boundaries between teams in order to facilitate better adoption. This time around I wanted to zoom in a bit and focus specifically on the challenges faces by specific parts of the pipeline. NB Depending on how far through adoption you likely no longer have dedicated teams for each of these functions, though the problems outlined here can still exist and derail even the most cross functional of teams.
 
-Most applications, unless specifically developed with continuous delivery principles in mind, are a long way away from being able to be built and deployed many times per day - a core tenet of continuous delivery. This is generally the first issue teams should tackle and there are many components to it
+Most applications, unless specifically developed with Continuous Delivery principles in mind, are a long way away from being able to be built and deployed many times per day - a core tenet of Continuous Delivery. This is generally the first issue teams should tackle and there are many components to it
 
 ## Automated testing
 
@@ -18,30 +18,33 @@ My final word on testing is to trust your tests! I've worked with teams who had 
 
 ##Automated deployments
 
-Long build times are also a huge blocker to CD adoption. If your deployment currently takes 8 hours, then it's obviously impractical to do this multiple times per day! Considered another way, once you adopt-CD your cycle time per feature is 8 hours longer than it needs to be. In order to build 4 features per week and deploy them individually (at Made we strive for 4 features per day), means you only have 2 hours to build and test each feature - in other words, it's not going to happen.
+Long build times are also a huge blocker to Continuous Delivery adoption. If your deployment currently takes 8 hours, then it's obviously impractical to do this multiple times per day! Considered another way, once you adopt Continuous Delivery your cycle time per feature is 8 hours longer than it needs to be. In order to build 4 features per week and deploy them individually (at Made we strive for 4 features per day), means you only have 2 hours to build and test each feature - in other words, it's not going to happen.
 
 Are your servers [cattle or pets?](cf Your server is not a pet). Much as we like to think every deploy is safe, you can't control everything and some deploys are just going to fail no matter what. This risk is compounded when deploying to existing machines rather than cleans slates everytime. When a bad deploy happens your infrastructure can end up in a weird state and rather than trying to unpick everything it's far easier and quicker to blow it all away and start again. This is only possible with automated build scripts, and all your configuration as code using something like Chef. 
 
-Canaries servers can be a good way to detect issues early in a deployment. The idea behind these is to have a single instance running the new version of the code and gradually introduce it to live traffic. By watching error rates and tracking key consumer metrics (using automated tools of course) you can quickly flag problems which might prompt you to pull out of a deploy. In practice this is much easier than having to roll back a whole deployment.
+A canary server is a great way to detect issues early in a deployment. The idea behind these is to have a single instance running the new version of the code and gradually introduce it to live traffic. By watching error rates and tracking key consumer metrics (using automated tools of course) you can quickly flag problems which might prompt you to pull out of a deploy. In practice this is much easier than having to roll back a whole deployment.
 
 ## Over-reliance on brittle third-party dependencies
 Seldom is a development team entirely self contained. At some point you will have some sort of reliance on an external team.
 
 Particularly where an external team isn't able to work using a rapid delivery method, your team's ability to move fast and release often can easily be compromised. Where possible, we try to isolate high-cadence teams from any external factors that may slow down releases. We use techniques such as mocking and API integration tests, to define the contract between our application and external dependencies. 
 
-Such tests become not only the documentation for the APIs, but also notify us if and when a third party changes their integration, so we can quickly respond. We deploy such feautures usually behind a feature toggle, so we can deploy the changes to production and move onto the next. Once the third party has caught up, as long as the integration tests are all green, turning on the new feature then just requires a configuration change within the application.
+Such tests become not only the documentation for the APIs, but also notify us if and when a third party changes their integration, so we can quickly respond. We usually deploy these changes behind a [feature toggle](https://www.madetech.com/blog/continuous-delivery-feature-toggles), so we can deploy the changes to production and move onto the next. Once the third party has caught up, as long as the integration tests are all green, turning on the new feature then just requires a configuration change within the application.
 
 ## Clean up after yourself
 
-Too often CD is seen as an excuse to make rash decisions and never come back to clean them up later. This is something we're all guilty of to some extent. Things like:
+Too often Continuous Delivery is seen as an excuse to make rash decisions and never come back to clean them up later. This is something we're all guilty of to some extent. Things like:
  * Didn't address a couple of the comments from code review because we had to get the feature out today
  * Duplicate an existing class and modify it slightly, rather then refactor the existing code.
  * Deployed a feature without adequate tests.
  * Found an edge case but didn't have time to fix it.
- * Activated a feature via a feature toggle, but never removed the code for the feature toggle which is no longer needed.
+ * Activated a feature via a feature toggle, but never removing the code for the feature toggle which is no longer needed.
 
 I'm not saying the rationalisation of any of these things are good, but in a rapidly evolving code base these sorts of things are going to stack up fast. It's important to realise that building an deploying features rapidly, does not mean doing things half-arsed. There are times when cutting a corner is necessary, my rule of thumb is that this is ok only if you have a good reason (which you are comfortable justifying to others) and a plan to make it good within the next few days.
 
-## Conclusion
-
+## conclusion
+#measure and break down 'time to production'
+#deployment success rate
+#error/defect rate
+m
 
