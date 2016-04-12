@@ -2,9 +2,9 @@
 | Stark | Baratheon | Targaryen | Lannister |
 | :--- | :----- | :---------------- | ------------- |
 | Rory: 100 | Scott: 50 | David: 50 | Fareed: 50 |
-| Nick: 0 | Alex: 25 | Andrew: 0 | Seb: 0 |
+| Nick: 0 | Alex: 25 | Andrew: 0 | Seb: 50 |
 | Emile: 0 | Luke: 0 | Richard: 0 | Chris: 50 |
-| **Total: 100** | **Total: 75** | **Total: 50** | **Total: 100** |
+| **Total: 100** | **Total: 75** | **Total: 50** | **Total: 150** |
 
 - 50 House Points for meeting the deadline
 - 25 House Points per 500 views within the 12 week period
