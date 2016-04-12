@@ -60,4 +60,3 @@
 |8 |4 Reasons Not to Adopt #noestimates in Software Delivery | 1,313 | Scott | - |
 |9 |Stream Everything | 1,282 | Richard | - |
 |10 |Boundaries in Object Oriented Design | 1,279 | Luke | - |
-
