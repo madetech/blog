@@ -16,13 +16,15 @@ Before we get started there are a couple of prerequisites we need in place.
 
 - Generate a new SSH key pair. This SSH key will be used by Terraform, and added to the new EC2 instances. It will also allow us to SSH in and configure the newly created instances with Chef. When you generate the key pair you will need to specify a few additional attributes. `-f chef-provisioner` to specify a custom filename, `-P` to create a key pair without a passphrase, and `-m pem` to specify PEM format. The full command being `ssh-keygen -f chef-provisioner -e -m pem`
 
-- Install Packer (https://www.packer.io/downloads.html), and Terraform (https://www.terraform.io/downloads.html).
+- Install [Packer](https://www.packer.io/downloads.html), and [Terraform](https://www.terraform.io/downloads.html).
 
-## Building your AMI
+## Time to get Pack(er)ing
 
-Already having Chef set up makes building a machine image with Packer really simple. All we have to do is specify Chef Solo to be a provisioner, and configure the local relative paths.
+Now, I'm going to make a massive assumption here, and assume you have a working knowledge of Chef-Solo, and how it works... Sorry, not sorry. But if you are new to Chef, here is a [video intro](https://www.youtube.com/watch?v=1G6bd4b91RU) and the [chef-solo docs](https://docs.chef.io/chef_solo.html) which are a great starting point.
 
-```
+Now we have our Chef set up, and have confirmed it works. So provisioning the a machine image with Packer is really simple. All we have to do is specify a provisioner of type `chef-solo` and [configure it](https://www.packer.io/docs/provisioners/chef-solo.html).
+
+```json
 {
   “provisioners”: [{
     "type": "chef-solo",
@@ -40,7 +42,7 @@ Already having Chef set up makes building a machine image with Packer really sim
 
 Now we have the configuration for machine image, how can we make it available for use within Terraform? Packer provides a number of builders. In our use case we want to use the `amazon-eps` builder. This takes an existing Amazon AMI (ubuntu 14.04) and provisions on top of it.
 
-```
+```json
 "builders": [{
   "type": "amazon-ebs",
   "region": “eu-west-1",
@@ -52,7 +54,7 @@ Now we have the configuration for machine image, how can we make it available fo
 }]
 ```
 
-All that is left to do is run `packer build path/to/packer.json`. Once packer has finished it will spit out the generated AMI reference.
+With both the provisioner and builder combined into one json all that is left to do is run `packer build path/to/packer.json` and Packer does the rest! Once packer has finished it will spit out the generated AMI reference. Keep a note of this.
 
 Lets Terraform this...
 
