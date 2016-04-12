@@ -3,7 +3,6 @@
 | Name        | Due        | Submitted? |
 | :---------- | :--------- | :--------- |
 | **Richard** | **24/03**  | NO         |
-| **Seb**     | **12/04**  | NO         |
 | **Nick**    | **14/04**  | NO         |
 | Luke        | 19/04      | NO         |
 | Andrew      | 21/04      | NO         |
@@ -15,3 +14,4 @@
 | Rory        | 12/05      | NO         |
 | Scott       | 17/05      | NO         |
 | David       | 19/05      | NO         |
+| Seb         | 24/05      | NO         |
