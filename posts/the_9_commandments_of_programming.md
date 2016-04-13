@@ -49,3 +49,37 @@ def success_response(request)
 end
 ```
 
+## 2. Never use if/switch/ternary statements
+
+Conditional statements such as if, switch and ternary add pathways to your
+program. The more pathways the harder your program will be to reason with.
+Do you see where I'm going with all this?
+
+``` ruby
+class Sku::Exporter
+  def export(sku, format = :txt)
+    case format
+    when :csv
+      Sku::CsvFormatter.new.format(sku.attributes)
+    when :json
+      sku.attributes.to_json
+    end
+  end
+end
+```
+
+``` ruby
+class Sku::Exporter < Struct.new(:formatter)
+  def export(sku)
+    formatter.new.format(sku.attributes)
+  end
+end
+
+Sku::Exporter.new(Sku::CsvFormatter.new).export(sku)
+```
+
+The thing with conditionals is that you do actually require them to build
+programs that perform a variety of functions. Maybe if your program did
+one thing then perhaps you wouldn't require. However most do.
+
+## 3. Never use inheritance
