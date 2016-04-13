@@ -11,18 +11,20 @@ at least. To follow simply don't repeat yourself. If you see a block of code tha
 looks similar or the same as a block of code in another file you'll likely think
 to yourself, how can I abstract that?
 
-The more experience engineer will spot less obvious repetition. They might spot
-that in an online store, products selected from a collection based on some
-criteria then some action will be performed on those products. They might choose
-to abstract the filter and map operations on the collection of products into a
-reusable class.
+The more experienced engineer will spot less obvious repetition. They might spot
+that in an e-commerce application there are multiple places where products are
+selected from a collection based on some criteria and then some action is
+performed on those products. They might choose to abstract the filter and map
+operations on the collection of products into a reusable class.
 
 # DRY might not always be the best idea
 
-Like all things too much can be less than favourable for you. Sometimes the
-principle can be taken too far, you can get too clever and end up with something
-that is harder to understand or work with. I'd like to suggest a few situations
-where the principle might not be so useful.
+Like all things too much can be a bad thing. Sometimes the principle can be taken
+too far, you can get too clever and end up with something that is harder to
+understand or work with. I'd like to suggest a few situations where the principle
+might not be so useful.
+
+## Abstract
 
 [1]: https://en.wikipedia.org/wiki/Service-oriented_architecture
 [2]: https://en.wikipedia.org/wiki/Inversion_of_control
