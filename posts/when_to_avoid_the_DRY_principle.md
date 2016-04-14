@@ -23,7 +23,7 @@ some criteria and then some action is performed on those products. They might
 choose to abstract the filter and map operations on the collection of products
 into a reusable class.
 
-# DRY might not always be the best idea
+## DRY might not always be the best idea
 
 Like all things too much can be a bad thing. Sometimes the principle can be
 taken too far, you can get too clever and end up with something that is harder
@@ -34,7 +34,7 @@ principle might not be so useful.
 
 ## Too clever abstraction
 
-## The wrong abstraction layer
+## Wrong abstraction layer
 
 [1]: https://en.wikipedia.org/wiki/Service-oriented_architecture
 [2]: https://en.wikipedia.org/wiki/Inversion_of_control
