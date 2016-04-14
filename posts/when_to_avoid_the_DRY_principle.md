@@ -30,11 +30,14 @@ taken too far, you can get too clever and end up with something that is harder
 to understand or work with. I'd like to suggest a few situations where the
 principle might not be so useful.
 
-## Unnecessary abstraction
+### Unnecessary abstraction
 
-## Too clever abstraction
+Repetative code can often be abstracted unnecessarily. There are some very basic
+examples of this. Take a capybara test that
 
-## Wrong abstraction layer
+### Too clever abstraction
+
+### Wrong abstraction layer
 
 [1]: https://en.wikipedia.org/wiki/Service-oriented_architecture
 [2]: https://en.wikipedia.org/wiki/Inversion_of_control
