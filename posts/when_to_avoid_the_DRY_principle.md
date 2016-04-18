@@ -1,4 +1,4 @@
-# When to avoid the DRY principle
+# When to avoid the DRY principle in your tests
 
 The Don't Repeat Yourself principle is probably one of the most widely
 recognised software design patterns out there. Most beginners in the industry
