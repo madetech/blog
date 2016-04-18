@@ -1,4 +1,4 @@
-# When to avoid the DRY principle in your tests
+# When to avoid the DRY principle
 
 The Don't Repeat Yourself principle is probably one of the most widely
 recognised software design patterns out there. Most beginners in the industry
@@ -267,6 +267,63 @@ seen some pretty bad cucumber steps with nested if statements in the past.
 Simple and stupid is good enough for me!
 
 ### Wrong abstraction
+
+``` ruby
+feature 'Checkout' do
+  scenario 'Adding address' do
+    when_a_shopper_is_ready_to_checkout
+    then_they_should_have_to_add_their_address_details
+  end
+
+  scenario 'Choosing delivery method' do
+    given_a_shopper_has_added_their_address
+    when_they_want_a_fast_delivery
+    then_they_should_be_able_to_choose_next_day
+  end
+
+  scenario 'Paying for order' do
+    given_a_shopper_is_ready_to_pay
+    when_they_want_to_pay_by_paypal
+    then_they_should_be_redirected_to_paypal
+  end
+
+  def when_a_shopper_is_ready_to_checkout
+    # add product to cart
+  end
+
+  def then_they_should_have_to_add_their_address_details
+    # fill in address details
+  end
+
+  def given_a_shopper_has_added_their_address
+    when_a_shopper_is_ready_to_checkout
+    then_they_should_have_to_add_their_address_details
+  end
+
+  def when_they_want_a_fast_delivery
+  end
+
+  def then_they_should_be_able_to_choose_next_day
+    # choose next day
+  end
+
+  def given_a_shopper_is_ready_to_pay
+    when_a_shopper_is_ready_to_checkout
+    then_they_should_have_to_add_their_address_details
+    when_they_want_a_fast_delivery
+    then_they_should_be_able_to_choose_next_day
+  end
+
+  def when_they_want_to_pay_by_paypal
+    # select paypal
+  end
+
+  def then_they_should_be_redirected_to_paypal
+    # assert current url is paypal
+  end
+end
+```
+
 
 [1]: https://en.wikipedia.org/wiki/Service-oriented_architecture
 [2]: https://en.wikipedia.org/wiki/Inversion_of_control
