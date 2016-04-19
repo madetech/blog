@@ -268,6 +268,11 @@ Simple and stupid is good enough for me!
 
 ### Wrong abstraction
 
+Okay, time to write a feature for the checkout. We want to run through every
+step as a single scenario. The later steps are going to need the previous steps
+to have already run, however like good developers we do not share state between
+scenarios. Let's be naughty and reuse our steps in subsequent scenarios.
+
 ``` ruby
 feature 'Checkout' do
   scenario 'Adding address' do
@@ -324,6 +329,107 @@ feature 'Checkout' do
 end
 ```
 
+I've left out the implementation of the steps but you get the picture. The
+given methods of subsequent scenarios reuse previous steps. Now this may be DRY
+but we've missed a couple of issues.
+
+Firstly, running capybara steps is much slower than operating directly on a DB.
+Instead of running through the browser in given steps, we could use factories
+that setup the DB in the right state. This means capybara only tests each step
+once. The alternative would be just to have one large scenario which I've seen
+done before. I prefer splitting them out so that I can just run the one test
+when working on a checkout step.
+
+Second to that we are using given/when/then steps inside of other given steps.
+Reading through the code makes sense but it could be a little terser and more
+specific to the current test.
+
+With these points in mind we can reimplement the feature:
+
+``` ruby
+feature 'Checkout' do
+  scenario 'Adding address' do
+    when_a_shopper_is_ready_to_checkout
+    then_they_should_have_to_add_their_address_details
+  end
+
+  scenario 'Choosing delivery method' do
+    given_a_shopper_has_added_their_address
+    when_they_want_a_fast_delivery
+    then_they_should_be_able_to_choose_next_day
+  end
+
+  scenario 'Paying for order' do
+    given_a_shopper_is_ready_to_pay
+    when_they_want_to_pay_by_paypal
+    then_they_should_be_redirected_to_paypal
+  end
+
+  def when_a_shopper_is_ready_to_checkout
+    # add product to cart
+  end
+
+  def then_they_should_have_to_add_their_address_details
+    # fill in address details
+  end
+
+  def given_a_shopper_has_added_their_address
+    jump_to_checkout(:delivery_step)
+  end
+
+  def when_they_want_a_fast_delivery
+  end
+
+  def then_they_should_be_able_to_choose_next_day
+    # choose next day
+  end
+
+  def given_a_shopper_is_ready_to_pay
+    jump_to_checkout(:payment_step)
+  end
+
+  def when_they_want_to_pay_by_paypal
+    # select paypal
+  end
+
+  def then_they_should_be_redirected_to_paypal
+    # assert current url is paypal
+  end
+
+  private
+
+  def jump_to_checkout(step)
+    order = create(:order, :jump_to_step, step: step)
+    visit checkout_path(order_token: order.token)
+  end
+end
+```
+
+We have now moved the order creation into a factory. This means we can get more
+performant tests. I'd argue that the DRY principle helped us here in seeing that
+we were repeating ourselves. The solution was not to reduce the repetition by
+reusing steps, that was the wrong abstraction. The right abstraction that gave
+us performance benefits was to move into a factory.
+
+Not only was the reuse of capybara steps the wrong abstraction due to
+performance, it was also the wrong level of abstraction. I see three levels of
+abstraction in a feature spec. The scenario, the steps and then the helpers.
+The scenario is isolated inside the do block by RSpec. I separate steps and
+helpers with the private keyword. Each level of the abstraction should never
+use other methods at the same level of abstraction, they should only call lower
+levels of abstraction. The fact we had given steps calling other steps broke
+this abstraction layering.
+
+I use abstraction layering as a way of detecting problems in code. I can and
+will write a whole article on it eventually. It's a method for structuring your
+code so that related methods are found together, and that the various layers
+of your application do not cross concerns. Until I write my post, take me at my
+word that it's a good idea to use this abstraction layering when thinking about
+the DRY principle.
+
+Hopefully I haven't put you off DRY. It's an awesome tool. You just need to be
+careful on how you solve it and sometimes it isn't a problem that needs solving.
+Let me know what you think on twitter @LukeMorton.
 
 [1]: https://en.wikipedia.org/wiki/Service-oriented_architecture
 [2]: https://en.wikipedia.org/wiki/Inversion_of_control
