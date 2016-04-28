@@ -3,7 +3,6 @@
 | Name        | Due        | Submitted? |
 | :---------- | :--------- | :--------- |
 | **Richard** | **24/03**  | NO         |
-| **Emile**   | **28/04**  | NO         |
 | **Alex**    | **03/05**  | NO         |
 | Richard     | 05/05      | NO         |
 | Fareed      | 10/05      | NO         |
@@ -15,3 +14,4 @@
 | Luke        | 31/05      | NO         |
 | Andrew      | 02/06      | NO         |
 | Chris       | 07/06      | NO         |
+| Emile       | 09/06      | NO         |
