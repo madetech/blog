@@ -6,7 +6,7 @@
 | **Richard** | **05/05**  | NO         |
 | **Fareed**  | **10/05**  | NO         |
 | **Rory**    | **12/05**  | NO         |
-| **Scott**   | **17/05*   | NO         |
+| **Scott**   | **17/05**  | NO         |
 | David       | 19/05      | NO         |
 | Seb         | 24/05      | NO         |
 | Nick        | 26/05      | NO         |
