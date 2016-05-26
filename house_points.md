@@ -1,11 +1,17 @@
 ### House Points Awarded For Blogging
 | Stark | Baratheon | Targaryen | Lannister |
 | :--- | :----- | :---------------- | ------------- |
-| Rory: 250 | Scott: 50 | David: 75 | Fareed: 50 |
-| Nick: 75 | Alex: 75 | Andrew: 2,500 | Seb: 50 |
-| Emile: 50 | Luke: 175 | Richard: 0 | Chris: 725 |
-| **Total: 375** | **Total: 300** | **Total: 2,625** | **Total: 825** |
+| Rory: 0 | Scott: 0 | David: 0 | Fareed: 0 |
+| Nick: 0 | Alex: 0 | Andrew: 0 | Seb: 0 |
+| Emile: 0 | Luke: 0 | Richard: 0 | Chris: 0 |
+| **Total: 0** | **Total: 0** | **Total: 0** | **Total: 0** |
 
-- 50 House Points for meeting the deadline
-- 25 House Points per 500 views within the 12 week period
-- 75 House Points per author for any publishable posts beyond the required two
+#### Points per post
+  - 50 for submitting by the deadline
+    - 10 points for submitting a late post
+    - 25 points for submitting extra posts
+  - 25 per 500 views, up to a maximum of 2,500 views / 125 points
+
+#### Bonus Points
+  - 50 points at the end of the season to any team who get all 6 posts in
+    - a further 50 if they were all in by their deadline
