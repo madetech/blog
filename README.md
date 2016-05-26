@@ -16,21 +16,42 @@ Everyone will be assigned to one of four houses, whose current members are:
 
 **Lannister:** Fareed, Seb, Chris
 
-Over the course of twelve weeks, each team will be competing to score the most house points for blogging, which will be awarded like so:
+#### Points per post
+  - 50 for submitting by the deadline
+    - 10 points for submitting a late post
+    - 25 points for submitting extra posts
+  - 25 per 500 views, up to a maximum of 2,500 views / 125 points
 
-- Everyone will be given an individual deadline for their post. Everyone that gets their post in by the deadline will be given 50 house points. Miss a deadline, you forfeit the points.
+#### Bonus Points
+  - 50 points at the end of the season to any team who get all 6 posts in
+    - a further 50 if they were all in by their deadline
 
-- Deadlines are 2pm on the date assigned in Trello.
+#### Scoring Period
+At the end of the 12 week season, there'll be a further 2 weeks to allow posts published at the end of the season to rack up more views. The 2 week period will run parallel to the start of the new season, and winners will be announced once those 2 weeks are up.
 
-- For particularly popular posts, an extra 25 house points per 500 views are awarded, regardless of whether your deadline was missed.
+#### Marketing
+When a post is published, Scott will market on the following channels:
 
-- Within the twelve week period, everyone should have produced two posts. Any additional, publishable posts submitted awards 75 house points to the author.
+- Twitter, several times
+- LinkedIn
+- HackerNews
+- DZone
+- RubyFlow (if relevant)
+- Sitepoint (if relevant)
+- Tech London Slack (if appropriate)
+- The newsletter
 
-We'll have a leaderboard up in the office with current totals and, for those teams working on site, we'll post the totals in Slack daily.
+You're encouraged to share and market your own posts in any way you see fit but, in the spirit of fair play, please share any marketing advice not mentioned here with the rest of the team, or add it to this readme.
 
-**At the end of each twelve week period, the team who have accrued the most house points can take an Uber from the office to celebrate their victory with dinner and cocktails at a restaurant of their choice (Seb heartily recommends [this one](http://www.bobbobricard.com/), which has a champagne button). Plus ones also welcome.**
+#### Prize
 
-Teams are encouraged to self organise; how you decide to get posts written is up to you (#blogHour is still available). If you're struggling to get a post written on time, communicate with your team mates to figure out how best to meet your various deadlines. It's also up to you when you decide to go for your victory dinner.
+**The winning team can take an Uber from the office to celebrate their victory with dinner and cocktails at a restaurant of their choice (Seb heartily recommends [this one](http://www.bobbobricard.com/), which has a champagne button). Plus ones also welcome.**
+
+#### Meeting deadlines
+
+It can be difficult to find time to write a post - to make it a little easier, you're able to take one hour each week to blog, whenever you see fit (we call it #blogHour). Just announce that you're taking it in Slack.
+
+Teams are encouraged to self organise, if you're struggling to get a post written on time, communicate with your team mates to figure out how best to meet your various deadlines. It's also up to you to decide when to go for your victory dinner!
 
 Deadlines are listed here: https://trello.com/b/jDROwI93/editorial-calendar/calendar/2016/03
 
