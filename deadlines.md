@@ -2,8 +2,7 @@
 
 | Name        | Due        | Submitted? |
 | :---------- | :--------- | :--------- |
-| Chris       | 07/06      | NO         |
-| Emile       | 09/06      | NO         |
+| **Chris**   | **07/06**  | NO         |
 | Alex        | 14/06      | NO         |
 | Richard     | 16/06      | NO         |
 | Fareed      | 21/06      | NO         |
@@ -14,3 +13,5 @@
 | Nick        | 07/07      | NO         |
 | Luke        | 12/07      | NO         |
 | Andrew      | 14/07      | NO         |
+| Chris       | 19/07      | NO         |
+| Emile       | 21/07      | NO         |
