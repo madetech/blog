@@ -3,8 +3,8 @@
 | :--- | :----- | :---------------- | ------------- |
 | Rory: 0 | Scott: 0 | David: 0 | Fareed: 0 |
 | Nick: 0 | Alex: 0 | Andrew: 0 | Seb: 0 |
-| Emile: 0 | Luke: 0 | Richard: 0 | Chris: 0 |
-| **Total: 0** | **Total: 0** | **Total: 0** | **Total: 0** |
+| Emile: 10 | Luke: 0 | Richard: 0 | Chris: 0 |
+| **Total: 10** | **Total: 0** | **Total: 0** | **Total: 0** |
 
 #### Points per post
   - 50 for submitting by the deadline
