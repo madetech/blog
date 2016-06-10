@@ -8,7 +8,7 @@ Those who forget the past are condemned to repeat it.
 Writing code is an art form. There is no one correct way to do things, so we strive to solidify our understanding of what works and what doesn't.
 This makes things interesting.  In my quest to understand how to write good programs, some quotes have resonated with me.
 
-Below are some of my favorite ones, and pop up in my head ever so often when I am in doubt.
+Below are some of my favourite ones, and pop up in my head ever so often when I am in doubt.
 
 ### *"For each desired change, make the change easy (warning: this may be hard), then make the easy change"*
 
@@ -73,7 +73,7 @@ Haskell has taken this concept so far that it does not allow side effects apart 
 
 **- Edsger Dijkstra**
 
-Definitely one of my favorite quotes of all time.  When you create a code seam, and name it correctly it can house a specific piece of knowledge and
+Definitely one of my favourite quotes of all time.  When you create a code seam, and name it correctly it can house a specific piece of knowledge and
 can be thought about in isolation. Class and method extraction refactorings are some of the tools used to accomplish this.
 
 ---
@@ -93,7 +93,7 @@ exhausted all your options but hopefully will not come to that.
 
 **- Alan Perlis**
 
-There are so many interesting programmnig languages that aim to solve problems in different ways.
+There are so many interesting programming languages that aim to solve problems in different ways.
 Don't waste time learning new languages that follow the same paradigm but only differ in syntax, you probably understand the underlying concepts
 anyway.
 
@@ -104,7 +104,7 @@ anyway.
 **- Rick Waldron**
 
 It is very important to keep consistency throughout the codebase.
-Event if you think a style of solving problems can be improved upon, stick to the existing way of doing so.
+Even if you think a style of solving problems can be improved upon, stick to the existing way of doing so.
 If you want to refactor it to be better, do so to all the code at the same time.
 
 ---
