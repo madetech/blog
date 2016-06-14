@@ -1,4 +1,4 @@
-# We all suffer Javascript Fatigue
+# Suffering from Javascript Fatigue
 
 In the last 10 years, the web has grown quickly from a document-only platform to full-scale applications. A good chunk of the applications which are now being developed are not native anymore but are relying on the web.
 
