@@ -1,4 +1,4 @@
-# Suffering from Javascript Fatigue
+# Javascript Fatigue
 
 In the last 10 years, the web has grown quickly from a document-only platform to full-scale applications. A good chunk of the applications which are now being developed are not native anymore but are relying on the web.
 
@@ -79,4 +79,4 @@ What counts on the browsers is now the speed of delivery, stability is only cons
 
 ## Conclusion
 
-As the Javascript language is now properly maturing, the speed of change of the ecosystem should hopefully slow down a little bit and enable developers to actually let their projects age. I hope a future where coding Javascript applications is simpler and choosing tools much easier, while competition is a worthwhile goal, it is often at the expense of stability and simplicity. 
+As the Javascript language is now properly maturing, the speed of change of the ecosystem should hopefully slow down a little bit and enable developers to actually let their projects age. I hope a future where coding Javascript applications is simpler and choosing tools much easier, while competition is a worthwhile goal, it is often at the expense of stability and simplicity.
