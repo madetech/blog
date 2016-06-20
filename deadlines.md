@@ -1,17 +1,18 @@
 # Deadlines
 
-| Name        | Due        | Submitted? |
-| :---------- | :--------- | :--------- |
-| **Chris**   | **07/06**  | NO         |
-| Alex        | 14/06      | NO         |
-| Richard     | 16/06      | NO         |
-| Fareed      | 21/06      | NO         |
-| Rory        | 23/06      | NO         |
-| Scott       | 28/06      | NO         |
-| David       | 30/06      | NO         |
-| Seb         | 05/07      | NO         |
-| Nick        | 07/07      | NO         |
-| Luke        | 12/07      | NO         |
-| Andrew      | 14/07      | NO         |
-| Chris       | 19/07      | NO         |
-| Emile       | 21/07      | NO         |
+| Name        | Due        |
+| :---------- | :--------- |
+| **Chris**   | **07/06**  |
+| **Richard** | **16/06**  |
+| Fareed      | 21/06      |
+| Rory        | 23/06      |
+| Scott       | 28/06      |
+| David       | 30/06      |
+| Seb         | 05/07      |
+| Nick        | 07/07      |
+| Luke        | 12/07      |
+| Andrew      | 14/07      |
+| Chris       | 19/07      |
+| Emile       | 21/07      |
+| Alex        | 14/06      |
+| Richard     | 16/06      |
