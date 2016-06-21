@@ -1,10 +1,13 @@
 ### House Points Awarded For Blogging
-| Stark | Baratheon | Targaryen | Lannister |
-| :--- | :----- | :---------------- | ------------- |
-| Rory: 0 | Scott: 0 | David: 0 | Fareed: 0 |
-| Nick: 0 | Alex: 50 | Andrew: 0 | Seb: 0 |
-| Emile: 10 | Luke: 0 | Richard: 0 | Chris: 0 |
-| **Total: 10** | **Total: 50** | **Total: 0** | **Total: 0** |
+
+### Season 2 Teams
+
+| Stark | Baratheon | Targaryen |
+| :--- | :----- | :---------------- |
+| Rory: 0 | Scott: 0 | David: 0 |
+| Seb: 0 | Alex: 50 | Chris: 0 |
+| Emile: 10 | Luke: 0 | Richard: 0 |
+| **Total: 10** | **Total: 50** | **Total: 0** |
 
 #### Points per post
   - 50 for submitting by the deadline
