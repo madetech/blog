@@ -6,8 +6,8 @@
 | :--- | :----- | :---------------- |
 | Rory: 0 | Scott: 0 | David: 0 |
 | Seb: 0 | Alex: 50 | Chris: 0 |
-| Emile: 10 | Luke: 0 | Richard: 0 |
-| **Total: 10** | **Total: 50** | **Total: 0** |
+| Emile: 10 | Luke: 0 | Richard: 10 |
+| **Total: 10** | **Total: 50** | **Total: 10** |
 
 #### Points per post
   - 50 for submitting by the deadline
