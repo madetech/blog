@@ -1,4 +1,4 @@
-# Sack your project managers <small>Let your teams plan their work instead</small>
+# Let your teams plan for themselves
 
 As an industry of tinkerers, optimisers and perfectionists we occasionally miss the beauty of unorganisation and human instinct. Our obsession to be more efficient and productive can sometimes have some undesired consequences. At Made we often adapt our processes in the name of efficiency but lately we've started experimenting by taking away some of these processes with surprising results.
 
