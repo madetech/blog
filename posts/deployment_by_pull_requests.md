@@ -13,9 +13,18 @@ The master branch instead of reflecting the current progress becomes a productio
 
 ## Benefits
 
-- Peer Review
+### Peer Review
+
+The pull-request based deployment is enabeling an easy peer-review of the code. Instead of pushing directly though master, everyone can comment on the changes and ask questions. This approached helped to solve numerous misunderstandings during our epics.
+
 - Better stability
-- Less conflicts
+
+### Less conflicts
+
+The pull requests are kept opened just for a small amount of time to get enough reviews and merged as soon as possible. In order to support this workflow, the pull requests are kept as small as possible on purpose so they can be reviewed easily and merged quicker.
+
+This workflow of staying quite close to master helps to reduce the amount of conflicts and the amount of conflicts we expecienced was close to none. Generally, team members are affected to different small tasks which also helps with this problem. 
+
 - Ensure everything is tested properly
 - Helps coninuous delivery
 
