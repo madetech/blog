@@ -7,7 +7,7 @@ In my last post on design patterns, [I discussed the Observer pattern](https://w
 In this post, I'll be discussing the Strategy pattern, another of the behavioural design patterns. I'm particularly comfortable using the Ruby language, so the examples here will reflect that.
 
 ##Problem:
-Using a video game, Overwatch, as an example (because I've been playing a lot of it recently), let's say you have a Player class, and it has many attributes, such as primary_ability, secondary_ability and ultimate_ability, that will be used throughout the game.
+Using a video game, Overwatch, as an example (because I've been playing a lot of it recently), let's say you have a Player class, and it has many attributes, such as `primary_ability`, `secondary_ability` and `ultimate_ability`, that will be used throughout the game.
 
 People playing the game have the choice of 21 different characters to play as, and each of them have different values associated to those three attributes, so we need to be able to efficiently map those values to the Player class each time they select a character. A user is able to switch characters as many times as they like during play, so it's important that this runs as smoothly as possible.
 
@@ -64,7 +64,7 @@ Obviously, this already looks incredibly unweildy, and I've only listed three ch
 >
 > -- _Bertrand Mayer_
 
-So what we can do is create a series of classes, one per unique character, that defines how each of those characters implement their various abilities:
+So what we can do is create a series of classes known as strategies, one per unique character, that defines how each of those characters implement their various abilities:
 
 ```
 class Dva
@@ -121,7 +121,7 @@ class Reaper
   end
 end
 ```
-As a side note, if most characters had a common attribute, say jump_height, rather than implement that in each character's class, we could create a Character super class, which each unique character class could then inherit from, and override in exceptional circumstances:
+As a side note, if most characters had a common attribute, say `jump_height`, rather than implement it in each character's class, we could create a Character super class, which each unique character class could then inherit from, and override it only in exceptional circumstances:
 
 ```
 class Character
@@ -171,3 +171,5 @@ player.character = Dva.new
 player.character_name # 'Current character: D.Va'
 player.character.primary_ability # 'Boosters'
 ```
+
+We've cleaned things up so much so that new characters can be added with ease by creating another strategy with the same methods (similar to the [Template Method Pattern](https://en.wikipedia.org/wiki/Template_method_pattern)), while the Player class no longer needs to be altered to take advantage of the abilities they bring with them.
