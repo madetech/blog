@@ -1,6 +1,6 @@
 # Deployment by pull requests
 
-At MadeTech, we experimented a number of approach to improve our code workflow, [Continuous delivery](/blog/what-is-continuous-delivery) is currently extensively used to bring code closer to our users.
+At Made Tech, we experimented a number of approach to improve our code workflow, [Continuous delivery](/blog/what-is-continuous-delivery) is currently extensively used to bring code closer to our users.
 We have now switched to a pull request-based (or merge request on Gitlab / Bitbucket terminology) development method on some of our projects and already see the benefits of it.
 
 ## How the workflow works
