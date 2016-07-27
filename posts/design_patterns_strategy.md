@@ -1,10 +1,10 @@
 ## Design Patterns: Strategy
 
-Design patterns are solutions to software design problems that are presented in an almost conceptual way. That is to say, a given design pattern has the potential to be applied to a piece of software written in any number of languages but, at a project level, it's up to the developer to interpret that idea and make it work for them.
+Design patterns are solutions to software design problems that are presented in an almost conceptual way. That is to say, a given design pattern has the potential to be applied to a piece of software written in any number of languages but, at a code level, it's up to the developer to interpret that idea and make it work for them.
 
 In my last post on design patterns, [I discussed the Observer pattern](https://www.madetech.com/blog/design-patterns-observer), which is basically a way to have a class notify other classes (called observers) of a change, without the original class needing to have explicit knowledge of its observers.
 
-In this post, I'll be discussing the Strategy pattern, another of the behavioural design patterns. Since most of the projects we work on are written using Ruby, the examples here reflect that.
+In this post, I'll be discussing the Strategy pattern, another of the behavioural design patterns. I'm particularly comfortable using the Ruby language, so the examples here will reflect that.
 
 ##Problem:
 Using a video game, Overwatch, as an example (because I've been playing a lot of it recently), let's say you have a Player class, and it has many attributes, such as primary_ability, secondary_ability and ultimate_ability, that will be used throughout the game.
@@ -71,6 +71,7 @@ class Dva
   def name
     'D.Va'
   end
+
   def primary_ability
     'Boosters'
   end
@@ -88,6 +89,7 @@ class Lucio
   def name
     'Lucio'
   end
+
   def primary_ability
     'Crossfade'
   end
@@ -105,6 +107,7 @@ class Reaper
   def name
     'Reaper'
   end
+
   def primary_ability
     'Wraith Form'
   end
@@ -118,7 +121,6 @@ class Reaper
   end
 end
 ```
-
 As a side note, if most characters had a common attribute, say jump_height, rather than implement that in each character's class, we could create a Character super class, which each unique character class could then inherit from, and override in exceptional circumstances:
 
 ```
@@ -151,21 +153,21 @@ class Player
     @character = character
   end
 
-  def current_character
-    "Current character: #{@character.name}"
+  def character_name
+    "Current character: #{character.name}"
   end
   ...
 end
 
 player = Player.new(Lucio.new)
-player.current_character # 'Current character: Lucio'
-player.primary_ability # 'Crossfade'
+player.character_name # 'Current character: Lucio'
+player.character.primary_ability # 'Crossfade'
 ```
 
 Now I'm playing as Lucio, but he's not being particularly effective and I want to switch characters, so all I have to do is call:
 
 ```
 player.character = Dva.new
-player.current_character # 'Current character: D.Va'
-player.primary_ability # 'Boosters'
+player.character_name # 'Current character: D.Va'
+player.character.primary_ability # 'Boosters'
 ```
