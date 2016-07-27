@@ -25,19 +25,20 @@ Every individual piece of code added though a Pull Request is tested and validat
 
 Every time a commit is pushed on the branch, all the continuous integration tests are executed against the codebase. This is ensuring that every piece of code reaching master is usable and production ready.
 No pull request is merged without waiting for the build to finish, this ensure that the work being done is corresponding to the project standards in feature/unit tests and code quality.
-Having more rigourous testing helps to reduce the work upfront to fix the codebase.
+Having more rigourous testing helps to reduce the work upfront to fix the codebase whenever a problem occurs.
 
 ### Reducing conflicts
 
 The pull requests are kept opened just for a small amount of time to get enough reviews and merged as quickly as possible. In order to support this workflow, the pull requests are kept as small as possible on purpose so they can be reviewed easily and merged quicker. Multiple Pull Requests can be opened if the work to be carried is too large to fit into a single one.
 
-This workflow of staying close to master helps to reduce the amount of conflicts and the amount of conflicts. Team members are also affected to different small tasks which also helps with this problem. 
+This workflow of staying close to master helps to reduce the amount of conflicts and the amount of conflicts. Team members are also affected to smaller tasks which also helps with this problem.
+
+Developers, thanks to peer-review are also increasingly aware of what is happening on the codebase, there is less a need to dig into individual commits since requests to review external come quite often.
 
 ### Continuous Delivery
 
 Because the master branch is now much more stable and production-ready, deployment to production can be triggered at any time without any additional effort.
 Frequent production deployments are contributing to reduce the friction between the users and the code being produced though quicker development cycles.
-
 
 ### Clearer reponsibility
 
