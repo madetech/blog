@@ -1,12 +1,11 @@
 # Deployments by Pull Requests
 
-At Madetech, we experimented a number of approaches to improve our code workflow, [Continuous delivery](what-is-continuous-delivery) is currently extensively used to bring the code quicker to our users.
-We are have now been using a Pull Request-based (or merge request on Gitlab / Bitbucket) development method.
-
+At Madetech, we experimented a number of approach to improve our code workflow, [Continuous delivery](what-is-continuous-delivery) is currently extensively used to bring the code quicker to our users.
+We have now switched to a Pull Request-based (or merge request on Gitlab / Bitbucket) development method on some of our project and already see the benefits of it.
 
 ## How the workflow works
 
-The master branch now becomes a production-ready branch and the only commits on master are coming from pull requests.
+The master branch now becomes a production-ready branch and the only commits on master are coming from Pull Requests.
 Instead of everyone pushing directly to master, branches are used for every pull requests.
 The pull request branch should be rebased often to the master to make sure that branch is unaffected by the latest code.
 
@@ -16,25 +15,35 @@ The pull request branch should be rebased often to the master to make sure that 
 
 The pull-request based deployment is enabeling an easy peer-review of the code. Instead of pushing directly though master, everyone can comment on the changes and ask questions before merging any piece of work. This approach helped to solve numerous misunderstandings during our epics at Made and greatly improved code quality.
 
-The feedback is easier to create if the Pull Request is small so a some efforts is spend to make more concise Pull Requests.
+The feedback is easier to create if the Pull Request is small. so some efforts are spend to make more concise Pull Requests.
 
 ### Better stability
 
-### Less conflicts
+Every individual piece of code added though a Pull Request is tested and validated before being merge into the codebase. The codebase has a better coverage and the stability of the code is greatly improved.
 
-The pull requests are kept opened just for a small amount of time to get enough reviews and merged as soon as possible. In order to support this workflow, the pull requests are kept as small as possible on purpose so they can be reviewed easily and merged quicker.
+
+### Sufficient testing
+
+Every time a commit is pushed on the branch, all the continuous integration tests are executed against the codebase. This is ensuring that every piece of code reaching master is usable and production ready.
+No pull request is merged without waiting for the build to finish, this ensure that the work being done corresponds to the project standards in feature/unit tests and code quality.
+Having more rigourous testing helps to reduce the work upfront to fix the codebase 
+
+### Reducing conflicts
+
+The pull requests are kept opened just for a small amount of time to get enough reviews and merged as quickly as possible. In order to support this workflow, the pull requests are kept as small as possible on purpose so they can be reviewed easily and merged quicker.
 
 This workflow of staying quite close to master helps to reduce the amount of conflicts and the amount of conflicts we expecienced was close to none. Generally, team members are affected to different small tasks which also helps with this problem. 
 
-### Ensure everything is tested properly
+### Continuous Delivery
 
-Every time a commit is pushed on the branch, all the continuous integration tests are ran against the codebase. This is ensuring that every piece of code reaching master is usable and production ready.
-No pull request is merged without waiting for the build to finish, this ensure that the work being done is coresponding to the project standards in feature/unit tests and code quality.
-Having more rigourous testing helps to reduce the work upfront to fix the codebase 
+Because the master branch is now much more stable and production-ready, deployment to production can be triggered at any time without any additional effort.
+Frequent production deployments are contributing to reduce the friction between the users and the code being produced though quicker development cycles.
 
-### Helps coninuous delivery
 
-[...]
+### Clearer reponsibility
+
+Each developer is now responsible of the creation of the Pull-Request and address the peer-reviewed feedback directly given on the Pull Request itself. Developers are have a greater sense of code ownership and responsability since they are the only one giving the final green light to merge and deploy their code.  
 
 ## Conclusion
 
+While this Pull-Request based development also has some disadvantages (mainly slower merging due to the peer-review), we have witnessed a lot of prositive improvements in our projects and plan to slowly roll out this development method to other projects within Made.
