@@ -13,3 +13,5 @@
 | Emile       | 23/08      |
 | Alex        | 25/08      |
 | Richard     | 30/08      |
+| Rory        | 01/09      |
+| Scott       | 06/09      |
