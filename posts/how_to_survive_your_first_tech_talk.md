@@ -18,6 +18,8 @@ An emergency demo plan is something sensible to have. Make sure you have a PDF c
 
 The second pressure of my talk was figuring out what exactly I was going to talk about, how it should flow, and my slide deck.
 
+When my colleague Chris signed me up, I think he was quite vague and told the organisers it would be a talk on Terraform and Ansible. I had quite a lot of flexibility with that. The high level tools had been decided for me, so all I had to come up with was something that used these tools. We're big advocates of Continuous Delivery, so using these tools to get a pipeline up and running as easily as possible seemed like a good choice of talk subject.
+
 My plan of action for this was similar to how I write my blog posts. Start with a very rough, high level, bullet pointed list of the things I wanted to cover. In keynote this formed my main break points during the talk. I set out by creating these slides in Keynote as just brief title slides. Then beneath each of these I would create further title slides with minimal words on them. Dragging slides inwards in the outline viewed gave my slides a form of hierarchy so I could see which slides came under which topic of my talk.
 
 If you're able to take advantage of another pair of ears and eyes during this step, then grab that. My good friend Luke had those ears and eyes on offer, so I managed to get some really valuable input from him on slides and things that I might have missed, or assumed the audience might know. 
