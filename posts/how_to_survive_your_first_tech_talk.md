@@ -42,3 +42,6 @@ Usually people asking questions have very specific scenarios and are usually goi
 
 Something I found really difficult was trying not to stare at my laptop/read off of my slides the whole time. Try to make eye contact with your audience. Try not to look at the same person all the time.
 
+***
+
+To anyone reading who is about to do their first talk, keep calm. Breathe. Talk slowly. It won't be as bad as you think it will be, and once you have one under your belt, the next one will be a breeze.
