@@ -12,6 +12,8 @@ In hindsight, trying to slot this in with my day-to-day work was very tricky, an
 
 Being able to write code in time for a talk is not the only thing that is risky, but a live demo of any form can go wrong. Unless your demo is completely offline, if you can't be guarnateed a decent internet connection, or your talk doesn't depend on any third party services, there are many points of failure that could occur. I was very lucky, and I think most people are. But imagine if it was your talk where everything fell apart?!
 
+An emergency demo plan is something sensible to have. Make sure you have a PDF copy of your slides, and presenter notes, and preferably store these on a USB stick. Also, if possible, have a screen recording of your live demo _just in case_. It won't be live, but at least you can present how things should have been.
+
 ## What am I actually going to talk about?
 
 The second pressure of my talk was figuring out what exactly I was going to talk about, how it should flow, and my slide deck.
