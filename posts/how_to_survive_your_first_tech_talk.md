@@ -34,11 +34,11 @@ The final pressure is the talk itself. The big day has arrived.
 
 Make sure you have water to hand. Don't drink too much of it beforhand, it's mainly there so you can clear a dry throat while talking. If needed, have a beer to calm your nerves.	
 
-Mindfullness is all the rage these days, try and keep a focused of your breathing, relax, and keep calm. While focusing on your breathing, try and keep calm, and try not to talk really fast. Focus on your pace while also delivering your talk. Talk slowly on purpose.
+Mindfulness is all the rage these days, try and keep a focused of your breathing, relax, and keep calm. While focusing on your breathing, try and keep calm, and try not to talk really fast. Focus on your pace while also delivering your talk. Talk slowly on purpose.
 
 Don't worry about the audience. Everyone says it, but people aren't there to try and pull you up on any mistakes you may or may not make. Sometimes people might ask questions during your talk, don't let this off-put you. Unless you claim to be an expert at the very start of your talk, don't be afraid to say you don't know the answer to a question. This was one of my original fears for giving talks, not knowing how to respond to questions.
 
-Usually people asking questions have very specific scenarios and are usually going to ask how they can use your topic to fit into these. People can't expect you to know the answers, or know how to apply the thing you're talking about to all scenarios. When in doubt, defer, and tell people to come and catch you after your talk for a drink to talk about it further.
+People often ask questions that have very specific scenarios and are usually going to ask how they can use your topic to fit into these. People can't expect you to know the answers, or know how to apply the thing you're talking about to all scenarios. When in doubt, defer, and tell people to come and catch you after your talk for a drink to talk about it further.
 
 Something I found really difficult was trying not to stare at my laptop/read off of my slides the whole time. Try to make eye contact with your audience. Try not to look at the same person all the time.
 
