@@ -4,10 +4,10 @@
 
 | Stark | Baratheon | Targaryen |
 | :--- | :----- | :---------------- |
-| Rory: 0 | Scott: 10 | David: 50 |
+| Rory: 0 | Scott: 10 | David: 100 |
 | Seb: 0 | Alex: 125 | Chris: 60 |
 | Emile: 60 | Luke: 50 | Richard: 185 |
-| **Total: 60** | **Total: 185** | **Total: 295** |
+| **Total: 60** | **Total: 185** | **Total: 345** |
 
 #### Points per post
   - 50 for submitting by the deadline
