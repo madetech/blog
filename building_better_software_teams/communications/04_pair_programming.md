@@ -6,7 +6,7 @@ We've helped a number of organisations successfully adopt pair programming, givi
 With this article/chapter, we're sharing our experiences when introducing pair programming to software teams, and we'll take you through the techniques you'll need to apply what we've learnt to your organisation.
 
 ### Background
-Provide a History of pair programming, it's background in XP
+Pair programming was first introduced by the Extreme Programming (XP) software development methodology as an 'Extreme' way to practice regular code reviews. 
 
 ### How It Works
 -- Driving
