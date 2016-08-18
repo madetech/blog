@@ -6,7 +6,7 @@ We've helped a number of organisations successfully adopt pair programming, givi
 With this article/chapter, we're sharing our experiences when introducing pair programming to software teams, and we'll take you through the techniques you'll need to apply what we've learnt to your organisation.
 
 ### Background
-Pair programming was first introduced by the Extreme Programming (XP) software development methodology as an 'Extreme' way to practice regular code reviews. 
+Pair programming was first introduced as part of the Extreme Programming (XP) software development methodology, as an 'extreme' way to practice regular code reviews. Conceived of by [Kent Beck in 1999](https://www.amazon.co.uk/Extreme-Programming-Explained-Embrace-Change/dp/0201616416), XP is a collection of software principles which help teams to deliver higher quality software. It places value on communication, simplicity, feedback, courage and respect, all of which, as you'll discover, lead to a positive pair programming experience. 
 
 ### How It Works
 -- Driving
@@ -38,6 +38,8 @@ Pair programming was first introduced by the Extreme Programming (XP) software d
 -- Disengagement
 -- Skill Disparity
 -- Bad Pairs
+-- Backseat Driving
+-- Communication (Your Baby Is Ugly)
 
 ### Introducing Pairing
 -- Getting Started
