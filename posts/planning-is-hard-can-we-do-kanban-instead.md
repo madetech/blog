@@ -24,23 +24,29 @@ Highly performant teams will want to ensure they have appropriate robustness in 
 
 One solution is to go back to meeting weekly, right?
 
-## Daily coordination (Scrum)
+## Scrum
 
-Scrum answers this with a daily stand up, which has some amount of ceremony attached to it.
+Scrum answers this with a combination of sprint planning and daily standups, both of which have some amount of ceremony attached to them.
+
+### Sprint planning
+
+The purpose of sprint planning is to put a timebox on a set of deliverables that the team has committed to, and offer that as an iteration cadence to the customer.
+
+A sprint is usually planned every 1-3 weeks, and this can be a fairly heavy-weight session. It is hard for a Scrum team to change course in the middle of a Sprint. Which may feel helpful for teams new to Agile, but highly-performant teams want to be able to change direction on a daily basis!
+
+### Daily coordination
+
+The purpose of the daily standup is to improve team communication while in flight and there are three basic questions that create a standup meeting:
 
 - What did you do yesterday?
 - What are your plans for today?
 - Do you have any impediments?
  
-These meetings are to strictly take less than 15 minutes.
+This certainly helps teams plan their day within the context of the already planned Sprint.
 
-This certainly helps teams plan their day within the context of the already planned Sprint(!)
-
-Note well that the Sprint is usually planned every 1-3 weeks, and this can be a fairly heavy-weight session. It is hard for a Scrum team to change course in the middle of a Sprint. Which may feel helpful for teams new to Agile, but highly-performant teams want to be able to change direction on a daily basis!
+It is common for team members new to Agile to be unable to grasp the importance of the daily standup, and to add to the potential pain points it can be time consuming when facilitated badly. Inexperienced teams tend to focus on what they are going to say during their turn in the standup. As a result of this they forget to listen to each other which defeats the purpose of having them, and can contribute to the feeling that they are boring or time consuming. The general suggestion is to ensure that these meetings are to strictly take less than 15 minutes.
 
 Scrum requires team members to attend standup at the same time every day, for geographically non-colocated teams, or teams in different time-zones this can be logistically very difficult. This makes Scrum potentially inappropriate for agile teams with these scaling factors.
-
-Moreover it is common for team members new to Agile to be unable to grasp the importance of the daily standup, and to add to the potential pain points it can be time consuming when facilitated badly. Inexperienced teams tend to focus on what they are going to say during their turn in the standup. As a result of this they forget to listen to each other which defeats the purpose of having them, and can contribute to the feeling that they are boring or time consuming. 
 
 ## Lean-coordination (Kanban)
 
