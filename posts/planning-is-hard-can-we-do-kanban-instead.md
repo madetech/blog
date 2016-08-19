@@ -2,7 +2,7 @@
 
 Planning is an activity that usually results in some emotional response, however it can generally be said that teams avoiding planning will also be avoiding thinking about the future in general. Having a poor engineering strategy can have serious consequences on Lead Time and Delivery Rate.
 
-Whether your experience with planning is a positive or a negative one, it is an skill that must be learnt and mastered.  
+Whether your experience with planning is a positive or a negative one, it is a skill that must be learnt and mastered.  
 
 When teams start out in Agile they will typically venture towards no planning or Scrum. Implementing Scrum first will generally be an easier task. A good litmus test for when you might be ready to try out more lean/advanced practices is when you feel the need to pivot more frequently than Scrum typically allows you to. 
  
@@ -21,9 +21,8 @@ Typically ceremonious planning leads to an environment where teams only communic
 
 An answer to this is to remove planning from the equation! Meeting once a week? Who needs that?
 
-This can work to reduce planning overhead massively, but introduces risk. 
-
-A new problem is introduced: business value adding work is not being prioritised effectively, resulting in business long-term objectives not being met.
+This can work to reduce planning overhead massively, but introduces risk and this risk is that business objectives wont be met.
+Highly performant teams will want to ensure they have appropriate robustness in their planning activities, and this is very rarely achieved by having no planning. 
 
 One solution is to go back to meeting weekly, right?
 
@@ -43,26 +42,26 @@ Note well that the Sprint is usually planned every 1-3 weeks, and this can be a 
 
 Scrum requires team members to attend standup at the same time every day, for geographically non-colocated teams, or teams in different time-zones this can be logistically very difficult. This makes Scrum potentially inappropriate for agile teams with these scaling factors.
 
-Moreover it is common for team members new to Agile to be unable to grasp the importance of the daily standup, and to add to the potential pain points it can be time consuming when facilitated badly. 
+Moreover it is common for team members new to Agile to be unable to grasp the importance of the daily standup, and to add to the potential pain points it can be time consuming when facilitated badly. Inexperienced teams tend to focus on what they are going to say during their turn in the standup. As a result of this they forget to listen to each other which defeats the purpose of having them, and can contribute to the feeling that they are boring or time consuming. 
 
 ## Lean-coordination (Kanban)
 
 ### What is Kanban?
 
-At the very basic level applying Kanban is as simple as having a Kanban board (e.g. on Trello) to visualise the flow of cards (Kanbans) through a work system.
+At the very basic level applying Kanban is as simple as having a Kanban board (e.g. on Trello) to visualise the flow of cards (Kanbans) through a work system, where each piece of work exists as a single item on the board. As Kanbans progress they typically individually move through a series of states, represented as columns from left to right, until they are complete.
  
-The prevelence of such tools has enabled teams to create Kanban-like flow systems, dubbed ProtoKanban.
+The prevelence of such tools has enabled teams to create Kanban-like flow systems, dubbed Protokanban.
   
 ### What does mature Kanban look like?
 
 #### 1. defined commitment points
 
 It is quite common for Protokanban boards to comprise of To Do, In Progress and Done columns. 
-The is a potential sign that there is no defined commitment points, especially if requesters have write access to the board itself.
+This is a potential sign that there is no defined commitment points, especially if requesters have write access to the board itself.
 
 Risks associated with not having defined commitment points: 
 
-- Perception that your team isn't performant or,
+- Perception that your team isn't performant
 - Perception that Jira/Trello is a black hole for their tasks.
 - Knock on effects could be that requesters stop requesting tasks (which can lead to high value items not being ever looked at) or,
 - Requesters lose fundamental faith in the ability SD Team (Service Delivery Team)
@@ -75,18 +74,18 @@ To prevent SD Teams committing to **all the work**, Kanban imposes strict WiP li
 
 As soon as the SD Team has committed to a work item, the clock is ticking until that work item is considered Done.
 
-This forces teams to meet often with the SRM (Service Request Manager) (roughly to the Product Owner) whenever they have run out of work items to complete.
+This forces teams to meet often with the SRM (Service Request Manager) (roughly equivalent to the Product Owner) whenever they have run out of work items to complete.
 
 #### 3. Prioritisation
 
 Kanban coordination generally relies on the SRM pre-prioritising (and pruning) Kanbans before any coordination meetings.
  
-Typically the prioritisation approach used by the SRM is centered around urgency modeling, Kanbans with higher urgency make their way to the top of the priority. 
+Typically the prioritisation approach used by the SRM is centered around urgency modeling. Kanbans with higher urgency make their way to the top of the priority. 
 
 The main purpose of coordination is to apply WSJF (weighted-shortest-job-first), and select the tasks which have the highest Urgency associated with them with the lowest Cost-to-complete.
 
-- Weight is provides by the Urgency model
-- Shortest-job is estimated by team members
+- Weight is provided by a model of Urgency (which gets mapped onto cost in $ per week)
+- Shortest-job is estimated by team members (potentially ranged estimate)
 
 Highly efficient Kanban SD Teams tackle the shortest-to-deliver most costliest-items-to-delay first.
 
