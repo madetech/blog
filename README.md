@@ -4,30 +4,9 @@ Our company blog is a critical channel for inbound marketing efforts, lead gener
 
 One of ours aims is to ensure our blog posts closely align with our positioning, and provides interesting and thought provoking reading to our customers, especially those who fall into the various [customer personas](https://docs.google.com/a/maine-associates.com/document/d/1S0VF2oMMGqyHByisSmGDMGpZgTUcuh-38J9rg6GpcEQ/edit?usp=sharing) we would like to target.
 
-## Blog Teams
+#### [Blog Teams](house_points.md#season-3-teams)
 
-Everyone will be assigned to one of four houses, whose current members are:
-
-**Stark:** Rory, Nick, Emile
-
-**Baratheon:** Scott, Alex, Luke
-
-**Targaryen:** David, Andrew, Richard
-
-**Lannister:** Fareed, Seb, Chris
-
-#### Points per post
-  - 50 for submitting by the deadline
-    - 10 points for submitting a late post
-    - 25 points for submitting extra posts
-  - 25 per 500 views, up to a maximum of 2,500 views / 125 points
-
-#### Bonus Points
-  - 50 points at the end of the season to any team who get all 6 posts in
-    - a further 50 if they were all in by their deadline
-
-#### Scoring Period
-At the end of the 12 week season, there'll be a further 2 weeks to allow posts published at the end of the season to rack up more views. The 2 week period will run parallel to the start of the new season, and winners will be announced once those 2 weeks are up.
+#### [Point Scoring](house_points.md#points-per-post)
 
 #### Marketing
 When a post is published, Scott will market on the following channels:
