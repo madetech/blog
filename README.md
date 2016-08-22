@@ -8,6 +8,8 @@ One of ours aims is to ensure our blog posts closely align with our positioning,
 
 #### [Point Scoring](house_points.md#points-per-post)
 
+#### [Deadlines](deadlines.md)
+
 #### Marketing
 When a post is published, Scott will market on the following channels:
 
