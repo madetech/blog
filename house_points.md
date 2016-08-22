@@ -17,3 +17,6 @@
 #### Bonus Points
   - 50 points at the end of the season to any team who get all 4 posts in
     - a further 50 if they were all in by their deadline
+
+#### Scoring Period
+At the end of the 12 week season, there'll be a further 2 weeks to allow posts published at the end of the season to rack up more views. The 2 week period will run parallel to the start of the new season, and winners will be announced once those 2 weeks are up.
