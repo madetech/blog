@@ -108,3 +108,9 @@ As the focus is on delivery to an external stakeholder to the SD Team, Kanban ca
 ## Scaling
 
 It is recommended in Scrum to generally not scale a single team beyond 9-12 members (with even 9 considered extreme by most), by comparison it is generally possible to scale a Kanban flow-system beyond that (with teams seen in the wild at 40-50 members).
+
+## Conclusion
+
+Scrum is better suited for environments where the scrum-team is both defining both the problem and the solution. 
+Kanban can work for either (typically Scrum teams will use a Trello/Jira board anyway).
+Where Kanban works really well is for steady streams of work-items (e.g. support requests), that come from an external requestor as the interface it provides to those requestors is more friendly.
