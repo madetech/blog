@@ -91,7 +91,7 @@ The main purpose of coordination is to apply WSJF (weighted-shortest-job-first),
 - Weight is provided by a model of Urgency (which gets mapped onto cost in $ per week)
 - Shortest-job is estimated by team members (potentially ranged estimate)
 
-Highly efficient Kanban SD Teams tackle the shortest-to-deliver most costliest-items-to-delay first.
+Highly efficient Kanban SD Teams tackle the shortest-to-deliver most costly-items-to-delay first.
 
 #### 4. Frequent coordination meetings
 
