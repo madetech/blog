@@ -8,7 +8,7 @@ When teams start out in Agile they will typically venture towards no planning or
  
 ## Ceremonious planning
 
-Traditional (software) project management usually centers around some kind of ceremony when it comes to planning.
+Traditional software project management usually centers around some kind of ceremony when it comes to planning.
 This can result in situations where the granularity of planning can be too much, or the decision framework it provides is there to control change to a plan made in a previous planning session. This type of environment leads to progressively decreasing productivity. What the business wants to receive is prevented by the same framework that is supposed to aid it.
 
 If a lot of your planning artefacts are going unused during development or need to be reworked entirely, then it is likely that you are over-planning.
