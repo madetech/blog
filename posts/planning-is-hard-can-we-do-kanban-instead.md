@@ -68,7 +68,7 @@ Risks associated with not having defined commitment points:
 - Perception that your team isn't performant
 - Perception that Jira/Trello is a black hole for their tasks.
 - Knock on effects could be that requesters stop requesting tasks (which can lead to high value items not being ever looked at) or,
-- Requesters lose fundamental faith in the ability SD Team (Service Delivery Team)
+- Requesters lose fundamental faith in the ability of the SD Team (Service Delivery Team)
 
 #### 2. Work in progress limits
 
