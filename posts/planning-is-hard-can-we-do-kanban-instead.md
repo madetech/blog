@@ -17,7 +17,7 @@ Typically ceremonious planning leads to an environment where teams only communic
 
 ## No planning
 
-An answer to this is to remove planning from the equation! Meeting once a week? Who needs that?
+An answer to ceremonious planning is to remove planning from the equation entirely! Meeting once a week? Who needs that?
 
 This can work to reduce planning overhead massively, but introduces risk and this risk is that business objectives wont be met.
 Highly performant teams will want to ensure they have appropriate robustness in their planning activities, and this is very rarely achieved by having no planning. 
