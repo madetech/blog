@@ -1,6 +1,6 @@
 # "Planning is Hard can we do Kanban instead"
 
-Planning is an activity that usually results in some emotional response, however it can generally be said that teams avoiding planning will also be avoiding thinking about the future in general. A lack of robust planning at the most granular levels in your team can bubble up to the least granular levels, having serious consequences on Lead Time and Delivery Rate.
+Planning is an activity that usually results in some emotional response, however it can generally be said that teams avoiding planning will also be avoiding thinking about the future in general. A lack of robust planning the detail in your organisation can bubble up to impact plans at the high level portfolio, causing serious consequences on Lead Time and Delivery Rate.
 
 Whether your experience with planning is a positive or a negative one, it is a skill that must be learnt and mastered.  
 
