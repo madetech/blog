@@ -109,8 +109,8 @@ As the focus is on delivery to an external stakeholder to the SD Team, Kanban ca
 
 It is recommended in Scrum to generally not scale a single team beyond 9-12 members (with even 9 considered extreme by most), by comparison it is generally possible to scale a Kanban flow-system beyond that (with teams seen in the wild at 40-50 members).
 
-## Conclusion
+## So a Scrum-approach or Kanban-approach?
 
-Scrum is better suited for environments where the scrum-team is both defining both the problem and the solution. 
-Kanban can work for either (typically Scrum teams will use a Trello/Jira board anyway).
-Where Kanban works really well is for steady streams of work-items (e.g. support requests), that come from an external requestor as the interface it provides to those requestors is more friendly.
+In our experience Scrum is best suited for environments where the product development team is defining both the problem and the solution, and it needs to interact with the rest of the organisation to collect feedback so that it can locate problems. By contrast we have found Kanban to be extremely fitting in both this scenario and for steady streams of work-items, like support requests, that come from an external requestor. 
+The benefit of Kanban is that it can be used internally within a product development team to pivot quickly, as in a lean-startup model, in this situation Scrum would feel like change-control beaurocracy. 
+One consideration with the Kanban approach is that it works best in highly-experienced Agile teams. The reason for this is that it is a more lightweight governance approach, so more team members less familiar with Agile will struggle to keep focus.
