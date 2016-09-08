@@ -91,12 +91,12 @@ You'll often find pairing works less well when you've got signifiant skill dispa
 It's important that you pair developers who will be well suited to each other. The most beneficial pairing will be two people who can learn from one another, share similar philosophies and balance each other out. You don't want a pair of people known for over engineering solutions, or a pair with similar bad habits.
 
 #### Backseat Driving
-When a pair of developers have significant skill disparity, or one member of the pair is louder then the other, then you may encounter backseat driving. This will typically manifest itself in the navigator telling the driver exactly what to type, and the driver following their instructions. 
+When a pair of developers have significant skill disparity, or one member of the pair is louder then the other, then you may encounter backseat driving. This will typically manifest itself in the navigator telling the driver exactly what to type, and the driver following their instructions.
 
 This is a problem, and you should encourage the backseat driver to be more considerate, or consider switching the pair members so they are working with people who have similar skill levels.
 
 #### Communication (Your Baby Is Ugly)
-It's important that you are able to communicate honestly with your pair. If one has an idea that the other knows to be bad, they must be capable of saying this and able to present a case for an alternate approach. 
+It's important that you are able to communicate honestly with your pair. If one has an idea that the other knows to be bad, they must be capable of saying this and able to present a case for an alternate approach.
 
 #### Disengagement
 Some developers will be resistant to pairing or will spend their time less engaged in the activity. Developers checking their phone constantly, sitting back in their chair or not communicating actively are signs of an individual that is disengaged.
@@ -104,41 +104,43 @@ Some developers will be resistant to pairing or will spend their time less engag
 This is detrimental to the team, and it's important to try to understand why it's happening. It may be that the developer really does work better alone, or it's a sign that they're exhausted, there's disparity in skill between them and their partner, or that they simply don't get on with their partner.
 
 ## Introducing Pairing
-#### Getting Started
-Start small, take two developers who are keen on the idea of pairing, get them to champion it, set them a task to complete and give them the space they need.
+When introducing pairing to your team, there's a number of things to consider, such as the practicalities, and the typical objections you might face from the business.
 
-#### Trial Period
-Have those developers pair together for a short while, a couple of weeks.
+#### Getting Started
+Start small, take two developers who are keen on the idea of pairing, set them a task to complete and give them the space they need. Get them to champion it, so others can get a sense of how it's working for them.
+
+Have them pair together for a short while, perhaps a couple of weeks, so that they have time to address any teething problems.
 
 #### Don't Assign Pairs
-Don't force developers to adopt pairing if they're not ready.
+It's important not to force people to pair together, let pairs form naturally. Keep an eye out for signs of the challenges mentioned above, and provide guidance if it seems like a pair is less effective than it could be.
 
 #### When Not To Pair
-Not every task requires two developers to tackle it, on occasion a task will be very straightforward to complete and largely relies on muscle memory rather than significant amounts of thought.
+Not every task requires two developers to tackle it. Having two developers working on the same thing may not be the best use of your team's time; a task may be so straightforward to complete that it relies more on muscle memory than critical thinking, or one developer is tired of pairing and in need of a timeout. [Find some examples of good and bad times to pair here.](https://www.madetech.com/blog/the-best-and-worst-times-to-pair-program)
 
-#### Removing Blockers
-##### "Double The Hours"
-A popular argument for not adopting pairing is that you're doubling the man hours needed to complete a task, which is not true. You're likely to find that the number of man hours does increase, but you'll also find they produce better quality code.
+##### Blockers: "Double The Hours"
+A popular argument for not adopting pairing is that you're doubling the man hours needed to complete a task, which is simply not true. You're likely to find that the number of man hours does increase, but you'll also find they produce better quality code and spend less time stuck on problems or dealing with technical debt.
 
-##### Management Buy In
-Active collaboration results in a product that is higher in quality, and lower in defects. When software projects fail, it's often because of poor communication; pair programming reduces the risk around this because you embed communication and collaboration into the delivery process.
+##### Blockers: Management Buy In
+Software projects can fail and the most common reason for failure is poor communications or mounting technical debt. Pair programming embeds collaboration into the process, which results in a software product that is of higher quality, and has fewer defects.
 
-Removes the risk around when a developer leaves, as other developers will have domain knowledge of the projects they were involved in.
+When teams engage in pair programming, it means there is less risk when a developer leaves, or is away, as domain knowledge has been spread across the team.
 
 ##### Cynics
-It's a hot button topic in software and you'll frequently find people against pairing. You can't force a cynic to enagge in pair programming, but you can get the people who are interested in pair programming to evangalise it and over time, we've found this helps to bring people around.
+It's a hot button topic in software and you'll frequently find people opposed to pairing. You can't force a cynic to enagge in pair programming, but you can get the people who are interested in pair programming to evangalise it. Over time, we've found this helps to bring some people around.
 
 #### Review
-As with any agile process, it's always valuable to review progress with pair programming and see whether it's working well for your organisation. There are a number of retrospectives that you can run to discuss the things that have worked well and may not have worked so well.
+As with any agile process, it's valuable to reguarly review progress and see if it's working well for your organisation. We've found Agile retrospectives to be a handy tool, in helping to understand what has worked well and what may not have worked so well.
 
 ## Pairing Environments
 #### Workspace & Equipemnt
-We see the ideal pairing workstation has having two mirrored screens, plus a shared keyboard and computer. The pairs should be able to comfortable sit side-by-side with one another in an enviroment which is ergonomical. At the bare minimum, a pair should have a single computer which they pass back-and-forth.
+We see the ideal pairing workstation as having two mirrored screens, plus a shared keyboard and computer. The pairs should be able to comfortably sit side by side with one another in an enviroment which is ergonomically friendly. At the bare minimum, a pair should have a single computer which they pass back-and-forth.
 
 #### Remote Pairing Setup & Tools
-As remote working has become more popular, tools such as Screenhero have gained traction and are a great way to pair program from different locations. Tolls like Screenhero allow you to share your screen and let the other person drive, as if it was their own computer.
+As remote working has become more popular, tools such as [Screenhero](https://screenhero.com/) have gained traction in the pair programming community, and are a great way to collaborate from different locations.
+
+A Pomodoro app is a must, we use [Pomodoro One](https://itunes.apple.com/gb/app/pomodoro-one/id907364780?mt=12), but there are hundreds out there that could be used for pair programming.
 
 ## Conclusion
-Programming has become more social, through the increased adoption of open source and plethora of online tools that help software teams to collaborate. We see pair programming as being the natural evolution of this and a technique that will become more widely adopted in years to come.
+Programming has become more social, through the increased adoption of open source and a plethora of online tools that help software teams to collaborate. We see pair programming as being the natural evolution of this and a technique that will become more widely adopted in years to come.
 
 ### Downloadable
