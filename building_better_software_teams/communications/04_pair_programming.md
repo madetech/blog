@@ -45,6 +45,7 @@ Two heads are better than one and, in a pair, both developers will have knowledg
 Pairing encourages you to explain your thought process as you go, whether you're the driver or the navigator, and in a lot of cases there are several ways to solve a particular problem. By having a partner there to constantly bounce ideas off, you can quickly weed out sub optimal ideas and concentrate on the best solution.
 
 ## Benefits Of Pairing
+There are many business benefits to pair programming, such as improving the quality of software delivered, building collaboration within a team and helping to share domain knowledge across multiple people.
 
 #### Productivity & Focus
 Working so closely with someone else means you've got no other option but to double down on the thing you're working on. The quality of the code becomes a shared responsibility, and means that, when pairing is done properly, it's much more difficult to become distracted by checking your emails, chatting to colleagues or browsing the web.
@@ -52,22 +53,24 @@ Working so closely with someone else means you've got no other option but to dou
 The back and forth nature of pair programming also helps to keep you engaged; whether you're switching roles every fifteen minutes, or you've gone the Ping Pong route, navigators are often eager to get back on the keyboard and keep momentum going.
 
 #### Higher Quality
-Accountability of having someone watching you write the code, harder to take shortcuts. Two different knowledge sets attacking the problem.
+A developer working alone can often be tempted to take shortcuts, either in the interest of time or because they're not quite sure what the best solution is and don't want to feel stuck. It's much more difficult to let that happen when you're working as a pair, because everything you do is being evaluated by another person and you're both responsible for the quality of the code.
 
 #### Domain Understanding
-Pairing is a great way to share domain knowledge within an organisation, rather than letting one developer become the sole gatekeeper of a project.
+Pairing is a great way to share domain knowledge within an organisation, and makes it much easier for developers to move back and forth across different projects. By working this way, it means that if a particular developer is absent for any reason, whether it be holiday, sickness or they've decided to leave, there's at least one other person in the team who has a good understanding of the project and can easily continue working on it.
 
 #### Improved Resiliency
-A single developer is much more likely to be distracted by interruptions, meetings, emails etc #### a pair of developers are more resilient to interruptions because it's obvious that they're in the middle of something.
+Whatever environment you're working in, the number of things that can interrupt or distract a developer working alone is huge. When you're part of a pair, you become much more resilient to those interruptions because you're both committed to the task at hand. You're less likely to be interrupted by colleagues because they can clearly see that you and your partner are in flow, and you'll more easily resist the temptation to check emails because you're both committed to completing the task at hand.
 
 #### Team Building & Cohesion
-Spending that much time working so closely with another person naturally makes developers more social #### programming is traditionally a very isolated profession, pairing makes that less so.
+The stereoptypical view of software developers is that they work alone and are poor at communicating with others. Whether or not this sterotype is true, it's not uncommon to find developers who favour working alone and for teams, this is not ideal.
+
+Pair programming encourages a much more social and collaborative way of working, which helps to build rapport between team members and a culture where your team solves problems collectively.
 
 #### Learning
-Because each developer will have knowledge in different areas, knowledge lacking in one developer is easily shared by the other.
+The number of technologies and languages within the field of software engineering is vast, so it's inevitable that there'll be areas where one developer is stronger than another. With pair programming, it becomes much easier for developers to learn from one another as they're being introduced to new concepts as they go.
 
 #### Continuous Code Review
-The quality of code written by pairs is much higher, because the navigator is constantly reviewing the code and thinking about edge cases.
+Code reviews are a valuable part of any organisation's software development lifecycle. Pair programming takes that concept to an extreme, by having the navigator constantly reviewing what the driver is typing, suggesting improvements or alternate approaches that might help catch edge cases.
 
 ## Challenges In Pairing
 #### Switching Mindsets
