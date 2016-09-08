@@ -1,35 +1,38 @@
 # Pair Programming
 We've helped a number of organisations successfully adopt pair programming, giving their teams the ability to increase productivity, improve knowledge sharing and enhance the quality of their software.
 
-With this article/chapter, we're sharing our experiences when introducing pair programming to software teams, and we'll take you through the techniques you'll need to apply what we've learnt to your organisation.
+As a company, we've been using pair programming for around eighteen months, and we've discovered it brings a significant number of benefits, along with one or two challenges we've had to overcome.
+
+With this article, we'll be sharing the experiences we've had when introducing pair programming to software teams, and we'll take you through the techniques you'll need to apply what we've learnt to your organisation.
 
 ## Background
 Pair programming was first introduced as part of the Extreme Programming (XP) software development methodology, as an 'extreme' way to practice regular code reviews. Conceived of by [Kent Beck in 1999](https://www.amazon.co.uk/Extreme-Programming-Explained-Embrace-Change/dp/0201616416), XP is a collection of software principles which help teams to deliver higher quality software. It places value on communication, simplicity, feedback, courage and respect, all of which, as you'll discover, lead to a positive pair programming experience.
 
 ## How It Works
-Pair programming involves two developers sitting at one computer, with one driving, and the other navigating. The driver types out the code, whilst the navigator constantly reviews what is being typed and, at regular intervals, the developers switch roles.
+Pair programming involves two developers sitting at one computer, with one driving, and the other navigating. The driver types out the code, whilst the navigator constantly reviews what is being typed and, at regular intervals, the developers switch roles. Throughout their time together, the pair constantly communicate their thought processes, allowing the other developer to collaborate and help shape the direction of the code.
 
-There are a few guidelines that you should follow when pair programming. These will help you to get the most out of your pair programming experience, and sidestep common pitfalls experienced by others.
+There are a few guidelines that you should follow when pair programming. These will help you to get the most out of your pair programming experience, and sidestep some of the more common pitfalls we've seen teams experience.
 
 #### Driving
 The driver is solely responsible for typing and controlling the screen. They should externalise their thoughts as they type, and be sure to constantly communicate with their navigator, discussing ideas and clarifying where necessary.
 
-One of the more frustrating aspects of being the driver is that their navigator often has much more time to think, meaning they're able to much more quickly convey their ideas, whilst the driver is concerned with typing out the right syntax. You'll often feel clumsy or slow, as the navigator will be able to spot things more quickly than the driver. This is ok and to be expected.
+One of the more frustrating aspects of being the driver is that their navigator often has more time to think, meaning they're able to convey their ideas faster than the driver, who is more concerned with typing out code with the right syntax. The driver will often feel clumsy or slow, as the navigator will be able to spot things more quickly than they can. This is OK and to be expected, and the roles switch so regularly that both developers experience the situation from both sides.
 
 #### Navigating
-The navigator is responsible for reviewing everything the driver types, suggesting improvements to the code being written, alternate ways to think about the problem at hand, and pointing out typos when it is safe to do so.
+The navigator is responsible for reviewing everything the driver types, suggesting improvements to the code being written, alternative ways to think about the problem at hand. The navigator should be considerate and careful to minimise unnecessary interruptions when the driver is in flow. Much like a conversation, choose the right moments to point out trivial errors, like spelling mistakes.
 
 #### Switching
-After a short period of time, to be agreed upon by the developers, the pair should switch roles to allow each person to get an equal amount of time driving and navigating.
+The pair should switch roles to allow each person to get a mix of driving and navigating. There are a couple of methods that are often used to determine switching frequency. One technique is time based, where the developers switch at regular short intervals. Another technique is [Ping Pong](http://c2.com/cgi/wiki?PairProgrammingPingPongPattern), where developers take turns writing a failing test case, that the other developer then has to make pass.
 
 #### Taking Breaks
-Pair programming is intensive, so pairs must make time for short breaks roughly every hour.
+Pair programming is intensive, especially over the course of a few hours or a whole day. It's important that pairs don't burn themselves out, so they must make time for regular breaks away from pairing throughout the day. These breaks provide good opportunities to do things that might otherwise distract a developer during pair programming, such as checking emails, instant messaging, or making coffee.
 
-#### Coaching vs. Pairing
-Pair programming is when peers sit and work together, but it's not uncommon to see pair programming as a form of coaching, where a more experienced developer will sit with a less experienced developer and attempt to upskill and explain their rationale around particular design solutions.
+#### Pairing, Not Coaching
+Pair programming involves two peers of a similar skill level working together, but it's not uncommon to see some organistations use pair programming as a form of coaching, where a more experienced developer will sit with a less experienced developer and attempt to upskill and explain their rationale around particular design solutions.
+
+There are definite benefits to coaching, but it's important not to confuse it with pair programming, as it can lead to [backseat driving](#backseat-driving), and the less experienced developer becoming demotivated.
 
 ## Why It Works
-
 
 #### Programming Is Hard
 (Quote: "hardest thing in programming isn't typing")
