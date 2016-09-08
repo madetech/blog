@@ -33,10 +33,10 @@ Pair programming involves two peers of a similar skill level working together, b
 There are definite benefits to coaching, but it's important not to confuse it with pair programming, as it can lead to [backseat driving](#backseat-driving), and the less experienced developer becoming demotivated.
 
 ## Why It Works
+Modern software delivery has shown us that shorter feedback cycles, frequent communication and regular displays of progress are techniques valuable to any organisation. They help to minimise the risk of a project failing, and they are all inherent in good pair programming.
 
 #### Programming Is Hard
-(Quote: "hardest thing in programming isn't typing")
-The most time consuming aspect of software engineering isn't typing, it's the time spent thinking about how best to solve the current problem.
+We should all know that the most time consuming aspect of software engineering isn't typing, it's the time spent thinking about how to solve the current problem and to design a solution that works well. There are a huge number of choices that need to be considered with every line of code a developer writes, and pair programming helps share that responsibilty.
 
 #### Increase Brainpower
 As the saying goes, two heads are better than one, and with two developers working on the same problem they're much better equipped to reach an elegant solution.
