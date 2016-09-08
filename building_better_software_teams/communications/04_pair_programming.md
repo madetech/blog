@@ -91,10 +91,12 @@ You'll often find pairing works less well when you've got signifiant skill dispa
 It's important that you pair developers who will be well suited to each other. The most beneficial pairing will be two people who can learn from one another, share similar philosophies and balance each other out. You don't want a pair of people known for over engineering solutions, or a pair with similar bad habits.
 
 #### Backseat Driving
-You don't want a situation where the navigator is literally dictating what the driver types #### this is an indication of skill disparity.
+When a pair has significant skill disparity or one member of the pair is quieter then the other, then you may encounter backseat driving. This will typically manfiests itself in the navigator telling the driver exactly what to type, and the driver following their instructions. 
 
-#### Communication (Your Baby Is Ugly)
-Pairs need to be able to communicate openly and honestly with each other, if one has an idea that the other knows to be bad, they must be capable of saying so.
+This is a problem and you should encourage the backseat driver to be more considerate, or consider switching the pair members so they are working with people who have similar skill levels.
+
+#### Your Baby Is Ugly
+Beig a need to be able to communicate openly and honestly with each other, if one has an idea that the other knows to be bad, they must be capable of saying so.
 
 #### Disengagement
 Some developers will be resistant to pairing or will spend their time less engaged in the activity. Developers checking their phone constantly, sitting back in their chair or not communicating actively are signs of an individual that is disengaged.
