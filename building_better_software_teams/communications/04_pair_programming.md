@@ -73,29 +73,33 @@ The number of technologies and languages within the field of software engineerin
 Code reviews are a valuable part of any organisation's software development lifecycle. Pair programming takes that concept to an extreme, by having the navigator constantly reviewing what the driver is typing, suggesting improvements or alternate approaches that might help catch edge cases.
 
 ## Challenges In Pairing
+Moving from programming alone to becoming a strong pair programmer is not always an easy transition. We've encountered a number of specific challenges which you should watch out for.
+
 #### Switching Mindsets
-As programming has historically being a solo activity, the mindset shift required to working on code together is significant. Developers often stuggle to take onboard others ideas and externalise thought processes. This can be particularly challenging if you've worked solo for a long time.
+Programming has historically been a solo activity, so the mindset shift required to work on code together is significant. Developers often struggle to take onboard others ideas and externalise thought processes. This can be particularly challenging if you've worked solo for a long time and are not acustomed to social coding and working closely with others.
 
 #### People & Time
-Putting two developers on a task, doesn't mean it gets solved in half the time. There is therefore a cost implication to pairing, though significant beneifts like better code quality, less technical dept etc.
+As a business, you shouldn't expect two developers to complete a task in half the time. Often it will take a little longer than if a developer was working alone, so there is a short term cost associated with adopting pair programming. This additional cost is offset by the long term benefits of having higher code quality, less technical debt, and shared domain knowledge.
 
 #### Exhaustion
-Pairing is very tiring. When you've spent the entire day pairing with somebody, communicating your thoughts and working on complex problems, you'll feel like you've achieved a lot, but be exhaused from this.
-
-#### Disengagement
-Some developers will be resistant to pairing or will spent their time less engaged in the activity. If developers are checking their phone constantly, sitting back in their chair, not communicating actively, these will be signs of an individual that is disengaged.
+Pairing is exhausting. When you've spent the entire day thinking critically about every line of code, justifying and communicating those thoughts and decisions, it's likely that you'll feel drained, but that you've achieved a lot. It's critical that you take regular breaks, that you have some flexibility, and choose appropriate times to pair.
 
 #### Skill Disparity
-You'll often find pairing works less well when you've got signifiant skill disparity between a pair. If one engineer is clearly the more experienced and the one making all the decisions, then this can lead to the less experienced feeling overwhelmed and demotivated, whch can lead to disengagement.
+You'll often find pairing works less well when you've got signifiant skill disparity between a pair. If one engineer is clearly more experienced and is making all the decisions, then this can lead to the less experienced feeling overwhelmed and demotivated, whch can lead to disengagement.
 
 #### Pairing the wrong people
-It's important that you pair developers which will be well suited to working together. If you've got two developers who are negative and don't see the benefits of pairing, this will create a bad pair. If you've got two developers who constantly overengineer the most complex solutions, this also leads to a bad pair.
+It's important that you pair developers who will be well suited to each other. The most beneficial pairing will be two people who can learn from one another, share similar philosophies and balance each other out. You don't want a pair of people known for over engineering solutions, or a pair with similar bad habits.
 
 #### Backseat Driving
 You don't want a situation where the navigator is literally dictating what the driver types #### this is an indication of skill disparity.
 
 #### Communication (Your Baby Is Ugly)
 Pairs need to be able to communicate openly and honestly with each other, if one has an idea that the other knows to be bad, they must be capable of saying so.
+
+#### Disengagement
+Some developers will be resistant to pairing or will spend their time less engaged in the activity. Developers checking their phone constantly, sitting back in their chair or not communicating actively are signs of an individual that is disengaged.
+
+This is detrimental to the team, and it's important to try to understand why it's happening. It may be that the developer really does work better alone, or it's a sign that they're exhausted, there's disparity in skill between them and their partner, or that they simply don't get on with their partner.
 
 ## Introducing Pairing
 #### Getting Started
