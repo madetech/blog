@@ -68,7 +68,7 @@ Risks associated with not having defined commitment points:
 - Perception that your team isn't performant
 - Perception that Jira/Trello is a black hole for their tasks.
 - Knock on effects could be that requesters stop requesting tasks (which can lead to high value items not being ever looked at) or,
-- Requesters lose fundamental faith in the ability of the SD Team (Service Delivery Team)
+- Requesters lose fundamental faith in the ability of the Service Delivery Team (SD Team)
 
 #### 2. Work in progress limits
 
@@ -78,7 +78,7 @@ To prevent SD Teams committing to **all the work**, Kanban imposes strict WiP li
 
 As soon as the SD Team has committed to a work item, the clock is ticking until that work item is considered Done.
 
-This forces teams to meet often with the SRM (Service Request Manager) (roughly equivalent to the Product Owner) whenever they have run out of work items to complete.
+This forces teams to meet often with the Service Request Manager (SRM), who is roughly equivalent to the Product Owner in Scrum, whenever they have run out of work items to complete.
 
 #### 3. Prioritisation
 
@@ -86,7 +86,7 @@ Kanban coordination generally relies on the SRM pre-prioritising (and pruning) K
  
 Typically the prioritisation approach used by the SRM is centered around urgency modeling. Kanbans with higher urgency make their way to the top of the priority. 
 
-The main purpose of coordination is to apply WSJF (weighted-shortest-job-first), and select the tasks which have the highest Urgency associated with them with the lowest Cost-to-complete.
+The main purpose of coordination is to apply weighted-shortest-job-first (WSJF), and select the tasks which have the highest Urgency associated with them with the lowest Cost-to-complete.
 
 - Weight is provided by a model of Urgency (which gets mapped onto cost in $ per week)
 - Shortest-job is estimated by team members (potentially ranged estimate)
