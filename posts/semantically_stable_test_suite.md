@@ -28,7 +28,9 @@ As an example it should be possible to swap out the disk scheduling algorithm us
 
 ## Semantic stability as a metric
 
-Luckily there are tools available to measure semantic stability, called **mutation testing tools**. Similar to code coverage, these tools provide a % of lines which when mutated were detected by the test suite (the terminology for this in the mutation testing world, is that the test suite kills the mutants on those lines).
+Luckily there are tools available to measure semantic stability, called **mutation testing tools**. Similar to code coverage, these tools provide a % of lines which when mutated caused the test suite to fail, this is a good thing! 
+
+When this happens we have semantic stability. The terminology for this in the mutation testing world, is that the test suite *kills* the *mutants*.
 
 ## Achieving 100% semantic stability
 
