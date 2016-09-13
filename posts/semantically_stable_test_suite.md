@@ -68,24 +68,3 @@ Secondly, the best way to ensure that the system works is surprisingly: to write
 Fear holds back practices like boyscouting. Fear of changing the production code ultimately stems from distrust of the test suite. 
 
 The fundamental role of software is to be soft. It is supposed to be cheap to change, and remould to perform new behaviours while maintaining the old behaviours that are already depended upon. To that end I would say it is very rare for a customer to ask to remove a feature from a system. The common use case is to extend and build upon the features that are already there.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
