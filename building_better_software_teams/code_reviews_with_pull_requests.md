@@ -18,14 +18,17 @@ Developers shouldn't fear having their code picked over as comments provided sho
 
 ### Visibility
 
- * Getting new staff familiar with codebases
- * People not on project might have suggestions and clear perspective 
- 
+You may not just be a new developer joining an existing project, but in fact a new starter to the organisation. Having frequent code reviews is a great onboarding mechanism to get new starters involved in the process early on, helping them to become familiar with alien codebases.
 
+More often than not, they'll also have new ideas, or other experiences that you can benefit from. Making the code review process as transparent and as open as possible will only encourage this. It also doesn't restrict the conversation to single teams, but the wider organisation can always input too.
 
 ### Standards
 
- * Complying with standards
+Code standards aid in readability and maintainability of code. Sometimes standards can come in written form, a large set of rules to follow, but other times they can be unwritten rules that you'll only really learn the more you develop within an organisation.
+
+This is where that extra set of eyes come in. Ensuring that standards are followed don't require much brain power, but they are often easy to miss, especially if you're unfamiliar with them.
+
+Catching these violations early on save time in the long run and allows everyone to be on the same page, ensuring good readability. Also the opportunity to open conversations around the standards themselves. Whitespace vs tabs... _ducks_
 
 ### Testing
 
