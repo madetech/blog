@@ -50,12 +50,16 @@ While some of the above may look like a checklist it's not. We're more trying to
 
 We'll dive deeper into this idea as we expand on the value we derive from having adopted a Pull Request Workflow. Some of the things we've covered above can be easily automated to make code reviewing more valuable as a result of this.
 
-
 ## Pull request workflow
 
- * Pull request workflow - how to do well
- * Encourages people to not use master. Code only goes to master via a merge from Github
- 	* Lock down master branch on Github, so only merges
+Pull Requests (PRs) allow for a standard and efficient way of doing code reviews within an organisation. Most popular tools these days, such as Github or Bitbucket offer features that allow for easy adoption of the pull request workflow.
+
+### Adopting the flow
+
+PRs revolve around the idea of using dedicated branches for small feature sets. The branches of work are then submitted to your source control tool (we'll use Github from here on in our examples), and are opened up for review amongst your team. Only when the majority of people involved are happy with the work, will it then be merged into your master branch.
+
+Working in isolated branches reduces the risk of conflicting with other developer's work. By not working in master, you can remained focus on your goal rather than constantly having to pull in others code.
+
  	* Work on seperate features and areas with lower risk of conflicting
  * Breaking down problems into smaller tasks/single responsibility
  	* Smaller amounts of code easier to review
@@ -67,8 +71,9 @@ We'll dive deeper into this idea as we expand on the value we derive from having
  * Ensure descriptions for PR's have a brief overview
  	* Allows for understanding the purpose of the review quickly
  		* what you've changed/are trying to acheive 
- * Allows for automated tools to be used code styles, test passes etc.
+ * Tooling/Allows for automated tools to be used code styles, test passes etc.
  	* Lock down PR's to only merge in if tests/linting passes
+ 	* Lock down master branch on Github, so only merges
  	* Intergration tools, on PR submissions, notifications in Slack to everyone
  	* Help prevent blockages in the pipeline, by not developing on master, encourages use of branches
  * Conversations in one place on a hosted tool like Github
