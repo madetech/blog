@@ -83,14 +83,11 @@ We've talked about code standards and tests as part of your review process. Thes
 
 #### Using your platform fully
 
-* Ensure descriptions for PR's have a brief overview
- 		* Allows for understanding the purpose of the review quickly
- 		* what you've changed/are trying to acheive 
- 	* Conversations in one place on a hosted tool like Github
- 		* Keep these inside your review platform
- 			* don't deviate to email/slack/face-to-face if possible
- 				* knowledge loss and siloing 
+Knowing how to leverage your platform for the easiest adoption of this workstyle is a lot simpler than it may seem at first. 
 
+Minor things such as having a clear and brief title and an accompanying description explaining the feature can make it much easier for the reviewer to quickly grasp the purpose of the PR. This can allow them to assess if they have relevant input or want to involve others and also that the feature matches the description provided.
+
+Keeping the conversations around reviews and PRs within the PR itself is the best way to ensure you don't lose any knowledge that surfaces. While it can be easy to take the conversation offline, to email or to Slack anyone who comes along after will be missing potentially vital context.
 
 #### Tests and code standards
 
@@ -112,7 +109,7 @@ Integration with chat applications, such as Slack, can be added to your Github o
  	* Lock down PR's to only merge in if tests/linting passes
  	* Lock down master branch on Github, so only merges
  	* Help prevent blockages in the pipeline, by not developing on master, encourages use of branches
- 	 * Visibility/papertrail (not in sense of blame)
+ * Visibility/papertrail (not in sense of blame)
 	 * why is the code like this?
 	 * what was the aim?
 	 * see reasons for design coming from conversation potentially 
