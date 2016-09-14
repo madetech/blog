@@ -6,7 +6,7 @@ At Made we host regular client showcases, this is an opportunity to sit down wit
 
 The most important people to be involved in a showcase are the developers working on the iteration, the key stakeholders on the clients side. A showcase cannot happen without these people. Additionally, any members of the client's business whose lives will be improved by the work carried out ought to be involved. For example, a customer service representative or an e-commerce manager. These people will have valuable, on the ground, insights into existing problems it should solve and potential challenges the work may introduce before its too late.
 
-- Members of your wider team or department
+An alternative showcase can be one made internally, to educate other teams in your organisation on things you've learned, the project you've been working on, any reusable software you've built and practices you'd like others to adopt. It's important to do this formally as a showcase, because it allows people the opportunity to comment and give feedback. You don't get this kind of honest technical feedback from clients, so it can more than a chance to share, it can be invaluable peer review.
 
 ## Why do good software teams showcase?
 
