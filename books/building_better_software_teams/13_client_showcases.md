@@ -35,13 +35,20 @@ Things which are important to consider when introducing showcases in a project a
 Additionally, showcases provide a personal growth opportunity for developers. We believe showcases should be led by developers. This puts a certain amount of pressure on them, but we think it's beneficial pressure to have. This is because they are the people with the best understanding of the work, the people who can most easily gauge and accept feedback and the people who will have to carry out the rest of the work. Additionally, it encourages their best work as they know they will have to stand up and be accountable for it in front of clients. We've found this kind of growth is often best achieved by pushing people in at the deep end and providing them with a float, rather than wading them in gently. This sink or swim approach sounds brutal, but encourages autonomy and personal confidence in the individual.
 
 ## Preparation
-- List what you want to cover, which includes work complete and generally issues uncovered.
-- Practice the showcase internally, particularly when its the end of an iteration.
-- Timebox the presentation and leave time for questions.
+<!-- - List what you want to cover, which includes work complete and generally issues uncovered.
+- Practice the showcase internally, particularly when its the end of an iteration. -->
+<!-- - Timebox the presentation and leave time for questions. -->
+
+During an iteration we find it useful to keep note of all the wins and challenges we've had, on top of the tasks we've completed. This enables us to easily prepare a run down of the iteration. These run down documents then get stored inside the project, similar to a changelog to provide a contextual history of a project.
+
+After the run down has been prepared it is often valuable to run through it with other members of the project team to ensure smooth delivery, and catch any shortcomings, complexity, and omissions. This is particularly important when finishing an iteration where it is important to put your best foot forward and deliver a slick demo.
+
+Additionally, a practiced showcase enables you to efficiently time-box the demonstration, as an ideal showcase lasts a maximum of 10-15 minutes. If you find your showcases are longer than this, consider shortening your iteration times and focusing on smaller chunks of work. Keeping it concise also means you also allow time for questions, feedback, and thoughtful discussions about the work presented.
 
 ## Mid point showcases
 - Emphasise work in progress when there are incomplete features.
 - Set up client expectations if you feel you won't complete the piece of work by the end of the iteration and give clear honest reasons behind this.
+- Focus on high priority features that are important to the client.
 - Are an opportunity to change scope of the iteration or stop it entirely, if you or the client feels it necessary.
 - Are an opportunity to ensure the team is delivering the functionality (eg frontend behaviour) the client expected.
 - Are an opportunity for your team to suggest improvements or potential issues to the client.
