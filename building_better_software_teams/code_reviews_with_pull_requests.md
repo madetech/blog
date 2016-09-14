@@ -1,22 +1,45 @@
 # Code reviews using the pull request workflow
 
-## Code reviews
+As developers we always appreciate a second pair of eyes and an extra brain. The eyes are really helpful for catching that extra whitespace you might have missed, or the code you had for debugging. The additional brain power might help you solve a problem in your code with 5 fewer lines. All of this results in better code and more collaboration.
 
- * Code reviews and why they're good
- * Visibility
- 	* Getting new staff familiar with codebases
- 	* People not on project might have suggestions and clear perspective 
- * Knowledge share
- 	* Checking it doesn't reinvent the wheel
- 	* how a project works, what features it has
- 	* from reviewers, improvements to code, solving problems
+A way of formalising code reviews within your organisation can be the pull request workflow, which aims to encourage regular code reviews with minimal disruption to your productivity, while gaining tremendous value.
+
+## Why code review?
+
+### Knowledge share
+
+If you're new to an existing project, what better way to get valuable insight to the workings of it than getting someone familiar to have a look over your changes. It's really difficult to sit and read through the many lines of existing code to fully understand what is available to you to use. They'll have used existing functions a lot more than you, and will help to reduce code duplication, between you there might be a more efficient combination.
+
+The code review encourages the start of conversations that lead to improvement of the overall codebase, sharing of best practices and experience from both the reviewee and reviewer.
+
+It's important that reviews are treated as a positive tool, while it's easy to be defensive of your work there's probably a reason a reviewer is suggesting an alternative. However the reviewee should feel comfortable to start a discussion about suggestions provided, it's a good chance to learn.
+
+Developers shouldn't fear having their code picked over as comments provided should be constructive and it allows to them to gain real insight from their peers. Likewise a reviewer should always feel comfortable providing constructive criticism if they feel it will lead to improvements.
+
+### Visibility
+
+ * Getting new staff familiar with codebases
+ * People not on project might have suggestions and clear perspective 
+ 
+
+
+### Standards
+
  * Complying with standards
- * Testing
-	 * Checking for presence of tests
-	 * Checking test coverage
- * Readability of code (comments not required...)
- * Catching bugs
- 	* Code reviews might help reduce bugs, help with support - could be measured depending on organisation
+
+### Testing
+
+ * Checking for presence of tests
+ * Checking test coverage
+
+### Catching bugs
+
+ * Code reviews might help reduce bugs, help with support - could be measured depending on organisation
+
+### Readability of code (comments not required...)
+
+### Checklists not required?
+
  * Are checklists required? Tie into Pull Request as a possible alternative to checklists, with automated tools
 
 ## Pull request workflow
