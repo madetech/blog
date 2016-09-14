@@ -46,12 +46,21 @@ After the run down has been prepared it is often valuable to run through it with
 Additionally, a practiced showcase enables you to efficiently time-box the demonstration, as an ideal showcase lasts a maximum of 10-15 minutes. If you find your showcases are longer than this, consider shortening your iteration times and focusing on smaller chunks of work. Keeping it concise also means you also allow time for questions, feedback, and thoughtful discussions about the work presented.
 
 ## Mid point showcases
-- Emphasise work in progress when there are incomplete features.
-- Set up client expectations if you feel you won't complete the piece of work by the end of the iteration and give clear honest reasons behind this.
-- Focus on high priority features that are important to the client.
-- Are an opportunity to change scope of the iteration or stop it entirely, if you or the client feels it necessary.
-- Are an opportunity to ensure the team is delivering the functionality (eg frontend behaviour) the client expected.
-- Are an opportunity for your team to suggest improvements or potential issues to the client.
+<!-- - Emphasise work in progress when there are incomplete features. -->
+<!-- - Set up client expectations if you feel you won't complete the piece of work by the end of the iteration and give clear honest reasons behind this. -->
+<!-- - Focus on high priority features that are important to the client. -->
+<!-- - Are an opportunity to ensure the team is delivering the functionality (eg frontend behaviour) the client expected. -->
+<!-- - Are an opportunity to change scope of the iteration or stop it entirely, if you or the client feels it necessary. -->
+<!-- - Are an opportunity for your team to suggest improvements or potential issues to the client. -->
+
+A mid point showcase is an opportunity to present work in progress and ensure the clients expectations are being met before the end of the iteration, where it may be too late to change, and certainly more costly. Having frequent showcases allows them more opportunity to give feedback and have more of a say in the way a feature is developed. Developers may also discover areas of improvement over the original specification of the feature, having built and used it. Features are often not built exactly to specification, UX and UI changes are often made throughout the build and as web professionals we're well placed to make this kind of feedback to our clients.
+
+Secondly, as this is work in progress, it's important you make this clear to the client beforehand, so they're confident you'll be able to work on the fine details together, and focus on whether the high priority, wider feature is being completed correctly. For example, frontend tweaks can be made, but the backend logic is coming together as they wanted.
+
+It's also an excellent opportunity to set expectations early if you feel you won't complete the piece of work by the end of the iteration, and give clear honest reasons behind this, for example if a "quick win" task which we didn't expect to take long ended up taking a day. This will prevent the team from having to break bad news at the end of the iteration when work is incomplete, when the client was expecting fully featured work. Being honest about these problems builds a better relationship with the client and ensures they understand that you faced an unforeseen problem, and not that the team were slacking off. It's positive to build this relationship of trust, and that comes from openness.
+
+Additionally, bringing up adversity early gives the client an opportunity to back out early rather than wasting further time. For example, if the team was to discover the work would take twice as long as expected, the client should have an opportunity to re-evaluate their business priorities if they have other high priority features that may now be considered more valuable. Furthermore in this situation they may want to park the other work if they were depending on the time staying fixed, as they have other time sensitive work upcoming.
+
 
 ## End of iteration showcases
 - Champion Unseen Wins.
