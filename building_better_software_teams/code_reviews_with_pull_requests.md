@@ -32,18 +32,24 @@ Catching these violations early on save time in the long run and allows everyone
 
 ### Testing
 
- * Checking for presence of tests
- * Checking test coverage
+While a reviewer is normally checking over implementation code, a review offers the opportunity to ensure good practices have been followed while developing code, for example Test Driven Development (TDD). It's important to make sure tests are present as part of a review if this is a practice your organisation adheres to.
+
+Tests, hopefully, allow the reviewer to follow the design of the implementation while also opening up another area for improvement. Reviews are a great way to ensure that the test provided are valuable and efficient. An important question to ask here; do the tests cover all the changes?
 
 ### Catching bugs
 
- * Code reviews might help reduce bugs, help with support - could be measured depending on organisation
+Having another developer look over your work also provides an opportunity to catch any bugs you may not have noticed. While you might have a wonderful green test suite a peer might be aware of another edgecase within the project that would otherwise has slipped by.
 
 ### Readability of code (comments not required...)
 
+At Made we feel that if code isn't understandable without comments then this represents a smell. While it's common to see this crop up as a suggestion is it really required if your functions and variables are clearly and consistenly named throughout and have obvious and sensible data returned. Comments _can_ provide value in some cases but they should never be a hard requirement for a code review for us.
+
 ### Checklists not required?
 
- * Are checklists required? Tie into Pull Request as a possible alternative to checklists, with automated tools
+While some of the above may look like a checklist it's not. We're more trying to present some best practices for code reviews, not rules that you have to follow. 
+
+We'll dive deeper into this idea as we expand on the value we derive from having adopted a Pull Request Workflow. Some of the things we've covered above can be easily automated to make code reviewing more valuable as a result of this.
+
 
 ## Pull request workflow
 
