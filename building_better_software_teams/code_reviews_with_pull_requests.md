@@ -104,7 +104,7 @@ All of these integrations mean the reviewers can focus on the feature being deve
 
 #### Notifications
 
-Github has notifications built into their PR functionallity. In its simplest form it sends emails for when a PR is created and also when comments are made.
+Github has notifications built into their PR functionality. In its simplest form it sends emails for when a PR is created and also when comments are made.
 
 Integration with chat applications, such as Slack, can be added to your Github organisation to give even faster notifications when PRs are ready for review. This can help you have short lived PRs. When PRs are merged in notifications are sent too.
 
