@@ -4,7 +4,9 @@
 
 When we run a test suite in most languages, we can also generate reports with percentage of code coverage.
 
-The coverage percentage is generally used as a metric of reliability of a test suite. Great! We have a metric, so now we can measure the quality of our test suites? 
+The way that testing tools generally do this is by analysing what lines of production code were executed while the test suite was running. It then can, if you want it to, output a report on how many lines/methods/files were covered by your test suite. 
+
+This coverage percentage is generally used as a reliability metric of a given test suite. Great! Since we have a metric, we can now fail the build when the code coverage is too low… 
 
 Unfortunately it is not as simple as that. 
 
