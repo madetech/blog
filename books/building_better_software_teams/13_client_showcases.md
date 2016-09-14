@@ -79,5 +79,13 @@ If you've taken the time to implement additional functionality to help an end us
 Although ideally the work your team has delivered will be as expected by the client, often additional requirements fall out of new features, which should be captured at the end of your showcase. If they are minor tweaks, these new requirements should be stored in your project backlog and then prioritised by the client. However you will sometimes begin to pad out the next iteration off the back of a final showcase.
 
 ## Post Showcase
+<!-- - Congratulate everybody on a job well done. -->
+<!-- - Evaluate areas of your delivery and development which could be been better throughout the showcase. -->
+<!-- - Share learnings with other teams. -->
+
+The time after a showcase, before the next iteration begins, is a good chance to reflect on the iteration. It's worth congratulating everybody on a job well done by highlighting things individuals, and the team as a whole, did well, which you'd like to see happen more. You should also take the time to evaluate areas of the delivery and development of the iteration which didn't go so well, which should be learned from for all future iterations. To name a few examples, if the iteration was slowed by interactions with a third party which could have been mitigated beforehand by starting conversations earlier, if you began work before the design was finalised, or if you waited too long to get code into a production environment. These are all lessons we've learned from over the years.
+
+Furthermore, when celebrating triumphs and learning from shortcomings, it is important to share this with your wider organisation. For example, if you've solved a recurring or complex technical problem and produced a reusable solution which other teams could use, or discovered a flaw in a company process which you'd like to evolve together. Keeping these learnings to yourself can cause fragmentation in the knowledge of different teams, and prevent you from raising everybody up together. A rising tide lifts all boats.
+
 
 ## Conclusion
