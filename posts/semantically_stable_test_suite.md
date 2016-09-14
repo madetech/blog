@@ -50,9 +50,11 @@ The problem with this approach is that it is time consuming, due to the fact tha
 
 ## Who needs semantic stability anyway?
 
-Iff code coverage is an asymptotic goal then it is implied that semantic stability of your code base is also an asymptotic goal.
+Both the percentage of semantic stability of your test suite, and the percentage of code coverage are asymptotic in nature with respect to the cost.
 
 In well-designed systems uncovered lines tend to not change, they tend to be calls to the system, external systems, libraries or general IO. They tend to be *low-level details*.
+
+It is possible to push the areas of low code coverage to the outermost extremes of your application. Treating them instead as details that get in the way of shipping working, high-value software.   
 
 ### The customer cares about high-level policy.
 
@@ -62,8 +64,8 @@ In this world of high-level policy, we do not concern ourselves with low-level d
 
 Really your customer cares about two things: 
 
-1. that they can request changes to high-level policy, and that this can be done cheaply.
-2. that the system works the way they currently have described they want it to
+a. that they can request changes to high-level policy, and that this can be done cheaply.
+b. that the system works the way they currently have described they want it to
 
 The best way to make it possible to cheaply change high-level policy is to ensure you have tests. However it becomes significantly cheaper to ship changes to high-level policy when you have a semantically stable test suite.
 
