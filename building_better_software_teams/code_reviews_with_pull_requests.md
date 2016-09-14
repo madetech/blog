@@ -12,9 +12,9 @@ If you're new to an existing project, what better way to get valuable insight to
 
 The code review encourages the start of conversations that lead to improvement of the overall codebase, sharing of best practices and experience from both the reviewee and reviewer.
 
-It's important that reviews are treated as a positive tool, while it's easy to be defensive of your work there's probably a reason a reviewer is suggesting an alternative. However the reviewee should feel comfortable to start a discussion about suggestions provided, it's a good chance to learn.
+It's important that reviews are treated as a positive tool. While it's easy to be defensive of your work there's probably a reason a reviewer is suggesting an alternative. However the reviewee should feel comfortable to start a discussion about suggestions provided, it's a good chance to learn.
 
-Developers shouldn't fear having their code picked over as comments provided should be constructive and it allows to them to gain real insight from their peers. Likewise a reviewer should always feel comfortable providing constructive criticism if they feel it will lead to improvements.
+Developers shouldn't fear having their code picked over as comments provided should be constructive and it allows to them to gain real insight from their peers. Likewise, a reviewer should always feel comfortable providing constructive criticism if they feel it will lead to improvements.
 
 ### Visibility
 
@@ -32,17 +32,17 @@ Catching these violations early on save time in the long run and allows everyone
 
 ### Testing
 
-While a reviewer is normally checking over implementation code, a review offers the opportunity to ensure good practices have been followed while developing code, for example Test Driven Development (TDD). It's important to make sure tests are present as part of a review if this is a practice your organisation adheres to.
+While a reviewer is normally checking over implementation code, a review offers the opportunity to ensure good practices have been followed while developing code, for example [Test Driven Development](https://www.madetech.com/blog/9-benefits-of-test-driven-development) (TDD). It's important to make sure tests are present as part of a review if this is a practice your organisation adheres to.
 
 Tests, hopefully, allow the reviewer to follow the design of the implementation while also opening up another area for improvement. Reviews are a great way to ensure that the test provided are valuable and efficient. An important question to ask here; do the tests cover all the changes?
 
 ### Catching bugs
 
-Having another developer look over your work also provides an opportunity to catch any bugs you may not have noticed. While you might have a wonderful green test suite a peer might be aware of another edgecase within the project that would otherwise has slipped by.
+Having another developer look over your work also provides an opportunity to catch any bugs you may not have noticed. While you might have a wonderful green test suite, a peer might be aware of another edgecase within the project that would otherwise has slipped by.
 
 ### Readability of code (comments not required...)
 
-At Made we feel that if code isn't understandable without comments then this represents a smell. While it's common to see this crop up as a suggestion is it really required if your functions and variables are clearly and consistenly named throughout and have obvious and sensible data returned. Comments _can_ provide value in some cases but they should never be a hard requirement for a code review for us.
+At Made, we feel that if code isn't understandable without comments then this represents a smell. While it's common to see this crop up as a suggestion is it really required if your functions and variables are clearly and consistenly named throughout and have obvious and sensible data returned. Comments _can_ provide value in some cases but they should never be a hard requirement for a code review for us.
 
 ### Checklists not required?
 
