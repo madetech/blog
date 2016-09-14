@@ -105,10 +105,14 @@ Github has notifications built into their PR functionallity. In its simplest for
 
 Integration with chat applications, such as Slack, can be added to your Github organisation to give even faster notifications when PRs are ready for review. This can help you have short lived PRs. When PRs are merged in notifications are sent too.
 
- * Tooling/Allows for automated tools to be used code styles, test passes etc.
- 	* Lock down PR's to only merge in if tests/linting passes
- 	* Lock down master branch on Github, so only merges
- 	* Help prevent blockages in the pipeline, by not developing on master, encourages use of branches
+#### Optional extras
+
+Github allows for the protecting of branches meaning you can lock down master to avoid anyone pushing to it accidentally. More usefully however is that it also allows for PRs to only be merged if the tests and/or linting is in a passing state. 
+
+While not essential adopting these extras can help with keeping master safe and secure from accidental commits.
+
+### Visibility
+
  * Visibility/papertrail (not in sense of blame)
 	 * why is the code like this?
 	 * what was the aim?
