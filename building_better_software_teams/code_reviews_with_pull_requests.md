@@ -72,24 +72,47 @@ A great way to avoid merge conflicts with other features and stale code is to im
 If more work arrises out of a review don't just stop the conversation, move it out to an issue or issues and assuming everything has been signed off merge the PR. This allows for more time to be spent on the conversation and potentially more opinions to be provided and more thought around the area.
 
 #### Sign off
-While it can be tempting to review your own work if others are busy **don't**
 
-* Always get someone to look over a PR before merging, don't be tempted to self sign your PR's
- 	* Let anyone comment on PR's, not just people on the project team
+While it can be tempting to review your own work if others are busy **don't**. This would render the whole process pointless, as remember that it's the extra eyes and brain power you were after in the first place. It would be equivilent to working directly on the master branch.
 
- * Tooling/Allows for automated tools to be used code styles, test passes etc.
- 	* Lock down PR's to only merge in if tests/linting passes
- 	* Lock down master branch on Github, so only merges
- 	* Intergration tools, on PR submissions, notifications in Slack to everyone
- 	* Help prevent blockages in the pipeline, by not developing on master, encourages use of branches
- 	* Ensure descriptions for PR's have a brief overview
+Try and encourage a culture within the organisation where people are available to comment on PRs as they're submitted, even if they're working on a different project. This encourages having all repositories on Github, and their PRs open to the organisation.
+
+### Tooling the flow
+
+We've talked about code standards and tests as part of your review process. These usually follow codified rules that can easily be automated with modern tools and services.
+
+#### Using your platform fully
+
+* Ensure descriptions for PR's have a brief overview
  		* Allows for understanding the purpose of the review quickly
  		* what you've changed/are trying to acheive 
  	* Conversations in one place on a hosted tool like Github
  		* Keep these inside your review platform
  			* don't deviate to email/slack/face-to-face if possible
  				* knowledge loss and siloing 
- * Visibility/papertrail (not in sense of blame)
+
+
+#### Tests and code standards
+
+Github, Bitbucket and other platforms allow intergration with 3rd party services or your own Continuous Integration server.
+
+These can be used for automatically running your test suite whenever a pull request is created and updated. This gives constant feedback to the reviewers of a PR, helping them know tests are passing, meaning they don't need to pull down your code and run the tests themselves.
+
+The same can be done for code standards. Linting services are available that can be integrated directly into Github.
+
+All of these integrations mean the reviewers can focus on the feature being developed and best practices around the implementation of that code, which is difficult, or impossible to automate.
+
+#### Notifications
+
+Github has notifications built into their PR functionallity. In its simplest form it sends emails for when a PR is created and also when comments are made.
+
+Integration with chat applications, such as Slack, can be added to your Github organisation to give even faster notifications when PRs are ready for review. This can help you have short lived PRs. When PRs are merged in notifications are sent too.
+
+ * Tooling/Allows for automated tools to be used code styles, test passes etc.
+ 	* Lock down PR's to only merge in if tests/linting passes
+ 	* Lock down master branch on Github, so only merges
+ 	* Help prevent blockages in the pipeline, by not developing on master, encourages use of branches
+ 	 * Visibility/papertrail (not in sense of blame)
 	 * why is the code like this?
 	 * what was the aim?
 	 * see reasons for design coming from conversation potentially 
