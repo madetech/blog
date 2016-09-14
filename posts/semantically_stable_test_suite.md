@@ -34,7 +34,9 @@ However it could also be much more subtle: for example, a semantically equivalen
 
 ## Semantic stability as a metric
 
-Luckily there are tools available to measure semantic stability, called **mutation testing tools**. Similar to code coverage, these tools provide a % of lines which when mutated caused the test suite to fail, this is a good thing! 
+Luckily there are tools available to measure semantic stability, called **mutation testing tools**.
+
+Mutation testing tools generate many versions (mutants) of your production code, with very small changes (mutations) made in order to attempt to make your test suite *not catch* those changes. Similar to code coverage, these tools provide a % of lines which when mutated cause the test suite to fail; this is a good thing! 
 
 When this happens we have semantic stability. The terminology for this in the mutation testing world, is that the test suite *kills* the *mutants*.
 
