@@ -113,8 +113,10 @@ While not essential adopting these extras can help with keeping master safe and 
 
 ### Visibility
 
- * Visibility/papertrail (not in sense of blame)
-	 * why is the code like this?
-	 * what was the aim?
-	 * see reasons for design coming from conversation potentially 
-  
+Having the ability to look back and see who introduced a feature and the conversation surrounding reviewing it is a valuable way to foster knowledge sharing. If someone is looking to develop a new similar feature or improve upon the original they can see from the description and conversation why the feature was implemented in this fashion.
+
+***
+
+We believe using code reviews and pull requests in tandem gives you the most value in terms of time, knowledge shared and potential cost to clients.
+
+The buy-in to adopt this workflow is far less these days because the tools make it far more accesible to the majority. It can be rolled out across a team, a project or the entire organisation.
