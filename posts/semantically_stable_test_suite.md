@@ -24,11 +24,13 @@ Simply put, it means you cannot trust the Code Coverage metric.
 
 A semantically stable test suite, is a test suite that fails (given that there are two states of build status: pass or fail) when any semantics of the production code that it is covering is changed.
 
-What this means in practice is that every character of production code *has a reason to be there*, and that changing any aspect of the code will cause the test suite to fail.
+What this means in practice is that every aspect of the production code *has a reason to be there*, and furthermore that changing any aspect of the production code will cause the test suite to fail.
 
-Of course, the production code could be modified to retain it’s semantics, but be implemented in a different way. 
+Of course, the production code could be modified to retain it’s semantics, but be implemented in a different way.
 
 As an example it should be possible to swap out the disk scheduling algorithm used by a disk driver from first-come first-serve (FCFS) to shortest seek time first, and not impact the semantics (the fundamental useful behaviour) of the system under test. Another example could be swapping out using a merge sort for a quick sort.
+
+However it could also be much more subtle: for example, a semantically equivalent version could be one which makes it a little easier for the next programmer to understand, or easier to extend. 
 
 ## Semantic stability as a metric
 
