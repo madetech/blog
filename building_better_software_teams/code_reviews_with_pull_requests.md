@@ -110,13 +110,13 @@ Integration with chat applications, such as Slack, can be added to your Github o
 
 #### Optional extras
 
-Github allows for the protecting of branches meaning you can lock down master to avoid anyone pushing to it accidentally. More usefully however is that it also allows for PRs to only be merged if the tests and/or linting is in a passing state. 
+Github allows protecting branches meaning you can lock down master to avoid anyone pushing to it accidentally. More usefully however, it also allows for PRs to only be merged if the tests and/or linting is in a passing state. 
 
-While not essential adopting these extras can help with keeping master safe and secure from accidental commits.
+While not essential, adopting these extras can help with keeping master safe and secure from accidental commits.
 
 ### Visibility
 
-Having the ability to look back and see who introduced a feature and the conversation surrounding reviewing it is a valuable way to foster knowledge sharing. If someone is looking to develop a new similar feature or improve upon the original they can see from the description and conversation why the feature was implemented in this fashion.
+Having the ability to look back and see who introduced a feature and the conversation surrounding reviewing it is a valuable way to foster knowledge sharing. If someone is looking to develop a new similar feature or improve upon the original, they can see from the description and conversation why the feature was implemented in this fashion.
 
 ***
 
