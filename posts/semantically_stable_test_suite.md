@@ -4,7 +4,9 @@
 
 When we run a test suite in most languages, we can also generate reports with percentage of code coverage.
 
-This is really great, because it allows us to see in a metric the reliability of our test suite.
+The coverage percentage is generally used as a metric of reliability of a test suite. Great! We have a metric, so now we can measure the quality of our test suites? 
+
+Unfortunately it is not as simple as that. 
 
 The problem with code coverage is that it is a *lie*. This lie forms the reason why you cannot trust this metric. It is also the reason why you should not fail the build because of this metric.
 
@@ -34,15 +36,17 @@ When this happens we have semantic stability. The terminology for this in the mu
 
 ## Achieving 100% semantic stability
 
-### TDD
+### Test Driven Development
 
 Following the test-first discipline of TDD, strictly, whereby no single line of production code is written without first watching a test fail for that change to be made, produces semantically stable test suites by default.
 
 ### Mutation testing tools
 
-It is possible to use mutation testing tools, and a lot of time, to create semantically stable test suites. 
+Alternatively it is possible to use mutation testing tools, to create semantically stable test suites. 
 
 The method behind this approach would be to write assertions in your test suite, for all elements of your code that can be mutated without being killed by the test suite.
+
+The problem with this approach is that it is time consuming, due to the fact that the tooling is slow. 
 
 ## Who needs semantic stability anyway?
 
@@ -52,7 +56,7 @@ In well-designed systems uncovered lines tend to not change, they tend to be cal
 
 ### The customer cares about high-level policy.
 
-High-level policy is the business logic. It is the logic which in an accounting system, calculates tax on an invoice, and knows about double-entry accounting. As such it is the application code that both you and the customer you care about. 
+High-level policy is the business logic. It is the logic which in an accounting system, calculates tax on an invoice, and knows about double-entry accounting. As such it is only this application code that both you and the customer care about. 
 
 In this world of high-level policy, we do not concern ourselves with low-level detail like databases, and web-frameworks. These are things that only programmers care about, these details only get in the way of describing the problem domain at hand.
 
