@@ -61,16 +61,22 @@ It's also an excellent opportunity to set expectations early if you feel you won
 
 Additionally, bringing up adversity early gives the client an opportunity to back out early rather than wasting further time. For example, if the team was to discover the work would take twice as long as expected, the client should have an opportunity to re-evaluate their business priorities if they have other high priority features that may now be considered more valuable. Furthermore in this situation they may want to park the other work if they were depending on the time staying fixed, as they have other time sensitive work upcoming.
 
-
-## End of iteration showcases
-- Champion Unseen Wins.
-- Emphasise Value.
-- Expose complexity where it existed. This builds your client's confidence in your teams ability to deliver technical work and solve problems.
-- Champion value where it isn't immediately obvious, point out areas where you believe your proactive work will help save the client time and money.
-
-## Capturing useful feedback/How to deal with it
 - Keep the feedback on point, only related to the demonstrated functionality.
 - Don't go into too much detail. You want enough to be able to triage it later, but no too much that the showcase gets de-railed or takes forever.
+
+## End of iteration showcases
+<!-- - Champion Unseen Wins. -->
+<!-- - Expose complexity where it existed. This builds your client's confidence in your teams ability to deliver technical work and solve problems. -->
+<!-- - Emphasise Value. -->
+<!-- - Champion value where it isn't immediately obvious, point out areas where you believe your proactive work will help save the client time and money. -->
+
+The primary purpose of the end of iteration showcase is for the team to present all the work they've agreed to deliver, excluding any work previously removed from the scope of the iteration, which should have happened at the mid point showcase. Not to mention, a perfect time to show off.
+
+During the showcase you should make a point to highlight unseen wins, for example shining a light on complexity within the iteration where it existed. This builds your client's confidence in your teams ability to deliver technical work and solve problems. Also point out areas where the team have gone above and beyond to deliver unexpected value. You can often find easy opportunities to improve a feature by chance, that is a quick win to implement, and highlighting these value adds delights the client. This promotes a more trusting "Adult to Adult" relationship. It will be beneficial to the ongoing project if you are seen as partners rather than contractors.
+
+If you've taken the time to implement additional functionality to help an end user, which you believe will save the client time and money in the long run, you should take the time to point these out as well.
+
+Although ideally the work your team has delivered will be as expected by the client, often additional requirements fall out of new features, which should be captured at the end of your showcase. If they are minor tweaks, these new requirements should be stored in your project backlog and then prioritised by the client. However you will sometimes begin to pad out the next iteration off the back of a final showcase.
 
 ## Post Showcase
 
