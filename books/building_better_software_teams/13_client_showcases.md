@@ -27,7 +27,12 @@ Furthermore, a showcase is an excellent forum to openly discuss any feedback the
 We have found it useful to hold internal showcases to team members not on project team to update everyone on what the team have achieved, what they've learned, any practices the wider team should adopt or avoid, and any technical achievements that could be co-op'd into other projects.
 
 ## Introducing better showcases into your team
--
+<!-- - Frequency - more feedback opportunities = better -->
+<!-- - Structure - enforce good structure in your showcases, make sure the first and most important part is telling them what you've been up, and not allowing interruptions or tangents to take place. -->
+
+Things which are important to consider when introducing showcases in a project are structure and frequency. Enforcing good structure in your showcases will ensure the time is well spent for all parties. Make sure the first and most important part of the showcase is demonstrating what you've been up to, discussing any problems you faced and solved and any problems you still have, and not allowing interruptions or tangents to take place until the end. The benefit of this is clients have time to consider, condense and prioritise feedback, and those leading the showcase are able to make all of their points undistracted.
+
+Additionally, showcases provide a personal growth opportunity for developers. We believe showcases should be led by developers. This puts a certain amount of pressure on them, but we think it's beneficial pressure to have. This is because they are the people with the best understanding of the work, the people who can most easily gauge and accept feedback and the people who will have to carry out the rest of the work. Additionally, it encourages their best work as they know they will have to stand up and be accountable for it in front of clients. We've found this kind of growth is often best achieved by pushing people in at the deep end and providing them with a float, rather than wading them in gently. This sink or swim approach sounds brutal, but encourages autonomy and personal confidence in the individual.
 
 ## Preparation
 - List what you want to cover, which includes work complete and generally issues uncovered.
@@ -50,5 +55,7 @@ We have found it useful to hold internal showcases to team members not on projec
 ## Capturing useful feedback/How to deal with it
 - Keep the feedback on point, only related to the demonstrated functionality.
 - Don't go into too much detail. You want enough to be able to triage it later, but no too much that the showcase gets de-railed or takes forever.
+
+## Post Showcase
 
 ## Conclusion
