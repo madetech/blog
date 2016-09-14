@@ -1,12 +1,12 @@
 # Client Showcases
 
-At Made we deliver regular client showcases, this is an opportunity to sit down with the client to discuss how the iteration and the project as a whole are progressing.
+At Made we host regular client showcases, this is an opportunity to sit down with the client to discuss how the iteration and the project as a whole are progressing.
 
 ## Who should be involved with a showcase?
 <!-- - Clients -->
 <!-- - Talking to people in the clients business who actually will use the product. -->
 
-The most important people to be involved in a showcase are the developers working on the iteration, the key stakeholders on the clients side. A showcase cannot happen without these people. Additionally, any members of the client's business whose lives will be improved by the work carried out ought to be involved. For example, a customer service representative or an ecommerce manager. These people will have valuable, on the ground, insights into existing problems it should solve and potential challenges the work may introduce before its too late.
+The most important people to be involved in a showcase are the developers working on the iteration, the key stakeholders on the clients side. A showcase cannot happen without these people. Additionally, any members of the client's business whose lives will be improved by the work carried out ought to be involved. For example, a customer service representative or an e-commerce manager. These people will have valuable, on the ground, insights into existing problems it should solve and potential challenges the work may introduce before its too late.
 
 - Members of your wider team or department
 
@@ -89,3 +89,13 @@ Furthermore, when celebrating triumphs and learning from shortcomings, it is imp
 
 
 ## Conclusion
+<!-- - More frequent structured developer led showcases = better -->
+<!-- - Capture constructive feedback, and backlog new requirements. -->
+<!-- - Involve a minimal number of people - too many cooks - but ensure they are the right people. -->
+<!-- - Learn from your strides, and miss-steps, and take the time to spread this knowledge. -->
+
+To reiterate, hosting frequent structured showcases, is a excellent way to keep lines of communication open, and ensure client expectations always meet your own. Having developers run these makes them accountable, promotes autonomy, and boosts confidence. You should use them to share your work, capture constructive feedback, and backlog new requirements.
+
+Don't be timid when you encounter adversity, and involve the customer when you do. This ensures they are able to make informed, timely business decisions. After your showcase learn from your strides, and miss-steps, and take the time to spread this knowledge amongst the wider organisation.
+
+A perfect showcase involves a minimal number of people for brevity, but these need to be the right people. You should invite key stakeholders along, like the project manager, as well as a relevant end user. Most importantly keep your client happy, and keep the work flowing!
