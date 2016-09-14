@@ -59,14 +59,17 @@ Pull Requests (PRs) allow for a standard and efficient way of doing code reviews
 PRs revolve around the idea of using dedicated branches for small feature sets. The branches of work are then submitted to your source control tool (we'll use Github from here on in our examples), and are opened up for review amongst your team. Only when the majority of people involved are happy with the work, will it then be merged into your master branch.
 
 #### Branches
+
 Working in isolated branches reduces the risk of conflicting with other developer's work. By not working in master, you can remain focused on your goal rather than constantly having to pull in others code.
 
 #### Single Responsibility Pull Requests
+
 The core idea behind this area is that the less code there is to review the more valuable the review will most likely be. Small features covering only a single area allow for a hyper-focused review and clear understanding of what's trying to be achieved. 
 
 A reviewer can easily tell if the tests are present, valuable and covering these small chunks. Working in this style makes it easier for the reviewee themselves to write the tests and feature.
 
 #### Short lifespans
+
 A great way to avoid merge conflicts with other features and stale code is to impose a completely artificial lifespan on a PR. Whether it's a day or just 15 minutes making sure these don't hang around in limbo is an efficient way to maintain momentum on a project.
 
 If more work arrises out of a review don't just stop the conversation, move it out to an issue or issues and assuming everything has been signed off merge the PR. This allows for more time to be spent on the conversation and potentially more opinions to be provided and more thought around the area.
