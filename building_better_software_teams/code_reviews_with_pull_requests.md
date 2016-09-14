@@ -38,7 +38,7 @@ Tests, hopefully, allow the reviewer to follow the design of the implementation 
 
 ### Catching bugs
 
-Having another developer look over your work also provides an opportunity to catch any bugs you may not have noticed. While you might have a wonderful green test suite, a peer might be aware of another edgecase within the project that would otherwise has slipped by.
+Having another developer look over your work also provides an opportunity to catch any bugs you may not have noticed. While you might have a wonderful green test suite, a peer might be aware of another edge-case within the project that would otherwise has slipped by.
 
 ### Readability of code (comments not required...)
 
@@ -76,7 +76,7 @@ If more work arrises out of a review don't just stop the conversation, move it o
 
 #### Sign off
 
-While it can be tempting to review your own work if others are busy **don't**. This would render the whole process pointless, as remember that it's the extra eyes and brain power you were after in the first place. It would be equivilent to working directly on the master branch.
+While it can be tempting to review your own work if others are busy **don't**. This would render the whole process pointless, as remember that it's the extra eyes and brain power you were after in the first place. It would be equivalent to working directly on the master branch.
 
 Try and encourage a culture within the organisation where people are available to comment on PRs as they're submitted, even if they're working on a different project. This encourages having all repositories on Github, and their PRs open to the organisation.
 
@@ -86,7 +86,7 @@ We've talked about code standards and tests as part of your review process. Thes
 
 #### Using your platform fully
 
-Knowing how to leverage your platform for the easiest adoption of this workstyle is a lot simpler than it may seem at first. 
+Knowing how to leverage your platform for the easiest adoption of this work style is a lot simpler than it may seem at first. 
 
 Minor things such as having a clear and brief title and an accompanying description explaining the feature can make it much easier for the reviewer to quickly grasp the purpose of the PR. This can allow them to assess if they have relevant input or want to involve others and also that the feature matches the description provided.
 
@@ -94,7 +94,7 @@ Keeping the conversations around reviews and PRs within the PR itself is the bes
 
 #### Tests and code standards
 
-Github, Bitbucket and other platforms allow intergration with 3rd party services or your own Continuous Integration server.
+Github, Bitbucket and other platforms allow integration with 3rd party services or your own Continuous Integration server.
 
 These can be used for automatically running your test suite whenever a pull request is created and updated. This gives constant feedback to the reviewers of a PR, helping them know tests are passing, meaning they don't need to pull down your code and run the tests themselves.
 
@@ -122,4 +122,4 @@ Having the ability to look back and see who introduced a feature and the convers
 
 We believe using code reviews and pull requests in tandem gives you the most value in terms of time, knowledge shared and potential cost to clients.
 
-The buy-in to adopt this workflow is far less these days because the tools make it far more accesible to the majority. It can be rolled out across a team, a project or the entire organisation.
+The buy-in to adopt this workflow is far less these days because the tools make it far more accessible to the majority. It can be rolled out across a team, a project or the entire organisation.
