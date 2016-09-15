@@ -18,7 +18,7 @@ Developers shouldn't fear having their code picked over as comments provided sho
 
 ### Visibility
 
-You may not just be a new developer joining an existing project, but in fact a new starter to the organisation. Having frequent code reviews is a great onboarding mechanism to get new starters involved in the process early on, helping them to become familiar with alien codebases.
+You may not just be a new developer joining an existing project, but in fact a new starter to the organisation. Having frequent code reviews is a great onboarding mechanism to get new starters involved in the process early on, helping them become familiar with alien codebases.
 
 More often than not, they'll also have new ideas, or other experiences that you can benefit from. Making the code review process as transparent and as open as possible will only encourage this. It also doesn't restrict the conversation to single teams, but the wider organisation can always input too.
 
