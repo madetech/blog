@@ -70,7 +70,7 @@ In this world of high-level policy, we do not concern ourselves with low-level d
 
 Really your customer cares about two things: 
 
-a. that changes to high-level policy, can be done cheaply.
+a. that changes to high-level policy, can be made cheaply.
 b. that the system works the way they currently have described they want it to
 
 The best way to make it possible to cheaply change high-level policy is to ensure you have tests. However it becomes significantly cheaper to ship changes to high-level policy when you have a semantically stable test suite.
