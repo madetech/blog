@@ -10,6 +10,8 @@ One of ours aims is to ensure our blog posts closely align with our positioning,
 
 #### [Deadlines](deadlines.md)
 
+#### [Previous Posts](INDEX.md)
+
 #### Marketing
 When a post is published, Scott will market on the following channels:
 
@@ -49,19 +51,17 @@ Resolve any issues that have been raised in the review (poke and nag other peopl
 #### Creating a blog post
 
  - [ ] Fork repository and create your blog post in [/posts/](/posts/)
- - [ ] Either claim one of the ideas in the [INDEX.md](INDEX.md), or add your own.
+ - [ ] Either claim one of the ideas in [Trello](https://trello.com/b/jDROwI93/editorial-calendar/calendar/2016/03), or add your own.
  - [ ] Write the post!
  - [ ] Issue a pull request and get the post reviewed
 
 ### Popular traffic sources
 
-Historically, sharing a link to a post on sites like Reddit and RubyFlow has resulted in a huge spike in traffic on our site. Below is a list of popular traffic sources we should be sharing those links on. It's by no means exhaustive, and not all of them are relevant to every type of post, so do share the link anywhere else that may be appropriate.
+Historically, sharing a link to a post on sites like RubyFlow has resulted in a huge spike in traffic on our site. Below is a list of popular traffic sources we should be sharing those links on. It's by no means exhaustive, and not all of them are relevant to every type of post, so do share the link anywhere else that may be appropriate.
+
+We used to share them on Reddit, but they frown upon posting your own links so we don't do that any more.
 
 - [RubyFlow](http://www.rubyflow.com)
-- [/r/programming (627,812 readers)](http://www.reddit.com/r/programming)
-- [/r/ruby (29,716 readers)](http://www.reddit.com/r/ruby)
-- [/r/rails (14,851 readers)](http://www.reddit.com/r/rails)
-- [/r/agile (3,322 readers)](http://www.reddit.com/r/agile)
 - [Hacker News](https://news.ycombinator.com/submit)
 - [DZone](https://dzone.com/links)
 - [Slashdot](http://developers.slashdot.org/)
