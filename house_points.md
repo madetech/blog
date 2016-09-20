@@ -4,9 +4,9 @@
 
 | Brosnan           | Connery           | Dalton           |
 | :---------------- | :---------------- | :--------------- |
-| Scott & Rory: 50  | Richard & Seb: 50 | Alex & Craig: 25 |
+| Scott & Rory: 50  | Richard & Seb: 50 | Alex & Craig: 50 |
 | David & Ryan: 50  | Emile & Luke: 0   | Chris & Nick: 0  |
-| **Total: 100**    | **Total: 50**     | **Total: 25**    |
+| **Total: 100**    | **Total: 50**     | **Total: 50**    |
 
 #### Points per post
   - 50 for submitting by the deadline
