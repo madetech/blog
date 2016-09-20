@@ -87,7 +87,7 @@ Pairing is exhausting. When you've spent the entire day thinking critically abou
 #### Skill Disparity
 You'll often find pairing works less well when you've got signifiant skill disparity between a pair. If one engineer is clearly more experienced and is making all the decisions, then this can lead to the less experienced feeling overwhelmed and demotivated, whch can lead to disengagement.
 
-#### Pairing the wrong people
+#### Pairing with the wrong people
 It's important that developers pair with someone they're well suited to. The most beneficial pairing will be two people who can learn from one another, share similar philosophies and balance each other out.
 
 #### Backseat Driving
