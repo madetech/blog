@@ -8,7 +8,7 @@ A way of formalising code reviews within your organisation can be the [pull requ
 
 ### Knowledge share
 
-If you're new to an existing project, what better way to get valuable insight to the workings of it than getting someone familiar to have a look over your changes. It's really difficult to sit and read through the many lines of existing code to fully understand what is available to you to use. They'll have used existing functions a lot more than you, and will help to reduce code duplication, between you there might be a more efficient combination.
+If you're new to an existing project, what better way to get valuable insight to the workings of it than getting someone familiar to have a look over your changes. It's really difficult to sit and read through the many lines of existing code to fully understand what is available for you to use. They'll have used existing functions a lot more than you, and will help to reduce code duplication, between you there might be a more efficient combination.
 
 The code review encourages the start of conversations that lead to improvement of the overall codebase, sharing of best practices and experience from both the reviewee and reviewer.
 
@@ -16,17 +16,17 @@ It's important that reviews are treated as a positive tool. While it's easy to b
 
 Developers shouldn't fear having their code picked over as comments provided should be constructive and it allows to them to gain real insight from their peers. Likewise, a reviewer should always feel comfortable providing constructive criticism if they feel it will lead to improvements.
 
-### Visibility
+### Visibility
 
 You may not just be a new developer joining an existing project, but in fact a new starter to the organisation. Having frequent code reviews is a great onboarding mechanism to get new starters involved in the process early on, helping them become familiar with alien codebases.
 
 More often than not, they'll also have new ideas, or other experiences that you can benefit from. Making the code review process as transparent and as open as possible will only encourage this. It also doesn't restrict the conversation to single teams, but the wider organisation can always input too.
 
-### Standards
+### Standards
 
-Code standards aid in readability and maintainability of code. Sometimes standards can come in written form, a large set of rules to follow, but other times they can be unwritten rules that you'll only really learn the more you develop within an organisation.
+Code standards aid in readability and maintainability of code. Sometimes standards can come in written form—a large set of rules to follow—but other times they can be unwritten rules that you'll only really learn the more you develop within an organisation.
 
-This is where that extra set of eyes come in. Ensuring that standards are followed don't require much brain power, but they are often easy to miss, especially if you're unfamiliar with them.
+This is where that extra set of eyes come in handy. Ensuring that standards are followed doesn't require much brain power, but they are often easy to miss, especially if you're unfamiliar with them.
 
 Catching these violations early on save time in the long run and allows everyone to be on the same page, ensuring good readability. Also the opportunity to open conversations around the standards themselves. Whitespace vs tabs... _ducks_
 
@@ -42,11 +42,11 @@ Having another developer look over your work also provides an opportunity to cat
 
 ### Readability of code (comments not required...)
 
-At Made, we feel that if code isn't understandable without comments then this represents a smell. While it's common to see this crop up as a suggestion is it really required if your functions and variables are clearly and consistenly named throughout and have obvious and sensible data returned. Comments _can_ provide value in some cases but they should never be a hard requirement for a code review for us.
+At Made, we feel that if code isn't understandable without comments then this represents a smell. While it's common to see this crop up as a suggestion, is it really required if your functions and variables are clearly and consistenly named throughout and have obvious and sensible data returned. Comments _can_ provide value in some cases but they should never be a hard requirement for a code review for us.
 
-### Checklists not required?
+### Checklists not required?
 
-While some of the above may look like a checklist it's not. We're more trying to present some best practices for code reviews, not rules that you have to follow. 
+While some of the above may look like a checklist it's not. We're trying more to present some best practices for code reviews, not rules that you have to follow. 
 
 We'll dive deeper into this idea as we expand on the value we derive from having adopted a Pull Request Workflow. Some of the things we've covered above can be easily automated to make code reviewing more valuable as a result of this.
 
@@ -72,11 +72,11 @@ A reviewer can easily tell if the tests are present, valuable and covering these
 
 A great way to avoid merge conflicts with other features and stale code is to impose a completely artificial lifespan on a PR. Whether it's a day or just 15 minutes making sure these don't hang around in limbo is an efficient way to maintain momentum on a project.
 
-If more work arrises out of a review don't just stop the conversation, move it out to an issue or issues and assuming everything has been signed off merge the PR. This allows for more time to be spent on the conversation and potentially more opinions to be provided and more thought around the area.
+If more work arrises out of a review don't just stop the conversation, move it out to an issue or multiple issues and assuming everything has been signed off merge the PR. This allows for more time to be spent on the conversation and potentially more opinions to be provided and more thought around the area.
 
 #### Sign off
 
-While it can be tempting to review your own work if others are busy **don't**. This would render the whole process pointless, as remember that it's the extra eyes and brain power you were after in the first place. It would be equivalent to working directly on the master branch.
+While it can be tempting to review your own work if others are busy... **don't**. This would render the whole process pointless, as remember that it's the extra eyes and brain power you were after in the first place. It would be equivalent to working directly on the master branch.
 
 Try and encourage a culture within the organisation where people are available to comment on PRs as they're submitted, even if they're working on a different project. This encourages having all repositories on Github, and their PRs open to the organisation.
 
