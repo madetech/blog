@@ -1,6 +1,6 @@
 # Code reviews using the pull request workflow
 
-As developers we always appreciate a second pair of eyes and an extra brain. The eyes are really helpful for catching that extra whitespace you might have missed, or the code you had for debugging. The additional brain power might help you solve a problem in your code with 5 fewer lines. All of this results in better code and more collaboration.
+As developers we always appreciate a second pair of eyes and an extra brain. The eyes are really helpful for catching that extra whitespace you might have missed. The additional brain power might help you solve a problem in your code with 5 fewer lines. All of this results in better code and more collaboration.
 
 A way of formalising code reviews within your organisation can be the [pull request workflow](https://www.madetech.com/blog/deployment-by-pull-requests), which aims to encourage regular code reviews with minimal disruption to your productivity, while gaining tremendous value.
 
