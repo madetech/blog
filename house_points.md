@@ -2,11 +2,10 @@
 
 ### Season 3 Teams
 
-| Brosnan           | Connery           | Dalton           |
-| :---------------- | :---------------- | :--------------- |
-| Scott & Rory: 50  | Richard & Seb: 50 | Alex & Craig: 50 |
-| David & Ryan: 50  | Emile & Luke: 0   | Chris & Nick: 0  |
-| **Total: 100**    | **Total: 50**     | **Total: 50**    |
+| Brosnan       | Connery       | Dalton       |
+| :------------ | :------------ | :----------- |
+| Scott & Rory  | Richard & Seb | Alex & Craig |
+| David & Ryan  | Emile & Luke  | Chris & ???  |
 
 #### Points per post
   - 50 for submitting by the deadline
