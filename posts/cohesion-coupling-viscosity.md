@@ -42,7 +42,7 @@ In object-oriented languages like Java, it is possible to use objects as data st
 
 Lack of boundaries, to ensure loose coupling, creates codebases with low cohesion and high viscosity, termed ball-of-mud codebases that are hard to change.
 
-In the real world, it is common for business rules to depend on unstable child-like dependencies. This easiest way to ensure that the User Interface (UI) does not become coupled to these unstable dependencies is to have a boundary between the Business Logic and the UI.
+In the real world, it is common for business rules to depend on unstable child-like dependencies. The easiest way to ensure that the User Interface (UI) does not become coupled to these unstable dependencies is to have a boundary between the Business Logic and the UI.
 
 Another angle to look at this problem is that the UI tends to evolve at a different rate to the business rules. For most Applications, although not all, the UI is more likely to change, which is understandable, as this is the most visible part of an Application and can be influenced by fashions. Business rules tend to change less frequently, and in fact, many core business rules can be reused across many different end-users if the abstraction is both loosely coupled and highly cohesive.
 
@@ -58,7 +58,7 @@ For reasons described above, it is desirable to decouple your business rules fro
 -  to allow the business rules to control the database in highly complex ways, and,
 -  to ensure we can defer decisions about how we are going to deal with things like databases, schemas and ORMs
 
-Database data structures are a very unstable aspect of a software application and are very likely to change. As such, it is bad for cohesion when your UI knows about the database or your ORM. Furthermore, it is bad for continuous delivery when you must change features that also depend on those ActiveRecord objects. Features themselves should be decoupled from the saving and retrieving of Business Objects.
+Database data structures are a very unstable aspect of a software application and are very likely to change. As such, it is bad for cohesion when your UI knows about the database or your ORM. Furthermore, it is bad for continuous delivery when you must change features that also depend on those ActiveRecord objects. Features themselves, housed inside what I call use-case classes, should be decoupled from the saving and retrieving of Business Objects from the database.
 
 The "database" interface expected by the Business Rules should return business objects. It is perfectly fine for these Business Objects to house some shared behaviour. These objects should not be ActiveRecord objects, as this would tightly couple the business rules with the highly unstable and very likely to change database structures. 
 
@@ -86,13 +86,13 @@ Fragmentation can feel like viscosity, but it is a different problem entirely. I
 
 # SOLID
 
-The reason that the Single Responsibility, Dependency Inversion and the Interface Segregation Principles exist is to solidify this point about coupling and cohesion. If a class has one reason to change, then it is highly cohesive. If the dependencies are inverted, and the interfaces are segregated, then it is exhibiting some forms of loose coupling.
+The reason that the Single Responsibility, Dependency Inversion and the Interface Segregation Principles exist is to solidify this point about coupling and cohesion. If a class has one reason to change, then it is highly cohesive. If the dependencies are inverted, and the interfaces are segregated, then it is exhibiting some form of loose coupling.
 
 I do not believe ignoring these very well-explored topics in the field of software programming, in the attempt to speed up delivery, is acceptable. The main mantra here is maintainability, both short and long term. 
 
-Maintainability is the primary cost of software over its lifetime (unless its only purpose is to be deleted). Ergo, the primary value of software is its ability to tolerate and facilitate ongoing change. Customers want changes to their software to be cheap, and it is surprising how quick viscous code can accumulate and begin eating into the budget. Contrary to popular belief, it is only the secondary value of software that it meets its users' current needs.
+Maintainability is the primary cost of software over its lifetime (unless its only purpose is to be deleted). Ergo, the primary value of software is its ability to tolerate and facilitate ongoing change. Customers want changes to their software to be cheap, and it is surprising how quickly viscous code can accumulate and begin eating into the budget. Contrary to popular belief, it is only the secondary value of software that it meets its users' current needs.
 
-As mentioned above when referring to XP's practice of Simple Design, high cohesion and loose decoupling is not synonymous with architecture gold plating or somehow unnecessary. It is the basic requirement for highly maintainable software. 
+As mentioned above when referring to XP's practice of Simple Design, high cohesion and loose coupling is not synonymous with architecture gold plating or somehow unnecessary. It is the basic requirement for highly maintainable software. 
 
 Another way to separate these concepts is to think of two classes of code defect; behavioural and structural. Most programmers, when referring to code defects, think solely of behavioural defects (i.e. the code does not function correctly). Structural defects are defects that affect maintainability. Structural defects are worse, as they affect the ability to add features, fix behavioural defects and therefore arguably have a higher cost over the life-cycle of a code-base.
 
