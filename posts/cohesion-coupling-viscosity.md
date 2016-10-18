@@ -4,45 +4,6 @@ One of the most important goals of a software engineer is to craft highly cohesi
 
 Code is highly cohesive when the code contained within functions, methods, classes, or modules have much in common. Conversely, low cohesion occurs when elements of the code do not belong together and currently are. 
 
-A code-base is said to be viscous when it is quicker to add a hack than to preserve the existing design.  To qualify this statement, I believe that evolving the architecture, through a series of small refactorings, while keeping the tests passing, is a form of design preserving activity. 
-
-Another problem to contend with is unnecessary fragmentation of the code-base. Fragmentation does not result in viscosity specifically, but it can make it hard to build a mental map of the Application, especially in languages that do not have static types.
-
-Fragmentation leads to friction; which is a feeling of lack of productivity that programmers get from a code-base as they attempt to make changes to it. Fragmentation is one of many sources of friction; others include lack of knowledge or experience in a particular paradigm. 
-
-Systems can be highly cohesive when they are loosely-coupled, but it is a simplistic assumption to assume that loosely coupling everything has desirable outcomes. 
-
-Extreme Programming (XP) practitioners are aware of the practice of Simple Design; amongst other things, minimising the number of moving parts is highly critical when building a software solution. 
-
-An outcome of having high cohesion and appropriate loose coupling is that it reduces class/method/file/library churn. Remember! Code-churn introduces defects. Ergo, reducing code-churn reduces the introduction of defects.
-
-# Tight coupling can be good
-
-To discover why it is not always beneficial for areas of a system to be loosely coupled, we first must examine the "gold plated" architecture. Not everything needs to be dependency injected or mocked! 
-
-A consideration of using test doubles is that it creates a test setup overhead. Due to this increased complexity, avoiding mocking is good unless we need to take advantage of class composition.
-
-When we do not care about loose coupling is usually when a class provides very generic functionality or very specific functionality. 
-
-A good example of generic functionality is the Array standard library. We can refer to this library as being very Adult, as it has many dependants. As such, it needs to be very stable and unlikely to change. To be tightly coupled to it is okay for this reason.
-
-Tightly coupling to specific functionality, is useful when a class provides useful behaviour in a very specific domain. 
-
-When a dependency's purpose is for specific functionality, and we are considering whether to tightly couple to it, care should be taken to ensure that the dependency has few dependents (it is Child-like). An ideal number is one or two dependents, but this is not a hard rule. 
-
-Depending on an unstable class in only a small surface area of the code-base, allows the impact of changing it to be small.
-
-# When tight coupling is bad
-
-Exposing unstable dependencies illustrate the problem with tight coupling. Passing instability along a chain of dependencies spreads instability throughout application code, resulting in more viscous code.  
-
-The strongest form of decoupling exists when communication occurs using simple data structures only. When an area of the system communicates using simple data structures only, I call this a boundary.
-
-In object-oriented languages like Java, it is possible to use objects as data structures so long as they do not house any behaviour. Typically I tend to use objects with public fields in Java, data classes in Kotlin, and hash maps in non-statically typed languages.
-One of the most important goals of a software engineer is to craft highly cohesive code. Cohesion refers to the grouping of code in a software system. 
-
-Code is highly cohesive when the code contained within functions, methods, classes, or modules have much in common. Conversely, low cohesion occurs when elements of the code do not belong together and currently are. 
-
 A code-base is said to be viscous when it is quicker to add a hack than to preserve the existing design.  To qualify this statement, evolving an Application's architecture, through a series of small refactorings, while keeping tests passing, is a form of design preserving activity. 
 
 Another problem to contend with is unnecessary fragmentation of the code-base. Fragmentation does not result in viscosity specifically, but it can make it hard to build a mental map of the Application, especially in languages that do not have static types.
