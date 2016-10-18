@@ -39,6 +39,45 @@ Exposing unstable dependencies illustrate the problem with tight coupling. Passi
 The strongest form of decoupling exists when communication occurs using simple data structures only. When an area of the system communicates using simple data structures only, I call this a boundary.
 
 In object-oriented languages like Java, it is possible to use objects as data structures so long as they do not house any behaviour. Typically I tend to use objects with public fields in Java, data classes in Kotlin, and hash maps in non-statically typed languages.
+One of the most important goals of a software engineer is to craft highly cohesive code. Cohesion refers to the grouping of code in a software system. 
+
+Code is highly cohesive when the code contained within functions, methods, classes, or modules have much in common. Conversely, low cohesion occurs when elements of the code do not belong together and currently are. 
+
+A code-base is said to be viscous when it is quicker to add a hack than to preserve the existing design.  To qualify this statement, evolving an Application's architecture, through a series of small refactorings, while keeping tests passing, is a form of design preserving activity. 
+
+Another problem to contend with is unnecessary fragmentation of the code-base. Fragmentation does not result in viscosity specifically, but it can make it hard to build a mental map of the Application, especially in languages that do not have static types.
+
+Fragmentation leads to friction; which is a feeling of lack of productivity that programmers get from a code-base as they attempt to make changes to it. Fragmentation is one of many sources of friction; others include lack of knowledge or experience in a particular paradigm. 
+
+Systems can be highly cohesive when they are loosely-coupled, but it is a simplistic assumption to assume that loosely coupling everything has desirable outcomes. 
+
+Extreme Programming (XP) practitioners are aware of the practice of Simple Design; amongst other things, minimising the number of moving parts is highly critical when building a software solution. 
+
+An outcome of having high cohesion and appropriate loose coupling is that it reduces class/method/file/library churn. Remember! Code-churn introduces defects. Ergo, reducing code-churn reduces the introduction of defects.
+
+# Tight coupling can be good
+
+To discover why it is not always beneficial for areas of a system to be loosely coupled, we first must examine the "gold plated" architecture. Not everything needs to be dependency injected or mocked! 
+
+A consideration of using test doubles is that it creates a test setup overhead. Due to this increased complexity, avoiding mocking is good unless we need to take advantage of class composition.
+
+When we do not care about loose coupling is usually when a class provides very generic functionality or very specific functionality. 
+
+A good example of generic functionality is the Array standard library. We can refer to this library as being very Adult, as it has many dependants. As such, it needs to be very stable and unlikely to change. To be tightly coupled to it is okay for this reason.
+
+Tightly coupling to specific functionality, is useful when a class provides useful behaviour in a very specific domain. 
+
+When a dependency's purpose is for specific functionality, and we are considering whether to tightly couple to it, care should be taken to ensure that the dependency has few dependents (it is Child-like). An ideal number is one or two dependents, but this is not a hard rule. 
+
+Depending on an unstable class in only a small surface area of the code-base, allows the impact of changing it to be small.
+
+# When tight coupling is bad
+
+Exposing unstable dependencies illustrate the problem with tight coupling. Passing instability along a chain of dependencies spreads instability throughout application code, resulting in more viscous code.  
+
+The strongest form of decoupling exists when communication occurs using simple data structures only. When an area of the system communicates using simple data structures only, I call this a boundary.
+
+In object-oriented languages like Java, it is possible to use objects as data structures so long as they do not house any behaviour. Typically I tend to use objects with public fields in Java, data classes in Kotlin, and hash maps in non-statically typed languages.
 
 Lack of boundaries, to ensure loose coupling, creates codebases with low cohesion and high viscosity, termed ball-of-mud codebases that are hard to change.
 
@@ -86,10 +125,14 @@ Fragmentation can feel like viscosity, but it is a different problem entirely. I
 
 # SOLID
 
-The reason that the Single Responsibility, Dependency Inversion and the Interface Segregation Principles exist is to solidify this point about coupling and cohesion. If a class has one reason to change, then it is highly cohesive. If the dependencies are inverted, and the interfaces are segregated, then it is loosely coupled.
+The reason that the Single Responsibility, Dependency Inversion and the Interface Segregation Principles exist is to solidify this point about coupling and cohesion. If a class has one reason to change, then it is highly cohesive. If the dependencies are inverted, and the interfaces are segregated, then it is exhibiting some forms of loose coupling.
 
-When a code-base exhibits high cohesion, it is not viscous and is easier to change. 
+I do not believe ignoring these very well-explored topics in the field of software programming, in the attempt to speed up delivery, is acceptable. The main mantra here is maintainability, both short and long term. 
 
-I do not believe ignoring these very well-explored topics in the field of software programming when building software, at the expense of delivery, is A Good Thing. The main mantra here is maintainability, which is the primary cost of software over its lifetime. Customers want changes to their software to be cheap, and it is surprising how quick viscous code can accumulate and begin eating into the budget.
+Maintainability is the primary cost of software over its lifetime (unless its only purpose is to be deleted). Ergo, the primary value of software is its ability to tolerate and facilitate ongoing change. Customers want changes to their software to be cheap, and it is surprising how quick viscous code can accumulate and begin eating into the budget. Contrary to popular belief, it is only the secondary value of software that it meets its users' current needs.
 
-I also do not believe, once well versed in building decoupled software, that practicing these techniques slows down delivery of software in the short term either. In fact, I think (and in the words of Robert C. Martin) that "the only way to go fast, is to go well."
+As mentioned above when referring to XP's practice of Simple Design, high cohesion and loose decoupling is not synonymous with architecture gold plating or somehow unnecessary. It is the basic requirement for highly maintainable software. 
+
+Another way to separate these concepts is to think of two classes of code defect; behavioural and structural. Most programmers, when referring to code defects, think solely of behavioural defects (i.e. the code does not function correctly). Structural defects are defects that affect maintainability. Structural defects are worse, as they affect the ability to add features, fix behavioural defects and therefore arguably have a higher cost over the life-cycle of a code-base.
+
+I also do not accept that once well versed in building decoupled software, practising these techniques slows down delivery of software in the short-term. In fact, in the words of Robert C. Martin, "the only way to go fast, is to go well."
