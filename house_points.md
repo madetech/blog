@@ -11,7 +11,6 @@
   - 50 for submitting by the deadline
     - 10 points for submitting a late post
     - 25 points for submitting extra posts
-  - 25 per 500 views, up to a maximum of 2,500 views / 125 points
 
 #### Bonus Points
   - 50 points at the end of the season to any team who get all 4 posts in
