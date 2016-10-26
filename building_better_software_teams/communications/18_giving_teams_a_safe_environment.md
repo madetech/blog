@@ -21,32 +21,36 @@
   // Could talk about less staff being involved therefore less of a distraction, less of a cost to the business
 
 ## How to provide a safe deployment environment
+  From our experiences we have found the following 6 steps to greatly improve the way in which software is deployed.
 
-### Expecting the unexpected
+    - Create a safe environment where it is ok to fail
+    - Make deployments easier by automating them
+    - Production like environment for testing
+    - Deployment frequency
+    - Transparency
+    - Monitoring
+    - Rolling forwards and backwards
 
-  When practicing contious delivery it is not to say that that you are going to introduce bugs into your code.
-  The key benefit to practicing continous delivery is that it is easier to recover and identify what went wrong.
+### Create a safe environment where it is ok to fail
 
-  You and your co-workers need to understand that bad things do happen and need to have a good backup plan for dealing with them quickly.
+  It is rare in software engineering that changes are perfect first time round, we have found that optimising for fixing failures quickly provides
+  more value than getting things right the first time round.  In order to benefit from deploying faster, you first need a culture where failure is ok.
 
-  If a bad commit were to be introduced into production, you need to be able to correct this in the least amount of time possible.
+  If a bad commit were to be introduced into production, you need to be able to correct this as quickly as possible.
 
-  This usually means rolling forward with another commit through your pipeline to address it.
+  - Fast recovery
+  - Redundancy
+  - Don't punish failure, reward recovery
+  - Transparency with stakeholders
 
-  Netflix introduced the Chaos Monkey which does destructive things.
+### Make deployments easier by automating them
 
-### Deployment Software
+  Humans aren't great at repeating processes, and let's face it it can be boring too.
 
-  Abstract and simplify your deployment process.  You can use something as simple as a bash script but as this grows in complexity it is usually best
-  to test up a continuous deployment environment like Jenkins.
+  A typical deployment will include building, testing and releasing it to the public.
 
-  Some chat bots can even be programmed to do the deployments for you from your chat application.
-
-  In order to minimize human error you must encapsulate your entire deployment process in as few steps as possible.
-  The perfect optimal number of steps being 1.  By doing this you have moved your deployments one step closer from nerve racking to being boring.
-
-  Blue / Green deploys are also a nice safety net for switching back to the last version of the production application.
-  Basically you have two pools of application server instances running with a loadbalancer serving traffic to just one a time.
+  The risk of errors can be reduced by automating the steps of a deployment.
+  It should be repeatable and easy to understand, this can range from a simple script on the developers computer or a hosted continuous integration service.
 
   This will reduce the pressure of introducing a defect into the system as a rollback can happen in a few seconds.
 
@@ -54,6 +58,7 @@
 
   You should have a staging environment with data that mirrors production.
   This data can be made repeatable by managing it with seeds.
+
 ### Deployment frequency
   Keeping your deploys frequent means that the code being deployed out will be small enough to reason about in isolation.
   The more frequent the deploys, the less risk each of them carries.
@@ -71,3 +76,6 @@
   system.  Knowing this, it should be trivial to track down the commit and fix it.  Hopefully you practice
 
   This should be the last resort for any fix needed to get into production.  You should always prefer to roll forward instead of back.
+
+  Blue / Green deploys are also a nice safety net for switching back to the last version of the production application.
+  Basically you have two pools of application server instances running with a loadbalancer serving traffic to just one a time.
