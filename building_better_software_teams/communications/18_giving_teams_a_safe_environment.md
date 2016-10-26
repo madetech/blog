@@ -1,6 +1,7 @@
 # Giving teams an environment where everyone can deploy safely any time
 
 ## What do we mean by deploying safely at any time
+
   We believe that all developers should be allowed to deploy at any time.  Both developers and management find this scary since it makes traditional
   release management and QA very hard.  We have found that empowering developers to own this responsibility allows you to ship software much faster
   whilst maintaining or even improving the safety of the traditional processes.
@@ -10,6 +11,14 @@
   touch with the stakeholders about it.  Should anything go wrong, they are responsible for fixing it.
 
 ## Why everyone should deploy their own changes
+
+  The biggest benefit when empowering teams to deploy safely at any time is that your deployments become faster and less riskier over time. Removing overheads such as QA processes means that we can make changes quickly. By making more frequent changes they will naturally be smaller. If our deployments are smaller they will be easier to test and easier to fix in the case of any issues. Deployments become mundane.
+
+  Over time your team will become better at testing their own changes and fixing issues when they arise. When a developer releases a change they will learn to become responsible for testing and monitoring it. This creates a proactive culture where developers can quickly react to problems often allowing them to spot defects before many users encounter them.
+
+  Not only do the business and customers benefit from more frequent changes but we've found empowered developers are happier developers. By being responsible for a change, from start to finish, developers will feel a sense of pride and ownership over their work. We've found more traditional release strategies lead to developers passing responsibility onto QA or the deployment team, simply throwing their work over the fence. When developers own their changes, they will put care into their work.
+
+  // Could talk about less staff being involved therefore less of a distraction, less of a cost to the business
 
 ## How to provide a safe deployment environment
 
