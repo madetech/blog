@@ -1,9 +1,20 @@
 # Giving teams freedom to structure their own time/11 shocking reasons to fire your project manager
 
-## Intro
+It can be scary to devolve a lot of managerial and planning responsibility to teams but we've found lots of positives in changing the way we approach time management. Allowing teams the ability to plan their workloads, holidays, working location and client engagement has resulted in a greater sense of ownership on projects.
 
-TRUST
+As a result of these changes we've noticed; 
+ 
+ * Better quality of work through sense of ownership
 
+ * Better value in engagements for our clients
+
+ * Better relationships with the clients
+
+ * A reduction in the overhead around planning for holidays, etc.
+
+It's essential however that management are confident enough in their teams to place this trust in them and there shouldn't be any reason they aren't.
+
+***
 
 ## Communicating with clients directly
 
@@ -113,4 +124,6 @@ If a manager sees that a team is struggling—perhaps dealing with a tricky clie
 
 ***
 
-Wrap up.
+Hopefully the points we've covered will help you apply this to your teams, we've learned it's essential to be open to change. Realising what works for you and what doesn't will be an important part of forming your own processes and norms around self-organising.
+
+We've found these to be a good basis for Made but don't feel that any of these are hard rules. As part of empowering your teams allow them a say in shaping how best to find what works for them.
