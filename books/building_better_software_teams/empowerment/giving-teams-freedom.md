@@ -1,4 +1,8 @@
-# Giving teams freedom to structure their own time
+# Giving teams freedom to structure their own time/11 shocking reasons to fire your project manager
+
+## Intro
+
+TRUST
 
 
 ## Communicating with clients directly
@@ -51,71 +55,62 @@ Day-to-day the team need to be able to attend standup no matter where they are. 
 
 ## Remote work
 
+Lots of business are against remote work, as they're worried they can't 'see' people working but it's important when switching to self-organising teams to trust your workers to do their jobs without being watched.
+
 When working remotely it's key that team mates and the clients are unaffected, the individual assumes the responsibility or maintaining the everyday standard these people are accustomed to. This means both the quality of work and the actual process, you don't want to be calling your client from a noisy place where the communication will suffer.
 
 We feel we've got the correct toolset to allow for the entire company to be remote on a given day. Recently we had to contend with constant construction noise next to the office and all worked elsewhere for a day or two with no impact to the clients, workload or our day-to-day process. One of the things we do to increase people's presence when out of the office is to drop a quick message into our chat when we're going to be away for a period of time like at lunch.
 
 ## Holidays
 
-Beyond what we've outlined above the main thing with holidays is ensuring that someone is still available to maintain momentum.
+Beyond what we've outlined above the main thing with holidays is ensuring that enough of the team is still available to maintain momentum. As the team is scheduling their own holiday, it's really important not to forget to let the client know too if there are any changes to the team. In some cases other developers might be brought in to cover.
 
-Some examples of things to self-organise:
+Holiday time must be taken into consideration when planning iterations so that realistic goals/targets can be set.
 
- * Workload
-    https://www.madetech.com/blog/let-your-teams-plan-for-themselves
-    Ask forgiveness, not permission - https://www.madetech.com/blog/how-to-build-an-agile-team
- * Remote work
- * Holidays
- * Hackdays & Dojos
+On the flip side, it's as important that the client lets the team know if they'll be away on holiday. In these cases an alternative stakeholder should be introduced to the team who'll be a point of contact.
 
-1. Let teams communicate with clients directly (self define work, being introduced to team)
-3. Establishing work process (small iterations, standups, showcases, make sure client is available during iterations - to be able to get the fast feedback)
-4. Establishing business process (handbook, calendars, visibility)
-2. Let team members communicate with one another (remote/in office)
-5. Remote work (scheduling/notice for team/communication tools)
-6. Hackdays/Dojos (business value in learning new things/letting clients know off project)
-8. Holidays (checking with the team/making sure the whole team aren't off at the same time/enough cover)
-7. Knowledge sharing (good that everyone on the team has as much of the same knowledge as possible/pairing/potential working on site with clients for better understanding, gaining knowledge faster from people who use stuff day to day)
-10. Testing/phrasing in the culture of self organising teams
-9. 'Management' involvement (not being afraid to step in/or assist/ask for forgiveness not permission/clients aware of how we work)
+## Hackdays & learning days
 
-Common things:
+In the same frame of mind as holidays, as these are usually at least a day in length, the client needs to be made aware of these well in advance and reminded the day before during standup.
 
- * Communication directly with clients (instant messaging is key, if not essential)
- * Communication with team
+These normally involve the whole company, so whoever organises them is conscious that the company as a whole needs quite a bit of advance notice, at least a month. 
 
-For some of the above topics, remote work and holiday for example are documented in our handbook - in terms of process to follow.
+We try and balance the frequency of these days. While we see them as valuable to the company as a whole, we don't want clients to feel like they're constantly taking a back seat.
 
-Important for the team to know what work is coming up, what goals need to be met.
+## Dojos
 
-Making decisions on the above things as a team.
+These are often recurring hourly sessions that happen weekly. These are self organised each time and if no one has an idea we don't run them as they're encouraged, but not mandatory. 
 
-'People above' not to be afraid to step in and course correct if needed. In a non-heavy handed manner.
+If there is one scheduled, anyone participating is conscious of their current work load, and will only take part if it's not going to affect any the work due to be showcased. We also try to avoid scheduling client interactions when these are taking place to allow for maximum option to participate across all teams.
 
-Comparisons with a non team-led organisation. Top down approach.
-Potential bottlenecks.
+## Knowledge sharing
 
-Knowledge sharing vital.
-Pre-holiday handovers.
-Visibility over time. Calendars, Trello. Don't lock down this to specific people. Open for all.
+It's essential to foster knowledge sharing as a cultural norm when enabling teams to self-organise. When people go on holiday, are ill or otherwise unavailable the team need to be able to keep functioning. To promote this we encourage frequent pairing throughout the company.
 
-Self-organising holidays was trialled. Don't be afraid to try things out. Agile.
-Don't be against something until you've tried it.
+The constant switching of roles during pairing greatly facilitates technical, domain, and business knowledge to be quickly shared between teammates. It's also a great way to bring a new team member up-to-speed with an ongoing engagement.
 
-Lots of business are against remote work, as they're worried they can't 'see' people working.
+Before a team member goes on holiday they should be sure to handover anything that only they have had sight of, although try not to let that happen. If this information isn't recent it's worth looking at how communication is working across the team.
 
-https://www.madetech.com/blog/one-week-of-remote-working-the-good-and-the-bad
+On the client side, it can be difficult to fully envision and grasp the use cases without going on site and working alongside the end users and stakeholders to understand their goals. Teams should be empowered and encouraged to go to the client or bring them into the office to facilitate this transfer of knowledge. At the end of the day our clients know their business better than we do and that value should be leveraged.
 
+## Testing and phasing of processes
 
+Depending on your business, introducing self-organising teams might be quite a drastic, big change to the business. There is no harm in trialling the introduction of this to a single team to begin with.
 
-Know your toolset!
+We tested this process with a single team, giving full visibility, control over holidays, scheduling iterations etc. to see how effectively it worked. This allowed us to make changes to the process, building confidence in it, before rolling it out across the company.
 
-Workload; re showcases, we clear next iteration plans with them, so we know quickly if things are heading off course. Regular and quick feedback from clients is a good thing.
+Even on processes that have been rolled out company wide, [we still experiment](https://www.madetech.com/blog/one-week-of-remote-working-the-good-and-the-bad) and make changes. We're never afraid to change processes if we think they can be better.
 
-Ensuring clients are on the same page as us re this approach. So there's no surprises when work commences. Usually explained at sales stage/pitch.
+Don't be against something until you've tried it!
 
-Ensuring clients are available regularly for showcases/standups.
+## Management
 
-Standups aid a lot with self organising teams as course corrections can be made quickly.
+Even devolving all of this power to teams doesn't mean that management can't be there to assist and guide the teams. There is still a lot of valuable knowledge and insight that the teams can benefit from.
 
-All hands - start, mid and end of week standups so company is in the loop with what is going on. Focus is on goals rather than a standard stand up.
+With the teams directly communicating with clients, it's still important for them to know the long term roadmap of work. It's just nice to know so there are fewer surprises for developers day-to-day.
+
+If a manager sees that a team is struggling—perhaps dealing with a tricky client—then this is a good time to assist—maybe not taking control—but offering guidance on how to proceed and communicating to the client if need be.
+
+***
+
+Wrap up.
