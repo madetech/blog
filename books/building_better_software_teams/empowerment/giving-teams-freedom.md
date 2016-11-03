@@ -24,7 +24,7 @@ Traditional approaches have been for there to be a project manager to act as the
 
 What harm is there in empowering the team to communicate directly with the client and enhance the relationship?
 
-[@todo something about technical speak, and reigning that in]
+When  holding standups and meetings with clients the team should keep in mind what the client's level of technical understanding is and make sure not to just info-dump lots of technical speak on them. If people walk away from a meeting not understanding what's happened then that's a big failing in the communication process.
 
 For starters it'll save a bunch of time. When a developer is unsure of something, rather than risking development time that will potentially need to be backtracked later, give the client a call or IM them to get faster feedback or clarification around the work. It's essential that the team and client can create a fast feedback cycle to reduce the potential for interruptions to the development process.
 
