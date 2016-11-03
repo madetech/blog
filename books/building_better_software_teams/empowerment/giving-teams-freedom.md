@@ -1,9 +1,9 @@
-# Giving teams freedom to structure their own time/11 shocking reasons to fire your project manager
+# Giving teams freedom to structure their own time
 
 It can be scary to devolve a lot of managerial and planning responsibility to teams but we've found lots of positives in changing the way we approach time management. Allowing teams the ability to plan their workloads, holidays, working location and client engagement has resulted in a greater sense of ownership on projects.
 
-As a result of these changes we've noticed; 
- 
+As a result of these changes we've noticed:
+
  * Better quality of work through sense of ownership
 
  * Better value in engagements for our clients
@@ -20,19 +20,17 @@ It's essential however that management are confident enough in their teams to pl
 
 Before a team is about to start development, having introductions with the client will prove highly beneficial during the development period.
 
-Traditional approaches have been for there to be project manager to act as the go between from developers to clients and vice versa. This has always added extra time into a project - usually time spent waiting on responses. This can lead to stop-start interruptions which normally result in developers downing tools, and starting other work to fill the gaps. 
+Traditional approaches have been for there to be a project manager to act as the go between from developers to clients and vice versa. This has always added extra time into a project - usually time spent waiting on responses. This can lead to stop-start interruptions which normally result in developers downing tools, and starting other work to fill the gaps.
 
-What harm is there in empowering the team to communicate directly with the client and enhance the relationship? 
+What harm is there in empowering the team to communicate directly with the client and enhance the relationship?
 
 [@todo something about technical speak, and reigning that in]
 
 For starters it'll save a bunch of time. When a developer is unsure of something, rather than risking development time that will potentially need to be backtracked later, give the client a call or IM them to get faster feedback or clarification around the work. It's essential that the team and client can create a fast feedback cycle to reduce the potential for interruptions to the development process.
 
-It's important that clients understand the process, which will be discussed in the next point.
+Developers will better understand client priorities if they're communicating directly, rather than being shielded unnecessarily from them. It helps that a team is conscious of these, so that they can make decisions that add better business value for the client.
 
-Developers will better understand client priorities if they're communicating directly, rather than being shielded unnecessarily from them. It helps that a team is conscious of these, so that they can make decisions that add better business value for the client. 
-
-Through identifying the clients priorities, and the constant communication, the team is well placed to shape the work for each iteration without outside guidance.
+Through identifying the client's priorities, and the constant communication, the team is well placed to shape the work for each iteration without outside guidance.
 
 ## Establishing work process
 
@@ -42,17 +40,17 @@ One of the main advantages gained through this process is the ability for the te
 
 On longer running engagements this should mean the stakeholder on the client side participates in the team's standup and is available via the communication formats outlined above throughout the day. It's important that developers can contact them quickly with any queries or concerns. This also helps foster a closer relationship between the client and the business.
 
-It's important that showcases are run by the development team, extra points for rotating chair duties, and that they focus on the work that was defined as being part of the iteration following the last showcase. Any feedback that comes from this showcase should be part of the next iteration rather than being added to a backlog where possible. If feedback is left open you run the risk of it getting lost, the client feeling ignored, or the original issue becoming unusable and not providing any value to the client.
+Ideally showcases ought to be run by the development team, extra points for rotating chair duties, who should focus on the work that was defined as being part of the iteration following the last showcase. Any feedback that comes from this showcase should be part of the next iteration rather than being added to a backlog where possible. If feedback is left open you run the risk of it getting lost, the client feeling ignored, or the original issue becoming unusable and not providing any value to the client.
 
 ## Establishing the business process
 
 Clients are onboard with this new way of working. But is the team? Do they really have the freedom to do all they need to self-organise? Do they feel trusted?
 
-We have a [handbook](https://github.com/madetech/handbook) that the entire world can see - it's important to have this process documented so that it's repeatable and transparent.
+We have a [handbook](https://github.com/madetech/handbook) that the entire world can see - that the entire world can see, and allows us to keep our processes repeatable and transparent.
 
 The handbook outlines how the business expects individuals to organise things like holidays and remote work (to be discussed later on in more detail) so that the team can effectively shape their workload.
 
-By making holidays and remote work visible to everyone via shared calendars, these decisions can be easily made by the team, these also allow the individual to make a quick judgement call on the viability of a request.
+By making holidays and remote work visible to everyone via shared calendars, these decisions can be easily made by the team, and also allow the individual to make a quick judgement call on the viability of a request.
 
 For example while we might let everyone know we want to take a week off or work from home, we only require our team mates to ok it.
 
@@ -66,7 +64,7 @@ Day-to-day the team need to be able to attend standup no matter where they are. 
 
 ## Remote work
 
-Lots of business are against remote work, as they're worried they can't 'see' people working but it's important when switching to self-organising teams to trust your workers to do their jobs without being watched.
+Lots of business are against remote work, as they're worried they can't see people working but it's important when switching to self-organising teams to trust your workers to do their jobs without being watched.
 
 When working remotely it's key that team mates and the clients are unaffected, the individual assumes the responsibility or maintaining the everyday standard these people are accustomed to. This means both the quality of work and the actual process, you don't want to be calling your client from a noisy place where the communication will suffer.
 
@@ -74,7 +72,7 @@ We feel we've got the correct toolset to allow for the entire company to be remo
 
 ## Holidays
 
-Beyond what we've outlined above the main thing with holidays is ensuring that enough of the team is still available to maintain momentum. As the team is scheduling their own holiday, it's really important not to forget to let the client know too if there are any changes to the team. In some cases other developers might be brought in to cover.
+Beyond what we've outlined above the main thing with holidays is ensuring that enough of the team is still available to maintain momentum. As the team is scheduling their own holiday, make sure you don't forget to let the client know too if there are any changes to the team. In some cases other developers might be brought in to cover.
 
 Holiday time must be taken into consideration when planning iterations so that realistic goals/targets can be set.
 
@@ -82,17 +80,17 @@ On the flip side, it's as important that the client lets the team know if they'l
 
 ## Hackdays & learning days
 
-In the same frame of mind as holidays, as these are usually at least a day in length, the client needs to be made aware of these well in advance and reminded the day before during standup.
+as with holidays, as these are usually at least a day in length, the client needs to be made aware of these well in advance and reminded the day before during standup.
 
-These normally involve the whole company, so whoever organises them is conscious that the company as a whole needs quite a bit of advance notice, at least a month. 
+These normally involve the whole company, so whoever organises them is conscious that the company as a whole needs quite a bit of advance notice, at least a month.
 
 We try and balance the frequency of these days. While we see them as valuable to the company as a whole, we don't want clients to feel like they're constantly taking a back seat.
 
 ## Dojos
 
-These are often recurring hourly sessions that happen weekly. These are self organised each time and if no one has an idea we don't run them as they're encouraged, but not mandatory. 
+These are often recurring hourly sessions that happen weekly. These are self organised each time and if no one has an idea we don't run them as they're encouraged, but not mandatory.
 
-If there is one scheduled, anyone participating is conscious of their current work load, and will only take part if it's not going to affect any the work due to be showcased. We also try to avoid scheduling client interactions when these are taking place to allow for maximum option to participate across all teams.
+If there is one scheduled, anyone participating is conscious of their current work load, and will only take part if it's not going to affect any the work due to be showcased. We also try to avoid scheduling client interactions when these are taking place to encourage maximum option to participate across all teams.
 
 ## Knowledge sharing
 
@@ -120,7 +118,7 @@ Even devolving all of this power to teams doesn't mean that management can't be 
 
 With the teams directly communicating with clients, it's still important for them to know the long term roadmap of work. It's just nice to know so there are fewer surprises for developers day-to-day.
 
-If a manager sees that a team is struggling—perhaps dealing with a tricky client—then this is a good time to assist—maybe not taking control—but offering guidance on how to proceed and communicating to the client if need be.
+If a manager sees that a team is struggling, then this is a good time to assist, maybe not taking control, but offering guidance on how to proceed and communicating with the client if need be.
 
 ***
 
