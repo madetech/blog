@@ -72,9 +72,9 @@ We feel we've got the correct toolset to allow for the entire company to be remo
 
 ## Holidays
 
-Beyond what we've outlined above the main thing with holidays is ensuring that enough of the team is still available to maintain momentum. As the team is scheduling their own holiday, make sure you don't forget to let the client know too if there are any changes to the team. In some cases other developers might be brought in to cover.
+Beyond what we've outlined above the main thing with holidays is ensuring that enough of the team is still available to maintain momentum. As the team is scheduling their own holiday, make sure you don't forget to let the client know too if there are any changes to the team. In some cases other developers can be brought in to cover.
 
-Holiday time must be taken into consideration when planning iterations so that realistic goals/targets can be set.
+Holiday time must be taken into consideration when planning iterations so that they can set realistic goals/targets.
 
 On the flip side, it's as important that the client lets the team know if they'll be away on holiday. In these cases an alternative stakeholder should be introduced to the team who'll be a point of contact.
 
@@ -100,7 +100,7 @@ The constant switching of roles during pairing greatly facilitates technical, do
 
 Before a team member goes on holiday they should be sure to handover anything that only they have had sight of, although try not to let that happen. If this information isn't recent it's worth looking at how communication is working across the team.
 
-On the client side, it can be difficult to fully envision and grasp the use cases without going on site and working alongside the end users and stakeholders to understand their goals. Teams should be empowered and encouraged to go to the client or bring them into the office to facilitate this transfer of knowledge. At the end of the day our clients know their business better than we do and that value should be leveraged.
+On the client side, it can be difficult to fully envision and grasp the use cases without going on site and working alongside the end users and stakeholders to understand their goals. Teams should feel empowered and encouraged to go to the client or bring them into the office to facilitate this transfer of knowledge. At the end of the day our clients know their business better than we do and that value should be leveraged.
 
 ## Testing and phasing of processes
 
@@ -114,11 +114,11 @@ Don't be against something until you've tried it!
 
 ## Management
 
-Even devolving all of this power to teams doesn't mean that management can't be there to assist and guide the teams. There is still a lot of valuable knowledge and insight that the teams can benefit from.
+Even devolving this power to teams doesn't mean that management can't be there to assist and guide the teams. There is still a lot of valuable knowledge and insight that the teams can benefit from.
 
 With the teams directly communicating with clients, it's still important for them to know the long term roadmap of work. It's just nice to know so there are fewer surprises for developers day-to-day.
 
-If a manager sees that a team is struggling, then this is a good time to assist, maybe not taking control, but offering guidance on how to proceed and communicating with the client if need be.
+If a manager sees that a team is struggling, then this is a good time to assist, not taking control, but offering guidance on how to proceed and communicating with the client if need be.
 
 ***
 
