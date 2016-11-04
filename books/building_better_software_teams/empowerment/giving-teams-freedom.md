@@ -16,9 +16,9 @@ It's essential however that management are confident enough in their teams to pl
 
 ***
 
-## Communicating with clients directly
+## Communicating with clients
 
-Before a team is about to start development, having introductions with the client will prove highly beneficial during the development period.
+Before a team is about to start development, having introductions with the client will prove beneficial during the development period.
 
 Traditional approaches have been for there to be a project manager to act as the go between from developers to clients and vice versa. This has always added extra time into a project - usually time spent waiting on responses. This can lead to stop-start interruptions which normally result in developers downing tools, and starting other work to fill the gaps.
 
@@ -58,7 +58,7 @@ For example while we might let everyone know we want to take a week off or work 
 
 It's equally important for team members to be able to communicate amongst themselves without barriers.
 
-Where a team member is shouldn't increase friction in communicating with the rest of the team. Our office is spread over three floors, and people are often spread out over the entirety of it and others are working remotely. Team communication needs to work for all of these scenarios. This is where tooling is very important for it to be a success.
+Where a team member is shouldn't increase friction in communicating with the rest of the team. Our office is spread over three floors, and people are often spread out over the entirety of it and others are working remotely. Team communication needs to work for all these scenarios. This is where tooling is important for it to be a success.
 
 Day-to-day the team need to be able to attend standup no matter where they are. Them being out of the office shouldn't be a barrier to participation. After all, a client is going to call into these, so the team needs to too. Test out the various tools to see what works best for your team and clients and use this wherever possible.
 
