@@ -25,7 +25,7 @@ For starters it'll save a bunch of time. When a developer is unsure of something
 
 Developers will better understand client priorities if they're communicating directly, rather than being shielded unnecessarily from them. It helps that a team is conscious of these, so that they can make decisions that add better business value for the client.
 
-When  holding standups and meetings with clients the team should keep in mind what the client's level of technical understanding is and make sure not to just use lots of technical speak. If people walk away from a meeting not understanding what's happened then that's a big failing in the communication process. Potentially this can cause misunderstandings where clients and developers aren't on the same page.
+When holding standups and meetings with clients the team should keep in mind what the client's level of technical understanding is and make sure not to just use lots of technical speak. If people walk away from a meeting not understanding what's happened then that's a big failing in the communication process. Potentially this can cause misunderstandings where clients and developers aren't on the same page.
 
 Through identifying the client's priorities, and the constant communication, the team is well placed to shape the work for each iteration without outside guidance.
 
@@ -43,7 +43,7 @@ Ideally showcases ought to be run by the development team, extra points for rota
 
 Clients are onboard with this new way of working. But is the team? Do they really have the freedom to do all they need to self-organise? Do they feel trusted?
 
-We have a [handbook](https://github.com/madetech/handbook) that the entire world can see - that the entire world can see, and allows us to keep our processes repeatable and transparent.
+We have a [handbook](https://github.com/madetech/handbook) that the entire world can see, and allows us to keep our processes repeatable and transparent.
 
 The handbook outlines how the business expects individuals to organise things like holidays and remote work (to be discussed later on in more detail) so that the team can effectively shape their workload.
 
@@ -77,7 +77,7 @@ On the flip side, it's as important that the client lets the team know if they'l
 
 ## Hackdays & learning days
 
-as with holidays, as these are usually at least a day in length, the client needs to be made aware of these well in advance and reminded the day before during standup.
+As with holidays, since these are usually at least a day in length, the client needs to be made aware of these well in advance and reminded the day before during standup.
 
 These normally involve the whole company, so whoever organises them is conscious that the company as a whole needs quite a bit of advance notice, at least a month.
 
@@ -105,13 +105,13 @@ Depending on your business, introducing self-organising teams might be quite a d
 
 We tested this process with a single team, giving full visibility, control over holidays, scheduling iterations etc. to see how effectively it worked. This allowed us to make changes to the process, building confidence in it, before rolling it out across the company.
 
-Even on processes that have been rolled out company wide, [we still experiment](https://www.madetech.com/blog/one-week-of-remote-working-the-good-and-the-bad) and make changes. We're never afraid to change processes if we think they can be better.
+With processes that have been rolled out company wide, [we still experiment](https://www.madetech.com/blog/one-week-of-remote-working-the-good-and-the-bad) and make changes. We're never afraid to change processes if we think they can be better.
 
 Don't be against something until you've tried it!
 
 ## Management
 
-Even devolving this power to teams doesn't mean that management can't be there to assist and guide the teams. There is still a lot of valuable knowledge and insight that the teams can benefit from.
+Devolving this power to teams doesn't mean that management can't be there to assist and guide teams. There is still a lot of valuable knowledge and insight that the teams can benefit from.
 
 With the teams directly communicating with clients, it's still important for them to know the long term roadmap of work. It's just nice to know so there are fewer surprises for developers day-to-day.
 
@@ -119,6 +119,6 @@ If a manager sees that a team is struggling, then this is a good time to assist,
 
 ***
 
-Hopefully the points we've covered will help you apply this to your teams, we've learned it's essential to be open to change. Realising what works for you and what doesn't will be an important part of forming your own processes and norms around self-organising.
+Hopefully the points we've covered will help you apply this to your teams. We've learned it's essential to be open to change, realising what works for you and what doesn't will be an important part of forming your own processes and norms around self-organising.
 
-We've found these to be a good basis for Made but don't feel that any of these are hard rules. As part of empowering your teams allow them a say in shaping how best to find what works for them.
+We've found these to be a good basis for Made but don't feel that any of these are hard rules. As part of empowering your teams, allow them a say in shaping how best to find what works for them.
