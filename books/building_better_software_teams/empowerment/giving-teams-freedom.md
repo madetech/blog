@@ -5,11 +5,8 @@ It can be scary to devolve a lot of managerial and planning responsibility to te
 As a result of these changes we've noticed:
 
  * Better quality of work through sense of ownership
-
  * Better value in engagements for our clients
-
  * Better relationships with the clients
-
  * A reduction in the overhead around planning for holidays, etc.
 
 It's essential however that management are confident enough in their teams to place this trust in them.
