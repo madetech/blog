@@ -12,7 +12,7 @@ As a result of these changes we've noticed:
 
  * A reduction in the overhead around planning for holidays, etc.
 
-It's essential however that management are confident enough in their teams to place this trust in them and there shouldn't be any reason they aren't.
+It's essential however that management are confident enough in their teams to place this trust in them.
 
 ***
 
@@ -28,7 +28,7 @@ For starters it'll save a bunch of time. When a developer is unsure of something
 
 Developers will better understand client priorities if they're communicating directly, rather than being shielded unnecessarily from them. It helps that a team is conscious of these, so that they can make decisions that add better business value for the client.
 
-When  holding standups and meetings with clients the team should keep in mind what the client's level of technical understanding is and make sure not to just info-dump lots of technical speak on them. If people walk away from a meeting not understanding what's happened then that's a big failing in the communication process.
+When  holding standups and meetings with clients the team should keep in mind what the client's level of technical understanding is and make sure not to just use lots of technical speak. If people walk away from a meeting not understanding what's happened then that's a big failing in the communication process. Potentially this can cause misunderstandings where clients and developers aren't on the same page.
 
 Through identifying the client's priorities, and the constant communication, the team is well placed to shape the work for each iteration without outside guidance.
 
