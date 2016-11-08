@@ -37,3 +37,55 @@ Inadequate communication causes hidden goals; though it is not pragmatic to expe
 We have found that practising continuous delivery is part of an appropriate solution to uncover hidden goals. Given that it allows for a fast, frequent and robust feedback loop with stakeholders. We can showcase potentially consumable solutions in front of stakeholders often, which gives them an effective forum to voice their concerns.
 
 We are not finished, however, as goals are probably still hidden even after showcases. The stakeholders produce artefacts of their hidden goals - feedback on the solution. At this stage, it is important to test assumptions about why they need those changes made. It is prudent to ask questions about any feedback, sometimes even when the answer appears obvious.
+
+# How to break down silo mentality
+
+* Establish shared goals to ensure that departmental goals have organisational alignment.
+* Ensure the organisation has high-level goals, above all departments to which departmental goals help meet.
+* Ensure organisational goals are directly related to the vision
+
+Once this framework is in place, it becomes trivial for anyone within an organisation to set "highly aligned" personal, project, or product goals that directly impact the business achieving its targets.  
+
+It is important to get departments to speak to each other on important matters. Departments should meet to discuss how they will attain their goals in collaboration. For example, a digital design department should meet regularly with a software engineering department to determine how they will ship an online software product together.
+
+Departments should not communicate solely through hierarchies, such that a junior software engineer could and should be in direct contact with designers.
+
+As this evolves, it becomes clearer that it is more efficient to have designers and software engineers working alongside each other to deliver a product. When people with different skillsets need to collaborate with the same goal, they should attend the same meetings, be aware of the same problems, and have a clear sense of shared direction and purpose.
+
+Requiring formality or involving convoluted chains of command at this stage will only hinder collaboration. At this point, management shifts to a broader view of the company rather than micromanaging all daily details. Instead, the freedom granted to the team allow them to deliver continuously and ship products quicker. Tighter collaboration between skillsets leads to better product quality thanks to a better understanding of the issues. Formal long meetings can be a symptom of having too much bureaucracy around collaboration which can make it less desirable for employees to break down silos. 
+
+The really innovative companies are creating shared offices where teams with diverse skillsets (potentially cross-departmental) can collaborate. A psychological silo can manifest itself into a physical one with real walls and closed spaces inside the company. An analysis on how the office space is laid out can help to uncover potential silos.
+
+Leaders should encourage everybody to work with anybody to solve company problems. Employees should be able to move freely to another team if needed for the current objectives. The decision to attend a meeting should be able to be made by anyone if they believe it will achieve progress towards the higher company goals.
+
+# Detecting silos
+
+Observation is key to discovering silos, and in most companies, it isn't immediately obvious where they are. To give you a feel for what type of activities are indicative of silos we have compiled a list from the trenches to help you in your endeavours.
+
+Unintended shielding of team members from end-users by another department. This shielding can lead to situations where software engineers are unable to get meaningful feedback on the solutions that they are delivering. Useful and accurate feedback is critical to shipping well-built and well-designed software.
+
+Applying a top-down approach to decisions about "how are we going to build this solution" as well as "what is the most vital problem that we need to solve". Controlling every detail of a solution in a top-down fashion removes freedom from software delivery teams. Lack of liberty makes it less desirable or necessary for cross-functional teams to emerge (through interdepartmental collaboration). Moreover, this freedom is key to the production of truly innovative and uncomplicated solutions. Managers should not need to be involved in every single minutia of detail, only that the software delivery teams are resolving the most pressing tactical and strategic issues.
+
+When no department can deal an unexpected critical issue, and every one of them that is alerted about the problem "passes the buck" to another.
+
+How the evaluation of each team's performance is measured can be a reliable indicator of a silo. In the most extreme case, every department has a balance sheet. This financially-led approach can promote unhealthy internal competition, stifles collaboration, and ease of mobility between teams.   
+
+Budget allocation or in the extreme case spinning out separately registered companies introduce difficult to solve organisational impediments that make it difficult to deliver on "group" goals. Collaborating across balance sheets becomes politically risky, and can result in the onset of "officially political cultures".
+
+When the performance evaluation of individuals prevents or discourages collaboration and knowledge-sharing there is no incentive to behave strategically. This friction can create problems internally to a single department just as much as cross-departmentally, affecting the ability to improve ways of working collaboratively and also for software engineers to discover requirements.
+
+The hiring policy is a good indicator of silos within departments. Departments can fight for expansion and prevent hires in a critical place. Hiring without a clear and mutually agreed reason in mind could lead to hiring in the wrong places or for the wrong reasons. Instead, a lot of companies encourage departments to compete over recruiting budgets; this doesn't solve real business problems.
+
+
+The interview process itself might highlight the competition between teams when other teams are unaware of the recruitment.
+
+- contact with end users
+- how the decisions related to the products are made
+- how planning and company projects are organised?
+- how does the company cope with unexpected issues.
+- how the performance of the teams is reviewed (most extreme case: balance sheet per team)
+- budget allocation / subsidiaries
+- performance of individuals
+- hiring policies
+- communication strategies (including software).
+- office space
