@@ -1,10 +1,10 @@
 {
   "teams": {
     "brosnan": {
-      "total": 100,
+      "total": 150,
       "members": {
         "Scott & Rory": 50,
-        "David & Ryan": 50
+        "David & Ryan": 100
       }
     },
     "connery": {
