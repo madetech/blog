@@ -1,6 +1,6 @@
-# Solution-problem
+# Beware of solution problems
 
-A solution problem is an emergent property of a solution. Real Software Engineers avoid creating solution-problems, they create simple solutions for the root problem. 
+A solution problem is an emergent property of a solution. Experienced Software Engineers avoid creating solution-problems, they create simple solutions for the root problem. 
 
 A few years back I was working closely with designer and musician Martin J. Thompson. We found it difficult to get non-technical individuals to provide the right information about the problem they were facing. So we coined a phrase “don’t give us your solution-problem, give us your problem-problem.” We never actually said this to a client, but maybe we should have.
 
