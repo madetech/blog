@@ -2,6 +2,6 @@
 
 ### Introduction
 ### Communications
-4. [Pair Programming](communications/04_pair_programming.md)
-5. [Code Reviews](communications/05_code_reviews_with_pull_requests.md)
-7. [Continuous Feedback](communications/07_continuous_feedback.md)
+4. [Pair Programming](01_communications/04_pair_programming.md)
+5. [Code Reviews](01_communications/05_code_reviews_with_pull_requests.md)
+7. [Continuous Feedback](01_communications/07_continuous_feedback.md)
