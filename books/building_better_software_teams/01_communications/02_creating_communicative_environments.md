@@ -48,23 +48,47 @@ It should be noted that the role of Facilitator doesn't belong to one person, we
 
 ### Presentations
 
+No two individuals are alike, and within every organisation you're going to have an incredibly diverse set of interests and opinions. New technologies and frameworks are released to the public almost daily and, if your team are passionate about their craft, occasionally one of those technologies will resonate with someone on the team. They'll spend their own time researching it, decide whether it's for them and, if it is, spend even more time mastering it and becoming excited about the possibilities it provides.
 
+As someone cultivating a communicative environment, it's important that everyone on your team knows they have a platform for sharing their excitement with everybody. Giving them the freedom to host presentations on topics they're enthusiastic about means everybody is regularly exposed to ideas and concepts that could potentially offer real value to your organisation.
 
-### Rotating teams (sharing domain knowledge)
+This sort of exposure to new ideas and technologies then leads to a willingness to implement them in future projects, meaning your organisation is constantly evolving, rather than sticking with practices that will ultimately end up outmoded or obsolete.
 
 ### Hack days
 
+Hack days are another great way of exposing your team to new technologies, as well as being a way to mix things up and potentially even produce products you or your customers will use for a long time.
+
+As an example, a customer of ours wasn't aware of that their SSL certificate was due to expire, leading to browsers designating their website as insecure. This is a problem we've seen in organisations as big as [Instagram][ig-ssl], so we decided to hold a hack day dedicated to solving the problem.
+
+The result was [SSLCatch][ssl-catch], a relatively small application that simply alerts domain owners in the days, weeks and months before an SSL certificate is due to expire. The whole team worked together over eight hours, regularly communicating with each other to get the clearest sense of what everybody was working on, solve blocking issues and ultimately get the application live as quickly as possible.
+
+We now have hack days every one to two months, and they've often resulted in new internal tools we use regularly. More than that, they're always a great opportunity to get the whole team swarming on a single project, solving problems together.
+
+### Regular standups
+
+Part of the Agile methodology, daily morning standups, also known as scrum meetings, are an important tool for getting everyone up to speed on what people will be working on that day, as well as for highlighting any issues they have, or how they can help others facing their own issues.
+
+Daily standups should be short, around ten minutes max, and should only involve team members working on the same project or in the same department.
+
+We've taken that concept and extended it into what we're calling "Scrum of Scrums", where a representative from each team takes part in two or three meetings spread across a week to state what their team's goal for the week is, and how they're progressing with it. The objective of these meetings differs to that of a regular scrum meeting, in that it serves only to give even more visibility over what other teams within the company are doing.
+
+### Rotating teams (??? Maybe not)
+
 ## Extreme programming
-- Pair programming
-- Planning game
-- "Whole team" (this is about having the PO be part of the workflow)
+
+### Pair programming
+
+We discuss pair programming at length [here][pair-prog], but, in short, pair programming leads to stronger communication by encouraging each programmer to articulate their thought processes and engage in conversation about the best possible solution for the problem they're facing.
+
+### Planning game
+
+### "Whole team" (this is about having the PO be part of the workflow)
 
 ## "Flat Heirarchy"
-- Everyone is approachable
-- Making sure everyone has a voice (extroverts vs. introverts)
 
-## Regular standups
-- Scrum of scrums
+### Everyone is approachable
+
+### Giving everyone a voice
 
 ## Challenges in maintaining good communication
 - Apathy
@@ -77,3 +101,6 @@ It should be noted that the role of Facilitator doesn't belong to one person, we
 [cf]: https://www.madetech.com/blog
 [dojos]: https://www.madetech.com/blog/the-made-code-dojo
 [showcases]: https://www.madetech.com/blog
+[ig-ssl]: http://thenextweb.com/apps/2015/04/30/oops-instagram-forgot-to-renew-its-ssl-certificate/
+[ssl-catch]: https://www.sslcatch.com/
+[pair-prog]: https://www.madetech.com/blog/pair-programming
