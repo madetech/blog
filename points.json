@@ -1,17 +1,17 @@
 {
   "teams": {
     "brosnan": {
-      "total": 150,
+      "total": 160,
       "members": {
         "Scott & Rory": 60,
         "David & Ryan": 100
       }
     },
     "connery": {
-      "total": 50,
+      "total": 60,
       "members": {
         "Richard & Seb": 50,
-        "Emile & Luke": 0
+        "Emile & Luke": 10
       }
     },
     "dalton": {
