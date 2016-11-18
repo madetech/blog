@@ -24,11 +24,13 @@ There's also a natural bias to focus more on recent events, rather than potentia
 
 ### Goals are not tracked regularly
 
-On a similar thread, setting goals to be achieved over the course of a year without more regular opportunities to share progress seldom yields the desired outcome. In the days running up to an annual review you may see a flurry of activity against last years' goals. If there is an opportunity to share progress in the next couple of weeks, it's likely to be a much more current concern.
+On a similar thread, setting goals to be achieved over the course of a year without more regular opportunities to share progress seldom yields the desired outcome. In the days running up to an annual review you may see a flurry of activity against last year's goals. If there is an opportunity to share progress in the next couple of weeks, it's likely to be a much more current concern.
 
 ### Feedback season is overly time consuming
 
 For managers with many direct reports, feedback season can be a particularly time consuming period as they try to recall the pertinent events of the previous year. In addition, if the organisation performs '360 feedback' team members need to be badgered, and possibly reminded on how to give good quality feedback.
+
+While it's true that Continuous Feedback likely adds up to more time spent on feedback activity over the course of the year, each feedback window is a less daunting prospect.
 
 ### Feedback is not owned by the individual
 
@@ -64,7 +66,7 @@ Review sessions should provide for two-way traffic (though in many organisations
 
 To encourage more autonomy in teams, it's possible to have peers facilitate each other's review sessions, and further, facilitate sessions for their managers. It can be a useful tool to level out an organisations hierarchy, and to offer another forum for individuals to further develop their softer skills.
 
-In adopting a peer-lead structure, organisations may want to consider how any individual dissatisfaction can be fed back to people in the organisation who are able to make changes, if for whatever reason the peer who is facilitating the session is not able to act on it.
+In adopting a peer-led structure, organisations may want to consider how any individual dissatisfaction can be fed back to people in the organisation who are able to make changes, if for whatever reason the peer who is facilitating the session is not able to act on it.
 
 So now you've heard about the benefits of Continuous Feedback, how can this be rolled out to your organisation?
 
@@ -112,7 +114,7 @@ Once the feedback has been discussed, it's a good idea to look at some goals. Di
 
 As with any organisational initiative, keeping momentum remains a challenge. In the hustle of day-to-day work, it can be easy to allow commitments such as this to drop.
 
-It can be a good idea to reward buy-in from those who perform best at keeping their commitment high, offering public recognition, a company lunch or some other soft reward. These people can be good allies in encouraging similar from their peers.
+You can consider rewarding buy-in from those who perform best at keeping their commitment high, offering public recognition, a company lunch or some other soft benefit. These people can be good allies in encouraging similar from their peers.
 
 Encouraging individuals, when asking for feedback, to highlight particular areas they're focusing on can help people provide more relevant and actionable feedback.
 
@@ -148,7 +150,7 @@ As with many initiatives, it's likely that some people will be more enthused tha
 
 If there are larger issues afoot with an individual, Continuous Feedback is not a good forum for dealing with them. This remains a good forum in which to involve a HR specialist.
 
-### Without monitoring its easy for people to duck under the radar
+### Without monitoring it's easy for people to duck under the radar
 
 Particularly where the program is largely delivered by peers, without some sort of tooling in place to increase visibility on the review schedule, some people may go for longer periods without a review.
 
