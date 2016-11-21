@@ -65,7 +65,7 @@ Being able to react fast can often mean rather than needing to roll back, you ca
 
 ### Deploy to a production-like environment for testing before going live
 
-Before putting a change live that has only been run on an developer or two's laptop, you'll want an environment that you can test it on that mimics production. Often local development configuration will use different settings and modes, particular when it comes to what type of databases it uses and debugging settings. A change in these conditions like when an application moves from development to production can be a source of errors. You'll want a production-like setup in order to discover these errors before things go live.
+Before putting a change live that has only been run on an developer or two's laptop, you'll want an environment that you can test it on that mimics production. Often local development configuration will use different settings and modes, particularly when it comes to what type of databases it uses and debugging settings. A change in these conditions like when an application moves from development to production can be a source of errors. You'll want a production-like setup in order to discover these errors before things go live.
 
 In order to facilitate a production-like environment ideally everything from server setup, database configuration, data stored in the database should be nearly identical to production. One consideration with data is that you may want to copy data from production into your production-like environment but you'll want to replace customer emails with example ones otherwise you may end up sending emails to customers from your production-like environment.
 
@@ -75,7 +75,7 @@ When deploys are kept small, to something like 100-200 lines of code or smaller,
 
 Smaller changes will also mean that peer reviewing and testing are a quicker process. Again a smaller surface area is easier to look over, easier to test the various pathways through it.
 
-To reduce risk, instead of deploying whole features, deploy 10s of times before the feature is complete. You do not need to make the feature publicly accessible until the last release but by dark launching it into production you will be uncovering a lot of problems early, avoiding the big bang release and the problems that come with it.
+To reduce risk, instead of deploying whole features, deploy tens of times before the feature is complete. You do not need to make the feature publicly accessible until the last release but by dark launching it into production you will be uncovering a lot of problems early, avoiding the big bang release and the problems that come with it.
 
 ### Tell everyone about your deploys when they happen
 
