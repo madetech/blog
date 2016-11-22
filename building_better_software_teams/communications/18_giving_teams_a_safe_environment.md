@@ -104,4 +104,4 @@ Blue green deployments have the benefit that if something goes wrong, you can po
 
 It all comes down to trust. Developers should be allowed to deploy at any time in most cases. We should learn to recover from failure fast, and learn all the lessons failure can teach us.
 
-Let me know what you think on Twitter @LukeMorton :)
+Let me know what you think on Twitter @LukeMorton and @EmileSwarts :)
