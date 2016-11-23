@@ -1,7 +1,7 @@
 # Creating Environments That Promote Communication
 
 ## Introduction
-In any organisation, one of the most powerful ways you can empower your team is to give them an environment that allows them to communicate freely at all levels. At Made Tech, we frequently use the phrase "flat heirarchy" to describe our working environment, and it means we actively encourage every member of the team to initiate or join any discussion that interests them, whether it be giving their opinion on how a part of the business runs, or introducing a new way of approaching how we work.
+In any organisation, one of the most powerful ways you can empower your team is to give them an environment that allows them to communicate freely at all levels. At Made Tech we actively encourage every member of the team to initiate or join any discussion that interests them, whether it be giving their opinion on how a part of the business runs, or introducing a new way of approaching how we work.
 
 As a result, we've had valuable contributions from the entire team that have gone on to improve the way we work, build camaraderie and keep everyone up to speed on the goings on across the entire business.
 
@@ -21,9 +21,9 @@ A good company culture is important, and so giving your team ways to flex their 
 ## Open channels
 ### Continuous feedback
 
-Chris has written about Continuous Feedback and its benefits at length [here][cf], but in a nutshell: Continuous Feedback is the practice we use to encourage and address regular feedback from everyone _about_ everyone. We found that annual reviews fell short in helping individuals learn and grow, and switching over to Continuous Feedback has allowed us to get a better sense of the goals people are trying to reach, and the areas in which they need improvement. Importantly, it also allows us to act quickly to help them reach those goals, and give them the support they need in the areas in which they need improving.
+Chris has written about [Continuous Feedback and its benefits][cf] at length, but in a nutshell: Continuous Feedback is the practice we use to encourage and address regular feedback from everyone _about_ everyone. We found that annual reviews fell short in helping individuals learn and grow, and switching over to Continuous Feedback has allowed us to get a better sense of the goals people are trying to reach, and the areas in which they need improvement. Importantly, it also allows us to act quickly to help them reach those goals, and give them the support they need in the areas in which they need improving.
 
-### TGIFs
+### Share progress and achievements with a weekly email
 
 One of the problems we were having was that it often wasn't clear what other people outside of your team was working on week to week. They may have been on a new project, running with a new initiative, or on a recruiting drive. Our solution to this problem is what we've lovingly dubbed "TGIFs".
 
@@ -63,7 +63,7 @@ We now have hack days every one to two months, and they've often resulted in new
 
 ### Regular standups
 
-Part of the Agile methodology, daily morning standups, also known as scrum meetings, are an important tool for getting everyone up to speed on what people will be working on that day, as well as for highlighting any issues they have, or how they can help others facing their own issues.
+Daily standups, also known as scrum meetings, are an important tool for getting everyone up to speed on what people will be working on that day, as well as for highlighting any issues they have, or how they can help others facing their own issues.
 
 Daily standups should be short, around ten minutes max, and should only involve team members working on the same project or in the same department.
 
@@ -73,7 +73,7 @@ We've taken that concept and extended it into what we're calling "Scrum of Scrum
 
 ### Pair programming
 
-We discuss pair programming at length [here][pair-prog], but, in short, pair programming leads to stronger communication by encouraging each programmer to articulate their thought processes and engage in conversation about the best possible solution for the problem they're facing.
+We've discussed [pair programming at length][pair-prog], but, in short, pair programming leads to stronger communication by encouraging each programmer to articulate their thought processes and engage in conversation about the best possible solution for the problem they're facing.
 
 ### Whole team
 
