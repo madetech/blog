@@ -18,7 +18,10 @@ By increasing visibility, via the methods described later in this article, teams
 
 A good company culture is important, and so giving your team ways to flex their tech muscles outside of obligations to customers is a great way to promote that. Whether it's an hour tackling [a small, fun coding challenge][dojos], an entire day learning about a new technology, or a few days away on a company retreat, the time spent will go a long way to both ensuring your team are getting exposure to technologies and practices that interest and excite them, and that they're becoming a stronger and more collaborative team for it.
 
-## Open channels
+## Provide open channels and opportunities to share knowledge
+
+The first steps to creating a communicative environment for your team is establishing open forums in which everyone is invited to contribute as much as they'd like. We've got a few in place in Made Tech, all of which have had a positive impact on the way we work.
+
 ### Continuous feedback
 
 Chris has written about [Continuous Feedback and its benefits][cf] at length, but in a nutshell: Continuous Feedback is the practice we use to encourage and address regular feedback from everyone _about_ everyone. We found that annual reviews fell short in helping individuals learn and grow, and switching over to Continuous Feedback has allowed us to get a better sense of the goals people are trying to reach, and the areas in which they need improvement. Importantly, it also allows us to act quickly to help them reach those goals, and give them the support they need in the areas in which they need improving.
@@ -40,8 +43,6 @@ We've reappropriated that idea and applied it to the entire company, so that the
 Prior to each comradrospective, each team and department have a brief retrospective, and then bring the notes from that to the larger meeting. A Facilitator hosts the comradrospective, going around the room and prompting discussions about what each team found in their retrospectives. The Facilitator then looks for common threads between those discussions, which often leads to the highlighting of a wider company issue that can be focussed on over the next few weeks.
 
 It should be noted that the role of Facilitator doesn't belong to one person, we actively encourage everyone on the team to take up the mantle for two reasons. One: each person will approach the role differently, ensuring comradrospectives never feel old, and two: it gives everyone a little bit of exposure to standing up in front of people and leading the conversation, which is valuable experience to have when your team is expected to present things like [showcases to clients][showcases].
-
-## Knowledge sharing
 
 ### Presentations
 
@@ -70,6 +71,8 @@ Daily standups should be short, around ten minutes max, and should only involve 
 We've taken that concept and extended it into what we're calling "Scrum of Scrums", where a representative from each team takes part in two or three meetings spread across a week to state what their team's goal for the week is, and how they're progressing with it. The objective of these meetings differs to that of a regular scrum meeting, in that it serves only to give even more visibility over what other teams within the company are doing.
 
 ## Extreme programming
+
+[Extreme programming][xp] is a popular methodology that encompasses many different programming practices, most of which are beyond the scope of this article. That said, two practices in particular are very useful when it comes to promoting communication within your team: pair programming and "whole team".
 
 ### Pair programming
 
@@ -108,3 +111,4 @@ By giving your team an environment in which they're able to communicate freely a
 [ssl-catch]: https://www.sslcatch.com/
 [pair-prog]: https://www.madetech.com/blog/pair-programming
 [team-freedom]: https://www.madetech.com/blog/giving-teams-freedom-to-structure-their-own-time
+[xp]: https://en.wikipedia.org/wiki/Extreme_programming
