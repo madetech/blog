@@ -1,24 +1,29 @@
 {
   "teams": {
-    "brosnan": {
-      "total": 160,
+    "homer": {
+      "total": 0,
       "members": {
-        "Scott & Rory": 60,
-        "David & Ryan": 100
+        "Luke": 0,
+        "Seb": 0,
+        "Richard": 0,
+        "Rory": 0
       }
     },
-    "connery": {
-      "total": 60,
+    "krusty": {
+      "total": 0,
       "members": {
-        "Richard & Seb": 50,
-        "Emile & Luke": 10
+        "Alex": 0,
+        "Chris": 0,
+        "David": 0,
+        "Ryan": 0
       }
     },
-    "dalton": {
-      "total": 110,
+    "wiggum": {
+      "total": 0,
       "members": {
-        "Alex & Craig": 100,
-        "Chris": 10
+        "Craig": 0,
+        "Emile": 0,
+        "Scott": 0
       }
     }
   }
