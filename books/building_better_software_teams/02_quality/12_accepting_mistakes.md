@@ -44,30 +44,32 @@ The best way to deal with mistakes and failures is to treat them as opportunitie
 
 Our solutions may fail in unforeseen ways, or we may need to revisit the task and find that we've made more work for ourselves by creating something inefficient. Either way, you have the opportunity to reflect on what went wrong, why, and how you can simplify the process to either reduce or eliminate mistakes.
 
-This mindset of actively discussing and learning from mistakes, rather than blaming anybody for them, doesn't mean you're encouraging your team to slack off and take shortcuts to the detriment of the project. Even in situations where a mistake can be attributed to an individual's lack of care or inattentiveness, there's the chance to dig deeper and discover what led to that behaviour, and what you can do to improve the situation for the individual and your team.
+Big mistakes are easy to spot and discuss. In software, you know something's gone wrong if, for example, a build fails, critical data is lost or a website goes offline. Steps are immediately taken to fix those mistakes and resume normal service. The trick is being able to identify and learn from smaller mistakes, as they're much more easily hidden, both passively and actively. The earlier these are discovered, the better.
 
-Big mistakes are easy to spot. In software, you know something's gone wrong if, for example, a build fails, critical data is lost or a website goes offline. Steps are immediately taken to fix those mistakes and resume normal service. Smaller mistakes and failures are much more easily hidden, both passively and actively, and the earlier these are discovered, the better.
+This mindset of actively discussing and learning from mistakes, rather than blaming anybody for them, doesn't mean you're encouraging your team to slack off and take shortcuts to the detriment of the project. Even in situations where a mistake can be attributed to an individual's lack of care or inattentiveness, there's the chance to dig deeper and discover what led to that behaviour, and what you can do to improve the situation for the individual and your team.
 
 ### Using mistakes to uncover requirements
 
 In most software teams, strides are taken at the beginning of a cycle of work to gather as much data and information as possible from the customer to understand requirements as completely as possible. Nevertheless, it's not unheard of for a seemingly unimportant detail to be overlooked during this phase of the project, only to either become a blocking problem midway through development, or to go completely unnoticed and later be revealed as a key requirement whilst you're showcasing your work.
 
+Use these situations as opportunities to figure out how you can improve next time: what information didn't you have that you wish you'd had? How could you have elicited that information from the customer? Could you have broken tasks down further to discover hidden requirements? Questions such as these will help your team improve with each new project, and ultimately you'll deliver better work and make your customers even happier.
+
+One way to try to discover hidden requirements is to carry out research spikes. On a software team, this would typically involve one engineer dedicating a small but significant amount of time, such as half a day or a whole day, to investigating whether a potential solution is worth spending more time on.
+
+It's a long enough period of time that some thorough research can be done, but short enough that, if it doesn't pan out, the loss of time isn't too much to bear. The researcher is also safe in the knowledge that, should the research lead nowhere, the team won't consider it a failure.
+
 ### Using mistakes and mentoring to help teach new skills
 
-Similar to the previous example, less experienced members of the team may struggle with tasks other engineers find simple. Compounding the issue, those same team members might then feel the need to prove themselves by forging ahead and trying to figure out the problem on their own, rather than communicating with their peers.
-
-For engineers of any level, one way to try to plug knowledge gaps is to carry out research spikes. On a software team, this would typically involve one engineer dedicating a small but significant amount of time, such as half a day or a whole day, to investigating whether a potential solution is worth spending more time on.
+Less experienced members of the team may struggle with tasks other engineers find simple. As we've said, engineers at every level are constantly facing new challenges, and mistakes are bound to happen. However, when you have junior engineers working alongside senior engineers, the environment you're creating should allow juniors to feel safe enough to approach their more experienced peers for guidance. To take it even further, encouraging your senior engineers to take an active interest in mentoring is a great way to quickly upskill newer members of the team.
 
 ### Using mistakes to analyse common problems and automate them away
 
-Software engineers love to automate all the things, but there'll always be the occasional process that needs to be performed manually (or at least hasn't been automated yet) and, no matter how often the process is performed, the more convoluted it is, the more likely it is that a crucial step is overlooked, leading to a failure.
+Software engineers love to automate all the things, but there'll always be the occasional process that's still being performed manually and, no matter how often the process is performed, the more convoluted it is, the more likely it is that a crucial step is overlooked, leading to a failure.
 
-For example, consider a typical continuous delivery pipeline. Engineers craft their code locally, test the build, commit it to source control, and push it through the pipeline. If the engineer forgets to test the build and commits faulty code, which causes tests to fail during the build step of the pipeline, breaking the build, and preventing that code from moving further down the pipeline. The pipeline is then blocked until either the developer fixes their mistake, or a rollback to the last successful build occurs.
+Back in the day, before the advent of source control, something as fundamental as deploying changes to a production environment was a manual process, and involved massive amounts of risk. If the deploy broke anything on production, you had to cross your fingers and hope that somene on the team had a historical copy of the offending file. That problem was solved with a combination of solutions such as Git and Jenkins, which give us the ability to easily deploy and move software through various testing environments all the way to a production environment at the touch of a button. If anything is broken, we can then easily roll the latest changes back.
 
-This is the purpose of the build step of the pipeline, but in an ideal world the engineer would have simply run those tests, discovered the error and fixed them locally.
-
-### Team happiness
-
-Happy engineers are productive engineers. When something is making an engineer unhappy they can lose focus, and the quality of their work can suffer as a result, occasionally leading to bigger problems.
+Within your organisation, there are likely several risky and complex processes that are causing your team frustration. By allowing your team to identify and discuss these problems, you're giving them the ability to work together to find a solution that reduces the risk and transforms the process from one that causes frustration to one that is almost mundane.
 
 ## Conclusion
+
+Mistakes and failures are not something to be feared, in fact, celebrating them is perhaps more appropriate. That statement sounds a little ridiculous but, when you consider how much a failure can teach you about the work you're doing, the way you're doing it and how you can help others do it, there's too much valuable knowledge to be garnered from a mistake to set about reprimanding someone for making it.
