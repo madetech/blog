@@ -31,7 +31,7 @@ I hope those reading this article, those that haven't always identified vision a
 
 You could see the project's vision, goals, capabilities, features and tasks each as interdependent layers. Each layer helps achieve the layer above them. Goals implement a vision, capabilities implement goals, features capabilities and so on. This is the direction of the dependence.
 
-![The layers of agile planning](#)
+<img src="values.jpeg" width="700" alt="The layers of agile planning" />
 
 > Never assume a feature is the only way to provide a capability
 
@@ -47,7 +47,8 @@ Agile teams will use iterations to complete tasks. They might have several itera
 
 Iterations enable us to move down through the layers understanding the problem all the way down to individual tasks, and then we travel all the way back up solving problems at each abstraction.
 
-![Understanding travelling down, solving problems on the way back up](#)
+
+<img src="understand-and-solutions.jpeg" width="700" alt="Understanding travelling down, solving problems on the way back up" />
 
 > Be clear on your purpose, bring it back to the vision
 
