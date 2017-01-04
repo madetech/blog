@@ -12,7 +12,7 @@ In devolving responsibility to teams, there are a number of areas worth consider
 
 When pulling together a new team, it's important to consider the blend of skills that you need. We tend to shy away from specialist roles, such as database administrators or dedicated testers, though we do see value in ensuring a healthy mix of experience levels on a team.
 
-We use traits to encourage people to work toward desirable skills, one of which is +delivery, encompassing process improvements, understanding commercial objectives, and ensuring customer needs are met. Other organisations may choose to recognise related attributes in other ways, such as through team lead or similar titles. Whatever your flavour, it's sensible to consider having an experienced pair of hands in the team with the nous to nudge things in the right direction.
+We package desirable behaviours in to documented traits, describing a series of attributes people can work towards. One of these traits is delivery, which encompasses process improvements, understanding commercial objectives, and ensuring customer needs are met. Other organisations may choose to recognise related attributes in other ways, such as through team lead or similar titles. Whatever your flavour, it's sensible to consider having an experienced pair of hands in the team with the nous to nudge things in the right direction.
 
 On the flipside, it's wise to be wary of conflict in teams where everyone is chasing the same personal objective. If you have multiple people on the team who are used to playing a delivery lead role, the team may not easily settle. Having a mix of people skilled in a number of different areas who can coach and upskill other members in their various strengths is a positive place to be.
 
@@ -54,6 +54,8 @@ It's important to be prepared to accept that mistakes will be made. Wherever pos
 If you're overly keen to jump back in and provide input, you'll too easily undo the work involved in imparting a true sense of responsibility and empowerment, and before you know it, members of the team will be deferring decision making outside of the team.
 
 You should try to see your role as preventing the team from jumping off a cliff, but not much more. Opening yourself to the right conversations can help a seasoned leader more easily accept this transfer of decision making.
+
+This topic is discussed more fully in our article on [Accepting Mistakes](https://www.madetech.com/blog/learning-from-mistakes).
 
 
 ## Ensure You're Being Asked the Right Questions
