@@ -1,5 +1,6 @@
 #Recognition & Reward
 
+##Why Recognition & Reward Is Important
 - Keeping morale up
   - Recognising low morale
   - Reasons morale drops
@@ -10,7 +11,14 @@
     - Poor working conditions
     - Difficult co workers
 
-- Ways to praise
-  -
+##Recognition
+- Ways to praise / boost morale
+  - Sharing praise from customers
+  - Made merits / peer recognition?
+  - Annual reviews
 
-- Ways to reward
+##Reward
+- Ways to reward / boost morale
+  - Hack days to pursue personal interests
+  - Team lunch
+  - Bonuses
