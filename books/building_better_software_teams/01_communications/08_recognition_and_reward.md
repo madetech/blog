@@ -43,24 +43,37 @@ Recognise dependence on recognition, an extrinsic motivator, and ensuring they a
  
 
 ##Reward (Scott)
-- Intrinsic
-  - Self direction & organisation
-  - Feeling of purpose
-    - Believing in the mission
-  - Allowing room to experiment in day to day work
-  - Investing in learning
-    - Hack days to pursue personal interests
-    - Dojos
-    - Code reviews
-    - Code roasting?
-  - Team lunch/activities
-  - Stick & twist
-  - Untracked holidays
-  - Retreat
-    - Learning opportunity
-    - Team building
-    - Intrinsic & extrinsic (it's all paid for)
-- Extrinsic
+Having recognised and acknowledged the great work your team has done, it's time to talk about the ways in which teams and individuals can be rewarded. As we see it, rewards can be either extrinsic, something that either is or costs money, or intrinsic, something that lends itself to helping the people being rewarded feeling fulfilled and happy.
+
+###Intrinsic
+Arguably the more powerful type of reward is the intrinsic reward. It's also the trickier to give, since these rewards are _felt_, rather than simply received, and you can't force people to feel a certain way.
+
+####Purpose
+By making a point of monitoring and keeping morale up, along with creating communicative environments, allowing your team to structure the way they work, giving them ownership of delivery and many of the other practices we've discussed, the members of your team will feel a sense of purpose, a sense that they, and the work they're doing, _matters_.
+
+With a sense of purpose, a team knows why what they're doing is important, they're driven to do it, and to do it well. Understanding how their work feeds into the wider company objectives plays a big part of instilling a sense of purpose, and we found it particularly useful to define a company mission in order to clarify why the company exists and what we're trying to achieve.
+
+Each of our teams knows our company mission is to improve software delivery in every organisation, meaning every member of those teams believes in our mission, and anybody joining our team wants to help us achieve it.
+
+####Self direction & organisation
+- Allowing room to experiment in day to day work
+
+####Freedom to learn
+We're proud of the work we do with our customers, but every software engineer loves having the freedom to go off and get stuck into a technology that interests them, and the two things don't always align. Rather than snuffing that thirst for knowledge out, giving your team the space to pursue and share their interests is an excellent way to keep morale up, and may even yield benefits for the wider organisation down the line.
+
+At Made Tech, the entire team often engages in a number of non customer focussed activities, such as code dojos and hack days, where we set aside an hour a week or an entire day every month or so for everyone to do something fun and interesting that doesn't necessarily have to have commercial benefits.
+
+
+  - Code reviews
+  - Code roasting?
+- Team lunch/activities
+- Stick & twist
+- Untracked holidays
+- Retreat
+  - Learning opportunity
+  - Team building
+  - Intrinsic & extrinsic (it's all paid for)
+###Extrinsic
   - Team celebration to mark the successful launch of a project
   - In our lingo: awarding a particular trait
     - Expand on: team's responsibility for awarding it
