@@ -124,16 +124,12 @@ A team member can choose to either stick, and stay on the project they're on, or
 ###Extrinsic
 On the other side of the coin are extrinsic rewards. These are things the company can give to teams to both celebrate their work, and also to maintain a healthy level of morale. While we're not advocating showering them with gifts, we do see benefits to treating your team beyond just material gains.
 
-What follows is a list of extrinsic rewards we've handed out, but we would advise that the list is neither exhaustive nor necessarily the best fit for every organisation.
+What follows are examples of extrinsic rewards we've handed out, but we would advise that this is not an exhaustive list nor necessarily the best fit for every organisation.
 
 ####Company Retreat
 After a particularly successful year, the entire Made Tech team was rewarded for their efforts with a company retreat. This took the shape of a 5 day break in Spain, where we'd spend a few hours each day building a product we'd use internally, and then hanging out in the evenings. This could be seen as both an extrinisic and intrinsic reward, as everything was paid for by the company, but we used the building of the project as another opportunity to learn, and the entire experience was a great team building activity.
 
-- Team lunch/activities
-- Team celebration to mark the successful launch of a project
-- In our lingo: awarding a particular trait
-  - Expand on: team's responsibility for awarding it
-- Raises
-- Bonuses
+####Celebrating success
+Whether it's successfully launching a project, completing an engagement with a customer, or your team has reached a landmark point during the engagement, it's important to recognise these moments and celebrate them. These moments only come about because the entire team pulled together to produce the best work they possibly could, and letting those efforts go unnoticed is a sure fire way to leave your team feeling deflated. Whether it's something as simple as a trip to the pub for a few team drinks, or something more extravagant, celebrate the achievements your team is responsible for.
 
 ##Conclusion/Summary
