@@ -1,14 +1,14 @@
 #Recognition & Reward
 
-##Why Recognition & Reward Is Important/Intro (Emile)
+##Why Recognition & Reward Is Important/Intro
 - Keeping morale up
 
-  Low morale is closely related to job satisfaction.  Not enough (or any) praise for a job well done, dealing with a difficult clients, or stress on
-  a team can significantly impact morale.
+  Low morale is closely related to job satisfaction.  Not enough (or any) praise for a job well done, dealing with a difficult clients, or heavy
+  workloads can significantly impact morale, to name but a few.
 
-  You should always be on the lookout for red flags such as a high rate of absenteeism.
+  Everyone within the organisation should always be concious of red flags such as a high rate of absenteeism, frequent conflict situations or dissatisfied clients.
 
-  The root cause of this can be amplified by a number of complex reasons.
+  The root cause of this can be amplified for a number of complex reasons.
   Sometimes the reasons are personal to individuals which is harder to solve than work related low morale of a team.
   None the less, you should strive to understand the situation and help where possible.
 
@@ -16,10 +16,11 @@
   It is not difficult to recognise when a team has low morale. It is a situation that no organisation wants to be in as it has significant costs down
   the line.  Quality of the product suffers, clients are unhappy and there is no energy within the team.
 
-  This can be a very serious issue that needs to be identified and addressed before it gets out of hand, usually resulting in people quitting.
+  This can be a very serious issue that needs to be identified and addressed before it gets out of hand, usually resulting in people leaving the
+  company.
 
   - Reasons morale drops
-  There are various reasons for morale dropping within a company and below are some of the more common ones.
+  There are various reasons for morale dropping within a company and below are some of the more common causes.
 
     - Poor leadership
     When no one steps up and accepts responsibility things can go very wrong.  There is avoidance of accountability and no one takes ownership, just passsing the buck to the next person.
@@ -27,19 +28,23 @@
     - Poor communication
     Everyone needs to be kept in the loop with what's going on in the current project.
     Goals, praise, performance or personal gripes will always arise and need to be communicated within the team.
-    Team members need to be upfront with each other.
+    Team members also need to be upfront with each other.
 
-    The last thing you want is a disengaged workforce where individuals feel left out and hierarchies start to form.
-
-    This tends to happen more frequently in companies that have a big hierarchy of management.
+    The last thing you want is a disengaged workforce where individuals feel left out and undesirable social hierarchies start to form.
 
       - Unresolved conflict situations
 
-      Given the pressure in the software industry, conflict situations are sure to arise.  For instance, there are many ways to write programs, it is not a science and people have vastly different opinions on how to do this.
-      Fear of conflict will prevent certain individuals from bringing up topics that influence their morale.
-      They hope that the situation will resolve itself but it rarely does.
+    Given the pressure in the software industry, conflict situations are sure to arise.
+    The act of creating software for instance is a very subjective topic, and there are many confliting opinions on how to do it correctly.
+    Fear of conflict will prevent certain individuals from bringing up topics that influence their morale.
 
     - Lack of empowerment or autonomy
+
+    If you do not allow your team to take ownership of a feature, they will take less pride in it.  Here at Made we believe that programmers should be
+    responsible for delivering features end to end.  This means dealing with all aspects of it from communication with clients to infrastructure to
+    programming.  If you only deliver a very small slice of this, you will not appreciate the positive impact that you are having on the problem,
+    which may lead to dissatisfaction.
+
     - Heavy workloads
     Bad estimates and poor planning can result in significant workloads on individuals.  No one wants to work overtime, especially if they are not
     being compensated for it. Failing to understand the underlying requirements of a piece of work can have drastic consequences on the amount of work
@@ -53,7 +58,7 @@
     Not everyone gets along.  If proper respect is not shown between
 
   - Tracking morale levels
-  It should be pretty obvious to see if morale is dropping.  It is difficult to hide that fact that you are unhappy at work.
+  Frequent check ins (without micromanaging) could have a really positive effect on morale.
 
   - Setting expectations
   If your company has tried and tested techniques for doing business, they should be documented and made freely available amongst your employees.
