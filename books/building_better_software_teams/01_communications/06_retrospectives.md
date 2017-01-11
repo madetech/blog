@@ -2,9 +2,9 @@
 
 ## What is a retrospective
 
-At the end of an iteration it's good to take some time to reflect as a team; to assess what worked, didn't work, or could be improved upon. This can result in future iterations being more effiecient and productive, as well as increasing happiness within the team.
+At the end of an iteration it's good to take some time to reflect as a team; to assess what worked, what didn't work, and what could be improved upon. This can result in future iterations being more effiecient and productive, as well as increasing happiness in the team.
 
-At it's most basic, a retrospective can just be the team sitting together and putting different items under headings. It allows everyone to feedback from their perspective, providing increased insight throughout the team. They can then vote as to which things the team views as highest priority and create action points for future iterations around these. Keeping this to a small list is most prudent as it won't overload the team and any recurring themes should show up in future retrospectives if they weren't decided as action points this time around.
+At the most basic level, a retrospective can just be the team sitting together and putting different items under headings. It allows everyone to feedback from their perspective, providing increased insight throughout the team. They can then vote as to which things the team views as highest priority and create action points for future iterations around these. Keeping this to a small list is most prudent as it won't overload the team and any recurring themes should show up in future retrospectives if they weren't decided as action points this time around.
 
 Retrospectives that have resulted in action points that led to big improvements within a team should be shared back to the organisation as a whole, so that other teams can potentially benefit from learnings.
 
@@ -36,8 +36,8 @@ It follows the basic flow:
  * Based on the potential causes, add another column asking for people to submit potential solutions
  * Read these all out and discuss with the team
  * Run the safety check again
- 
-If the safety level has increased after this point, then you can run the retrospective. 
+
+If the safety level has increased after this point, then you can run the retrospective.
 
 ## Facilitators
 
@@ -56,7 +56,24 @@ To keep retrospectives fresh and different, it's important to rotate the respons
 
 ## Scheduling and frequency
 
+We derive the most value from retros when we run at the end of each iteration (for us weekly), directly after a Showcase. By running them before the next iteration begins the team is able to take the learnings and outcomes directly into the following week.
+
+If for whatever reason the team is unable to run one we've found it best to wait until the next scheduled retrospective, so as to not disrupt the current iteration. Ideally these shouldn't be missed barring illness or holidays. If a team member has contributions to make but can't attend they can choose to provide these to the facilitator ahead of time.
+
 ## Exercises
+
+Some exercises you could try:
+
+### The Happiness Graph
+
+Ask each team member to draw a graph of how happy they were over the duration of the sprint. Once everyone is finished, move around the table asking people to go into a bit more detail of the high and low spikes. Write a post-it note for each of these, adding them to a board. 
+
+Using these post-it notes, you can come up with things to continue doing for future sprints, and for things that didn't go so well, try and come up with ideas on how to improve them for next time.
+
+### Hot air balloon
+
+More balloons for positives, and sandbags for the negatives.
+  
 
 ## Comradrospectives
 
