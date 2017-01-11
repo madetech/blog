@@ -2,18 +2,67 @@
 
 ##Why Recognition & Reward Is Important/Intro (Emile)
 - Keeping morale up
+
+  Low morale is closely related to job satisfaction.  Not enough (or any) praise for a job well done, dealing with a difficult clients, or stress on
+  a team can significantly impact morale.
+
+  You should always be on the lookout for red flags such as a high rate of absenteeism.
+
+  The root cause of this can be amplified by a number of complex reasons.
+  Sometimes the reasons are personal to individuals which is harder to solve than work related low morale of a team.
+  None the less, you should strive to understand the situation and help where possible.
+
   - Recognising low morale
+  It is not difficult to recognise when a team has low morale. It is a situation that no organisation wants to be in as it has significant costs down
+  the line.  Quality of the product suffers, clients are unhappy and there is no energy within the team.
+
+  This can be a very serious issue that needs to be identified and addressed before it gets out of hand, usually resulting in people quitting.
+
   - Reasons morale drops
+  There are various reasons for morale dropping within a company and below are some of the more common ones.
+
     - Poor leadership
+    When no one steps up and accepts responsibility things can go very wrong.  There is avoidance of accountability and no one takes ownership, just passsing the buck to the next person.
+
     - Poor communication
+    Everyone needs to be kept in the loop with what's going on in the current project.
+    Goals, praise, performance or personal gripes will always arise and need to be communicated within the team.
+    Team members need to be upfront with each other.
+
+    The last thing you want is a disengaged workforce where individuals feel left out and hierarchies start to form.
+
+    This tends to happen more frequently in companies that have a big hierarchy of management.
+
       - Unresolved conflict situations
+
+      Given the pressure in the software industry, conflict situations are sure to arise.  For instance, there are many ways to write programs, it is not a science and people have vastly different opinions on how to do this.
+      Fear of conflict will prevent certain individuals from bringing up topics that influence their morale.
+      They hope that the situation will resolve itself but it rarely does.
+
     - Lack of empowerment or autonomy
     - Heavy workloads
+    Bad estimates and poor planning can result in significant workloads on individuals.  No one wants to work overtime, especially if they are not
+    being compensated for it. Failing to understand the underlying requirements of a piece of work can have drastic consequences on the amount of work
+    that is required to be completed (See 80/20 rule).  There may be more sinister forces involved here like an understaffed workforce.
+
     - Poor working conditions
+    Some companies fail to provide the very basic facilities required by employees to do their work.
+    This will lead to frustration or even result in physical injury.
+
     - Difficult co workers
+    Not everyone gets along.  If proper respect is not shown between
+
   - Tracking morale levels
+  It should be pretty obvious to see if morale is dropping.  It is difficult to hide that fact that you are unhappy at work.
+
   - Setting expectations
+  If your company has tried and tested techniques for doing business, they should be documented and made freely available amongst your employees.
+
     - Employee handbook
+    Here at Made we have an ever growing Employee Handbook.  If you have questions about process related topics, you can probably find it there.
+
+    If you cannot find it, you can issue a pull request to get it added.  This will also help boot up a constructive conversation about the topic at
+    hand.
 
 ##Recognition (Craig)
 
