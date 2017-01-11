@@ -48,11 +48,11 @@ An important role in a retrospective is that of the Facilitator. They have impor
  * Ensures the Prime Directive is adhered to
  * If the team is struggling, helping and prompting thoughts and ideas
  * Follows up after a retrospective with the action points being circulated around the team
- * Try and ensure everyone on the team contributes to the discussion
+ * Try to ensure everyone on the team contributes to the discussion
 
 The facilitator is responsible for coming up with the exercise the retrospective will use. We'll discuss some different ideas below, but there are numerous websites out there that provide ready made ones that are simple to follow.
 
-To keep retrospectives fresh and different, it's important to rotate the responsibility around all team members each session that's held.
+To keep retrospectives fresh and different, it's important to rotate the responsibility between all team members each session that's held.
 
 ## Scheduling and frequency
 
