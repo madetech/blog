@@ -31,17 +31,7 @@ Bad estimates and poor planning can result in significant workloads on individua
 ###Poor working conditions
 A team cannot do their best work in an environment not equipped to handle their needs. Without a space that allows them to collaborate, to communicate, to focus and to relax, your team will become increasingly dissatisfied and more prone to distraction.
 
-##Tracking morale levels
-Frequent check ins (without micromanaging) could have a really positive effect on morale.
-
-###Setting expectations
-If your company has tried and tested techniques for doing business, they should be documented and made freely available amongst your employees.
-
-###Employee handbook
-Here at Made we have an ever growing Employee Handbook. If you have questions about process related topics, you can probably find it there.
-
-If you cannot find it, you can issue a pull request to get it added. This will also help boot up a constructive conversation about the topic at
-hand.
+Knowing how and why a team's morale drops is the first step in making their happiness a priority, but beyond simply trying to prevent such a negative outcome, there are plenty of positive moves you can make to raise morale, and it starts with recognising the effort your team is putting in.
 
 ##Recognition
 A downside of only having individual recognition is that it can introduce competition. To receive recognition, you must excel compared to your colleagues. Unfortunately, this can lead to unhealthy environments and slow degradation of teamwork.
