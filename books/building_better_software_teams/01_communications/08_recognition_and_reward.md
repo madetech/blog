@@ -11,29 +11,25 @@ Identifying the root cause of low morale can be complex, and there can be a numb
 There are various reasons for morale dropping within a company, and the following are some of the more common causes.
 
 ###Poor leadership
-When no one steps up and accepts responsibility things can go very wrong. There is avoidance of accountability and no one takes ownership, just passsing the buck to the next person.
+Teams should be given the opportunity to self direct and self organise, so that they're better able to complete tasks, engage with customers and work together. That said, teams still need direction from a leader, and without that, teams can begin to feel unimportant, as though what they're doing has little worth.
 
 ###Poor communication
 Everyone needs to be kept in the loop with what's going on in the current project. Goals, praise, performance or personal gripes will always arise and need to be communicated within the team. Team members also need to be upfront with each other.
 
-The last thing you want is a disengaged workforce where individuals feel left out and undesirable social hierarchies start to form.
+The last thing you want is a disengaged workforce where individuals feel left out and undesirable social hierarchies start to form. There's a lot you can do to help promote communication amongst teams, and we've discussed it at length [here](02_creating_communicative_environments.md).
 
 ###Unresolved conflict situations
-Given the pressure in the software industry, conflict situations are sure to arise. The act of creating software for instance is a very subjective topic, and there are many confliting opinions on how to do it correctly. Fear of conflict will prevent certain individuals from bringing up topics that influence their morale.
+The act of creating software is a very subjective topic and, given the speed at which the software industry moves and which new technologies are introduced, conflict situations are sure to arise as opinions clash. Dealing with these conflicts and others is critical to maintaining morale, as lingering resentment over unresolved conflicts leads to a break down of trust between team mates, and can also lead to a fear of any kind of workplace conflict.
 
 ###Lack of empowerment or autonomy
-
 If you do not allow your team to take ownership of a feature, they will take less pride in it. Here at Made we believe that programmers should be responsible for delivering features end to end. This means dealing with all aspects of it from communication with clients to infrastructure to programming. If you only deliver a very small slice of this, you will not appreciate the positive impact that you are having on the problem,
 which may lead to dissatisfaction.
 
 ###Heavy workloads
-Bad estimates and poor planning can result in significant workloads on individuals. No one wants to work overtime, especially if they are not being compensated for it. Failing to understand the underlying requirements of a piece of work can have drastic consequences on the amount of work that is required to be completed (See 80/20 rule). There may be more sinister forces involved here like an understaffed workforce.
+Bad estimates and poor planning can result in significant workloads on individuals. No one wants to work overtime, especially if they are not being compensated for it. Failing to understand the underlying requirements of a piece of work can have drastic consequences on the amount of work that is required to be completed. An overburdened workforce may also be a sign of significant understaffing, and as such is a problem that needs to be rectified sooner than later.
 
 ###Poor working conditions
-Some companies fail to provide the very basic facilities required by employees to do their work. This will lead to frustration or even result in physical injury.
-
-###Difficult co workers
-Not everyone gets along. If proper respect is not shown between
+A team cannot do their best work in an environment not equipped to handle their needs. Without a space that allows them to collaborate, to communicate, to focus and to relax, your team will become increasingly dissatisfied and more prone to distraction.
 
 ##Tracking morale levels
 Frequent check ins (without micromanaging) could have a really positive effect on morale.
