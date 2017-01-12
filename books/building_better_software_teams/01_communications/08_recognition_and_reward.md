@@ -111,4 +111,5 @@ Late last year, having had a particularly successful year which saw the company 
 ####Celebrating success
 Whether it's successfully launching a project, completing an engagement with a customer, or your team has reached a landmark point during the engagement, it's important to recognise these moments and celebrate them. These moments only come about because the entire team pulled together to produce the best work they possibly could, and letting those efforts go unnoticed is a sure fire way to leave your team feeling deflated. Whether it's something as simple as a trip to the pub for a few team drinks, or something more extravagant, celebrate the achievements your team is responsible for.
 
-##Conclusion/Summary
+##Conclusion
+It goes without saying that your team is vitally important. Without them, nothing gets done, so making sure your team feels happy, fulfilled and committed to their goals should be near the top on your organisation's list of priorities. By taking the time to check in with your team and gauge how they're doing, listening to what they have to say and recognising the efforts they're putting in, you're creating a positive environment for everyone within the organisation.
