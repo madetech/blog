@@ -2,7 +2,7 @@
 
 ## What is a retrospective
 
-At the end of an iteration it's good to take some time to reflect as a team; to assess what worked, what didn't work, and what could be improved upon. This can result in future iterations being more effiecient and productive, as well as increasing happiness in the team.
+At the end of an iteration it's good to take some time to reflect as a team; to assess what worked, what didn't work, and what could be improved upon. This can result in future iterations being more efficient and productive, as well as increasing happiness in the team.
 
 At the most basic level, a retrospective can just be the team sitting together and putting different items under headings. It allows everyone to feedback from their perspective, providing increased insight throughout the team. They can then vote as to which things the team views as highest priority and create action points for future iterations around these. Keeping this to a small list is most prudent as it won't overload the team and any recurring themes should show up in future retrospectives if they weren't decided as action points this time around.
 
@@ -12,7 +12,7 @@ Retrospectives that have resulted in action points that led to big improvements 
 
 > Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand - _[Norm Kerth](http://www.retrospectives.com/pages/retroPrimeDirective.html)_
 
-It's vital that a retrospective is run in a way where all members feel safe to discuss their viewpoints. Describing something that went wrong should always be seperated from an individual so that they don't feel attacked. If someone feels unsafe they're unlikely to be able to fully engage with the retrospective. Violations of The Prime Directive, delibarate or otherwise, should be seem as a team smell, and may lead to the team going into the next iteration with a negative mindset.
+It's vital that a retrospective is run in a way where all members feel safe to discuss their viewpoints. Describing something that went wrong should always be separated from an individual so that they don't feel attacked. If someone feels unsafe they're unlikely to be able to fully engage with the retrospective. Violations of The Prime Directive, deliberate or otherwise, should be seem as a team smell, and may lead to the team going into the next iteration with a negative mindset.
 
 Some steps you can take to help maintain safety such as reading out The Prime Directive before a retro, having facilitators, conducting safety/pressure checks which we'll cover later.
 
@@ -82,7 +82,7 @@ The hot air balloon exercise is popular in our office, it works as follows;
 2. The facilitator should provide a prompt like 'Looking back, what was our hot air, taking us higher, and what were our sand bags, bringing us down?'
 	* They should then right these down above and below the balloon as appropriate.
 	* The team discusses each point as they go to make sure there is a shared understanding.
-3. The facilitor then can offer another prompt 'Looking ahead; what stormy weather can we see making the route to our goal difficult, and what steps can we take to move towards sunny days and an easier path?'
+3. The facilitator then can offer another prompt 'Looking ahead; what stormy weather can we see making the route to our goal difficult, and what steps can we take to move towards sunny days and an easier path?'
 	* These suggestions are again mapped to their appropriate area on the drawing, and discussed among the team.
 
 By approaching the retro in this way we can not both reflect on the previous iteration, and look ahead and spot potential pitfalls and ways to avoid them.
@@ -93,7 +93,7 @@ You may notice that both of these exercises follow the same outline as the basic
 2. What went well?
 3. How can we improve going forward?
 
-Mixing these exercises up is an ideal way to keep things fresh and provide different perspectives and prompts to these questions, and also make it feel like it's not always the same thing everytime
+Mixing these exercises up is an ideal way to keep things fresh and provide different perspectives and prompts to these questions, and also make it feel like it's not always the same thing every time.
 
   
 
