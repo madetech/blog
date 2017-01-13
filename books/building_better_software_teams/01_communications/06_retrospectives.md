@@ -62,17 +62,39 @@ If for whatever reason the team is unable to run one we've found it best to wait
 
 ## Exercises
 
-Some exercises you could try:
+To keep energy up in a retrospective and help provide focus to the areas the team aims to cover it's common to use exercises.
+
+Some exercises that we've found useful, and you could try:
 
 ### The Happiness Graph
 
-Ask each team member to draw a graph of how happy they were over the duration of the sprint. Once everyone is finished, move around the table asking people to go into a bit more detail of the high and low spikes. Write a post-it note for each of these, adding them to a board. 
+Ask each team member to draw a graph of how happy they were over the duration of the sprint. Once everyone has finished, move around the table asking people to go into a bit more detail of the high and low spikes. Write a post-it note for each of these, adding them to a board. 
 
-Using these post-it notes, you can come up with things to continue doing for future sprints, and for things that didn't go so well, try and come up with ideas on how to improve them for next time.
+Using these post-it notes, you can come up with ideas to continue doing for future sprints, as for the ones that didn't go so well, try and come up with ideas on how to improve them for next time.
+
+This provides a chance to measure team sentiment while conducting the retrospective.
 
 ### Hot air balloon
 
-More balloons for positives, and sandbags for the negatives.
+The hot air balloon exercise is popular in our office, it works as follows;
+
+1. Draw a hot air balloon on a whiteboard or other canvas.
+2. The facilitator should provide a prompt like 'Looking back, what was our hot air, taking us higher, and what were our sand bags, bringing us down?'
+	* They should then right these down above and below the balloon as appropriate.
+	* The team discusses each point as they go to make sure there is a shared understanding.
+3. The facilitor then can offer another prompt 'Looking ahead; what stormy weather can we see making the route to our goal difficult, and what steps can we take to move towards sunny days and an easier path?'
+	* These suggestions are again mapped to their appropriate area on the drawing, and discussed among the team.
+
+By approaching the retro in this way we can not both reflect on the previous iteration, and look ahead and spot potential pitfalls and ways to avoid them.
+
+You may notice that both of these exercises follow the same outline as the basic one provided at the start. Most exercises serve as wrappers to the core idea of;
+
+1. What went badly?
+2. What went well?
+3. How can we improve going forward?
+
+Mixing these exercises up is an ideal way to keep things fresh and provide different perspectives and prompts to these questions, and also make it feel like it's not always the same thing everytime
+
   
 
 ## Comradrospectives
