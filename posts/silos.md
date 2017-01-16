@@ -52,7 +52,7 @@ Departments should not communicate solely through hierarchies, such that a junio
 
 As this evolves, it becomes clearer that it is more efficient to have designers and software engineers working alongside each other to deliver a product. When people with different skillsets need to collaborate with the same goal, they should attend the same meetings, be aware of the same problems, and have a clear sense of shared direction and purpose.
 
-Requiring formality or involving convoluted chains of command at this stage will only hinder collaboration. At this point, management shifts to a broader view of the company rather than micromanaging all daily details. Instead, the freedom granted to the team allow them to deliver continuously and ship products quicker. Tighter collaboration between skillsets leads to better product quality thanks to a better understanding of the issues. Formal long meetings can be a symptom of having too much bureaucracy around collaboration which can make it less desirable for employees to break down silos. 
+Requiring formality or involving convoluted chains of command at this stage will only hinder collaboration. At this point, management shifts to a broader view of the company rather than micromanaging all daily details. Instead, the freedom granted to the team allows them to deliver continuously and ship products quicker. Tighter collaboration between skillsets leads to better product quality thanks to a better understanding of the issues. Formal long meetings can be a symptom of having too much bureaucracy around collaboration which can make it less desirable for employees to break down silos. 
 
 The really innovative companies are creating shared offices where teams with diverse skillsets (potentially cross-departmental) can collaborate. A psychological silo can manifest itself into a physical one with real walls and closed spaces inside the company. An analysis on how the office space is laid out can help to uncover potential silos.
 
@@ -62,30 +62,31 @@ Leaders should encourage everybody to work with anybody to solve company problem
 
 Observation is key to discovering silos, and in most companies, it isn't immediately obvious where they are. To give you a feel for what type of activities are indicative of silos we have compiled a list from the trenches to help you in your endeavours.
 
+## Communication go-betweens
+
 Unintended shielding of team members from end-users by another department. This shielding can lead to situations where software engineers are unable to get meaningful feedback on the solutions that they are delivering. Useful and accurate feedback is critical to shipping well-built and well-designed software.
 
-Applying a top-down approach to decisions about "how are we going to build this solution" as well as "what is the most vital problem that we need to solve". Controlling every detail of a solution in a top-down fashion removes freedom from software delivery teams. Lack of liberty makes it less desirable or necessary for cross-functional teams to emerge (through interdepartmental collaboration). Moreover, this freedom is key to the production of truly innovative and uncomplicated solutions. Managers should not need to be involved in every single minutia of detail, only that the software delivery teams are resolving the most pressing tactical and strategic issues.
+## Prescribed solutions
 
-When no department can deal an unexpected critical issue, and every one of them that is alerted about the problem "passes the buck" to another.
+Applying a top-down approach to decisions about "how are we going to build this solution" as well as "what is the most vital problem that we need to solve". Controlling every detail of a solution in a top-down fashion removes freedom from software delivery teams. Lack of liberty makes it less desirable or necessary for cross-functional teams to emerge (through interdepartmental collaboration). Moreover, this freedom is key to the production of truly innovative and uncomplicated solutions. Managers should not need to be involved in every single minutia of detail, only that the software delivery teams are solving the most pressing strategic issues.
 
-How the evaluation of each team's performance is measured can be a reliable indicator of a silo. In the most extreme case, every department has a balance sheet. This financially-led approach can promote unhealthy internal competition, stifles collaboration, and ease of mobility between teams.   
+## Passing the buck
+
+When no department can deal with an unexpected critical issue, and every one of them that is alerted about the problem "passes the buck" to another. This shows that no team or individual holds true accountability for resolving that issue. The underlying problem is that it shows that people are not aligned with the goals of the company itself. This conflict with the business is showing that those departments passing the buck have formed a silo against the organisation itself. 
+
+## Lack of robust goal setting
+
+How the evaluation of each team's performance is measured can be a reliable indicator of a silo. In the most extreme case, every department has a balance sheet. This financially-led approach can promote unhealthy internal competition, stifles collaboration, and ease of mobility between teams. The symptom here is that the goals of two organisational units are at odds with each other. This is compounded if there is no clear process available to staff, through which they can resolve their differences.  
+
+## Organisational separation
 
 Budget allocation or in the extreme case spinning out separately registered companies introduce difficult to solve organisational impediments that make it difficult to deliver on "group" goals. Collaborating across balance sheets becomes politically risky, and can result in the onset of "officially political cultures".
 
+## Competitive individual KPIs
+
 When the performance evaluation of individuals prevents or discourages collaboration and knowledge-sharing there is no incentive to behave strategically. This friction can create problems internally to a single department just as much as cross-departmentally, affecting the ability to improve ways of working collaboratively and also for software engineers to discover requirements.
 
-The hiring policy is a good indicator of silos within departments. Departments can fight for expansion and prevent hires in a critical place. Hiring without a clear and mutually agreed reason in mind could lead to hiring in the wrong places or for the wrong reasons. Instead, a lot of companies encourage departments to compete over recruiting budgets; this doesn't solve real business problems.
+## Hiring 
 
+The hiring policy is a good indicator of silos within departments. Departments can fight for expansion and prevent hires in a critical place. Hiring without a clear and mutually agreed reason in mind could lead to hiring in the wrong places or for the wrong reasons. Instead, a lot of companies encourage departments to compete over recruiting budgets; this doesn't solve real business problems. The interview process itself might highlight the competition between teams. For example, when other teams are unaware of the recruitment but will still be expected to work with the hired colleague.
 
-The interview process itself might highlight the competition between teams when other teams are unaware of the recruitment.
-
-- contact with end users
-- how the decisions related to the products are made
-- how planning and company projects are organised?
-- how does the company cope with unexpected issues.
-- how the performance of the teams is reviewed (most extreme case: balance sheet per team)
-- budget allocation / subsidiaries
-- performance of individuals
-- hiring policies
-- communication strategies (including software).
-- office space
