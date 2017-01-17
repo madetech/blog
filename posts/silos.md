@@ -2,11 +2,11 @@
 
 A silo exists in an organisation when a distinct group within the organisation has differing goals to another group.
 
-In most organisations, there are groups of people, that, usually have an objective to fulfil by an agreed upon date. For example, The Sales team is set a mandate to increase the number of customers of the company by 10% every month. The Support team has internal performance goals, one of them is to deliver support within a fixed budget.
+In most organisations, there are groups of people that, usually, have an objective to fulfil by an agreed upon date. For example, the Sales team is set a mandate to increase the number of customers of the company by 10% every month. The Support team has internal performance goals, and one of them is to deliver support within a fixed budget.
 
-These teams have the ability to innovate and choose how to be meet their aims. For example, the sales team could slash the price of the product. Immediately the product is flying off the shelves and sales are increased by 300%. So the sales team is now celebrating!
+These teams have the ability to innovate and choose how to meet their aims. For example, the Sales team could slash the price of the product. Immediately the product is flying off the shelves and sales are increased by 300%. So the Sales team is now celebrating!
 
-The Support Team, now with more workload, needs more budget to operate. The company cannot afford this extra operational cost given the product’s new discounted price tag.
+The Support team, now with more workload, needs more budget to operate. The company cannot afford this extra operational cost given the product’s new discounted price tag.
 
 Before long, the company gets a bad name for poor support. This silo has potentially compromised the profitability of the enterprise.
 
@@ -18,21 +18,21 @@ Being experts in software delivery at Made Tech, it is common for us to encounte
 
 In situations where our point of contact has a silo-goal, it can cause us to align around their goal. The result is that, potentially, we may align with a target that does not have the best interests of the organisation in mind. Aside from making it difficult to deliver simple solutions for the organisation, it can have an impact on relationships. 
 
-This misalignment that point of contacts can have within customer's organisations are usually unintentional. So it is important to mitigate this behaviour with some prudent, deliberate activities designed to aid delivering great solutions.
+This misalignment that points of contact can have within a customer's organisation are usually unintentional, so it is important to mitigate this behaviour with some prudent, deliberate activities designed to aid delivering great solutions.
 
 ### Communicating with Stakeholders
 
-In the ideal world, points of contact are aligned perfectly with the goals of their organisation. To understand the needs and wants of the organisation in enough detail it is sometimes necessary to cultivate a list of stakeholders with differing views and goals. One technique that we have found works very well is the use of regular client showcases. These Showcases ensure that the parties concerned in the continuous delivery of solutions are kept involved in the evolution of the plan, and feel a sense of ownership in the direction.
+In the ideal world, points of contact are aligned perfectly with the goals of their organisation. To understand the needs and wants of the organisation in enough detail it is sometimes necessary to cultivate a list of stakeholders with differing views and goals. One technique that we have found works very well is the use of regular client showcases. These showcases ensure that the parties concerned in the continuous delivery of solutions are kept involved in the evolution of the plan, and feel a sense of ownership in the direction.
 
 ### Communicating with Specialists
 
-A common way hierarchies organise themselves is to group individuals according to their specialisms. Within the tech world, this has resulted in teams such as Backend, Frontend, QA all having their different yardsticks with which to measure success.
+A common way hierarchies organise themselves is to group individuals according to their specialisms. Within the tech world, this has resulted in teams such as Backend, Frontend and QA all having their different yardsticks with which to measure success.
 
 A traditional silo is that of an IT department, viewed as a cost centre. Meanwhile, profit-building software delivery teams are depending on this IT Department for both hardware and software. It is not in the best interest of a company attempting to deploy a new software artefact to production to be held up by an another department that holds the keys.
 
 ### Uncovering hidden goals
 
-Inadequate communication causes hidden goals; though it is not pragmatic to expect that you can uncover all hidden goals early on in the development process. In fact, it is common for hidden goals to be discovered late into the development process. Although it is prudent to expect this to be the case, it is reckless not to seek out hidden goals.
+Inadequate communication causes hidden goals, though it is not pragmatic to expect that you can uncover all hidden goals early on in the development process. In fact, it is common for hidden goals to be discovered late into the development process. Although it is prudent to expect this to be the case, it is reckless not to seek out hidden goals.
 
 We have found that practising continuous delivery is part of an appropriate solution to uncover hidden goals. Given that it allows for a fast, frequent and robust feedback loop with stakeholders. We can showcase potentially consumable solutions in front of stakeholders often, which gives them an effective forum to voice their concerns.
 
@@ -68,7 +68,7 @@ Unintended shielding of team members from end-users by another department. This 
 
 ## Prescribed solutions
 
-Applying a top-down approach to decisions about "how are we going to build this solution" as well as "what is the most vital problem that we need to solve". Controlling every detail of a solution in a top-down fashion removes freedom from software delivery teams. Lack of liberty makes it less desirable or necessary for cross-functional teams to emerge (through interdepartmental collaboration). Moreover, this freedom is key to the production of truly innovative and uncomplicated solutions. Managers should not need to be involved in every single minutia of detail, only that the software delivery teams are solving the most pressing strategic issues.
+Applying a top-down approach to decisions about "how are we going to build this solution?" as well as "what is the most vital problem that we need to solve?". Controlling every detail of a solution in a top-down fashion removes freedom from software delivery teams. Lack of liberty makes it less desirable or necessary for cross-functional teams to emerge (through interdepartmental collaboration). Moreover, this freedom is key to the production of truly innovative and uncomplicated solutions. Managers should not need to be involved in every single minutia of detail, only that the software delivery teams are solving the most pressing strategic issues.
 
 ## Passing the buck
 
