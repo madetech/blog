@@ -22,7 +22,7 @@ Many organisations split their engineering teams, choosing to have more experien
 
 A structure such as this is likely to result in a reduction of quality over time, both in staffing a team with less experienced engineers, and in the removal of any sort of ownership.
 
-A model we've found to work better involves pulling together teams with differing levels of skills. It helps to add another string to the more experienced engineers bows in helping to mentor the less experienced team members, and ensures that experience is spread across the organisation.
+A model we've found to work better involves pulling together teams with differing levels of skills. More experienced engineers often enjoy the opportunity to mentor less experienced team members, and it ensures that experience is spread equally among teams.
 
 If the nature of the maintenance work on your product suite means that you feel more experienced engineers aren't delivering enough value in delivering this work, it's worth considering how the work can be changed. If there's lots of manual, repetitive work in maintenance - can your maintenance team build tools to automate this?
 
@@ -71,14 +71,14 @@ Refactoring may involve extracting out parts of a software system in to a new co
 
 ## 8. Keep on top of technical debt
 
-Technical debt is a normal occurence of just about every software development project. At times it is the right course of action to cut a corner to achieve a short term aim.
+Technical debt is a normal occurrance of just about every software development project. At times it is the right course of action to cut a corner to achieve a short term aim.
 
 That said, in aiming to improve the quality of an application over time, it's important to stay on top of the debt. Engineering teams should be comfortable in prioritising the pay-off of technical debt as often as necessary. And Product Owners should be open to debate in pushing down the priority of new feature development to facilitate this - understanding that too much unchecked short term thinking causes significant harm in the long term.
 
 
 ## 9. Monitor the application in production
 
-Monitoring the applicaiton in production can provide useful insights in to how the application performs in the real world. It can help identify common error conditions, and can highlight areas of the application that are less performant.
+Monitoring the application in production can provide useful insights in to how the application performs in the real world. It can help identify common error conditions, and can highlight areas of the application that are less performant.
 
 Correlating a deterioration in either of these metrics to a change in the software can be a useful thing to catch early, allowing a fix to be issued.
 
