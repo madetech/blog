@@ -11,9 +11,9 @@ One way to reduce the risk of these scenarios occurring is to outsource the mana
 ##Reasons to outsource
 
 ###Application improvements
-The most common reason to outsource is to ensure you have a team ready to help improve your application in a number of ways, from adding more functionality and features, to dealing with bugs and issues as they crop up.
+The most common reason to outsource is to ensure you have a team ready to help improve your application in a number of ways, from adding new functionality and features, to dealing with bugs and issues as they crop up.
 
-Perhaps less well known, but just as important, is ensuring you don't fall prey to ["bit rot"](https://www.madetech.com/blog/9-techniques-to-support-and-improve-software-quality). Ultimately, dealing with bit rot simply means dedicating maintenance time to making sure the environment your application runs in isn't negatively affecting it, whether it's the browser your users are using to interface with the application, or the software running on the machine that houses your application, these things need to be taken into consideration.
+Perhaps less well known, but just as important, is ensuring you don't fall prey to ["bit rot"](https://www.madetech.com/blog/9-techniques-to-support-and-improve-software-quality). Ultimately, dealing with bit rot simply means dedicating maintenance time to making sure the environment your application runs in isn't negatively affecting it, whether it's the browser your users are using to interface with the application, or the software running on the machine that houses your application.
 
 ###Lack of internal resources
 As mentioned above, when an application is built internally and reaches a point it could be considered complete, the team that built it is then typically given another project important to their organisation's goals, leaving the application to grow stale.
@@ -35,7 +35,7 @@ You want a team who have experience dealing with critical applications and are e
 ###Level of service
 Find out what level of service you can expect from a potential team, you need to know the number of hours each week your budget will cover, and whether the agreement covers 24/7 emergency support.
 
-Additionally, look for teams who communicate well and often - you're handing responsibility for the wellbeing of your application to a third party, but for the sake of transparency you want to be kept abreast of any development.
+Additionally, look for teams who communicate well and often - you're handing responsibility for the wellbeing of your application to a third party, but for the sake of transparency you want to remain an active part of development.
 
 ###Collaborators
 When you've zeroed in on a few likely candidates and have begun making initial enquiries, you ought to be looking for a team you can build a relationship with, who'll do more than simply the bare minimum to keep your application functional.
