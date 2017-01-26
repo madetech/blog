@@ -1,8 +1,8 @@
 #How to give your application the support it needs
 
-For many organisations with their own software application, whether it be a website, an internal tool or something else entirely, management of said application is a massive responsibility, particularly in the absence of an internal software team.
+For many organisations with their own software application, whether it be a website, an internal tool or something else entirely, managing said application can be a source of frustration, particularly in the absence of an internal software team.
 
-For applications built by external teams, what typically happens is the supplier and the customer part ways when the project is deemed complete, and this is where problems begin to arise. The accepted wisdom is that no software application is ever "complete" since, in the long term, both software and hardware technology evolves at a constantly increasing pace, forcing the need for applications to either keep up or become stagnant. On a shorter scale, no matter the application, unforeseen issues will inevitably make themselves known and require addressing. Many suppliers will offer a limited amount of after sales support, but as new projects come in, those suppliers may find their focus being pulled elsewhere, leading to frustration on both sides.
+For applications built by external teams, what typically happens is the supplier and the customer part ways when the project is deemed complete, and this is where problems begin to arise. The accepted wisdom is that no software application is ever "complete" since, in the long term, both software and hardware technology evolves at a constantly increasing pace, forcing the need for applications to either keep up or become stagnant. On a shorter scale, no matter the application, unforeseen issues will inevitably make themselves known and require addressing. Many suppliers will offer a limited amount of after sales support, either through a retainer or on a case by case basis but, as new projects come in, those suppliers may find their focus being pulled elsewhere, leading to frustration on both sides.
 
 If the application has been built internally, focus, and the connotations of the word "complete", can again be the primary issues in maintaining the software. As the project draws to a close, teams begin to shrink as resources are diverted to concentrate on other business objectives, leaving, at best, a skeleton crew behind to manage things. The application is then at risk of the team either being too short staffed to cope with emergencies in a timely fashion, or becoming apathetic to the project.
 
@@ -30,7 +30,7 @@ On the flip side, if you've outsourced maintenance to an external team, you may 
 So how do you go about finding the _right_ team? There are a number of factors to consider when researching potential suppliers:
 
 ###Experience
-You want a team who have experience dealing with critical applications and are equipped to meet the requirements of large organisations, rather than one of the thousands of businesses who offer lower level support (copy updates, basic HTML/CSS changes).
+There are a lot of businesses out there that offer support services, and it can be tempting to hand responsibility over to a cheaper option. What you need to be wary of is handing it over to a team who'll simply keep your application in a perpetual state of maintenance, and never evolves it into something better. You want a skilled team who have experience dealing with applications like yours, and who can help do more than just maintain it.
 
 ###Level of service
 Find out what level of service you can expect from a potential team, you need to know the number of hours each week your budget will cover, and whether the agreement covers 24/7 emergency support.
