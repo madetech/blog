@@ -37,6 +37,12 @@ Find out what level of service you can expect from a potential team, you need to
 
 Additionally, look for teams who communicate well and often - you're handing responsibility for the wellbeing of your application to a third party, but for the sake of transparency you want to remain an active part of development.
 
+###Availability
+One of the benefits of working in the software industry is the greater freedom it provides in allowing teams of developers to work remotely from anywhere with a stable internet connection, whether that's from a coffee shop, another city or even another country. Unfortunately, this isn't the case in many other industries so, when bringing in a support team, it's useful to know that physical location, or even time zones, won't be a barrier to getting good work done.
+
+###Communication
+Though the team you find will be working with you in a support capacity, it's likely there'll be numerous times when you need to get hold of them at a moment's notice. More than that, you need to know that the team, over time, are delivering results. Find teams who provide an open and active channel for you to engage with them in (Slack, Skype etc) on a daily basis, and who take the time to showcase the work they've done for you every couple of weeks.
+
 ###Collaborators
 When you've zeroed in on a few likely candidates and have begun making initial enquiries, you ought to be looking for a team you can build a relationship with, who'll do more than simply the bare minimum to keep your application functional.
 
