@@ -1,11 +1,11 @@
 # Recruiting a tech team
 
-Recruiting the right group of people is one of the most important parts of building an effective software delivery function. In this article, we take a look at some things you should consider when recruiting a team and some of the things that you should watch out for.
+Recruiting the right group of people is one of the most important parts of building an efficient software delivery function. In this article, we take a look at some things you should consider when recruiting a team and a few things that you should watch out for.
 
 ## Create a cohesive culture
-A big component of building an effective software delivery team is creating a cohesion culture. A cohesive culture is achieved when a team feels empowered to participate, can collaborate effectively and gets recognition for it's successes. To achieve this, you need the right leadership, the right mix of experience, and people with character traits that encourage cohesion.
+A key component of building an effective software delivery team is creating a cohesion culture. A cohesive culture is achieved when a team feels empowered to participate, can collaborate effectively and gets recognition for its successes. To achieve this, you need the right leadership, the right mix of experience, and people with character traits that encourage cohesion.
 
-When recruiting, you should be thinking about how to achieve a cohesion culture. Often when recruiting for software teams, people recruit with specific technical skills in mind, but we've found that it's just as important to consider other softer skills such as:
+When recruiting, you should be thinking about how to achieve a cohesive culture. Often when recruiting for software teams, people recruit with specific technical skills in mind, but we've found that it's just as important to consider other softer skills such as:
 
  * Is this person a team player?
  * Are they able to communicate effectively?
@@ -15,28 +15,28 @@ When recruiting, you should be thinking about how to achieve a cohesion culture.
 Although there isn't a 'one size fits all' approach to creating a cohesive culture, there are certainly signs that you can look out for during an interview process. It's important to watch out for these, and when you see them, question whether the candidate is somebody that will help encourage cohesion, or fight against it.
 
 ## Don't hire rockstars, ninjas or self-proclaimed superstars
-It's obviously important to hire talented people, but never hire anyone who considers themselves a 'rockstar' engineer. It's a sign of ego and self worth and a sure fire way to create a divided team.
+It's obviously important to hire talented people, but never hire anyone who considers themselves a 'rockstar' engineer. It's a sign of ego and self-worth and a sure fire way to create a divided team.
 
-Of course you want exception people on your team, just make sure they are humble and able to put their skills to good use, improving the team.
+Of course, you want exceptional people on your team. Just make sure they are humble and able to put their skills to good use, improving the team.
 
 ## Leverage network
-It's nearly always better to recruit through your existing network. Either through people you have worked with previously, or through contacts your team have within industry.
+It's nearly always better to recruit through your existing network. Either through people you have worked with previously, or through contacts your team have within the industry.
 
-The team should understand the needs of the organisation and what it is like to work there and their relationship with a candidate means they will already know a lot more than can be discovered during an interview process.
+The team should understand the needs of the organisation and what it is like to work there. Their relationship with a candidate means they will already know a lot more than can be discovered during an interview process.
 
 These kind of network referrals are the best indication you'll get as to whether or not a candidate will be successful, so favour them over other recruitment routes.
 
 ## Referral bonuses
-It's become fairly common for organizations to offer incentives to staff to help encourage recruitment referrals. In our experience, good people will automatically want to bring their most talented friends and acquaintances along. Offering incentives can help, and may result in a few additional hires, but it's questionable as to whether carrot and stick motivation ultimately lead to stronger teams.  
+It's become fairly common for organisations to offer incentives to staff to help encourage recruitment referrals. In our experience, awesome people will automatically want to bring their most talented friends and acquaintances along. Offering incentives can help and may result in a few additional hires, but it's questionable as to whether carrot and stick motivation ultimately lead to stronger teams.  
 
-Our advise would be to focus on building a great culture, which your team are proud of and their network of acquaintances are eager to join. You can still thank people for referrals, but hopefully you'll find that by flipping the motivation model from extrinsic to intrinsic, you'll end up in a happier place.
+Our advice would be to focus on building a great culture, which your team are proud of and their network of acquaintances are eager to join. You can still thank people for referrals, but hopefully, you'll find that by flipping the motivation model from extrinsic to intrinsic, you'll end up in a happier place.
 
 ##  Strive for diversity
-It’s no secret that many software teams struggle with diversity. While there are a number of factors limiting progress, it's important that you consider diversity when recruiting. There are steps that you can take, such as:
+It’s no secret that many software teams struggle with diversity. While there are some factors limiting progress, it's important that you consider diversity when recruiting. There are steps that you can take, such as:
 
 * Helping people to reduce unconscious bias
-* Capturing and reviewing data that highlights diversity within your organisationa
-* Scrutinizing job advertisements and internal practices, to ensure they don't unintentionally discourage certain demographics.
+* Capturing and reviewing data that highlights diversity within your organisation
+* Scrutinising job advertisements and internal practices, to ensure they don't unintentionally discourage certain demographics.
 
 Whatever you do, make sure diversity is on your radar. It's important that
 
@@ -46,19 +46,19 @@ One of the challenges you'll face after you've recruited some good people, is ke
 It's fairly common to see companies offer perks and incentives to help encourage employees to stick around. In our experience, the most important thing is to ensure they can keep on learning, improving and getting better. This means having work which is challenging, that is going to push them to get better. If this dries up and day-to-day becomes mundane, you'll often find people won't stick around.
 
 ## Above-market salaries
-Where possible, you should look to take money off the table and pay above industry salaries. This can help to attract a higher calibre of individual (providing your recruiting well!) and shows your team that you value them.
+Where possible, you should look to take money off the table and pay above industry wages. This may help to attract a higher calibre of individual (providing your recruiting well!) and shows your team that you value them.
 
-This approach is particularly relevant in fields which are highly leveraged and software delivery is generating a very strong ROI. When this is the case, it can make sense to pay well above-market rates and get above-average performers, as it can be a win for the organization and a win for the employee.
+This approach is particularly relevant in fields which are highly leveraged and where software delivery is generating a good ROI. When this is the case, it can make sense to pay well above market rates and get above-average performers, as it can be a win for the organisation and a win for the employee.
 
 This approach is obviously dependent on an organisation being in a strong financial position, which tends to limit the number of organisations that can do this.
 
 ## Don't use contractors
-The software industry has a large number of people who work on a contract basis. In our experience, it's inadvisable to build software teams comprised of primarily contractors.
+The software industry has a large number of people who work on a contract basis. In our experience, it's inadvisable to build software teams comprised primarily of contractors.
 
-We have found the most effective teams to be those which have worked together for extended periods of time and this typically means fulltime staff. We tend to find contract staff have a more short-term view and fluctuation in contract staff can mean your delivery teams are constantly in a state of flux.
+We have found the most efficient teams to be those who have worked together for extended periods of time. This typically means full-time staff. We tend to find contract staff can take a short-term view, and this fluctuation in contract staff can mean your delivery teams are in a constant state of flux.
 
 ## Liberation
-It's human nature to avoid making difficult decisions. Nobody wants to be fired, or to have to tell someone that they no longer have a job. However, when faced with this scenario, it's vital that you act quickly and let them go as soon as possible.
+It's human nature to avoid making difficult decisions. Nobody wants to be fired or to have to tell someone that they no longer have a job. However, when faced with this scenario, it's vital that you act quickly and let them go as soon as possible.
 
 It's a sad truth that many organisations end up carrying underperforming team members for years. This can have a big impact on morale and wider team performance, so it's important that the situation is dealt with.
 
@@ -73,6 +73,6 @@ It's a sad truth that many organisations end up carrying underperforming team me
 ## Ongoing improvement
 
 ## Conclusion
-Recruiting a strong software delivery team is tough. It requires a huge amount of effort, starting with finding the right people, then convincing them to join and moulding them into a cohesive team that works effectively together. If you can achieve this, then you've done extremely well and you are well on your way to building a high performance software team.
+Recruiting a strong software delivery team is tough. It requires a huge amount of effort, starting with finding the right people, then convincing them to join and moulding them into a cohesive team that works well together. If you can achieve this, then you've done extremely well, and you are well on your way to building a high-performance software team.
 
-You'll find that once you've got the first batch of good people onboard, it should start to get easier. Talented and motivated individuals tend to attract others and with good management, the team should continue to grow and improve for years to come.
+You'll find that once you've got the first batch of great people onboard, it should start to get easier. Talented and motivated individuals tend to attract other talented and motivated individuals. With decent management, the team should continue to grow and improve for years to come.
