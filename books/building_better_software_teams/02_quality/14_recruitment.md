@@ -45,10 +45,20 @@ One of the challenges you'll face after you've recruited some good people, is ke
 
 It's fairly common to see companies offer perks and incentives to help encourage employees to stick around. In our experience, the most important thing is to ensure they can keep on learning, improving and getting better. This means having work which is challenging, that is going to push them to get better. If this dries up and day-to-day becomes mundane, you'll often find people won't stick around.
 
+## Above-market salaries
+Where possible, you should look to take money off the table and pay above industry salaries. This can help to attract a higher calibre of individual (providing your recruiting well!) and shows your team that you value them.
+
+This approach is particularly relevant in fields which are highly leveraged and software delivery is generating a very strong ROI. When this is the case, it can make sense to pay well above-market rates and get above-average performers, as it can be a win for the organization and a win for the employee.
+
+This approach is obviously dependent on an organisation being in a strong financial position, which tends to limit the number of organisations that can do this.
+
 ## Don't use contractors
-The software industry has a large large number of people who work as contractors within the software delivery. We
+The software industry has a large number of people who work on a contract basis. In our experience, it's inadvisable to build software teams comprised of primarily contractors.
+
+We have found the most effective teams to be those which have worked together for extended periods of time and this typically means fulltime staff. We tend to find contract staff have a more short-term view and fluctuation in contract staff can mean your delivery teams are constantly in a state of flux.
 
 ## Embrace juniors
+
 
 ## Liberation
 It's human nature to avoid making difficult decisions. Nobody wants to be fired, or to have to tell someone that they no longer have a job. However, when faced with this scenario, it's vital that you act quickly and let them go as soon as possible.
@@ -56,8 +66,6 @@ It's human nature to avoid making difficult decisions. Nobody wants to be fired,
 It's a sad truth that many organisations end up carrying underperforming team members for years. This can have a big impact on morale and wider team performance, so it's important that the situation is dealt with.
 
 ## Colocate or remote
-
-## Overpay within industry
 
 ## Structure of teams
 
