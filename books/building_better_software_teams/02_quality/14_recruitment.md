@@ -57,13 +57,12 @@ The software industry has a large number of people who work on a contract basis.
 
 We have found the most effective teams to be those which have worked together for extended periods of time and this typically means fulltime staff. We tend to find contract staff have a more short-term view and fluctuation in contract staff can mean your delivery teams are constantly in a state of flux.
 
-## Embrace juniors
-
-
 ## Liberation
 It's human nature to avoid making difficult decisions. Nobody wants to be fired, or to have to tell someone that they no longer have a job. However, when faced with this scenario, it's vital that you act quickly and let them go as soon as possible.
 
 It's a sad truth that many organisations end up carrying underperforming team members for years. This can have a big impact on morale and wider team performance, so it's important that the situation is dealt with.
+
+## Embrace juniors
 
 ## Colocate or remote
 
@@ -74,3 +73,6 @@ It's a sad truth that many organisations end up carrying underperforming team me
 ## Ongoing improvement
 
 ## Conclusion
+Recruiting a strong software delivery team is tough. It requires a huge amount of effort, starting with finding the right people, then convincing them to join and moulding them into a cohesive team that works effectively together. If you can achieve this, then you've done extremely well and you are well on your way to building a high performance software team.
+
+You'll find that once you've got the first batch of good people onboard, it should start to get easier. Talented and motivated individuals tend to attract others and with good management, the team should continue to grow and improve for years to come.
