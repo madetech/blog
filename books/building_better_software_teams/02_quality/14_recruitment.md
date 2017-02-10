@@ -67,19 +67,25 @@ It's human nature to avoid making difficult decisions. Nobody wants to be fired 
 It's a sad truth that many organisations end up carrying underperforming team members for years. This can have a big impact on morale and wider team performance, so it's important that the situation is dealt with.
 
 ## Embrace juniors
-The next generation of the sofware industry need support. It's important that
+[WIP]The next generation of the sofware industry need support. It's important that
 
 ## Colocate or remote
-
-## Structure of teams
+[WIP] Tradeoffs of working remotely. Less cohesion. Get more done. Wider talent pool.
 
 ## Onboard effectively
+[WIP]Talk about those first few weeks being important. Make people feel valued. Get them knowing their team. First 30 days will make or break things.
 
-## Ongoing improvement
+## Structured interview
+[WIP]One of the challenges in recruiting for larger organisations is finding consistency around quality of candidates quality of recruiter. You often find that de
+
+## Retrospecting the interview process
+As with any process, it's important to frequently assess performance and find ways to do things better. Recruitment is no difference. It's important to set aside time to talk to candidates about the recruitment process, to find out what has worked well and not so well for them.
+
+We've explored running facilitated retrospectives with candidates that we've employed and rejected. This would help us understand what the next evolution of an interview process might look like and steps we would need to take to get there.
 
 ## Conclusion
 Recruiting a strong software delivery team is tough. It requires a huge amount of effort, starting with finding the right people, then convincing them to join and moulding them into a cohesive team that works well together. If you can achieve this, then you've done extremely well, and you are well on your way to building a high-performance software team.
 
 You'll find that once you've got the first batch of great people onboard, it should start to get easier. Talented and motivated individuals tend to attract other talented and motivated individuals. With decent management, the team should continue to grow and improve for years to come.
 
-Good luck! 
+Good luck!
