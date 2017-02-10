@@ -95,8 +95,31 @@ You may notice that both of these exercises follow the same outline as the basic
 
 Mixing these exercises up is an ideal way to keep things fresh and provide different perspectives and prompts to these questions, and also make it feel like it's not always the same thing every time.
 
+## Action points
+
+The outcomes of a retrospective can be used to identify action points (we normally pick 3) that can be used to try and enact improvements to the next iteration. In the example of the Hot Air Balloon these would be the sunny path. Making sure that these action points are focused and achievable is an essential part of making sure they are carried forward rather than abandoned.
+
 ## Comradrospectives
 
-## Client inclusive retrospectives
+Where a standard retrospective is for smaller teams, we see the Comradrospective as a coming together of the smaller teams to discuss wider issues, and learnings from the smaller retrospectives.
 
-## Action points
+Comradrospectives have the following in common with retrospectives:
+
+ * Prime Directive is read out at the beginning
+ * A safety check is held before hand
+ * There is a facilitator assigned
+ * Action points are decided on at the end of the session
+
+These sessions can sometimes be focused on a particular topic, or where each team brings discussion points from their retrospectives so that it can be shared amongst the company. For example; things that have been holding them back and their biggest successes. The facilitator of the team retrospective can collate these in advance and propose them to the wider group.
+
+Through sharing and discussing these points as a group the company can identify issues affecting all teams and create action points to try and tackle these.
+
+The Comradro should also address previous action points to see if these are being tackled, if they aren't they should be discussed as to whether they are still seen as a mutual priority and if not the can be archived.
+
+We timebox the Comradrospective to 60 minutes.
+
+## Customer inclusive retrospectives
+
+Involving stakeholders from the customer side in a retrospective can be a valuable way to improve not only communication but provide greater understanding for both sides. This allows for clear feedback from the customer beyond the content of showcases and can strengthen the relationship as they can see the action points that are formed out of the retro.
+
+These should follow the same pattern as any other retrospective and can be run as frequently as the team and customer desire.
