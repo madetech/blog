@@ -60,7 +60,7 @@ Tips:
 
 With offshoring sometimes cutting local rates ten-fold, it provides some particularly compelling headline cost reductions.
 
-That said, it may be naive to assume that this cost saving will be directly realised. Strong software engineers bring far more to the table than just pure programming horsepower: engaging with stakeholders, interpreting commercial goals, improving software architectures etc. It's hard to perform a direct day-rate comparison.
+That said, it may be naive to assume that this cost saving will be directly realised. Strong software engineers bring far more to the table than just pure programming horsepower: engaging with stakeholders, interpreting commercial goals, improving software architectures etc. It's hard to perform a direct day rate comparison.
 
 It's important to note that while day rates can provide a seemingly reasonable cost comparison, the output, both in quality and ultimately quantity can vary hugely between teams. We've observed offshore teams staffed with 40+ people delivering a comparable output to a team of perhaps 5-strong local team.
 
@@ -73,7 +73,7 @@ Tips:
 
 ## Addressing root cause
 
-Perhaps more a comment on the way some teams structure their workflow rather than offshoring specifically, that said, we've very often seen this challenge arise with offshored teams.
+The issue of addressing root cause is perhaps more a comment on the way some teams structure their workflow rather than offshoring specifically. That said, we've very often seen this challenge arise with offshored teams.
 
 Particularly where the people working in the team change often, as well as valuable domain knowledge not being accrued, the understanding of the application can also be lacking, resulting in many quick-fix solutions, over well considered root cause fixes.
 
