@@ -56,6 +56,17 @@ Tips:
   - If you experience quality issues, try to understand where they're rooted. The root cause is not always in engineering capability.
 
 
+## Shared understanding of expectations
+
+When crossing any organisational boundary, different expectations may exist for what 'good' looks like, particularly things such as quality, security, and user experience.
+
+A common answer to this can be to try to document everything in very fine-grained detail, passing large specification documents over the boundary, which in-turn can have many knock-on effects to the speed of delivery, ownership, and subsequently quality.
+
+Tips:
+  - Ensure expectations are well understood by looking to share values rather than large specification documents
+  - Encourage teams to collaborate with one another, and work together to reach shared solutions
+
+
 ## Cost savings not easily realised
 
 With offshoring sometimes cutting local rates ten-fold, it provides some particularly compelling headline cost reductions.
@@ -117,6 +128,19 @@ In the short team, some business folk may see it as desirable to work with a del
 Tips:
   - To keep an application's codebase maintainable and in good health, it's important to work with teams who are able to drive a strong engineering agenda
   - Look for teams who collaborate with the stakeholders, rather than blindly execute against requirements
+
+
+## Demotivation of local team
+
+We've seen cases where a local team who were initially hired for their engineering expertise have their role shifted to now effectively become Managers / Product Owners for an offshored development team.
+
+Additionally, due to communication overheads, speed and quality of delivery, and an inability to enact change, we've observed wider local teams become frustrated when working with offshore partners. This can erode confidence in the organisation's ability to delivery technology products, which can in turn lead to people seeking ways to bypass the organisation's engineering capability.
+
+Tips:
+  - Ensure people across the organisation who will be affected by a decision to offshore are bought in to, or at least understand the commercial strategy behind the decision
+  - Be aware that many people's roles may have additional overhead placed on them to make the offshoring partnership work
+  - Keep a close eye on measures such as cycle time and internal satisfaction with engineering delivery
+
 
 
 Offshoring remains an attractive proposition, particularly for the headline cost savings. And there are certainly examples of organisations reaping benefits from offshoring part of their workload.
