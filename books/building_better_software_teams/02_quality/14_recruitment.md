@@ -1,23 +1,21 @@
 # Recruiting a tech team
 
-Recruiting the right group of people is one of the most important parts of building an top software delivery team. In this article, we take a look at some things you should consider whilst recruiting, and a few things that you should try and avoid.
+Recruiting the right group of people is one of the most important parts of building an top software delivery team. In this article, we take a look at some things you should consider whilst recruiting, and a few things that you should try to avoid.
 
 ## Create a cohesive culture
-A key component of building an effective software delivery team is creating a cohesion culture. A cohesive culture is achieved when a team feels empowered to participate, can collaborate effectively and gets recognition for its successes. To achieve this, you need the right leadership, the right mix of experience, and people with character traits that encourage cohesion.
+A key component of building an effective software delivery team is creating a cohesive culture. A cohesive culture is achieved when a team feels empowered to participate, can collaborate effectively and gets recognition for its successes. To achieve this, you need the right leadership, the right mix of experience, and people with character traits that encourage cohesion.
 
-When recruiting, you should be thinking about how to achieve a cohesive culture. Often people recruit with specific technical skills in mind, but we've found that it's just as important to consider other softer skills such as:
+When recruiting, you should be thinking about how to achieve a cohesive culture. Often people recruit with specific technical skills in mind, but we've found that it's just as important to consider softer skills such as:
 
  * Is this person a team player?
  * Are they able to communicate effectively?
  * Do they take responsibility or blame others?
  * Do they have a positive outlook?
 
-Although there isn't a 'one size fits all' approach to creating a cohesive culture, there are certainly signs that you can look out for during an interview process.
-
-It's important to look out for these signs, and when you see them, question whether the candidate is somebody that will help encourage cohesion, or fight against it.
+Although there isn't a 'one size fits all' approach to creating a cohesive culture, there are certainly signs that you can look out for during an interview process, and when you see them, question whether the candidate is somebody who will help encourage cohesion, or fight against it.
 
 ## Don't hire rockstars, ninjas or self-proclaimed superstars
-It's obviously important to hire talented people, but never hire anyone who considers themselves a 'rockstar' engineer. It's a sign of ego and self-worth and a sure fire way to create a divided team.
+It's important to hire talented people, but never hire anyone who considers themselves a 'rockstar' engineer. It's a sign of ego and self-worth and a sure fire way to create a divided team.
 
 Of course, you want exceptional people on your team. Just make sure they are humble and able to put their skills to good use, improving the team.
 
