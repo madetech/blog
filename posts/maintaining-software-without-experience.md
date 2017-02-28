@@ -1,6 +1,6 @@
-#Maintaining software applications in non-software focussed organisations
+#The importance of software support and maintenance for all organisations
 
-It's rare to encounter an organisation where software _isn't_ an important aspect of their day-to-day operation. Whether it's a small business with a simple website, an international retailer with an e-commerce store and a warehouse management tool, or a charity organisation collecting, storing and reporting environmental data, at some point, each of those organisations will need to engage on some level with a piece of software in order to ensure its smooth operation.
+It's rare to encounter an organisation where software _isn't_ an important aspect of their day-to-day operation. Whether it's a small business with a simple website, an international retailer with an e-commerce store and a Warehouse Management System, or a charity organisation collecting, storing and reporting environmental data, at some point, each of those organisations will need to engage on some level with a piece of software in order to ensure its smooth operation.
 
 ##Organisations with a software team
 
