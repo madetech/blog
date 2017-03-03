@@ -116,6 +116,10 @@ It worked well enough throughout most of the development, it wasn't until we had
 
 It would have been preferable to define CSS in JS inside our React components instead, using a library like Radium, Glamor, or a litany of others. This would have allowed us to easily switch out values based on props, or even define multiple presentational components for each theme, which would have not only made our code a lot cleaner, but easier to run and deploy.
 
+## You should use React
+
+The user experience is phenomenal in a well built React app, the development experience at its best is too. The community hasn't grown enough to have good, conventional solutions to plenty of problems yet, but it's getting better. There are well known pain points, and plenty of niche ones you'll discover yourself, but this leaves you room for innovation.
+
 <!-- ## Use proper dependency injection -->
 
 <!-- ## Establish proper boundaries and use simple prop structures, for your sanity's sake / Maintain synchronous rendering -->
