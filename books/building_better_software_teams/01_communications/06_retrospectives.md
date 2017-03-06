@@ -12,13 +12,13 @@ Retrospectives that have resulted in action points that led to big improvements 
 
 > Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand - _[Norm Kerth](http://www.retrospectives.com/pages/retroPrimeDirective.html)_
 
-It's vital that a retrospective is run in a way where all members feel safe to discuss their viewpoints. Describing something that went wrong should always be separated from an individual so that they don't feel attacked. If someone feels unsafe they're unlikely to be able to fully engage with the retrospective. Violations of The Prime Directive, deliberate or otherwise, should be seen as a team smell, and may lead to the team going into the next iteration with a negative mindset.
+It's vital that a retrospective is run in a way where all members feel safe to discuss their viewpoints. Describing something that went wrong should always be separated from an individual so that they don't feel attacked. If someone feels unsafe they're unlikely to be able to fully engage with the retrospective. Violations of The Prime Directive, deliberate or otherwise, should be seen as a team smell and may lead to the team going into the next iteration with a negative mindset.
 
 There are some steps you can take to help maintain safety, such as reading out The Prime Directive before a retro, having facilitators conducting safety/pressure checks which we'll cover later.
 
 ## Safety checks
 
-Before starting a retro we'd recommend you run a safety check. The facilitator should ask each team member to write a number between 0 and 5 on a post-it or similar, the meaning of these numbers is shown below:
+Before starting a retrospective we'd recommend you run a safety check. The facilitator should ask each team member to write a number between 0 and 5 on a post-it or similar, the meaning of these numbers is shown below:
 
 5 - I’ll talk about anything
 4 - I’ll talk about almost anything; a few things might be hard
@@ -41,18 +41,18 @@ If the safety level has increased after this point, then you can run the retrosp
 
 ## Facilitators
 
-An important role in a retrospective is that of the Facilitator. They have important tasks to do, while also contributing in feedback too:
+An key role in a retrospective is that of the Facilitator. They have important tasks to do, while also contributing in feedback:
 
  * Outlines the exercise to the team and explains how it should work
- * Keeps the exercise on track, with a balance of strict time keeping while trying to keep the atmosphere relaxed and informal in vibes
+ * Keeps the exercise on track, with a balance of strict time keeping while trying to keep the atmosphere relaxed and informal
  * Ensures the Prime Directive is adhered to
  * If the team is struggling with items to contribute, helping and prompting thoughts and ideas
  * Follows up after a retrospective with the action points being circulated around the team
- * Try to ensure everyone on the team contributes to the discussion
+ * Tries to ensure everyone on the team contributes to the discussion
 
 The facilitator is responsible for coming up with the exercise the retrospective will use. We'll discuss some different ideas below, but there are numerous websites out there that provide ready made ones that are simple to follow.
 
-To keep retrospectives fresh and different, it's important to rotate the responsibility between all team members each session that's held.
+To keep retrospectives fresh and different, try occasionally rotating said responsibility so that different members of the team get a chance to define how the session will run.
 
 ## Scheduling and frequency
 
@@ -66,7 +66,7 @@ To keep energy up in a retrospective and help provide focus to the areas the tea
 
 Some exercises that we've found useful, and you could try:
 
-### The Happiness Graph
+### The happiness graph
 
 Ask each team member to draw a graph of how happy they were over the duration of the sprint. Once everyone has finished, move around the table asking people to go into a bit more detail of the high and low spikes. Write a post-it note for each of these, adding them to a board.
 
@@ -76,16 +76,16 @@ This provides a chance to measure team sentiment while conducting the retrospect
 
 ### Hot air balloon
 
-The hot air balloon exercise is popular in our office, it works as follows;
+The hot air balloon exercise is popular within our team, it works as follows;
 
 1. Draw a hot air balloon on a whiteboard or other canvas.
 2. The facilitator should provide a prompt like 'Looking back, what was our hot air, taking us higher, and what were our sand bags, bringing us down?'
-	* They should then right these down above and below the balloon as appropriate.
+	* They should then write these down above and below the balloon as appropriate.
 	* The team discusses each point as they go to make sure there is a shared understanding.
 3. The facilitator then can offer another prompt 'Looking ahead; what stormy weather can we see making the route to our goal difficult, and what steps can we take to move towards sunny days and an easier path?'
 	* These suggestions are again mapped to their appropriate area on the drawing, and discussed among the team.
 
-By approaching the retro in this way we can not both reflect on the previous iteration, and look ahead and spot potential pitfalls and ways to avoid them.
+By approaching the retrospective in this way we can not both reflect on the previous iteration, and look ahead and spot potential pitfalls and ways to avoid them.
 
 You may notice that both of these exercises follow the same outline as the basic one provided at the start. Most exercises serve as wrappers to the core idea of;
 
@@ -93,7 +93,7 @@ You may notice that both of these exercises follow the same outline as the basic
 2. What went well?
 3. How can we improve going forward?
 
-Mixing these exercises up is an ideal way to keep things fresh and provide different perspectives and prompts to these questions, and also make it feel like it's not always the same thing every time.
+Don't let retrospectives become monotonous; mixing these exercises up is an ideal way to keep things fresh and provide different perspectives and prompts to these questions.
 
 ## Action points
 
@@ -114,7 +114,7 @@ These sessions can sometimes be focused on a particular topic, or where each tea
 
 Through sharing and discussing these points as a group the company can identify issues affecting all teams and create action points to try and tackle these.
 
-The Comradro should also address previous action points to see if these are being tackled, if they aren't they should be discussed as to whether they are still seen as a mutual priority and if not the can be archived.
+The Comradrospective should also address previous action points to see if these are being tackled, if they aren't they should be discussed as to whether they are still seen as a mutual priority and if not the can be archived.
 
 We timebox the Comradrospective to 60 minutes.
 
