@@ -90,4 +90,6 @@ The really innovative companies are creating shared offices where teams with div
 
 Leaders should encourage everybody to work with anybody to solve company problems. Employees should be able to move freely to another team if needed for the current objectives, and the decision to attend a meeting should be made by anyone who believes it will achieve progress towards the higher company goals.
 
-## Conclusion
+## Summary
+
+Silos create organisational bottlenecks. In any organisation, this can feel like arbitrary red tape, slowing progress for no real reason. For software teams, an individual having exclusive domain knowledge means the team's ability to develop and release software is hampered when said individual is unavailable. Look for ways to ensure such knowledge is shared amongst the whole team by making everyone aware of the goals your organisation has, and the role the software they're building plays in pursuit of those goals.
