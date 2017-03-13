@@ -18,7 +18,7 @@ Goal misalignments are usually unintentional, so it is important to mitigate the
 
 ### Communicating with Stakeholders
 
-To understand an organisations aims in detail, gathering a list of stakeholders and understanding their goals and how they fit into the bigger picture is often useful. One technique that we have found works very well is the use of regular [client showcases](https://www.madetech.com/blog/client-showcases). These showcases ensure that the parties concerned with the delivery of solutions are kept involved in the evolution of the plan, and feel a sense of ownership of the direction in which the project is going.
+To understand an organisation's aims in detail, gathering a list of stakeholders and understanding their goals and how they fit into the bigger picture is often useful. One technique that we have found works very well is the use of regular [client showcases](https://www.madetech.com/blog/client-showcases). These showcases ensure that the parties concerned with the delivery of solutions are kept involved in the evolution of the plan, and feel a sense of ownership of the direction in which the project is going.
 
 ### Communicating with Specialists
 
