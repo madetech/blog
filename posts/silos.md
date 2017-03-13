@@ -2,7 +2,7 @@
 
 A silo exists in an organisation when one group within the organisation has differing goals to another. In most organisations there are groups of people that, usually, have an objective to fulfil by an agreed upon date. For example, the Sales team is set a mandate to increase the number of customers of the company by 10% every month, whereas the Support team has internal performance goals, and one of them is to deliver support within a fixed budget.
 
-These teams have the freedom to innovate to achieve their goals. The Sales team choose to slash the price of their product, and immediately it is flying off the shelves; the Sales team are now celebrating! The Support team however are now under pressure, and cannot offer a quality service to all their new customers without new members of staff. Due to the product’s newly discounted price tag, the company cannot afford this extra operational cost.
+These teams have the freedom to innovate to achieve their goals. The Sales team choose to slash the price of their product, and immediately it is flying off the shelves; the Sales team are celebrating! The Support team however are now under pressure, and cannot offer a quality service to all their new customers without new members of staff. Due to the product’s newly discounted price tag, the company cannot afford this extra operational cost.
 
 Before long, the company gets a reputation for poor customer support. These two silos, sales and support, have potentially compromised the future of the enterprise.
 
@@ -18,7 +18,7 @@ Goal misalignments are usually unintentional, so it is important to mitigate the
 
 ### Communicating with Stakeholders
 
-To understand an organisations aims in detail, gathering a list of stakeholders and understanding their goals and how they fit into the bigger picture, is often useful. One technique that we have found works very well is the use of regular [client showcases](https://www.madetech.com/blog/client-showcases). These showcases ensure that the parties concerned with the delivery of solutions are kept involved in the evolution of the plan, and feel a sense of ownership of the direction in which the project is going.
+To understand an organisations aims in detail, gathering a list of stakeholders and understanding their goals and how they fit into the bigger picture is often useful. One technique that we have found works very well is the use of regular [client showcases](https://www.madetech.com/blog/client-showcases). These showcases ensure that the parties concerned with the delivery of solutions are kept involved in the evolution of the plan, and feel a sense of ownership of the direction in which the project is going.
 
 ### Communicating with Specialists
 
