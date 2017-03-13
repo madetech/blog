@@ -28,7 +28,7 @@ A traditional silo is that of an IT department, viewed as a cost centre. Meanwhi
 
 ### Uncovering hidden goals
 
-Hidden goals are those goals which are usually found within silos and not shared with the broader business. Inadequate communication is often the cause for these hidden goals, and although it is not reasonable to expect them to all be discovered early on in the development process, it is worth actively seeing them out.
+Hidden goals are those goals which are usually found within silos and not shared with the broader business. Inadequate communication is often the cause for these hidden goals, and although it is not reasonable to expect them to all be discovered early on in the development process, it is worth actively seeking them out.
 
 We have found that practising Continuous Delivery is a useful tool for uncovering such goals, given that it allows for a frequent and detailed feedback loop with stakeholders. We can showcase potential solutions regularly, giving stakeholers an effective forum to guide the direction of the project.
 
