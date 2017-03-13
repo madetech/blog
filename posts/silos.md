@@ -12,7 +12,7 @@ What happened here is that this organisation had failed to see the broader pictu
 
 At Made Tech, we commonly encounter silos within our client organisations, so one of our top priorities on a new engagement is the alignment of our customer’s goals. Cutting through these silos is critical to avoiding scenarios like the one discussed above, and to ensure that our software delivers the greatest value to the whole business.
 
-In situations where our point of contact has a silo-goal, failure to identify this quickly means software can be designed and delivered which does not benefit the wider company aims. Aside from making it difficult to deliver simple solutions for the organisation in the future, this can also have an impact on working relationships
+In situations where our point of contact has a silo-goal, failure to identify this quickly means software can be designed and delivered which does not benefit the wider company aims. Aside from making it difficult to deliver simple solutions for the organisation in the future, this can also have an impact on working relationships.
 
 Goal misalignments are usually unintentional, so it is important to mitigate these behaviours with  activities designed to aid delivering great solutions for the whole business.
 
@@ -32,7 +32,7 @@ Hidden goals are those goals which are usually found within silos and not shared
 
 We have found that practising Continuous Delivery is a useful tool for uncovering such goals, given that it allows for a frequent and detailed feedback loop with stakeholders. We can showcase potential solutions regularly, giving stakeholers an effective forum to guide the direction of the project.
 
-Despite this, goals can remain hidden even after showcases. When stakeholders offer feedback on your solution, that feedback may be a product of a hidden goal. It is therefore important to test assumptions about why these changes are being made. Be sure to ask questions about any feedback, even if the answer appears obvious.
+Despite this, goals can remain hidden even after showcases. When stakeholders offer feedback on your solution, that feedback may be the product of a hidden goal. It is therefore important to test assumptions about why these changes are being made. Be sure to ask questions about any feedback, even if the answer appears obvious.
 
 ## Detecting silos
 
@@ -44,11 +44,11 @@ Communication go-betweens operating as a proxy between engineering and customers
 
 ### Prescribed solutions
 
-Controlling every detail of a solution in a top-down fashion removes freedom from software delivery teams. Lack of liberty makes it less desirable or necessary for cross-functional teams to emerge (through interdepartmental collaboration). Moreover, this freedom is key to the production of truly innovative and uncomplicated solutions. Managers should not need to be involved in every single minutia of a solution, only that the software delivery teams are solving the most pressing strategic issues.
+Controlling every detail of a solution in a top-down fashion removes freedom from software delivery teams. Lack of liberty makes it less desirable or necessary for cross-functional teams to emerge (through interdepartmental collaboration). Moreover, this freedom is key to the production of truly innovative and simple solutions. Managers should not need to be involved in every single minutia of a solution, only that the software delivery teams are solving the most pressing strategic issues.
 
 ### Passing the buck
 
-When no department can deal with an unexpected critical issue and instead passes the buck to another, it can indicate that no team or individual holds true accountability for resolving that issue. The underlying problem is that it shows that people are not aligned with the goals of the company itself. This conflict with the business is showing that those departments passing the buck have formed a silo against the organisation itself.
+When no department can deal with an unexpected critical issue and instead passes the buck to another, it can indicate that no team or individual holds true accountability for resolving that issue. The underlying problem is that it shows that people are not aligned with the goals of the company itself. This conflict with the business indicates that those departments passing the buck have formed a silo against the organisation itself.
 
 ### Lack of robust goal setting
 
@@ -60,7 +60,7 @@ Allocating departmental budgets, or in extreme cases, spinning out separately re
 
 ### Competitive individual KPIs
 
-When the performance evaluation of individuals prevents or discourages collaboration and knowledge-sharing there is no incentive to behave strategically. This friction can create problems internally for a single department just as much as cross-departmentally. For example, engineers may decide it is not in their best interest interest to behave colaboratively, potentially reducing the quality and speed of delivery of solutions.
+When the performance evaluation of individuals prevents or discourages collaboration and knowledge-sharing there is no incentive to behave strategically. This friction can create problems internally for a single department just as much as cross-departmentally. For example, engineers may decide it is not in their best interest interest to behave collaboratively, potentially reducing the quality and speed of delivery of solutions.
 
 ### Hiring
 
