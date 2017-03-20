@@ -219,7 +219,26 @@ curl -o ec2.ini \
 Copy the below playbook file to `provision-infra.yml`:
 
 ```yml
-infra here
+---
+- hosts: security_group_web_instances
+  become: yes
+  become_method: sudo
+  remote_user: ubuntu
+
+  tasks:
+    - name: Install packages
+      apt:
+        name: "{{ item }}"
+        update_cache: true
+      with_items:
+        - php5
+
+    - name: Add a test PHP script
+      copy:
+        src: /var/www/index.php
+        dest: /var/www/index.php
+        
+
 ```
 
 And then provision the instances by running the following command:
@@ -229,9 +248,7 @@ AWS_PROFILE=playground \
 AWS_REGION=eu-west-1 \
 ANSIBLE_HOST_KEY_CHECKING=false \
 ANSIBLE_PRIVATE_KEY_FILE=web \
-ansible-playbook -i ec2.py \
-  provision-infra.yml \
-  --limit tag_Name_web
+ansible-playbook -i ec2.py provision-infra.yml
 ```
 
 Once completed, the instances should have PHP configured with a running test script. As we added a health check to our load balancer, once it detects the presence of the script, it will start serving traffic to that instance.
