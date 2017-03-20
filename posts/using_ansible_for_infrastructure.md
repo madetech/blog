@@ -27,7 +27,7 @@ When setting up new resources for an infrastructure project, the first thing I u
 To generate the key I use:
 
 ```
-ssh-keygen -t rsa -C my_project_key -f ./my_project_key -P ''
+ssh-keygen -t rsa -C web -f ./web -P ''
 ```
 
 The value for the `-C` flag is the comment that is included in the public key. This can be something descriptive related to the project you're working on. The `-f` value is the name of the file that the keypair will be saved to. The value you specify will be the exact name for the private key. The public key will have a `.pub` appended onto the filename automatically.
@@ -41,13 +41,36 @@ Create another file called `build-infra.yml` and in this file include:
   gather_facts: false
 
   tasks:
-    - name: Add php_web keypair
+    - name: Add web keypair
       ec2_key:
-        name: kjus_php_web
-        key_material: "{{ lookup('file', 'my_project_key.pub') }}"
+        name: web
+        key_material: "{{ lookup('file', 'web.pub') }}"
         state: present
 ```
 
+The first three options, `hosts`, `connection` and `gather_facts` are setting up the Ansible playbook to use your local machine to run the subsequent modules that we define in it. As mentioned above, that is because behind the scenes we use our local computer to do the communication with the AWS API.
+
+We're then defining a standard Ansible task using one of the AWS modules, in this case, `ec2_key` which is used for managing AWS security keys. We tell AWS to use the name `web` for the key, and to load the content from the local file `web.pub` as the key content in AWS.
+
+To run this, we use the following command:
+
+```
+AWS_PROFILE=playground AWS_REGION=eu-west-1 ansible-playbook build-infra.yml
+```
+
+We prefix the standard `ansible-playbook` command with two environment variables that are used behind the scenes by the boto library to connect to the AWS library. We tell it to use the `playground` profile from our `~/.aws/credentials` file to connect to the API, and to run the AWS operations within the `eu-west-1` AWS region.
+
+By building our AWS playbooks in this manner, it makes them far more reusable than if we were to hardcode these values directly into our playbooks.
+
+## Lack of state file
+
+Running the above command, you should see some output with a `[changed]` value next to the `Add web keypair` task. Run the command again, and the same task will have an `[ok]` flag next to it as nothing has changed.
+
+I see this as one of the benefits to using Ansible compared to Terraform. Ansible will check for state directly with AWS rather than a local state file that is updated each time a command is run.
+
+## Using resources between tasks
+
+Some of the AWS Ansible modules require you to reference other AWS resources that you have created. You can use Ansible variables to manage these. To better demonstrate this, lets build the following resources; a set of three EC2 instances with Elastic IP addresses associated to them, that are sitting behind an Elastic Load Balancer. We'll setup a security group and assign the instances to these, and then attach each instance to the load balancer.
 
 
  * Ansible playbook using the localhost host
