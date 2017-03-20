@@ -237,8 +237,6 @@ Copy the below playbook file to `provision-infra.yml`:
       copy:
         src: /var/www/index.php
         dest: /var/www/index.php
-        
-
 ```
 
 And then provision the instances by running the following command:
