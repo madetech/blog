@@ -4,7 +4,7 @@
 
 ### Students
 - Learning at your own pace
-- Personalized ressources
+- Personalized resources
 - Self assessment
 
 ### Parents
@@ -30,13 +30,13 @@
 - Resilience
 
 ### Tools/Practice Fit
-- Top to Bottom vs. grassroots
+- Top to Bottom vs. Grassroots
 - Time constraints (training, porting, changing)
 - Age and Teachings requirements
 
 ## Solutions
 
-### Implementaion
+### Implementation
 - Start small
 - Feedback
 - Iterate often
