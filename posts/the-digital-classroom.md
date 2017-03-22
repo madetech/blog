@@ -54,3 +54,9 @@ In this post, we would like to first look at some areas where Technology could a
 - Technical knowledge
 - Educational background
 - Experience
+
+## Conclusion
+
+There are many valid use cases for introducing technological solutions to existing classrooms, providing value for all parties involved, improving existing workflows, and helping solve some new challenges. But deploying digital solutions is something that needs to be done with care as to avoid unnecessary strains on budget, to ensure private data is being kept securely, and to make the digital transition the success story it should be. In order to achieve that, selecting a partner with the right technical skillset, a proven deliverability expertise, and some background in Education is key.
+
+Here at MadeTech, we believe we check those boxes, and would be interested in helping you complete your digital transformation. If that sounds like something you would be interested in, [contact us](https://www.madetech.com/contact).
