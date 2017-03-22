@@ -1,10 +1,27 @@
 # The Digital Classroom
 
-From keeping in touch with friends, to hailing a cab, and even allowing us to control the temperature of our houses from our phones, Technology has become increasingly pervasive, changing the way we do things and how we interact with one another. Contrary to what some would think, Education was not left out of this revolution. In recent years, an incredible number of digital tools and platforms have seen the light of day which try to improve how people learn, how teachers share their knowledge and allowing pedagogical resource provider to reach an ever increasing number of people. But in Education, things cannot change as rapidly as in other sectors because the cost of doing something wrong has long lasting consequences. Pedagogical practices have been refined over the years and introducing changes requires a lot of thought.
+From keeping in touch with friends, to hailing a cab, and even allowing us to
+control the temperature of our houses from our phones, Technology has become
+increasingly pervasive, changing the way we do things and how we interact with
+one another. Contrary to what some would think, Education was not left out of
+this revolution. In recent years, an incredible number of digital tools and
+platforms have seen the light of day which try to improve how people learn, how
+teachers share their knowledge and allowing pedagogical resource provider to
+reach an ever increasing number of people. But in Education, things cannot
+change as rapidly as in other sectors because the cost of doing something wrong
+has long lasting consequences. Pedagogical practices have been refined over the
+years and introducing changes requires a lot of thought.
 
-In this post, we would like to first look at some areas where Technology could actually add value to existing practices, and how it can be used to solve particular pain points. Then we will move on to sometimes unforeseen challenges schools and universities face when going digital. Finally we will provide some thoughts on how to ensure the digital transition is as smooth and as successful as possible.
+In this post, we would like to first look at some areas where Technology could
+actually add value to existing practices, and how it can be used to solve
+particular pain points. Then we will move on to sometimes unforeseen challenges
+schools and universities face when going digital. Finally we will provide some
+thoughts on how to ensure the digital transition is as smooth and as successful
+as possible.
 
 ## Benefits
+
+
 
 ### Students
 - Learning at your own pace
@@ -53,10 +70,28 @@ In this post, we would like to first look at some areas where Technology could a
 ### Expertise
 - Technical knowledge
 - Educational background
-- Experience
+- Continuous Delivery
 
 ## Conclusion
 
-There are many valid use cases for introducing technological solutions to existing classrooms, providing value for all parties involved, improving existing workflows, and helping solve some new challenges. But deploying digital solutions is something that needs to be done with care as to avoid unnecessary strains on budget, to ensure private data is being kept securely, and to make the digital transition the success story it should be. In order to achieve that, selecting a partner with the right technical skillset, a proven deliverability expertise, and some background in Education is key.
+There are many valid use cases for introducing technological solutions to
+existing classrooms, providing value for all parties involved, improving
+existing workflows, and helping solve some new challenges. But deploying digital
+solutions is something that needs to be done with care as to avoid unnecessary
+strains on budget, to ensure private data is being kept securely, and to make
+the digital transition the success story it should be. In order to achieve that,
+selecting a partner with the right technical skill set, a proven deliverability
+expertise, and some background in Education is key.
 
-Here at MadeTech, we believe we check those boxes, and would be interested in helping you complete your digital transformation. If that sounds like something you would be interested in, [contact us](https://www.madetech.com/contact).
+Here at MadeTech, we believe we check those boxes, and would be interested in
+helping you complete your digital transformation. If that sounds like something
+you would be interested in, [contact us](https://www.madetech.com/contact).
+
+[Links]
+- https://medium.com/learning-machine-blog/blockchain-credentials-b4cf5d02bbb7
+- https://www.khanacademy.org/
+- https://www.instructure.com/
+- https://uki.blackboard.com/
+- https://moodle.org/
+- https://slack.com/
+- https://en.wikipedia.org/wiki/Quality_of_service
