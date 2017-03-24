@@ -15,4 +15,9 @@
     - name: Add a test PHP script
       copy:
         src: files/index.php
-        dest: /var/www/index.php
+        dest: /var/www/html/index.php
+
+    - name: Remove default index.html
+      file:
+        path: /var/www/html/index.html
+        state: absent
