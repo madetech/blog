@@ -26,3 +26,15 @@
       service:
         name: apache2
         state: restarted
+
+- hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - ec2_elb_facts:
+        names: web
+      register: elb_facts
+
+    - debug:
+        msg: "{{ elb_facts.elbs.0.dns_name }}"
