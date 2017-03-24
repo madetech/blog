@@ -154,23 +154,25 @@ and your team are in a good position to start the actual transition:
 
 ### Partner
 
-As far as potential partner go, here are a few of the things you should look out
-for:
+Here are a few of the things you should look out for in a potential partner:
 
 - As obvious as this may sound, don't hire your nephew to create your website.
   Go for a company with experience in building tailored solutions for
   businesses. Keep in mind that paying for expertise will prevent you from
   spending more due to unforeseen problems.
-- To protect you from high costs up front and to make sure you end up with the
+- To protect you from high up front costs and to make sure you end up with the
   best fit for your institution, prefer potential partner who practice
 [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
 - Try to find a partner with previous experience dealing with your industry, as
   Education has a distinct set of requirement and practices.
 
 ### Implementation
-- Start small
-- Feedback
-- Iterate often
+
+When it is time to start making the digital transformation a reality, it is
+important that it'd be done in a timely manner. Again, try to start small,
+provide frequent feedback to your technological partner so that they can iterate
+quickly on proposed solutions. With both parties doing their part, you can be
+confident in the quality, usefulness, and overall fit of the end product.
 
 ## Conclusion
 
@@ -180,9 +182,11 @@ existing workflows, and helping solve some new challenges. But deploying digital
 solutions is something that needs to be done with care as to avoid unnecessary
 strains on budget, to ensure private data is being kept securely, and to make
 the digital transition the success story it should be. In order to achieve that,
-selecting a partner with the right technical skill set, a proven deliverability
-expertise, and some background in Education is key.
+you will have to identify the key areas where you should start focusing,
+selecting a partner with the right technical skill set, and implement the
+solution in a gradual manner.
 
-Here at MadeTech, we believe we check those boxes, and would be interested in
-helping you complete your digital transformation. If that sounds like something
-you would be interested in, [contact us](https://www.madetech.com/contact).
+Here at MadeTech, we believe we can help you do just that, and would be
+interested in helping you complete your digital transformation. If that sounds
+like something you would be interested in, [contact
+us](https://www.madetech.com/contact).
