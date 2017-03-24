@@ -133,22 +133,44 @@ interface is ... less than ideal. Don't force a digital solution to your users
 if it does not meet your actual requirements.
 
 
-## Solutions
+## Making It Happen
+
+Considering the challenges that may arise, we'd recommend not trying to do it on
+your own, but instead to search for a partner to help you modernize your
+institution.
+
+### Set Up
+
+Before even starting your search for a digital solution provider, make sure you
+and your team are in a good position to start the actual transition:
+
+- Identify stake holders inside your institution and figure out where you all
+  want to move towards to.
+- Decide on where your initial efforts should focus. The idea is to start small,
+  then reiterate on the solution to reach your end goal.
+- If it doesn't exist yet, create a technical referent role in your institution.
+  This role should preferably be filled by a faculty member as that person will
+  be the main liaison between your external partner and your institution.
+
+### Partner
+
+As far as potential partner go, here are a few of the things you should look out
+for:
+
+- As obvious as this may sound, don't hire your nephew to create your website.
+  Go for a company with experience in building tailored solutions for
+  businesses. Keep in mind that paying for expertise will prevent you from
+  spending more due to unforeseen problems.
+- To protect you from high costs up front and to make sure you end up with the
+  best fit for your institution, prefer potential partner who practice
+[Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
+- Try to find a partner with previous experience dealing with your industry, as
+  Education has a distinct set of requirement and practices.
 
 ### Implementation
 - Start small
 - Feedback
 - Iterate often
-
-### Organizational Shape
-- Stake Holders
-- External contractor
-- Liaison
-
-### Expertise
-- Technical knowledge
-- Educational background
-- Continuous Delivery
 
 ## Conclusion
 
@@ -164,9 +186,3 @@ expertise, and some background in Education is key.
 Here at MadeTech, we believe we check those boxes, and would be interested in
 helping you complete your digital transformation. If that sounds like something
 you would be interested in, [contact us](https://www.madetech.com/contact).
-
-[Links]
-- https://medium.com/learning-machine-blog/blockchain-credentials-b4cf5d02bbb7
-- https://uki.blackboard.com/
-- https://moodle.org/
-- https://slack.com/
