@@ -1,0 +1,18 @@
+---
+- hosts: security_group_web_instances
+  become: yes
+  become_method: sudo
+  remote_user: ubuntu
+
+  tasks:
+    - name: Install packages
+      apt:
+        name: "{{ item }}"
+        update_cache: true
+      with_items:
+        - libapache2-mod-php7.0
+
+    - name: Add a test PHP script
+      copy:
+        src: files/index.php
+        dest: /var/www/index.php

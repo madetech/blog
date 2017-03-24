@@ -1,0 +1,90 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - name: Add web keypair
+      ec2_key:
+        name: web
+        key_material: "{{ lookup('file', 'web.pub') }}"
+        state: present
+
+    - name: Add web instances security group
+      ec2_group:
+        name: web_instances
+        description: Web instances
+        rules_egress:
+          - proto: -1
+            from_port: -1
+            to_port: -1
+            cidr_ip: 0.0.0.0/0
+        rules:
+          - proto: tcp
+            from_port: 22
+            to_port: 22
+            cidr_ip: 0.0.0.0/0
+          - proto: tcp
+            from_port: 80
+            to_port: 80
+            cidr_ip: 0.0.0.0/0
+
+    - name: Provision web instances
+      ec2:
+        key_name: web
+        group: web_instances
+        instance_type: t2.small
+        image: ami-a192bad2
+        wait: true
+        exact_count: 3
+        count_tag:
+          Name: web
+        instance_tags:
+          Name: web
+      register: web_instances
+
+    - name: Assign EIP address for web instances
+      ec2_eip:
+        device_id: "{{ item.id }}"
+        in_vpc: true
+        release_on_disassociation: true
+      with_items: "{{ web_instances.tagged_instances }}"
+
+    - name: Add load balancer security group
+      ec2_group:
+        name: web_load_balancer
+        description: Web load balancer
+        rules_egress:
+          - proto: -1
+            from_port: -1
+            to_port: -1
+            cidr_ip: 0.0.0.0/0
+        rules:
+          - proto: tcp
+            from_port: 80
+            to_port: 80
+            cidr_ip: 0.0.0.0/0
+
+    - name: Setup web load balancer
+      ec2_elb_lb:
+        name: web
+        state: present
+        idle_timeout: 300
+        zones:
+          - eu-west-1a
+        listeners:
+          - protocol: http
+            load_balancer_port: 80
+            instance_port: 80
+        security_group_names:
+          - web_load_balancer
+      register: web_load_balancer
+
+    - name: Add web instances to load balancer
+      ec2_elb:
+        instance_id: "{{ item.id }}"
+        ec2_elbs: web
+        state: present
+        wait: false
+      when: item.id not in web_load_balancer.elb.instances
+      with_items: "{{ web_instances.tagged_instances }}"
