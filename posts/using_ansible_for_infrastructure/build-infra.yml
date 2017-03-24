@@ -33,7 +33,7 @@
       ec2:
         key_name: web
         group: web_instances
-        instance_type: t2.small
+        instance_type: t2.nano
         image: ami-a192bad2
         wait: true
         exact_count: 3
