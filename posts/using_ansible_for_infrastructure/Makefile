@@ -21,3 +21,8 @@ provision: ec2.py ec2.ini web.pub
 	ANSIBLE_HOST_KEY_CHECKING=false \
 	ANSIBLE_PRIVATE_KEY_FILE=web \
 	ansible-playbook -i ec2.py provision-infra.yml
+
+teardown:
+	AWS_PROFILE=playground \
+	AWS_REGION=eu-west-1 \
+	ansible-playbook teardown-infra.yml
