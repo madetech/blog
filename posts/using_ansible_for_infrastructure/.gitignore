@@ -1,0 +1,5 @@
+*.retry
+ec2.py
+ec2.ini
+web
+web.pub
