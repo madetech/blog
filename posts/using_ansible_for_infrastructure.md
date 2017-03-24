@@ -6,11 +6,11 @@ For the last year or so, the majority of our new projects at MadeTech, have used
 
 Ansible has support for a variety of cloud services out of the box with the more recent releases. To name a few, AWS, Azure, Google and Rackspace. Full support of each of the services API's varies, however it appears as though AWS has the most supported set of features by Ansible.
 
-If you're familiar with using Ansible for provisioning your servers, then creating resources in the cloud is almost identical. You use AWS specific modules that represent the resources in AWS, and once defined in YAML, you're apply to run an Ansible playbook to apply those resources to your AWS account.
+If you're familiar with using Ansible for provisioning your servers, then creating resources in the cloud is almost identical. You use AWS specific modules that represent the resources in AWS, and once defined in YAML, you're able to run an Ansible playbook to apply those resources to your AWS account.
 
 ## AWS credentials
 
-When using Ansible with AWS, when you run your playbook - Ansible will be running commands from your local machine using the AWS API. It uses a Python library behind the scenes called boto to do this. As with most AWS libraries, boto looks for a configuration file on your computer located at `~/.aws/credentials`. In this file I find it useful to group credentials into separate profiles so that you can be explicit in which credentials to use when running a command. For example, your credentials file may look like:
+When using Ansible with AWS, when you run your playbook, Ansible will be running commands from your local machine using the AWS API. It uses a Python library behind the scenes called [boto](https://github.com/boto/boto) to do this. As with most AWS libraries, boto looks for a configuration file on your computer located at `~/.aws/credentials`. In this file I find it useful to group credentials into separate profiles so that you can be explicit in which credentials to use when running a command. For example, your credentials file may look like:
 
 ```ini
 [playground]
@@ -18,7 +18,7 @@ aws_access_key_id = 13ABCHHASDBYB2U3NG34NG
 aws_secret_access_key = nfu8n3787N4F874GN8n7g847878G87NG/GUNREIN
 ```
 
-I'd be able to use these credentials by specifiying the profile `playground` in my commands.
+I'd be able to use these credentials by specifying the profile `playground` in my commands.
 
 ## Infrastructure playbook
 
@@ -70,7 +70,7 @@ I see this as one of the benefits to using Ansible compared to Terraform. Ansibl
 
 ## Using resources between tasks
 
-Some of the AWS Ansible modules require you to reference other AWS resources that you have created. You can use Ansible variables to manage these. To better demonstrate this, lets build the following resources; a set of three EC2 instances with Elastic IP addresses associated to them, that are sitting behind an Elastic Load Balancer. We'll setup a security group and assign the instances to these, and then attach each instance to the load balancer.
+Some of the AWS Ansible modules require you to reference other AWS resources that you have created. You can use Ansible variables to manage these. To better demonstrate this, lets build the following resources; a set of three EC2 instances with Elastic IP addresses associated to them, that are sitting behind an Elastic Load Balancer. We'll setup a security group and assign the instances to these, and then attach each instance to the load balancer. In summary, the steps are:
 
  1. Create keypair for instances (already done above)
  2. Create a security group to assign instances to
@@ -110,7 +110,7 @@ This is a standard security group permitting all outgoing traffic from the insta
   ec2:
     key_name: web
     group: web_instances
-    instance_type: t2.small
+    instance_type: t2.nano
     image: ami-a192bad2
     wait: true
     exact_count: 3
@@ -226,17 +226,40 @@ Copy the below playbook file to `provision-infra.yml`:
   remote_user: ubuntu
 
   tasks:
-    - name: Install packages
+    - name: Install Apache and PHP
       apt:
-        name: "{{ item }}"
+        name: php5
         update_cache: true
-      with_items:
-        - php5
+      notify: restart apache
 
-    - name: Add a test PHP script
+    - name: Add a PHP script
       copy:
-        src: /var/www/index.php
-        dest: /var/www/index.php
+        src: files/index.php
+        dest: /var/www/html/index.php
+
+    - name: Remove default index.html
+      file:
+        path: /var/www/html/index.html
+        state: absent
+
+  handlers:
+    - name: restart apache
+      service:
+        name: apache2
+        state: restarted
+
+- hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - ec2_elb_facts:
+        names: web
+      register: elb_facts
+
+    - debug:
+        msg: "{{ elb_facts.elbs.0.dns_name }}"
+
 ```
 
 And then provision the instances by running the following command:
@@ -249,6 +272,4 @@ ANSIBLE_PRIVATE_KEY_FILE=web \
 ansible-playbook -i ec2.py provision-infra.yml
 ```
 
-Once completed, the instances should have PHP configured with a running test script. As we added a health check to our load balancer, once it detects the presence of the script, it will start serving traffic to that instance.
-
-If you then access the public hostname of the load balancer, each time you refresh the page, you should see the hostname change.
+Once completed, the instances should have PHP configured with a running test script. As we added a health check to our load balancer, once it detects the presence of the script, it will start serving traffic to that instance. In the output of the above command you should see a line beginning with `TASK [debug]`. Within this, it'll have a `msg` key with a value that is the public DNS value of the new load balancer. So you can copy that and visit it in a browser. Each time you refresh the page, you should see the value of the hostname output change. This is traffic being routed to each of the different instances on each request.
