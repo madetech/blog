@@ -5,14 +5,13 @@
   remote_user: ubuntu
 
   tasks:
-    - name: Install packages
+    - name: Install Apache and PHP
       apt:
-        name: "{{ item }}"
+        name: php5
         update_cache: true
-      with_items:
-        - libapache2-mod-php7.0
+      notify: restart apache
 
-    - name: Add a test PHP script
+    - name: Add a PHP script
       copy:
         src: files/index.php
         dest: /var/www/html/index.php
@@ -21,3 +20,9 @@
       file:
         path: /var/www/html/index.html
         state: absent
+
+  handlers:
+    - name: restart apache
+      service:
+        name: apache2
+        state: restarted
