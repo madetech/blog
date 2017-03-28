@@ -1,6 +1,6 @@
 # Using Ansible for infrastructure
 
-For the last year or so, the majority of our new projects at MadeTech, have used Ansible as our go-to tool for provisioning and configuring our servers with the software that runs on them. We've paired Terraform with Ansible and Chef previously for creating our cloud resources, but have recently been experimenting with using Ansible to see if the one tool was capable of both of these stages in our infrastructure setups. We've not been disappointed with our experiences so far.
+For the last year or so, the majority of our new projects at Made Tech, have used Ansible as our go-to tool for provisioning and configuring our servers with the software that runs on them. We've paired Terraform with Ansible and Chef previously for creating our cloud resources, but have recently been experimenting with using Ansible to see if the one tool was capable of both of these stages in our infrastructure setups. We've not been disappointed with our experiences so far.
 
 ## Ansible and Amazon Web Services
 
