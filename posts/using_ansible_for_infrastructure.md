@@ -1,12 +1,12 @@
 # Using Ansible for infrastructure
 
-For the last year or so, the majority of our new projects at Made Tech, have used Ansible as our go-to tool for provisioning and configuring our servers with the software that runs on them. We've paired Terraform with Ansible and Chef previously for creating our cloud resources, but have recently been experimenting with using Ansible to see if the one tool was capable of both of these stages in our infrastructure setups. We've not been disappointed with our experiences so far.
+For the last year or so, the majority of our new projects at Made Tech have used Ansible as our go-to tool for provisioning and configuring our servers with the software that runs on them. We've paired Terraform with Ansible and Chef previously for creating our cloud resources, but have recently been experimenting with using Ansible to see if the one tool was capable of both of these stages in our infrastructure setups. We've not been disappointed with our experiences so far.
 
 ## Ansible and Amazon Web Services
 
-Ansible has support for a variety of cloud services out of the box with the more recent releases. To name a few, AWS, Azure, Google and Rackspace. Full support of each of the services API's varies, however it appears as though AWS has the most supported set of features by Ansible.
+Ansible has support for a variety of cloud services out of the box with the more recent releases. To name a few, AWS, Azure, Google and Rackspace. Full support of each of services API varies, however it appears as though AWS has the most supported set of features by Ansible.
 
-If you're familiar with using Ansible for provisioning your servers, then creating resources in the cloud is almost identical. You use AWS specific modules that represent the resources in AWS, and once defined in YAML, you're able to run an Ansible playbook to apply those resources to your AWS account.
+If you're familiar with using Ansible for provisioning your servers, then creating resources in the cloud is almost identical. You use AWS specific modules that represent the resources in AWS and, once defined in YAML, you're able to run an Ansible playbook to apply those resources to your AWS account.
 
 ## AWS credentials
 
