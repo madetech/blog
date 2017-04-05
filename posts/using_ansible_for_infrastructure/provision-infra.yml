@@ -1,0 +1,40 @@
+---
+- hosts: security_group_web_instances
+  become: yes
+  become_method: sudo
+  remote_user: ubuntu
+
+  tasks:
+    - name: Install Apache and PHP
+      apt:
+        name: php5
+        update_cache: true
+      notify: restart apache
+
+    - name: Add a PHP script
+      copy:
+        src: files/index.php
+        dest: /var/www/html/index.php
+
+    - name: Remove default index.html
+      file:
+        path: /var/www/html/index.html
+        state: absent
+
+  handlers:
+    - name: restart apache
+      service:
+        name: apache2
+        state: restarted
+
+- hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - ec2_elb_facts:
+        names: web
+      register: elb_facts
+
+    - debug:
+        msg: "{{ elb_facts.elbs.0.dns_name }}"

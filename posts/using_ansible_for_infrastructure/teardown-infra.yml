@@ -1,0 +1,53 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - name: Remove load balancer
+      ec2_elb_lb:
+        name: web
+        state: absent
+
+    - ec2_remote_facts:
+        filters:
+          instance-state-name: running
+          "tag:Name": web
+      register: instances_before_delete
+
+    - name: Terminate all instances
+      ec2:
+        key_name: web
+        group: web_instances
+        instance_type: t2.small
+        image: ami-a192bad2
+        wait: true
+        exact_count: 0
+        count_tag:
+          Name: web
+        instance_tags:
+          Name: web
+      register: web_instances
+
+    - name: Release EIP
+      ec2_eip:
+        public_ip: "{{ item.public_ip_address }}"
+        state: absent
+      with_items: "{{ instances_before_delete.instances }}"
+
+    - name: Remove keypair
+      ec2_key:
+        name: web
+        state: absent
+
+    - name: Remove web security group
+      ec2_group:
+        name: web_instances
+        description: Web instances
+        state: absent
+
+    - name: Remove load balancer security group
+      ec2_group:
+        name: web_load_balancer
+        description: Web load balancer
+        state: absent
