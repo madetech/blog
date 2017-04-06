@@ -8,9 +8,13 @@ Modern computers have the space and power to analyze this data incredibly effici
 
 Although 'genetic fortune telling’ may seem a way off, the way we handle privacy and data security now will build the foundations for the future, and engineers often play the role of gatekeeper to the systems which contain this sensitive information. To whom is their moral obligation? The client, the user, or perhaps the Government?
 
+## The Home Office's stance
+
 The terrorist attack on Westminster in March 2017 brought the issue to the fore when a WhatsApp message was sent a few minutes before the attack, which the government were unable to decipher due to the end to end encryption in place. Should the engineers responsible for this encryption allow the government access, or decrypt the messages for them? To the Home Secretary, Amber Rudd, the answer is clear;  WhatsApp have a moral obligation to allow the government ‘backdoor access’ to its messaging services. The rationale for this is that terrorists should not have a place to hide online, that encryption enables terrorists to communicate freely and that society would be a safer place if encryption were banned. Although it’s likely a difficult task to ban a branch of mathematics, it would be an even more difficult task to enable worldwide banking and e-commerce without encryption. The does not seem, to me, to be a viable solution.
 
 Perhaps had the government had access to WhatsApp’s data they could have intervened sooner, however it seems unlikely given the two minute time frame. More likely, they would have been able to analyze this information after the incident to glean a better insight into the cause, however this is not without its own risks. A backdoor for one individual means an exposed point for groups with less than ethical ideals. A ‘secure backdoor’ is not secure - people can and will access it and their intentions most likely won’t be good. Would every holder of personal data (almost every company operating on the web) be expected to have a backdoor? This would present incredibly difficult to solve problems for keeping personal data secure, and largely useless too; no organisation has the computing power to analyze all of this data fast enough to make use of it. Perhaps some time in the future, but not now.
+
+## Practices for Ethical Engineering
 
 There is a solution, I believe, which is more balanced. It is the system currently in place; the government requests access to encrypted organisational data, and the organisation makes a choice to either release the data or refuse access. Ethically, I believe they have an obligation to support the government in investigations, but the government also have an ethical obligation not to put society's personal data at risk of exposure.
 
@@ -24,8 +28,10 @@ So where does this leave the ethical obligations of the engineer? Should they ma
 
 * They should have a good understanding of data backup methods to mitigate the risk of data loss, but to also ensure the data isn’t easily accessed by those who shouldn’t be able to.
 
-* They should ensure that physical access to infrastructure is secure, if it is kept on site. Failing that, a reliable infrastructure provider should be used.
+* They should ensure that physical access to infrastructure is secure if it is kept on site. Failing that, a reliable infrastructure provider should be used.
 
-* The location of third party hardware should be considered carefully. Different countries have different data protection laws
+* The geographic location of third party hardware should be considered carefully. Different countries have different data protection laws.
+
+## Looking to the future
 
 Data plays an integral role in our day to day lives, and it is likely to play a more important role in the future. The data being collected is becoming more personal, more invasive and as a result, our responsibility to keep it secure has never been greater. Whatever the ethical implications of the particular situation, as long as an engineer does all they can to ensure the security and integrity of their customer's data, at a professional level I believe they have fulfilled their moral obligations.
