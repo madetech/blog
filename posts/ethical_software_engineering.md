@@ -1,6 +1,6 @@
 # Finding ethics in Technology
 
-_(For the purpose of this blog post, the term engineer here is defined as software engineers, devops engineers, and all of those that have a responsibility for maintaining the infrastructure and software for computer systems)_
+_(For the purpose of this blog post, the term engineer is defined as software engineers, devops engineers, and all of those that have a responsibility for maintaining the infrastructure and software for computer systems)_
 
 We live in a world increasingly intertwined with software; the Internet of Things allows companies to collect data relating to not only what we type, but on where we are, who we are with, how we drive our vehicles, and more intimate details like our sleeping patterns and heart rates. In the near future it will be trivial to sequence an individual's genomic information and make predictions about their personality traits and health.
 
