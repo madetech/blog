@@ -1,4 +1,4 @@
-# Finding ethics in Technology
+# Finding Ethics in Data Security
 
 _(For the purpose of this blog post, the term engineer is defined as software engineers, devops engineers, and all of those that have a responsibility for maintaining the infrastructure and software for computer systems)_
 
@@ -28,4 +28,4 @@ So where does this leave the ethical obligations of the engineer? Should they ma
 
 * The location of third party hardware should be considered carefully. Different countries have different data protection laws
 
-Data plays an integral role in our day to day lives, and it is likely to play a more important role in the future. The data being collected is becoming more personal, more invasive and as a result, our responsibility to keep it secure has never been greater. Whatever the ethical implications of the particular situation, as long as an engineer does all they can to ensure the security of data, at a professional level I believe they have fulfilled their moral obligations.
+Data plays an integral role in our day to day lives, and it is likely to play a more important role in the future. The data being collected is becoming more personal, more invasive and as a result, our responsibility to keep it secure has never been greater. Whatever the ethical implications of the particular situation, as long as an engineer does all they can to ensure the security and integrity of data, at a professional level I believe they have fulfilled their moral obligations.
