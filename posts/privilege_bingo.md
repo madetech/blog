@@ -2,9 +2,9 @@
 
 Intersectionality, BAME, cis, anonymous hiring, inclusion. These words are likely not on your ticket if you are playing privilege bingo. Like a canary in a coal mine, a lack of understanding of these concepts will likely mean your daily actions reinforce systemic discrimination.
 
-We aren't good at diversity and that is our fault as a business, as an industry and as a collection of humans. There are direct and indirect effects caused by our policies and our privilege that actively work against us building a more diverse team.
+We aren't good at diversity and that is something we need to work on as a business, as an industry, and as a collection of humans. There are direct and indirect effects caused by our policies and our privilege that actively work against us building a more diverse team.
 
-We didn't set out to avoid diversity, we just didn't and perhaps still don't have enough knowledge to encourage it. We didn't implement a refer a friend scheme to discourage diverse hiring, however it's fairly well know that your friends, especially ex-colleagues will mostly be like you in an industry already suffering from a lack of diversity.
+We didn't set out to avoid diversity, we just didn't and perhaps still don't have enough knowledge to encourage it. We didn't implement a refer a friend scheme to discourage diverse hiring, however it's fairly well known that your friends, especially ex-colleagues will mostly be like you in terms of gender and ethnicity given you're in an industry already suffering from a lack of diversity.
 
 ## Awakening from ignorance
 
@@ -20,7 +20,7 @@ The first step has to be awareness of the fact we're poor at diversity. I mean i
 
 Coming back to the refer a friend scheme, why did we implement that scheme? We actually did it to encourage more of the same types of people joining. It's not that we wanted to encourage more of the same ethnicity, gender, or other intersections. We did it because we needed to hire quickly, and hiring people recommend by those we already know and trust is easier than the alternatives.
 
-With this ease, comes a problem. The issue is that there are direct consequences of enacting a policy like this. You will immediately be discouraging diversity by inviting more of the same. You are also rewarding and reinforcing this kind of behaviour in your organisation.
+With this ease, comes a problem. The issue is that there are direct consequences of enacting a policy like this. You will immediately be discouraging diversity by inviting more of the same gender and ethnicity unless you have previously worked in diverse organisations. You are also rewarding and reinforcing this kind of behaviour in your organisation.
 
 Smells are often a little difficult to work out, especially being so naive to privilege. Detecting the smells of exclusionary practices, much like code smells, gets easier with experience I am sure.
 
@@ -28,7 +28,7 @@ Smells are often a little difficult to work out, especially being so naive to pr
 
 The tougher part is to gain wider support. Coming back to the privilege bingo, when a team isn't educated in areas of diversity, it is difficult to make diversity a high priority. Sure, diversity is gaining wider attention and people are talking the talk, but walking the walk is a whole other thing.
 
-One of the most challenging things is to avoid getting into ideological debates. I find it very easy to slip into an idealogical argument that is then held immovable because of the moral foundations I've made the argument on. Arguing that it's the right thing to do and that those not helping the cause of diversity are actively working against it will only make it harder for others to join you. If there's one thing I've learnt it's to step around hardline views and do not make any yourself. To be honest, I'm still learning this one.
+One of the most challenging things is to avoid getting into ideological debates. I find it very easy to slip into an ideological argument that is then held immovable because of the moral foundations I've made the argument on. Arguing that it's the right thing to do and that those not helping the cause of diversity are actively working against it will only make it harder for others to join you. If there's one thing I've learnt it's to step around hardline views and do not make any yourself. To be honest, I'm still learning this one.
 
 Gaining wider acceptance, I think, is a slow and subtle process. Having leaders, including but not limited to management, admit problems is a good starting point. Having these "early adopters" start a dialogue with the wider team helps increase awareness and is especially effective when it's both peers and management talking about diversity and it's challenges.
 
