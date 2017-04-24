@@ -5,7 +5,7 @@ The primary goal of slicing software is to make it cheap to ship, and inexpensiv
 A poorly thought out slicing strategy leads to viscosity. More advanced teams notice this typically the greatest around their test suites. On the whole, if you find test suites are slowing down the introduction of additional functionality and the evolution of your domain model, it is a sign that the coupling between your test assertions and the production code are less than ideal.
 
 From this point on the following terminology is used:
-- Refactor: he act of modifying the structure of the code, through a series of simple steps, while keeping all the tests passing.
+- Refactor: the act of modifying the structure of the code, through a series of simple steps, while keeping all the tests passing.
 - Rework: the act of rewriting sections of code, possibly guided by test suites, but potentially not in simple steps
 - Transformation: the act of modifying code (production or test) for the purpose of changing its behaviour
 
