@@ -4,16 +4,38 @@ Our company blog is a critical channel for inbound marketing efforts, lead gener
 
 One of ours aims is to ensure our blog posts closely align with our positioning, and provides interesting and thought provoking reading to our customers, especially those who fall into the various [customer personas](https://docs.google.com/a/maine-associates.com/document/d/1S0VF2oMMGqyHByisSmGDMGpZgTUcuh-38J9rg6GpcEQ/edit?usp=sharing) we would like to target.
 
-#### [Blog Teams](house_points.md#season-3-teams)
+We've written quite a lot of stuff over the years, if you'd like some inspiration, check out our previous posts [here](INDEX.md).
 
-#### [Point Scoring](house_points.md#points-per-post)
+## Blogging
 
-#### [Deadlines](deadlines.md)
+### The Basics
+- Fork this repository and create your blog post in [/posts/](/posts/)
+- Write your post!
+- Categorise the post in [/categories/](/categories/)
+- Issue a pull request and get the post reviewed
 
-#### [Previous Posts](INDEX.md)
+### Seasons
+We look at blogging in terms of "seasons", which are typically 12 weeks long. This allows us to switch up what topics we're focussing on each season, as well as mixing teams up.
+
+We keep a list of topics we'd like to be written about as the channel status in the #blog Slack channel. Feel free to claim any you'd particularly like to write about, and add any you happen to think of.
+
+### Teams
+Blogging is entirely optional, so please don't feel pressured to blog if you'd rather not. Ahead of each of each season, a survey will be emailed to everybody, asking who would like to opt in.
+
+Those that do will then be randomly assigned to a blogging team.
+
+### Deadlines
+Once teams are decided, deadlines for the season ahead will be set. There are no individual deadlines, so it's up to you and your team to figure out how you're going to meet those deadlines - collaboratively written posts are more than welcome!
+
+You're able to take an hour each week to blog, whenever you see fit. Just let the appropriate people know you're taking it.
+
+If you need a reminder on your team's deadlines, they're announced daily in the #blog Slack channel, or you can use the `/deadlines` slash command in the same channel.
+
+### Winner Dinner
+Every team that meets all of their deadlines then gets to celebrate their hard work by going for a fancy dinner! Qualifying teams should figure out a date they can all do, and then they just need to decide which restaurant they'd like to go to - we'll arrange it all.
 
 #### Marketing
-When a post is published, Scott will market on the following channels:
+When a post is published, it will be promoted on the following channels:
 
 - Twitter, several times
 - LinkedIn
@@ -21,48 +43,6 @@ When a post is published, Scott will market on the following channels:
 - DZone
 - RubyFlow (if relevant)
 - Sitepoint (if relevant)
-- Tech London Slack (if appropriate)
 - The newsletter
 
-You're encouraged to share and market your own posts in any way you see fit but, in the spirit of fair play, please share any marketing advice not mentioned here with the rest of the team, or add it to this readme.
-
-#### Prize
-
-**The winning team can take an Uber from the office to celebrate their victory with dinner and cocktails at a restaurant of their choice (Seb heartily recommends [this one](http://www.bobbobricard.com/), which has a champagne button). Plus ones also welcome.**
-
-#### Meeting deadlines
-
-It can be difficult to find time to write a post - to make it a little easier, you're able to take one hour each week to blog, whenever you see fit (we call it #blogHour). Just announce that you're taking it in Slack.
-
-Teams are encouraged to self organise, if you're struggling to get a post written on time, communicate with your team mates to figure out how best to meet your various deadlines. It's also up to you to decide when to go for your victory dinner!
-
-Deadlines are listed here: https://trello.com/b/jDROwI93/editorial-calendar/calendar/2016/03
-
-Finally, every six weeks, the entire company will meet for a blogging showcase, where everyone will announce their next post, and we'll discuss what worked and what didn't work in the previous six weeks worth of posts.
-
-## How to blog
-
-Once you've settled on an idea, clone this repo and write a blog post on a topic of your choosing. When you're finished, create a pull request and get it reviewed. You should be aiming to have this first draft completed a week before your deadline, to give your colleagues the time to review it for you.
-
-Resolve any issues that have been raised in the review (poke and nag other people to make comments on your post in good time), and update your pull request.
-
-### Checklist
-
-#### Creating a blog post
-
- - [ ] Fork repository and create your blog post in [/posts/](/posts/)
- - [ ] Either claim one of the ideas in [Trello](https://trello.com/b/jDROwI93/editorial-calendar/calendar/2016/03), or add your own.
- - [ ] Write the post!
- - [ ] Issue a pull request and get the post reviewed
-
-### Popular traffic sources
-
-Historically, sharing a link to a post on sites like RubyFlow has resulted in a huge spike in traffic on our site. Below is a list of popular traffic sources we should be sharing those links on. It's by no means exhaustive, and not all of them are relevant to every type of post, so do share the link anywhere else that may be appropriate.
-
-We used to share them on Reddit, but they frown upon posting your own links so we don't do that any more.
-
-- [RubyFlow](http://www.rubyflow.com)
-- [Hacker News](https://news.ycombinator.com/submit)
-- [DZone](https://dzone.com/links)
-- [Slashdot](http://developers.slashdot.org/)
-- [Bootstrappers](http://www.bootstrappers.io/)
+You're encouraged to share and market your own posts in any way you see fit e.g. sharing it with LinkedIn or Facebook groups you're a member of.
