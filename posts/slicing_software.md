@@ -11,9 +11,9 @@ From this point on the following terminology is used:
 
 In the worst cases, such as in the absence of automated test suites, teams feel the joint pain in wrong code slicing greatest. In situations without test suites, it can be much harder to realign slices to suit the needs of the team better - this is rigidity.
 
-In situations with test suites, it may be required to undertake significant rework of those test suites to eliminate areas of rigidity. The danger with rework is that it has a significant risk of introducing behavioural defects. In the ideal case, simple paths are always present to allow refactoring, which has a lower risk of introducing behavioural defects.
+In situations with test suites, it may be necessary to undertake significant rework of those test suites to eliminate areas of rigidity. The danger with rework is that it has a significant risk of introducing behavioural defects. In the ideal case, simple paths are always present to allow refactoring, which has a lower risk of introducing behavioural defects.
 
-One of the most valuable lessons from DDD (Domain-Driven-Design) is that no "model" is perfect, but some models are more useful than others. I use the terminology "model" to refer to how objects, or functions in the case of FP, collaborate to model the real world within the programming language chosen.
+One of the most valuable lessons from DDD (Domain-Driven-Design) is that no "model" is perfect, but some models are more useful than others. I use the terminology "model" to refer to how objects, or functions in the case of functional programming, collaborate to model the real world within the programming language chosen.
 
 One of the reasons micro-services are incredibly useful is that they allow the models within each service to be radically different. Microservices are independently deployable, independently developable products within a sphere of a larger whole. Each microservice collaborates with other services, micro-services, and potentially third parties to fulfil a role. It is very rare for a micro-service to be isolated from other aspects of an ecosystem entirely.
 
@@ -53,8 +53,8 @@ The answer is just enough classical testing, and just enough mockist testing to 
 
 For example, a comprehensive test suite for the code that "Creates an Order" does not also need to exercise the database, but it does probably need to exercise some other objects hidden from it behind a public API.
 
-So, it provides some test doubles for the database aspect. However, the details of any objects not cared about by the test suites can be hidden by the system under test. By doing so, we create a highly customer-focussed test suite with all the intricacies related to the user story for "Creating an Order", without also needing to provide test cases for the database.
+So, it provides some test doubles for the database aspect. However, the details of any objects not cared about by the test suites can be hidden by the system under test. By doing so, we create a highly customer-focussed test suite with all the intricacies related to the user story for "Creating an Order", without also needing to provide test cases for the database. Before we saw test doubles become a maintenance overhead, but when cohesion is high we see the test double serving as an example for how the real database aspect should work.
 
 By hiding what we want to be flexible (the model of creating an order) using classical testing, we can refactor the code related to "Creating an order" without changing the test suite or its assertions. We have created flexible code and a test suite that is largely agnostic to / protected from structural changes.
 
-The test double serves as an "example" for how the real database aspect should work.
+
