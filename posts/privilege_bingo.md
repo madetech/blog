@@ -2,13 +2,13 @@
 
 Intersectionality, BAME, cis, anonymous hiring, inclusion. These words are likely not on your ticket if you are playing privilege bingo. Like a canary in a coal mine, a lack of understanding of these concepts will likely mean your daily actions reinforce systemic discrimination.
 
-We aren't good at diversity and that is something we need to work on as a business, as an industry, and as a collection of humans. There are direct and indirect effects caused by our policies and our privilege that actively work against us building a more diverse team.
+We aren't good at diversity and that is something we need to work on as a business, as an industry, and as a collection of humans. Let me be a little clearer, Made Tech isn't good at diversity. There are direct and indirect effects caused by our policies and our privilege that actively work against us building a more diverse team.
 
-We didn't set out to avoid diversity, we just didn't and perhaps still don't have enough knowledge to encourage it. We didn't implement a refer a friend scheme to discourage diverse hiring, however it's fairly well known that your friends, especially ex-colleagues will mostly be like you in terms of gender and ethnicity given you're in an industry already suffering from a lack of diversity.
+We didn't set out to avoid diversity, but our inaction and lack of ambition to tackle it have made it worse. We haven't placed any proactive efforts into improving the situation, the fault is entirely ours.
 
 ## Awakening from ignorance
 
-Ignorance is bliss right? I'm unsure that's right but it's certainly easier. Through slow osmosis, from forgiving friends offering words of advice, and by growing noise about diversity, we are slowly waking up as an organisation.
+Ignorance is bliss right? It's certainly easier but we cannot plead ignorance here. I think ignorance has been the goto excuse for us but through slow osmosis, from forgiving friends offering words of advice, and by growing noise about diversity, we are slowly waking up as an organisation.
 
 > The first step toward change is awareness. The second step is acceptance.
 >
@@ -18,11 +18,13 @@ The first step has to be awareness of the fact we're poor at diversity. I mean i
 
 ## Identifying smells
 
-Coming back to the refer a friend scheme, why did we implement that scheme? We actually did it to encourage more of the same types of people joining. It's not that we wanted to encourage more of the same ethnicity, gender, or other intersections. We did it because we needed to hire quickly, and hiring people recommend by those we already know and trust is easier than the alternatives.
+Coming back to the [refer a friend scheme](https://github.com/madetech/handbook/blob/9191ea306c4dd6be22f3d0f12d291a67593fd654/benefits/recruitment_referrals.md), why did we implement that scheme? We did it because we are always hiring, and hiring people recommended by the existing team is less risky than hiring someone unknown to the company. It's not that we wanted to encourage more of the same ethnicity, gender, or other intersections, but the reality is that this kind of scheme does just that.
 
-With this ease, comes a problem. The issue is that there are direct consequences of enacting a policy like this. You will immediately be discouraging diversity by inviting more of the same gender and ethnicity unless you have previously worked in diverse organisations. You are also rewarding and reinforcing this kind of behaviour in your organisation.
+Unknowingly we've been financially discouraging diversity, around 15% of our hires in the last 2 years have come from referrals. It's not that taking away this scheme will suddenly improve the lack of diversity at Made Tech but removing it is certainly a step in the right direction. 
 
-Smells are often a little difficult to work out, especially being so naive to privilege. Detecting the smells of exclusionary practices, much like code smells, gets easier with experience I am sure.
+What caused us to look at this through a diversity lense? An increasing internal and external pressure, from some members of our team and from our customers and advisors, is drawing our attention to our poor levels of diversity. We're slowly but surely becoming more and more introspective. Introspection has to be the place to start.
+
+Smells are often a little difficult to work out, especially being so naive to privilege. Detecting the smells of exclusionary practices, much like code smells, must get easier with experience.
 
 ## Accepting failures
 
