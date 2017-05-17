@@ -18,17 +18,19 @@ The first step has to be awareness of the fact we're poor at diversity. I mean i
 
 ## Identifying smells
 
-Coming back to the [refer a friend scheme](https://github.com/madetech/handbook/blob/9191ea306c4dd6be22f3d0f12d291a67593fd654/benefits/recruitment_referrals.md), why did we implement that scheme? We did it because we are always hiring, and hiring people recommended by the existing team is less risky than hiring someone unknown to the company. It's not that we wanted to encourage more of the same ethnicity, gender, or other intersections, but the reality is that this kind of scheme does just that.
+Historically we've used a combination of recruiters and adverts, along with referrals from our existing team to find our new hires. We've seen very few women and non-white candidates apply through these mediums. This in itself is a smell that hasn't entirely gone unnoticed in the business. I've heard and have raised questions around why we see so few women applying but we've never taken it upon ourselves to try and find out the underlying problem. The smell was left to linger.
 
-Unknowingly we've been financially discouraging diversity, around 15% of our hires in the last 2 years have come from referrals. It's not that taking away this scheme will suddenly improve the lack of diversity at Made Tech but removing it is certainly a step in the right direction. 
+Another smell that I became aware of from a blog post was that of language in job adverts. Some of our adverts have sounded like military job ads with phrases such as "come armed with an opinion" along with exclusionary phrases like "It’s probably not a Windows PC", "work hard/play hard", and "it’s likely Made isn’t the place for you". These went unnoticed for a long time.
 
-What caused us to look at this through a diversity lense? An increasing internal and external pressure, from some members of our team and from our customers and advisors, is drawing our attention to our poor levels of diversity. We're slowly but surely becoming more and more introspective. Introspection has to be the place to start.
+Our [refer a friend scheme](https://github.com/madetech/handbook/blob/9191ea306c4dd6be22f3d0f12d291a67593fd654/benefits/recruitment_referrals.md) is another smell. Why did we implement that scheme? We did it because we are always hiring, and hiring people recommended by the existing team is less risky than hiring someone unknown to the company. Unfortunately asking white guys to refer their friends and ex-colleagues leads to a lot more white guys applying for jobs. It's not that we wanted to encourage more of the same ethnicity, gender, or other intersections, but the reality is that this kind of scheme does just that.
 
-Smells are often a little difficult to work out, especially being so naive to privilege. Detecting the smells of exclusionary practices, much like code smells, must get easier with experience.
+Unknowingly we've been financially discouraging diversity, around 15% of our hires in the last 2 years have come from referrals and that figure is closer to 30% over the entire history of the business. It's not that taking away this scheme will suddenly improve the lack of diversity at Made Tech but removing it is certainly a step in the right direction. In the future when we have a more diverse workforce, bringing this scheme back could in fact help maintain our diversity but right now it's only working against it.
+
+What caused us to look at these areas through a diversity lense finally? An increasing internal and external pressure, from some members of our team and from our customers and advisors, has been drawing our attention to our poor levels of diversity. We're slowly but surely becoming more and more introspective. Introspection has to be the place to start.
 
 ## Accepting failures
 
-The tougher part is to gain wider support. Coming back to the privilege bingo, when a team isn't educated in areas of diversity, it is difficult to make diversity a high priority. Sure, diversity is gaining wider attention and people are talking the talk, but walking the walk is a whole other thing.
+The tougher part is to gain wider support for change. Coming back to privilege bingo, when a team isn't educated in areas of diversity and are unsure what they can do about it, making diversity a high priority is difficult. Sure, diversity is gaining wider attention and people are talking the talk, but walking the walk is a whole other thing.
 
 One of the most challenging things is to avoid getting into ideological debates. I find it very easy to slip into an ideological argument that is then held immovable because of the moral foundations I've made the argument on. Arguing that it's the right thing to do and that those not helping the cause of diversity are actively working against it will only make it harder for others to join you. If there's one thing I've learnt it's to step around hardline views and do not make any yourself. To be honest, I'm still learning this one.
 
@@ -40,11 +42,13 @@ Gaining wider acceptance, I think, is a slow and subtle process. Having leaders,
 >
 > ~ [Maya Angelou](https://www.theguardian.com/books/2014/may/28/maya-angelou-in-fifteen-quotes)
 
-Removing policies like refer a friend schemes may not have an immediate impact on diversity in your business but do show a commitment to tackling it. Small actions like this can show the rest of the company and the outside world that you are making small steps in the right direction.
+Widening your hiring pool is a great place to start when trying to tackle diversity. We'e started working with diversity recruiters to gain access to pools of people outside our usual networks.
 
-Widening your hiring pool is a great place to start when trying to tackle diversity. Working with diversity recruiters can provide access to pools of people outside your usual networks and is another great first step.
+We've also begun using platforms like hired.com that provide anonymous modes where names and pictures of candidates are hidden from us when selecting candidates to stop our concious and unconcious biases from impacting who we select. 
 
-Addressing diversity challenges can start to build more credibility around the fact it's a problem and is solvable. The lack of diversity in the business cannot be attributed just to the fact it's an industry norm when you can prove additional efforts in diverse recruitment reverse that trend. Once you reach this point you are providing evidence that it's a lack of action that causes such an industry wide phenomenon.
+We have removed our refer a friend scheme and although it may not have an immediate impact on diversity we hope it shows a commitment to tackling it. Small actions like this help us show those inside and outside the business that we are pushing in the right direction, finally.
+
+Addressing diversity challenges can start to build more credibility around the fact it's a problem and is solvable. It becomes harder for people to argue that the lack of diversity in the business is out of our control when we begin changing it by taking certain actions. Once you reach this point you are providing evidence that it's a lack of action that causes such an industry wide phenomenon.
 
 We are in the early stages of addressing our diversity problems, still in the process of acknowledgement and acceptance, but with some small actions we are hopefully taking ourselves in a better direction.
 
