@@ -42,7 +42,7 @@ Gaining wider acceptance, I think, is a slow and subtle process. Having leaders,
 >
 > ~ [Maya Angelou](https://www.theguardian.com/books/2014/may/28/maya-angelou-in-fifteen-quotes)
 
-Widening your hiring pool is a great place to start when trying to tackle diversity. We'e started working with diversity recruiters to gain access to pools of people outside our usual networks.
+Widening your hiring pool is a great place to start when trying to tackle diversity. We've started working with diversity recruiters to gain access to pools of people outside our usual networks.
 
 We've also begun using platforms like hired.com that provide anonymous modes where names and pictures of candidates are hidden from us when selecting candidates to stop our concious and unconcious biases from impacting who we select. 
 
