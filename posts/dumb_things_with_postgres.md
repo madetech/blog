@@ -1,6 +1,6 @@
 # Doing dumb things with Postgres
 
-A couple of months ago I gave a talk about PostgreSQL, and specifically using the Array datatype, at [London Ruby User Group](#) and I wanted to take some time to dive into this in more detail.
+A couple of months ago I gave a talk about PostgreSQL, and specifically using the Array datatype at [London Ruby User Group](https://skillsmatter.com/skillscasts/9865-london-ruby-lightning-talks) and I wanted to take some time to dive into this in more detail.
 
 I've been fascinated with the Array datatype from Postgres and using it in Rails since it became usable in 2014, at the time I worked for a company that used Postgres for all of the new projects and several came up where it fitted in nicely with the work we were doing. Based on this I decided to give it a go and see what benefits we could gain and also try to work out any major pitfalls.
 
