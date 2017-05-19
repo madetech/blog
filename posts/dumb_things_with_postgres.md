@@ -27,7 +27,7 @@ class Article < ActiveRecord::Base
   # all the other logic
 
   def associated_articles
-    Article.where(id != self.id).where("tags = ANY(#{self.tags})")
+    Article.where.not(id: self.id).where("tags = ANY(#{self.tags})")
   end
 end
 ```
@@ -66,12 +66,18 @@ This is clearly an index, the important part however is that it's using "GIN" as
 
 It's interesting to note that by choosing not to sort this array and restore it would allow the potential of using `SELECT unnest(arr[1:array_length(arr, 1)][1]) as id from data` or similar to get the first item to create a reversible migration. This is only advisable as a thought exercise and I'd recommend you _never_ do that.
 
-Article 
-- Overview
-- Array datatype
-  - Rails
-  - How?
-  - Why?
-- The good
-- The bad
-- The ugly code
+The first snag we'll hit here is that we no longer have support for any of the Rails nicities around associations like `has_many` you can solve this by using code similar to the example above;
+
+```ruby
+  def product_categories
+    ProductCategories.where(id: self.product_category_ids)
+  end
+```
+
+This will return all the Product Categories that have been saved in the Products `product_category_ids` column in the same way as `has_many` would. One of the biggest issues I have with using arrays like this is the amount of boiler plate code you end up writing due to losing the ActiveRecord association behaviours but like I said sometimes the speed benefits on a read heavy site outweigh this.
+
+There's also the concern that when this is shown to the end user it can introduce a lot of delay to loading if there are lots of associations, the main way I've found around this was to update a cache in Redis or similar every time a Product is updated. You can also make this even less blocking if you pass it off to a queuing system rather than blocking the update/create actions.
+
+I'd also like to throw out an honourable mention to the [PostgresExt gem](https://github.com/DockYard/postgres_ext) for providing native support for [querying the array datatype (and others)](https://github.com/DockYard/postgres_ext/blob/master/docs/querying.md#arrays) natively via Arel.
+
+Overall I think there are some amazing things you can do with PostgreSQL's array datatype in association with Rails but it's a very sharp and dangerous knife at times and truly requires you to be aware of what you're trying to do at all times.
