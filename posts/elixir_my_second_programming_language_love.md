@@ -1,3 +1,0 @@
-# Elixir: My Second Programming Language Love
-
-We've been using Elixir a lot on customer projects and I recently got a chance to give it a spin for myself. Previously when it had come up in the past, I'd seen it with blinkers on and dismissed it as unlikely to ever find any real place in the software development world that I was likely to encounter. Earlier this year however I found myself looking at the [Code School Elixir course](https://www.codeschool.com/courses/try-elixir) in wonder. It was the same sense of excitement I'd had when I first saw and then wrote some Ruby, I couldn't believe it was so well structured and realised and I was deeply intrigued by the 
