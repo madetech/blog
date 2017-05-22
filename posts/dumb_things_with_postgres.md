@@ -27,7 +27,7 @@ class Article < ActiveRecord::Base
   # all the other logic
 
   def associated_articles
-    Article.where.not(id: self.id).where('tags && ARRAY[?]', self.tags)
+    Article.where.not(id: id).where('tags && ARRAY[?]', tags)
   end
 end
 ```
@@ -70,7 +70,7 @@ The first snag we'll hit here is that we no longer have support for any of the R
 
 ```ruby
   def product_categories
-    ProductCategories.where(id: self.product_category_ids)
+    ProductCategories.where(id: product_category_ids)
   end
 ```
 
