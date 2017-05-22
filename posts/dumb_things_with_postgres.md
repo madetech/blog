@@ -62,7 +62,7 @@ This line takes our existing foreign key column and converts it to and array typ
 ```ruby
   add_index :products, :product_category_ids, using: 'gin'
 ```
-This is clearly an index, the important part however is that it's using "GIN" as it's index type. GIN is lossless versus GiST, the other index type available, which is lossy introducting the chance for incorrect results slightly. In practice it probably won't make a huge amount of difference to you which one you use but if you want to read more on these types I'd recommend the [Postgres documentation](https://www.postgresql.org/docs/current/static/textsearch-indexes.html). One thing to watch out for is that GIN indexes can have long build times but there are ways to mitigate that.
+This is clearly an index, the important part however is that it's using "GIN" (full-text indexing) as it's index type. GIN is lossless versus GiST, the other index type available, which is lossy introducting the chance for incorrect results slightly. In practice it probably won't make a huge amount of difference to you which one you use but if you want to read more on these types I'd recommend the [Postgres documentation](https://www.postgresql.org/docs/current/static/textsearch-indexes.html). One thing to watch out for is that GIN indexes can have long build times but there are ways to mitigate that.
 
 It's interesting to note that by choosing not to sort this array and restore it would allow the potential of using `SELECT unnest(arr[1:array_length(arr, 1)][1]) as id from data` or similar to get the first item to create a reversible migration. This is only advisable as a thought exercise and I'd recommend you _never_ do that.
 
@@ -74,7 +74,7 @@ The first snag we'll hit here is that we no longer have support for any of the R
   end
 ```
 
-This will return all the Product Categories that have been saved in the Products `product_category_ids` column in the same way as `has_many` would. One of the biggest issues I have with using arrays like this is the amount of boiler plate code you end up writing due to losing the ActiveRecord association behaviours but like I said sometimes the speed benefits on a read heavy site outweigh this.
+This will return all the Product Categories that have been saved in the Products `product_category_ids` column in the same way as `has_many` would. One of the biggest issues I have with using arrays like this is the amount of boiler plate code you end up writing due to losing the ActiveRecord association behaviours but like I said sometimes the speed benefits on a read heavy site outweigh this. If you use the collection based form helpers you'll also have to flatten or discard empty arrays on a save since the send an empty array item each time.
 
 There's also the concern that when this is shown to the end user it can introduce a lot of delay to loading if there are lots of associations, the main way I've found around this was to update a cache in Redis or similar every time a Product is updated. You can also make this even less blocking if you pass it off to a queuing system rather than blocking the update/create actions.
 
