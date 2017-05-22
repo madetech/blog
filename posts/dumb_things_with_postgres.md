@@ -12,22 +12,22 @@ You have a series of news articles that can have associated tags that we use to 
 
 Articles Table -> Taggings joining table -> Tags Table
 
-# PUT DIAGRAM/screenshot ABOVE
+![Joining table version](dumb_things_with_postgres/Screenshot from 2017-05-22 08-52-42.png)
 
 Using the array datatype you could instead have;
 
-Articles Table -> Tags Table
+Articles Table
 
-# PUT DIAGRAM/screenshot ABOVE
+![Array tags](dumb_things_with_postgres/Screenshot from 2017-05-22 09-09-26.png)
 
-Doing this provides us a couple of advantages, with caching this can be noticeably faster than joining the 3 seperate tables and provides us a clean datastructure that we don't have to manipulate or `pluck` from to get the thing we care about, in this case the tag IDs. It also allows us to easily execute some very basic SQL to find articles that have the same tags as the current one being shown to the site user.
+Doing this provides us a couple of advantages, with caching this can be noticeably faster than joining the 3 seperate tables and provides us a clean datastructure that we don't have to manipulate or `pluck` from to get the thing we care about, in this case the tags. It also allows us to easily execute some very basic SQL to find articles that have the same tags as the current one being shown to the site user.
 
 ```ruby
 class Article < ActiveRecord::Base
   # all the other logic
 
   def associated_articles
-    Article.where.not(id: self.id).where("tags = ANY(#{self.tags})")
+    Article.where.not(id: self.id).where('tags && ARRAY[?]', self.tags)
   end
 end
 ```
