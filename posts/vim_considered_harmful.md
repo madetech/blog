@@ -80,7 +80,7 @@ You have successfully robbed yourself of your ability to think.
 
 Typing isn't the bottleneck but you surely have the option to make it the bottleneck.
 
-Having to think about what and how to type will drain your energy. It is counter productive.
+Having to think about what and how to type will drain your energy. It is counterproductive.
 
 EVERYTHING I do in Vim now is in my muscle memory.  If I learn something new, usually by practicing with Vimgolf, I make a point of understanding and committing this new key combination to muscle memory.
 
