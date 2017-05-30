@@ -46,7 +46,7 @@ My obsession with a customised development environment grew to the point where I
 
 Half the applications on my computer didn't work correctly and I refused to use anything that wasn't on the command line.
 
-My obsession with tools and tinkering had spun out of control.
+My obsession with tools and tinkering had spun out of control. I was becoming frustrated.
 
 Not to say that this development environment was wrong, but I didn't put in enough work to be proficient in it.
 
@@ -62,7 +62,7 @@ He compares it to juggling balls, where even the best juggler can only handle a 
 
 With poorly designed programs, you might end up with a few balls unrelated to the problem that you are trying to solve.
 
-You end up having to keep unrelated things in your head, robbing you of your capacity to think clearly about the actual problem you are trying to
+You end up having to keep unimportant things in your head, robbing you of your capacity to think clearly about the actual problem you are trying to
 solve.
 
 Vim could end up throwing even more balls into the mix.  Many more.
