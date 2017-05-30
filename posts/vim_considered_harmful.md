@@ -3,8 +3,8 @@
 Oh no, not another Vim article.
 
 No I don't use Emacs and no, I don't hate Vim.
-This title is purposefully meant to envoke angry emotions amongst Vim users or people aiming to switch to Vim in order to convey what I think is an
-important message that I wish I knew a long time ago.
+
+This title is purposefully meant to some emotions amongst in order to convey what I think is an important message that I wish I knew a long time ago.
 
 I've been using vim for around 7 years, and I still use it now.
 
@@ -81,14 +81,25 @@ Typing isn't the bottleneck but if it steals your cognitive capabilities, then y
 
 I hate the word pragmatism.  I've heard it thrown around so many times and truly it's quite soggy.
 
+However, when I see someone approach a problem with their entire cognative ability dedicated to it with no distractions, I feel that same feeling that
+I used to feel when I saw people type fast or use a lot of shortcuts.
+
 ## What now?
+
 Unfortunately Vim is not a text editor that you can have a part time relationship with.
+
 It's all or nothing.
-If you believe that using the arrow keys or mouse is wrong and this adds mental overhead, then what exactly is the point?
 
-Should I stop using Vim then? Should I surrender to a more user friendly text editor?
-Most certainly not.  I would never go back to using a point and click style editor.
+If you believe that using the arrow keys or mouse is wrong and this adds mental overhead, then what's the point?
 
-What you need to do is to sit down and study Vim until the speedy commands are burned into your muscle memory.
+Should you stop using Vim then? Should you surrender and follow the path of least resistance?
+
+Most certainly not. That's not the point I'm trying to make here.
+
+What you need to do is to sit down and practice Vim until it has become a part of your muscle memory.
 
 One of the best resources I have found online is Vimgolf.  I must have completed over a 100 challenges.
+
+I was also fortunate enough to become friends with one of the Vim giants Drew Neil, the author of Vimcasts and went to all his meetups here in London.
+
+If you take anything away from this, hopefully it's that if you want to use Vim, you have to be ready to commit to studying it.
