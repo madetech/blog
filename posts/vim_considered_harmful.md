@@ -105,15 +105,15 @@ It's all or nothing.
 
 If you believe that using the arrow keys or mouse is wrong and this adds mental overhead, then what's the point?
 
-Should you stop using Vim then? Should you surrender and follow the path of least resistance?
+Should you stop using Vim? Should you surrender and follow the path of least resistance?
 
 Most certainly not. That's not the point I'm trying to make here.
 
-When adopting this wonderful text editor, you need to accept the fact that you are required to put in your 10 000 hours.
+When adopting this text editor, you need to accept the fact that you are required to put in your 10000 hours.
 Figuratively speaking of course.
 
 If it's not in your muscle memory, it's not worth using it.
 
-Practice using Vimgolf, watch Vimcasts and read the built in documentation.
+Practice using [Vimgolf](https://vimgolf.com), watch [Vimcasts](http://vimcasts.org/) and read the built in documentation.
 
 There is a fine line between Vim being your ally or your enemy, silently draining your energy and making you worse off than if you were using a simpler text editor.
