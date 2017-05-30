@@ -4,20 +4,18 @@ Oh no, not another Vim article.
 
 No I don't use Emacs and no, I don't hate Vim.
 
-This title is purposefully meant to envoke some emotions in order to convey what I think is an important message.
+This title is purposefully crafted to invoke some sort of emotion in order to convey what I think is an important message.
 
-I've been using vim for around 7 years, and I still use it now.
+I've been using Vim for around 7 years, and I still use it now.
 
-The title of this post may be on the click baity side but I believe that it's still 100% accurate.
-
-Vim can be harmful in certain situations.
+It's true, Vim can be harmful in certain situations.
 
 There is no denying that Vim is a powertool, and as with any power tool, they command respect.
 
 You can use a chainsaw to cut down a tree but if the only thing you are used to is a manual saw, you will probably try cut down the tree without
-activating the blade.
+activating the blade.  While you may feel like you are being innovative, the fact is that you are wasting your time.
 
-## I fell in love with the act of creating code
+## I weirdly fell in love with the process of creating code
 
 When I was studying, some of my first programming was done in Actionscript on Windows PC's.
 
@@ -39,7 +37,7 @@ As with so many things, after you hear about it for the first time, it seems to 
 
 I heard that only the best programmers could use Vim and that you could be so much faster in it, ultimately making you a better *programmer*.
 
-I decided to take the plunge and convert to it from GEdit.  I would not shut up about it.  I was very annoying.
+My mind was made up.  I decided to convert to Vim from GEdit.  I would not shut up about it.  I was very annoying.
 
 ## I was slow
 
@@ -51,21 +49,26 @@ My obsession with tools and tinkering had spun out of control.
 
 Not to say that this development environment was wrong, but I didn't put in enough work to be proficient in it.
 
+Which is what this all boils down to.
+
 ## How many balls can you really juggle at once?
 
 If you haven't seen Rich Hickey's talk titled 'Simple Made Easy', I would highly recommend that you watch it.
 
-In it, he touches on the mental capacity that programmers have when it comes to solving problems.
+In it he talks about the mental capacity that programmers have to solve complex problems.
 
-He compares it to juggling balls where even the best juggler can only handle a certain amount of balls before it becomes impossible.
+He compares it to juggling balls, where even the best juggler can only handle a certain amount before it becomes impossible.
 
 With poorly designed programs, you might end up with a few balls unrelated to the problem that you are trying to solve.
 
-You end up having to keep unrelated things in your head, robbing you of capacity available to dedicate it to other important thought processes.
+You end up having to keep unrelated things in your head, robbing you of your capacity to think clearly about the actual problem you are trying to
+solve.
 
 Vim could end up throwing even more balls into the mix.  Many more.
 
-You could end up with only 1 out of 8 balls dedicated to solving the problem you are trying to focus on.
+With a maximum of 8 mental juggling balls available, Vim could end up using 5, 6 or 7 of them.
+
+What's worse is that you may be oblivious to the fact that this is even happening.
 
 I've seen new programmers excited about using Vim, so enthusiastic, only to forget what method signature they were updating because their entire thought
 process suddenly became dedicated to figuring how to modify the text up until the 3rd t character.
