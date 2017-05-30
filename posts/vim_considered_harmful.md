@@ -10,7 +10,7 @@ I've been using Vim for around 7 years, and I still use it now.
 
 It's true, Vim can be harmful in certain situations.
 
-There is no denying that Vim is a powertool, and as with any power tool, they command respect.
+There is no denying that Vim is a power tool, and as with any power tool, they command respect.
 
 You can use a chainsaw to cut down a tree but if the only thing you are used to is a manual saw, you will probably try cut down the tree without
 activating the blade.  While you may feel like you are being innovative, the fact is that you are wasting your time.
@@ -19,13 +19,13 @@ activating the blade.  While you may feel like you are being innovative, the fac
 
 When I was studying, some of my first programming was done in Actionscript on Windows PC's.
 
-My team mate was fast when it came to typing, and modifying the code.
+My teammate was fast when it came to typing, and modifying the code.
 
-He used Alt-Tab to switch between programs and I watched him in awe.
+He used Alt-Tab to switch between programs and I watched him in awe.  He had no need to reach for the mouse.
 
-I tried to emulate him, and I would switch between programs quickly using Alt-Tab, avoiding the mouse, until I started getting RSI.
+I tried to emulate him, and I would switch between programs quickly using Alt-Tab, to the point where I started developing RSI.
 
-I actually enjoyed the *process* creating the code, and found that everyone has a unique style.
+I enjoyed the *process* creating the code, and noticed that everyone has a unique style.
 
 I became obsessed with the process and lost focus on what actually matters.  Getting things done.
 
@@ -36,12 +36,13 @@ The first time I heard of Vim, I couldn't understand what all the hype was about
 As with so many things, after you hear about it for the first time, it seems to just pops up everywhere.
 
 I heard that only the best programmers could use Vim and that you could be so much faster in it, ultimately making you a better *programmer*.
+This felt like a natural progression from my Alt-Tab shortcuts, and I could have it all.
 
 My mind was made up.  I decided to convert to Vim from GEdit.  I would not shut up about it.  I was very annoying.
 
 ## I was slow
 
-My obsession with a customised development environment grew to the point where I was typing in Colemak on Arch Linux at work with Xmonad and no real graphical interface.  To interact with the database, I would do it in a Vim buffer, obviously.
+My obsession with a customised development environment grew to the point where I was typing on a loud mechanical keyboard, in Colemak, on Arch Linux with Xmonad and no real graphical interface.  To interact with the database, I would do it in a Vim buffer, obviously.
 
 Half the applications on my computer didn't work correctly and I refused to use anything that wasn't on the command line.
 
@@ -77,21 +78,24 @@ You have successfully robbed yourself of your ability to think.
 
 ## Typing isn't the bottleneck
 
-Typing isn't the bottleneck but you have the option to make it one.
+Typing isn't the bottleneck but you surely have the option to make it one.
 
-Having to think about what to type is not helping you solve actual problems. It is counter productive.
+Having to think about what and how to type will drain your energy. It is counter productive.
 
-EVERYTHING I do in Vim now is in my muscle memory.  If I learn something new, usually by practicing with Vimgolf, I make a point of committing this
-new key combination to muscle memory.  Once it's in your fingers, it's in, you can abolish it from your thoughts.
+EVERYTHING I do in Vim now is in my muscle memory.  If I learn something new, usually by practicing with Vimgolf, I make a point of understanding and committing this new key combination to muscle memory.
+
+Once it's in your fingers, there is no need to actively think about it.
 
 ## Pragmatism is stylish
 
 I hate the word pragmatism.  I've heard it thrown around so many times and truly it's quite soggy.
 
-However, when I see someone approach a problem with their entire cognative ability dedicated to it with no distractions, I feel that same feeling that
+However, when I see someone approach a problem with their entire cognitive ability dedicated to it with no distractions, I feel that same feeling that
 I used to feel when I saw people type fast or use a lot of shortcuts.
 
 Given a problem, the way you approach a spike to get a result as quickly as possible can save you a lot of time moving forward.
+
+You have become a powertool.
 
 ## What now?
 
@@ -105,13 +109,11 @@ Should you stop using Vim then? Should you surrender and follow the path of leas
 
 Most certainly not. That's not the point I'm trying to make here.
 
-What you need to do is to sit down and practice Vim until it has become a part of your muscle memory.
+When adopting this wonderful text editor, you need to accept the fact that you are required to put in your 10 000 hours.
+Figuratively speaking of course.
 
-One of the best resources I have found online is Vimgolf.  I must have completed over a 100 challenges.
+If it's not in your muscle memory, it's not worth using it.
 
-I was also fortunate enough to become friends with one of the Vim giants Drew Neil, the author of Vimcasts and went to all his meetups.
+Practice using Vimgolf, watch Vimcasts and read the built in documentation.
 
-If you take anything away from this, hopefully it's that if you want to use Vim, you have to be ready to commit to studying it.
-
-There is a fine line between Vim being your ally and Vim being your enemy, silently draining your energy and making you worse off than if you were
-using notepad (No offence to developers using Notepad).
+There is a fine line between Vim being your ally or your enemy, silently draining your energy and making you worse off than if you were using a simpler text editor.
