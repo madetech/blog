@@ -8,7 +8,7 @@ This title is purposefully crafted to invoke some sort of emotion in order to co
 
 I've been using Vim for around 7 years, and I still use it now.
 
-It's true, Vim can be harmful in certain situations.
+It's true, whether you like it or not,  Vim can be harmful in certain situations.
 
 There is no denying that Vim is a power tool, and as with any power tool, it commands respect.
 
@@ -54,7 +54,7 @@ Which is what this all boils down to.
 
 ## How many balls can you really juggle at once?
 
-If you haven't seen Rich Hickey's talk titled 'Simple Made Easy', I would highly recommend that you watch it.
+If you haven't seen Rich Hickey's talk titled [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy), I would highly recommend that you watch it.
 
 In it he talks about the mental capacity that programmers have to solve complex problems.
 
