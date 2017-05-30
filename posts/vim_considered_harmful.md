@@ -4,13 +4,11 @@ Oh no, not another Vim article.
 
 No I don't use Emacs and no, I don't hate Vim.
 
-This title is purposefully meant to some emotions amongst in order to convey what I think is an important message that I wish I knew a long time ago.
+This title is purposefully meant to envoke some emotions in order to convey what I think is an important message.
 
 I've been using vim for around 7 years, and I still use it now.
 
-There is a twist to this story.
-
-The title may be on the click baity side but I believe that it's 100% accurate.
+The title of this post may be on the click baity side but I believe that it's still 100% accurate.
 
 Vim can be harmful in certain situations.
 
@@ -23,15 +21,15 @@ activating the blade.
 
 When I was studying, some of my first programming was done in Actionscript on Windows PC's.
 
-My teammate was fast when it came to typing, and modifying the code.
+My team mate was fast when it came to typing, and modifying the code.
 
-He used Alt-Tab to switch between programs and I enjoyed watching him in awe.
+He used Alt-Tab to switch between programs and I watched him in awe.
 
 I tried to emulate him, and I would switch between programs quickly using Alt-Tab, avoiding the mouse, until I started getting RSI.
 
-I actually enjoyed the process of physically creating the code, and found that everyone has a unique style.
+I actually enjoyed the *process* creating the code, and found that everyone has a unique style.
 
-I became obsessed and lost focus on what actually matters.
+I became obsessed with the process and lost focus on what actually matters.  Getting things done.
 
 ## I tried to convert everyone in my company to use Vim
 
@@ -41,31 +39,32 @@ As with so many things, after you hear about it for the first time, it seems to 
 
 I heard that only the best programmers could use Vim and that you could be so much faster in it, ultimately making you a better *programmer*.
 
-I decided to take the plunge and convert to it from GEdit.
+I decided to take the plunge and convert to it from GEdit.  I would not shut up about it.  I was very annoying.
 
 ## I was slow
 
-My obsession with a customised development environment grew to the point where I was typing in Colemak on Arch Linux at work with Xmonad and no real graphical interface.  To interact with the database, I would do it through Vim, obviously.
+My obsession with a customised development environment grew to the point where I was typing in Colemak on Arch Linux at work with Xmonad and no real graphical interface.  To interact with the database, I would do it in a Vim buffer, obviously.
 
 Half the applications on my computer didn't work correctly and I refused to use anything that wasn't on the command line.
 
-My obsession for tinkering had finally spun out of control.
+My obsession with tools and tinkering had spun out of control.
 
-Not to say that this development environment was wrong, but I didn't put in enough work to be efficient in it.
+Not to say that this development environment was wrong, but I didn't put in enough work to be proficient in it.
 
 ## How many balls can you really juggle at once?
 
 If you haven't seen Rich Hickey's talk titled 'Simple Made Easy', I would highly recommend that you watch it.
 
-In it he touches on the capacity that programmers have in solving problems.
+In it, he touches on the mental capacity that programmers have when it comes to solving problems.
 
-He compares it to juggling balls where even the best juggler in the world can only juggle a certain amount of balls before it becomes impossible.
+He compares it to juggling balls where even the best juggler can only handle a certain amount of balls before it becomes impossible.
 
 With poorly designed programs, you might end up with a few balls unrelated to the problem that you are trying to solve.
 
-You end up keeping things in your head, robbing you of capacity to dedicate it to other thought processes.
+You end up having to keep unrelated things in your head, robbing you of capacity available to dedicate it to other important thought processes.
 
 Vim could end up throwing even more balls into the mix.  Many more.
+
 You could end up with only 1 out of 8 balls dedicated to solving the problem you are trying to focus on.
 
 I've seen new programmers excited about using Vim, so enthusiastic, only to forget what method signature they were updating because their entire thought
@@ -75,7 +74,12 @@ You have successfully robbed yourself of your ability to think.
 
 ## Typing isn't the bottleneck
 
-Typing isn't the bottleneck but if it steals your cognitive capabilities, then you have made it the bottleneck.
+Typing isn't the bottleneck but you have the option to make it one.
+
+Having to think about what to type is not helping you solve actual problems. It is counter productive.
+
+EVERYTHING I do in Vim now is in my muscle memory.  If I learn something new, usually by practicing with Vimgolf, I make a point of committing this
+new key combination to muscle memory.  Once it's in your fingers, it's in, you can abolish it from your thoughts.
 
 ## Pragmatism is stylish
 
@@ -83,6 +87,8 @@ I hate the word pragmatism.  I've heard it thrown around so many times and truly
 
 However, when I see someone approach a problem with their entire cognative ability dedicated to it with no distractions, I feel that same feeling that
 I used to feel when I saw people type fast or use a lot of shortcuts.
+
+Given a problem, the way you approach a spike to get a result as quickly as possible can save you a lot of time moving forward.
 
 ## What now?
 
@@ -100,6 +106,9 @@ What you need to do is to sit down and practice Vim until it has become a part o
 
 One of the best resources I have found online is Vimgolf.  I must have completed over a 100 challenges.
 
-I was also fortunate enough to become friends with one of the Vim giants Drew Neil, the author of Vimcasts and went to all his meetups here in London.
+I was also fortunate enough to become friends with one of the Vim giants Drew Neil, the author of Vimcasts and went to all his meetups.
 
 If you take anything away from this, hopefully it's that if you want to use Vim, you have to be ready to commit to studying it.
+
+There is a fine line between Vim being your ally and Vim being your enemy, silently draining your energy and making you worse off than if you were
+using notepad (No offence to developers using Notepad).
