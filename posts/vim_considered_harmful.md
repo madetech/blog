@@ -10,7 +10,7 @@ I've been using Vim for around 7 years, and I still use it now.
 
 It's true, Vim can be harmful in certain situations.
 
-There is no denying that Vim is a power tool, and as with any power tool, they command respect.
+There is no denying that Vim is a power tool, and as with any power tool, it commands respect.
 
 You can use a chainsaw to cut down a tree but if the only thing you are used to is a manual saw, you will probably try cut down the tree without
 activating the blade.  While you may feel like you are being innovative, the fact is that you are wasting your time.
