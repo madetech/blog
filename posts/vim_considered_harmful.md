@@ -95,7 +95,7 @@ I used to feel when I saw people type fast or use a lot of shortcuts.
 
 Given a problem, the way you approach a spike to get a result as quickly as possible can save you a lot of time moving forward.
 
-You have become a powertool.
+You have become a power tool.
 
 ## What now?
 
