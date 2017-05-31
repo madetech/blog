@@ -39,7 +39,7 @@ Our inception sessions will nearly always happen face-to-face and include the cr
 3. **Process Map** — Draw out the existing process that you are trying to improve. Doing this will provide clarity to everyone in the room.
 4. **Problem Areas** — Highlight the problem areas and prioritise these by business impact.
 5. **Real Actors** — Now go and sit with the actors in the system, to see the problems you're solving first hand.
-6. **Revisit Process Map** — We often find the sitting with real actors changes the
+6. **Revisit Process Map** — We often find the sitting with real actors changes the process.
 
 Up until this point, we'll have focused on the problem. We'll now turn our attention to potential solutions.
 
