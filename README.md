@@ -4,7 +4,7 @@ Our company blog is a critical channel for inbound marketing efforts, lead gener
 
 One of ours aims is to ensure our blog posts closely align with our positioning, and provides interesting and thought provoking reading to our customers, especially those who fall into the various [customer personas](https://docs.google.com/a/maine-associates.com/document/d/1S0VF2oMMGqyHByisSmGDMGpZgTUcuh-38J9rg6GpcEQ/edit?usp=sharing) we would like to target.
 
-We've written quite a lot of stuff over the years, if you'd like some inspiration, check out our previous posts [here](INDEX.md).
+We've written quite a lot of stuff over the years, if you'd like some inspiration, check out our previous posts [here](INDEX.md). Testing.
 
 ## Blogging
 
