@@ -14,16 +14,19 @@ Cost of delay is a modelling technique that examines how the accumulated cost of
 
 If you host a ecommerce website with lots of traffic, the simplest cost of delay model would be the total lost sales over the time the site is down.
 
-
+![](cost_of_delay/image1.png)
 
 ### Improvement tasks
- 
+
 If your ecommerce website isn’t compatible with the latest bit of technology sweeping the nation, you could estimate the cost of lost sales.
- 
+
+![](cost_of_delay/image2.png)
 
 ### External deadline tasks
  
 Black Friday is coming, and you estimate that you could generate an extra £5K worth of sales on that day if you were able to send an email campaign out beforehand.
+
+![](cost_of_delay/image3.png)
 
 ## Roadmap
 
