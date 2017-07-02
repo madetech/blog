@@ -16,34 +16,33 @@ Historically these days have been internally facing, with someone pitching an id
 I thought I'd share some of the thinking behind this and take you through what we created at the hack. Hopefully this will inspire some other organisations to follow suit and use hack days for good!
 
 #### Default to open
-We have always tried to be an open company and things like publishing our [company handbook](https://github.com/madetech/handbook), [frequently blogging](https://www.madetech.com/blog), [mentoring new programmers](https://github.com/madetech/handbook/blob/master/roles/engineer.md#mentor) or [writing books](https://www.amazon.co.uk/Building-High-Performance-Agile-Teams/dp/1544972687) were steps towards us being more open. It felt at odds with our culture to run hack days that were closed events, when so much of what we do is open.  
+We have always been an open company and publishing our [company handbook](https://github.com/madetech/handbook), [frequently blogging](https://www.madetech.com/blog), [mentoring new programmers](https://github.com/madetech/handbook/blob/master/roles/engineer.md#mentor) or [writing books](https://www.amazon.co.uk/Building-High-Performance-Agile-Teams/dp/1544972687) were steps towards being even more open. It felt at odds with our culture to run hack days that were closed events. Homeless Hack was a good opportunity to rectify this. 
 
 #### Be a socially responsible SME
 Historically we've never given much thought to things like Corporate Social Responsibility. We're an SME, we've got less than 30 people working for us and we like to think we run the business ethically and fairly. 
 
-It's always felt like the world of CSR didn't really apply to us. e.g. It's for the big enterprises, who do bad things and need to offset the bad things by doing some good things. 
+It's always felt like the world of CSR didn't really apply to us. e.g. It's for the big enterprises, who do bad things and need to offset the bad things by doing some good things. This was a good opportunity to course correct some of our thinking around this and invest some time and money into something that would do some social good. 
 
-This was a good opportunity course correct our thinking and invest some time into something that would do social good. 
+#### What are you doing on Saturday?
+We asked everyone in the company to attend HomelessHack, though had just 7 people attend. The event fell on a Friday and Saturday and many people couldn't give up a day of their weekend to attend. Interestingly, we had quite a few people who originally said they would attend, but as the event got closer, had to drop out.
 
-#### Building awareness
-One of our company objectives this year is to build awareness of Made Tech within the UK public sector. Events like this help us to work towards this and 
+From a cost perspective, it will have cost us ~£6,000 in lost opportunity costs (as our billings on Friday will be down) and approx ~50% of this in direct costs. So it's a fairly significant investment for an SME, but one which we think is justifiable and worthwhile. 
 
-#### Improve our skills / others skills
-It's import
-
-#### What about the costs?
-Obviously  of the things it will have cost us ~£4,800 in lost opportunity costs as our billings will be down. However, this 
-
-A small contingent from Made Tech (~7 people) left the office on Frida Homeless Hackday over the last few days. 
-
+Anyway, onto what we did:
 
 ## Day 1 - Learn
-We kicked off Homeless Hack on Friday morning with talks by X, Y & Z. These talks really helped to set the scene and get a deeper understanding of the problem. As someeboy
+We kicked off Homeless Hack on Friday morning with an introduction followed by talks by X, Y & Z. These talks really helped to set the scene and get a deeper understanding of the problem and potential areas for focus.
+
+Following the talks, a load of people presented ideas for discussion in the afternoon. We pitched a couple of things: The first was to look at Property Guardianship and whether there was a potential source of additional housing and what policy / social / changes would be needed. The second idea was around data and sources of insight which could be used to drive policy change.
+
+Following afternoon discussions, we had a short session to aggregate ideas and break into teams to work on particular problems. There were ~5 teams in total and we were part of the [Shared Accommodation Rate](https://docs.google.com/document/d/1h349A0oM5-SHuyvwoLX9VfDsq2t4EeC9LnvSm2BfN9Y/edit?usp=sharing) and the [XXX]() teams.
+
 
 ## Day 2 - We're Live
 
-
 ## What's Next
-It looks like Homeless Hack is gaining some momentum. I've already seen Homeless Hack events organised and happen in Leeds, Manchester and Oxford. It's great to see the work continuing. As a company, we're discussing the next Hack Day that we're going to attend and what we can do to get a higher staff turn out. 
+It looks like Homeless Hack is gaining momentum. I've seen Homeless Hack events organised in Leeds, Manchester and Oxford. It's great to see the good work being picked up by other cities. 
+
+As a company, we'll definitely be attending more public hack days. We're already talking about the next one, potentially an [NHS Hack Day](http://nhshackday.com/) and we're hoping to get a larger turnout from Made Tech next time! 
 
 Finally, a huge thank you to Janet Hughes, James Cattell, Gia Marcus & Richard Barton. They organised the London event and made it a fantastic success. These type of events wouldn't happen without their hard work, so top work to them all. 
