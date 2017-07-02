@@ -28,15 +28,18 @@ We asked everyone in the company to attend HomelessHack, though had just 7 peopl
 
 From a cost perspective, it will have cost us ~£6,000 in lost opportunity costs (as our billings on Friday will be down) and approx ~50% of this in direct costs. So it's a fairly significant investment for an SME, but one which we think is justifiable and worthwhile. 
 
-Anyway, onto what we did:
-
 ## Day 1 - Learn
 We kicked off Homeless Hack on Friday morning with an introduction followed by talks by X, Y & Z. These talks really helped to set the scene and get a deeper understanding of the problem and potential areas for focus.
 
 Following the talks, a load of people presented ideas for discussion in the afternoon. We pitched a couple of things: The first was to look at Property Guardianship and whether there was a potential source of additional housing and what policy / social / changes would be needed. The second idea was around data and sources of insight which could be used to drive policy change.
 
+![Discussion Grid](homeless_hack_discussion_grid.jpg)
+
 Following afternoon discussions, we had a short session to aggregate ideas and break into teams to work on particular problems. There were ~5 teams in total and we were part of the [Shared Accommodation Rate](https://docs.google.com/document/d/1h349A0oM5-SHuyvwoLX9VfDsq2t4EeC9LnvSm2BfN9Y/edit?usp=sharing) and the [XXX]() teams.
 
+The objective for the SAR team was to: **Use real pricing data to create a campaign to highlight the difference between LHA and real market rates**
+
+The objective for the XXX team was to: "Insert Here"
 
 ## Day 2 - We're Live
 
@@ -45,4 +48,4 @@ It looks like Homeless Hack is gaining momentum. I've seen Homeless Hack events 
 
 As a company, we'll definitely be attending more public hack days. We're already talking about the next one, potentially an [NHS Hack Day](http://nhshackday.com/) and we're hoping to get a larger turnout from Made Tech next time! 
 
-Finally, a huge thank you to Janet Hughes, James Cattell, Gia Marcus & Richard Barton. They organised the London event and made it a fantastic success. These type of events wouldn't happen without their hard work, so top work to them all. 
+Finally, a huge thank you to [Janet Hughes](https://twitter.com/janethughes), [James Cattell](https://twitter.com/jacattell), [Gia Marcus](https://twitter.com/la_gaia) & [Richard Barton](https://twitter.com/cioportfolio). They organised the London event and made it a fantastic success. These type of events wouldn't happen without their hard work, so top work to them all. 
