@@ -1,12 +1,12 @@
 # Modern APIs are Pushing Innovation in Retail
 
-An increasing number of retailers are API enabling core parts of their business, delivering a more cohesive customer experience across a variety of touchpoints, making it easier to streamline internal operations, and opening opportunities to interface with external channels.
+An increasing number of retailers are exposing core parts of their business through APIs, delivering a more cohesive customer experience across a variety of touchpoints, making it easier to streamline internal operations, and opening opportunities to interface with external channels.
 
 ## What is an API?
 
-First off, it's worth recapping on what we mean by API, or Application Programming Interface, to use its full name.
+First off, it's worth recapping what we mean by API, or Application Programming Interface, to use its full name.
 
-An API allows systems to easily talk to one another. APIs can allow an e-commerce store to send an order to the warehouse for fulfilment, or an EPOS system understand what stock is available in the store.
+An API allows systems to easily talk to one another. APIs can allow an e-commerce store to send an order to the warehouse for fulfilment, or an EPOS system to understand what stock is available in the store.
 
 More modern applications are often API ready out of the box, but legacy applications can sometimes cause sticking points.
 
@@ -14,19 +14,19 @@ More modern applications are often API ready out of the box, but legacy applicat
 
 Historically, applications connected via proprietary protocols. Different vendors had their own standards, and connecting different systems was often a laborious exercise that involved licensing more proprietary software.
 
-Worse is that some software systems are "walled gardens", where they by design, or through lack of investment, won't interoparate with other systems. Isolating their data and functionality from the rest of the organisation.
+Worse is that some software systems are "walled gardens", where they, by design or through lack of investment, won't interoperate with other systems. This isolates their data and functionality from the rest of the organisation.
 
 In today's world, customers are demanding a cohesive experience that this isolationist approach can hinder.
 
 ## Customers Increasingly Expect a More Connected Experience
 
-Customers are interacting with retailers through an increasing array of touchpoints, from web, to mobile, and in-store, and perhaps third party marketplaces.
+Customers are interacting with retailers through an increasing array of touchpoints, from web, to mobile, and in-store, and perhaps even third party marketplaces.
 
 An organisation that has adopted an API ready approach will find integrating new channels a much easier experience. If the e-commerce platform already exposes an API for accepting payments, half the job would already be done in allowing a new mobile application the same functionality. Likewise if the warehouse system already provides an API for stock levels, showing live stock data on the e-commerce storefront is largely solved.
 
-Centralising customer data in to a CRM system that can be accessed via APIs allows a customer to be more easily recognised across the retail touchpoints, and can enable the shopping experience to be tailored to them. A salesperson who can see a customers recent browsing habits and online purchases is much better able to make recommendations. Likewise, if the data feeds both ways, customers can be retargeted with relevant advertising online based on their offline behaviour.
+Centralising customer data in to a CRM system that can be accessed via APIs allows a customer to be more easily recognised across the retail touchpoints, and can enable the shopping experience to be tailored to them. A salesperson who can see a customer's recent browsing habits and online purchases is much better able to make recommendations. Likewise, if the data feeds both ways, customers can be retargeted with relevant advertising online based on their offline behaviour.
 
-Many retailers already have significant maturity in delivering APIs
+Many retailers already have significant maturity in providing APIs for core parts of their operation, and are realising the benefits.
 
 ## Existing API-enabled Retailers
 
@@ -42,7 +42,7 @@ Offering APIs can open opportunities outside of the organisation too.
 
 Integrating with third party services easily can be a compelling benefit. Enabling commerce anywhere (think "shop the look" on Instagram), or exposing product catalogues to price comparison or aggregation services without the need for a standalone channel manager to power an integration.
 
-Opportunities can be opened to work with partner organisations with complimentary offerings, or to encourage third party developers to interface with your systems. Reportedly 60% of eBay's revenue is driven through API calls, and for Expedia the number is reportedly as high as 90%.
+Opportunities can be opened to work with partner organisations with complimentary offerings, or to encourage third party developers to interface with your systems. Reportedly 60% of eBay's revenue is driven through API calls, and for Expedia the number is said to be as high as 90%.
 
 ## Adoption Challenges in Existing Environments
 
