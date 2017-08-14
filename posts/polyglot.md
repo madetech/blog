@@ -1,5 +1,7 @@
 # Polyglot disciplines
 
+As a polyglot software engineer, I have discovered some disciplines, which I have found beneficial to me. My hope is that readers of this article will find the experience I share here profitable to their endeavours as polyglots (or indeed as monoglots). 
+
 ## Problems
 
 One of the biggest problems with switching between programming languages is the context switching. Remembering what operator is used to perform a particular language essential function e.g. `;` and `.` for statement termination or `.` or `->` for object member access.
@@ -50,9 +52,9 @@ So how do I remember all of this? The secret is: **I don't**.
 
 Here, I'll tell you how I get by without being a specialist.
 
-### Be familiar with the paradigms
+### Familiarise yourself with new language paradigms
 
-It's important to learn new languages. The biggest piece of advice to those looking to become a polyglot is to pick languages that are vastly different to what you currently find comfortable.
+I have found it is important to learn new languages (but not just any new language, as I will cover). The biggest piece of advice to those looking to become a polyglot is to pick languages that are vastly different to what you currently find comfortable.
 
 Working in Ruby? Choose a statically-typed OO language.
 
@@ -73,13 +75,13 @@ The point here is comfortability - it is important to recognise that the differe
 
 The importance of advice from someone who has worked with a language, in a team, has absolutely no comparison. There are tiny details of how "normal code" looks within a particular language that you can only pick up through osmosis and direct feedback from a mentor. 
 
-I have found that meetups e.g. London Code Dojo or London Software Craftsmanship are full of individuals who can provide mentoring over a kata. The subtle transfer of knowledge that takes place in less than 2 hours is substantial enough to be worth your time.
+I have found that meetups e.g. London Code Dojo or London Software Craftsmanship are full of individuals who can provide mentoring over a kata. The subtle flow of knowledge that takes place in less than 2 hours is substantial enough to be worth your time.
 
 ### TDD
 
 The discipline with the biggest impact on my polyglot workflow is TDD. When I say TDD, I mean full on - Disciplined TDD. 
 
-TDD is a strict discipline where a programmer is not able to write a single line of production code without writing a failing test. Given the tests must be written, and they must be written first when TDD'ing a programmer is also only allowed to write the simplest assertion to produce a failing test. When a programmer has a failing test, they are also only allowed to write the simplest production code to make that test pass. What this results in in practice is that a TDD'ing programmer's test suite assertions have to be watertight. 
+TDD is a strict discipline where a programmer is not able to write a single line of production code without writing a failing test. Given the tests must be written, and they must be written first when TDD'ing a programmer is also only allowed to write the simplest assertion to produce a failing test. When a programmer has a failing test, they are also only allowed to write the simplest production code to make that test pass. What this yields in practice are watertight assertions in your test suite. 
 
 As an aside; there are a few situations where TDD isn't appropriate e.g. Testing CSS, Testing UIs, Testing FSM's, etc. (which I'll cover in another blog post). However, for the vast majority of code, IMHO, there are zero excuses not to apply a rigorous, disciplined TDD approach.  
 
@@ -101,7 +103,7 @@ IDE's are an underestimated source of learning opportunities. For example, Intel
 
 As an agilist one thing I want to be delivering is a continuous stream of value. One thing that I find to be of high friction is new technologies. 
 
-The most common decision that I would suggest deferring is the answer to this one question: "What is the database schema?". Some Engineers will gasp at this point, but hold back any disbelief in this for a moment. When decisions like what the database schema is and when you architect your code to be truly agnostic of a particular web framework, something interesting happens, you can worry about what your customer needs, without learning anything but a test framework and the language at hand. You can worry about learning how to solve those details later. Not only that, but you'll be more informed to make the right decision about the framework or the database as you'll have more knowledge about the shape of the solution. Maybe, a lightweight database is enough (or even flat files!), or maybe Sinatra is sufficient to get the job done.
+The most common decision that I would suggest deferring is the answer to this one question: "What is the database schema?". Some Engineers will gasp at this point, but hold back any disbelief in this for a moment. When decisions like what the database schema is and when you architect your code to be truly agnostic of a particular web framework, are deferred, something interesting happens, you can worry about what your customer needs, without learning anything but a test framework and the language at hand. You can worry about learning how to solve those details later. Not only that, but you'll be more informed to make the right decision about the framework or the database as you'll have more knowledge about the shape of the solution. Maybe, a lightweight database is enough (or even flat files!), or maybe Sinatra is sufficient to get the job done.
 
 The amount of time I've spent in the past attempting to get to grips with Spring, Rails, or GraphQL or some fancy new impressive stack before I've even begun learning and feeding back with customers, is argument enough for me to defer these decisions. It prevents me from becoming distracted with the mission to solve the customer's goal simply.  
 
