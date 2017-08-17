@@ -23,6 +23,8 @@ Outside of education I've done minor freelance work setting up a website using a
 
 On my placement I learned a lot about TDD, Clean Architecture, Continuous Development/Integration, feature toggles, agile/kanban.
 
+![academy](academy/academy1.jpg)
+
 ### How did you first hear about The Academy?
 
 **Dan:** A former colleague began working here, and he recommended the job for me as he believed it would be a good fit.
