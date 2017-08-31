@@ -45,3 +45,19 @@ It turns out the decision to purchase multi year migrations from oil tanker size
 Just as workloads needing to be broken down for migration to the cloud so do the programmes of work. Instead of migrating everything at once or even just a collection of applications, build a roadmap for migrating one. Commit to the spend of migrating only that one piece of the puzzle.
 
 ## Organisations need to work to improve cloud skills
+
+If organisations are lacking the experience required for migrations, that experience needs to be attained from somewhere. External help has to be in the mix but it may not necessarily mean getting a service provider to do all the work especially if you already have IT / engineering teams in house.
+
+Having a single team who work in the same physical location be responsible for the end to end delivery of the migration of a single application is an approach we've had great success with.
+
+Having reduced the complexity of the migration by limiting it to one application, and provided breathing room to learn, teams can thrive in these empowering environments. Bring in external experts in cloud to help train the team in new ways of working and eventually you will have a cloud ready team.
+
+When training the capability in house is not an option, an external service provider will have to be engaged. The migration of a single application should not need more than 2-4 permanent team members. If your provider is selling you any more than that you need to walk away, quickly.
+
+## Build on successes and learn from failures
+
+A failed migration of a single application, or delays to that migration will have a significantly lower cost than if you committed to a larger programme of work. This lean approach will provide many opportunities to learn, build confidence, gain new skills, and reduce risk significantly.
+
+It's important to provide a [safe space](https://www.madetech.com/blog/learning-from-mistakes) for teams to make mistakes and learn from them. We do not build experience without them. The enterprise world is often full of fear of failure and who can blame when failure has consequence in millions of pounds and dollars.
+
+Enterprises will find the less riskier and far cheaper path to the cloud by breaking the journey down in smaller steps.
