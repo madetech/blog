@@ -3,7 +3,7 @@
 
 The retail industry has been squeezed on many fronts over the past decade, from Internet giants flexing their technology muscle (and willingness to not always turn a profit) to disrupt markets, to fast-moving startups who are unincumbered by big company process, and who are able to attract strong technology talent.
 
-As companies grow, it is an almost enevitable rite of passage that stricter processes are embedded, decision making can become more centralised, and increasing layers added to the heirarchy. While in some measure these things can help an organisation to scale, they can significantly reduce an organisations agility when it comes to embracing changing commercial landscapes.
+As companies grow, it is an almost inevitable rite of passage that stricter processes are implemented, decision making becomes more centralised, and increasing layers added to the heirarchy. While in some measure these things can help an organisation to scale, they can significantly reduce an organisation's agility when it comes to embracing changing commercial landscapes.
 
 Established retailers can take conscious steps toward adopting and embracing startup levels of agility, ideally without the relentless late nights.
 
@@ -16,12 +16,14 @@ Particularly in large organisations, individuals and teams may not be fully empo
 
 Often this way of working involves pulling together cross functional teams - people from different areas of the business who are committed to delivering the same common goal.
 
+The team as a unit should be incentivised for successful delivery of the goal. Aligning individuals personal development goals to he overall success of the delivery, and keeping the team small can ensure accountability levels are high. We'd suggest a maximum of 5 or 6 to a team.
+
 
 ## 2. Hire intrapreneurial people
 
 When hiring, targeting people who have an entrepreneurial streak can be a real benefit. People who are not afraid to challenge the ideas of their seniors, and who are proactively looking to improve themselves can inject some additional energy in to a team.
 
-Examining the profile of a typical early-stage startup hire, you'd likely be looking at someone who wears many hats - a bit of marketing, a bit of operations, and hopefully a whole load of hussle. Even if they've never done it before, someone who's going to figure out what needs to be done to make important things happen.
+Examining the profile of a typical early-stage startup hire, you'd likely be looking at someone who wears many hats - a bit of marketing, a bit of operations, and hopefully a whole load of hustle. Even if they've never done it before, someone who's going to figure out what needs to be done to make important things happen.
 
 
 ## 3. Reward innovation
@@ -37,14 +39,17 @@ An organisation that primarily rewards people based on taking the safe, tried an
 
 Most retailers have long since built out a data capability. Extending this a step further, startups often approach their entire business model with a test-and-learn strategy:
 
-Come up with a hypothesis, figure out the smallest experiment that will prove this, run the experiment, and repeat.
+- Come up with a hypothesis
+- Figure out the smallest experiment that will prove this
+- Run the experiment
+- Repeat
 
 This can be as micro as comparing the effectiveness of two POS promotions, the ordering of products on an e-commerce listing page, to testing an entirely new channel.
 
 
 ## 5. Buy smaller, modern technology services
 
-Too often, large organisations default to long purchasing cycles of "enterprise" software solutions. On top of the long purchase process, these solutions can also have long implementation cycles, leading to slow adotion of new technology.
+Too often, large organisations default to long purchasing cycles of "enterprise" software solutions. On top of the long purchase process, these solutions can also have long implementation cycles, leading to slow adoption of new technology.
 
 In the startup world, new technology can often just be a credit card purchase away, and at the most extreme, involving just a small copy-and-paste to integrate with existing systems.
 
