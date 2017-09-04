@@ -1,22 +1,10 @@
 # Enterprise lacking skills required for cloud migration
 
-> 66% of I.T. leaders say their organisations are not adequately prepared for the disruptions to come
-
-http://www.gartner.com/newsroom/id/3375817
-
-For all the excitement and talk of cloud technologies it seems the reality is a little less glamorous. With more and more executives backing the move to the cloud, more and more organisations are booting up large migration programmes. The problem is, organisations do not necessarily have the skills to migrate.
-
-> 81% of enterprises rely on service providers for cloud
-
-https://www.veritas.com/news-releases/2016-06-28-state-of-the-hybrid-cloud-research
-
-Not only that but enterprises are reporting the need to outsource this to service providers, often locking themselves into projects lasting years and ultimately huge bills.
+For all the excitement and talk of cloud it seems the reality, at least in enterprises, is a little less glamorous. With more and more executives backing the move to the cloud, more and more organisations are booting up large migration programmes. Unfortunately their aging IT departments lack the experience required and organisations are forced to a depend on service providers to fill the gap.
 
 > 35% have migrated applications and infrastructure to the cloud that were ultimately brought back on-premises
 
-http://it-trends.solarwinds.com/
-
-The story gets darker, reverting on 35% of migrations doesn't bode well. Not only that but the top reasons for migrating back or never moving across was security and compliance, poor performance, cost, and technical challenges.
+Worse yet in [one survey](http://it-trends.solarwinds.com/) organisations reported 35% failure rate of migrations. At the top of reasons for migrating back were security and compliance, poor performance, cost, and technical challenges. These obstacles must be faced for large organisations are to modernise.
 
 ## Security and compliance is not a technology issue
 
