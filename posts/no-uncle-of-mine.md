@@ -1,19 +1,19 @@
 # No Uncle of Mine
 
 Last month, one topic sparked a lot of debate on the internet in general, and in
-the Tech industry in particular: the so called "Manifesto", writen by James
+the Tech industry in particular: the so called "Manifesto", written by James
 Damore, then engineer at Google. While this blog post won't be about the
-manifesto, some events that occured after it came out prompted me to write this.
-But before looking into it, let's go over some of what has beeen said and
+manifesto, some events that occurred after it came out prompted me to write this.
+But before looking into it, let's go over some of what has been said and
 written since last month.
 
 ## Googlebro's Manifesto and subsequent firing.
 
-In case you've missed it, you can find the original manifesto [here (PDF)](https://assets.documentcloud.org/documents/3914586/Googles-Ideological-Echo-Chamber.pdf).
-That piece of writing has definetely received more attention than it deserves,
+In case you've missed it, here is link to the [original manifesto](https://assets.documentcloud.org/documents/3914586/Googles-Ideological-Echo-Chamber.pdf).
+That piece of writing has definitely received more attention than it deserves,
 to the point of even having a lengthy [Wikipedia entry](https://en.wikipedia.org/wiki/Google's_Ideological_Echo_Chamber).
 Since it became public,  many have discussed this in more detail than I'll be
-able to do here, so to keep this short, here are some interesting reading on the
+able to do here, so to keep this short, here is some interesting reading on the
 subject.
 
 - The manifesto relies on evolutionary psychology, which as field is at least
@@ -29,7 +29,7 @@ subject.
 Now, amongst the multitude of blog posts, news articles, and tweets that
 followed the release of the memo, one influential person within the software
 industry, let's call him Stan, came out with his take on the matter. Well,
-actually, Stan did not focus on the content of the memo, which he aknowledge was
+actually, Stan did not focus on the content of the memo, which he acknowledge was
 wrong, but instead focused on Google's decision to fire Googlebro. According to
 him :
 
@@ -37,22 +37,22 @@ him :
 > Instead, you counter bad ideas with better ideas.
 
 And as such, not only was the firing a wrong decision, but it would in turn make
-people unconfortable sharing their ideas, which would endanger a company as
+people uncomfortable sharing their ideas, which would endanger a company as
 Google that relies on innovation.
 
 While I agree that you should try to discuss things freely, and allow people and
 their ideas to evolve though debate, there is a limit to how far this can go on
 for. In this particular context, it seems like Google did provide
-opportunities both for discussion and learning, as is mentionned in the
+opportunities both for discussion and learning, as is mentioned in the
 manifesto itself. If even after this, someone continues pushing on a subject
 with a rhetoric that hurts the company and its employees, I don't see any other
 path other than the dismissal of the offender.
 
-Furthermore, it is important indeed that people feel like they can share their
-ideas freely. So this raises the question, what should a company do when one of
+Furthermore, it is indeed important that people feel like they can share their
+ideas freely. So this raises the question : what should a company do when one of
 its employees says half of his coworkers are less suited for the job than him?
 History suggests that letting this kind of thinking foster inside a company
-could make the people targetted by that memo less confident in themselves and
+could make the people targeted by that memo less confident in themselves and
 hence less prone to share their thoughts.
 
 Finally, while a company like Google does rely on innovation to continue its
@@ -66,10 +66,10 @@ Some things are not okay to say, especially in an industry such as ours where
 white men are over represented. Thus the need for our community, in particular
 its more privileged members, to stand up and denounce points of view such as the
 one expressed by Damore. Failure in doing so will continue to make this community
-unwelcoming for under representended folks.
+unwelcoming for under represented folks.
 
 This is why Stan's stance was probably the most toxic thing a prominent white
-men in the community could have said. As such Stan should stop complaining
+man in the community could say. As such Stan should stop complaining
 about the quality of the feedback he received, and instead start asking himself
 some questions as to why people sent him mostly aggressive or condescending
 tweets.
@@ -84,16 +84,16 @@ issue.
 
 When trying to wrap my head around this, I realized something about Stan. One
 of the reasons he is so important in the software industry is because of his
-thoughts on the way we work. One thing that nows strikes me is how much emphasis
+thoughts on the way we work. One thing that now strikes me is how much emphasis
 he puts on professional skills. While this emphasis has many values, bore many
-fruits, and has an historical reason to come into existence, I start feeling
+fruits, and has a historical reason to come into existence, I start feeling
 like their importance should become second class in the modern software
 industry. More and more, the challenges we face are about people, making teams
 efficient, and delighting users and customers. Those challenges are the ones
-that actually deliver value, but are by nature greater than just code.
+that actually deliver value, and are by nature greater than just code.
 
 The craftsman analogy may have been good, but as with any analogy it reaches a
-point where it starts to become thin, and others may have to be devised. Those
-are definetly interesting times with interesting challenges to be solved as the
+point where it starts to become thin, and others may have to be devised. These
+are definitely interesting times with interesting challenges to be solved as the
 software community continues to evolve and to mature. One possibility could be
-to stop focusing on Clean Code, but start thinking about [Livable Code](https://www.youtube.com/watch?v=UDp6eDCi1Vo)
+to stop focusing on Clean Code, but to start thinking about [Livable Code](https://www.youtube.com/watch?v=UDp6eDCi1Vo)
