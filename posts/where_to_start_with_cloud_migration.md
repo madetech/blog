@@ -2,7 +2,7 @@
 
 Your organisation has decided it's ready to move to the cloud. Where do you start?
 
-Building out a roadmap isn't as simple as writing a list of servers that need migrating. Cloud migrations are very rarely a one to one lift and shift from on-premise to a cloud provider like Amazon Web Services.
+Defining a roadmap isn't as simple as writing a list of servers that need migrating. Cloud migrations are very rarely a one to one lift and shift from on-premise to a cloud provider like Amazon Web Services.
 
 Not only are migrations not as simple as lift and shift, the prioritisation of what to move and when is fundamental to making a migration successful. Knowing how to phase the migration into many small steps is crucial for reducing risk.
 
@@ -13,7 +13,7 @@ There are a number of questions that can help inform your roadmapping process.
 Changes to mission critical applications will have significant risks associated, 
 will likely impact other applications, and will potentially be the most disruptive to the organisation. It is for these reasons that mission critical applications should be tackled first.
 
-If your business sells products and services that are self serviced by customers then your e-commerce system will likely be mission critical. Less obvious self service systems used by customers such as a trading platforms or bespoke software, perhaps even running in your customers premises, are also likely to be critical.
+If your business sells products and services to customers via an application then this system will likely be mission critical. Systems such as a trading platforms or bespoke software, perhaps even running in your customers premises, are also likely to be critical.
 
 If your business uses software in order to function, and let's face it, this is most organisations, which systems could cause serious damage to your business if they disappeared for a few hours, minutes, or perhaps even seconds?
 
@@ -29,7 +29,7 @@ In order to decide how to break the migration into reasonable chunks, and in ord
 
 ### Example one: Large monolithic business application
 
-Our first example is that of an application that is a businesses central database, provides workflows for business processes, is the CRM, and provides accounting tools for an organisation that is currently running on-premise. Clearly the organisation is tied into the application and as such a migration to the cloud could prove quite disruptive.
+Our first example is that of an application that is a business's central database, provides workflows for business processes, is the CRM, and provides accounting tools for an organisation that is currently running on-premise. Clearly the organisation is tied into the application and as such a migration to the cloud could prove quite disruptive.
 
 Lift and shift would be difficult because such systems often rely on running on the users machine, having access to local printers, accessing a database on the local network, shared storage, and likely more ties that make it hard to remove from on-premises. Not only this but it would also require switching the entire business over to the new system all at once seeing as everything is tied into a single system.
 
