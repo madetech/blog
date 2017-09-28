@@ -1,4 +1,18 @@
 {
   "members": {
+    "@rorymacdonald (Rethinking the GDS discovery phase)": [ "2017-10-13" ],
+    "@lukemorton (Ansible Talk followup)": [ "2017-10-20" ],
+    "@chris (What should a modern retail platform look like?)": [ "2017-10-27" ],
+    "@sowasred2012 (100 day roadmap for launching your startup)": [ "2017-11-03" ],
+    "@adrianclay (Lean Discovery: User Research)": [ "2017-11-10" ],
+    "@seb (EDI is dead. Please stop using it.)": [ "2017-11-17" ],
+    "@camillavk (Open source in retail)": [ "2017-11-24" ],
+    "@rorymacdonald (Lean discovery: Technical discovery)": [ "2017-12-01" ],
+    "@chris (Moving ERP to microservices)": [ "2017-12-08" ],
+    "@lukemorton (Why startups should outsource their first product)": [ "2017-12-15" ],
+    "@sowasred2012 (Lean Discovery: Wrapping up bits)": [ "2017-12-22" ],
+    "@adrianclay (What tech stack use for your startup - 2018 edition)": [ "2018-01-05" ],
+    "@seb (TBA)": [ "2018-01-12" ],
+    "@camillavk (TBA)": [ "2018-01-19" ]
   }
 }
