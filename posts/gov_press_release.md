@@ -3,7 +3,7 @@
 We're excited to announce that we've been chosen to deliver three projects on the GOV.UK platform. Over the next few months, we'll be working closely with the GDS teams to deliver:
 
 **End To End Testing for Publishing Applications**
-GDS have built a multitude of microservices within the GOV.UK platform, each of which are thoroughly tested. An improvement they're keen to make is to have a similar level of testing on a broader level. We'll be working with them to provide a set of end to end tests for six of their publishing applications, ensuring the most common routes through and between each microservice are well tested and perform as expected.
+GDS have built a multitude of microservices within the GOV.UK platform, each of which are thoroughly tested. An improvement they're keen to make is to have a similar level of testing on a broader level. We'll be working with them to provide a set of end to end tests for six of their publishing applications, ensuring the most common routes through and between each microservice work when integrated.
 
 **Broken Link Checking Tool**
 Across the GOV.UK platform, there are thousands of links pointing to external domains. As those domains change, such links are liable to break or, worse, lead a user down a malicious path. Our delivery team will be working to build a tool that evaluates the quality of external links in a number of ways and helps GOV.UK publishers identify links that are either compromised or simply broken.
