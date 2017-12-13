@@ -13,6 +13,6 @@ Many of the applications running on GOV.UK are built with Ruby on Rails which, a
 
 Each project's dedicated team of engineers will be working to both deliver software that provides a robust solution to each problem, and introduce strong software delivery practices that will benefit the GDS team and the GOV.UK platform in the long term.
 
-Founded in 2010 (**I THINK?!**), Made Tech's mission is to improve software delivery in every organisation. We work with our customers to deliver modern applications and help them move to a faster, leaner, and more agile software delivery model.
+Founded in 2010, Made Tech's mission is to improve software delivery in every organisation. We work with our customers to deliver modern applications and help them move to a faster, leaner, and more agile software delivery model.
 
 For more information on how Made Tech's services and how we can help your organisation, get in touch with us via email: [hello@madetech.com](mailto:hello@madetech.com)
