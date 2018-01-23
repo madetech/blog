@@ -6,7 +6,7 @@ At a recent conference a delegate recalled that they were sat on over £1000 of 
 
 Poor enterprise software user experience has a [long documented detrimental impact](http://deloitte.wsj.com/cio/2012/09/10/enterprise-software-why-the-user-experience-matters/) on organisations, including low user adoption, reduced job satisfaction, and significant productivity hits.
 
-Often these large ERP systems are procured because they provide a comprehensive list of features (payroll: tick, warehouse management: tick etc.), without providing sufficient attention to how these features actually work from the end-user perspective, or whether customisation will be needed to bend the way the features work to meet specific nuances in the organisation's workflow.
+Often these large ERP systems are procured because they provide a comprehensive list of features (payroll: tick, warehouse management: tick, purchasing: tick etc.), without providing sufficient attention to how these features actually work from the end-user perspective, or whether customisation will be needed to bend the way the features work to meet specific nuances in the organisation's workflow.
 
 Further, we often observe that the need for an organisation change program to successfully adopt a wide-reaching ERP system is underestimated or missing entirely. Particularly where these systems dictate very specific ways of working.
 
@@ -23,6 +23,8 @@ This can often be the most costly initial rollout, as it can involve lots of org
 ## Adapt the ERP
 
 Microsoft Dynamics NAV promises that it can be easily customised, which is true to an extent. It's possible to customise fields, reporting screens, and so forth. However, there are limitations to how far this customisation can stretch. It's not possible to provide a fully tailored user experience that matches complex local workflows.
+
+Often customisations result in complex multi-step workflows, fields with unintuitive names and inputs, and usually require highly paid specialist consultants to implement.
 
 There is also another significant downside to performing heavy customisation inside the ERP - that it makes upgrade paths much trickier. Often with each new major release, local customisations will need to be updated or rewritten to work with the latest version of Dynamics NAV.
 
