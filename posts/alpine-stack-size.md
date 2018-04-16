@@ -99,18 +99,24 @@ We submitted a [patch upstream to RSpec](https://github.com/rspec/rspec-support/
 
 Ultimately this is a temporary fix, as any recursive logic could be a source of errors in production. This should be solved at the Ruby language level.
 
-## Design problems
+## The whiff of a larger design smell
 
 This is a Liskov-substitution principle violation.
 
-*Liskov substituion principle?? That's an object-oriented principle? How does libc relate to Objects?*
+*Liskov substituion principle?? That's an object-oriented principle? How does a stack overflow error caused by libc relate to Objects?*
 
-The dependency of what libc implementation is used is controlled by the Linux distribution (the caller of your Ruby application). 
+The dependency of what libc implementation is used is controlled by the Linux distribution (the caller of your Ruby application). This means the dependency is inverted, and we are looking at an object-oriented design.
 
-If you consider `musl-libc` and `glibc` as implementing an interface called `libc`, then you will notice that they must also be Liskov-compatible.
+If you consider `musl-libc` and `glibc` as implementing an interface called `libc`, then you will notice that they must also be Liskov-compatible to ensure smooth operation.
 
-The imperfection is that their public APIs are slightly different, possibly by mistake, or probably by choice.
+The imperfection here is that their public APIs are slightly different, possibly by mistake, or probably by choice.
 
-The impact is that the Ruby codebase must be aware of what version of libc it is running against in order to provide a Liskov-compliant programming language.
+The impact is that the Ruby codebase must be aware of what version of libc it is running against in order to provide a stable programming language to us Ruby developers.
 
-This is undesirable, as it creates a reverse dependency on musl-libc, which increases the total cost of maintaining Ruby (if musl changes, so must Ruby). 
+This is undesirable to the Ruby language developers, as it creates a reverse dependency on musl-libc, which increases the total cost of maintaining Ruby (if musl changes, so must Ruby). 
+
+Ideally, the community that maintain libc implementations need to work together to expose the same behaviour (and agree on what this behaviour looks like). 
+
+In reality, it is very difficult to achieve this. In practical terms, musl-libc has proven to be a very good replacement for glibc, and certainly provides a desirable disk-size footprint.
+
+As software engineers, choosing Alpine over a fatter base image requires consideration of the functional differences that musl-libc has compared to glibc. It is very likely that you will encounter issues, and when you do it is time saving to know where to look first.
