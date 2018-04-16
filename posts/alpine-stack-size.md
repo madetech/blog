@@ -1,15 +1,15 @@
 # An Alpine linux gotcha and what it means for you
 
-If you read Wikipedia you will find that Alpine is a linux distribution that is based on musl (more on this later) and BusyBox.
+If you read Wikipedia you will find that Alpine is a GNU/Linux distribution that is based on musl (more on this later) and BusyBox.
 
-With the rise of Docker, it has become a favoured distribution for Docker images due to the favourably small size of it's images.
+With the rise of Docker, it has become a favoured distribution for Docker images due to the greatly reduced size of it's images.
 
 At the time of writing, the [Ruby docker images](https://hub.docker.com/_/ruby/tags/) are 343MB in their standard linux distribution format, but are 28MB in their Alpine flavour.
 
 ## The tooling
 
 We use RSpec to test our code, a common testing framework for the Ruby language. 
-One of it's most powerful features is the ability to create "hierarchical test suites" by using context blocks
+One of it's most distinctive features is the ability to create "hierarchical test suites" by using context blocks.
 
 As an example:
 
@@ -48,40 +48,6 @@ SystemStackError: stack level too deep
   /usr/local/bundle/gems/rspec-support-3.7.0/lib/rspec/support/source/node.rb:53:in `each'
   /usr/local/bundle/gems/rspec-support-3.7.0/lib/rspec/support/source/node.rb:53:in `each'
   (...snip many lines...)
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/snippet_extractor.rb:118:in `location_nodes_at_beginning_line'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/snippet_extractor.rb:96:in `expression_node'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/snippet_extractor.rb:88:in `line_range_of_location_nodes_in_expression'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/snippet_extractor.rb:57:in `line_range_of_expression'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/snippet_extractor.rb:42:in `expression_lines'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/snippet_extractor.rb:31:in `extract_expression_lines_at'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/exception_presenter.rb:218:in `read_failed_lines'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/exception_presenter.rb:163:in `failure_slash_error_lines'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/exception_presenter.rb:150:in `block in failure_lines'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/exception_presenter.rb:149:in `tap'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/exception_presenter.rb:149:in `failure_lines'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/exception_presenter.rb:34:in `colorized_message_lines'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/exception_presenter.rb:240:in `formatted_message_and_backtrace'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/exception_presenter.rb:86:in `fully_formatted_lines'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/exception_presenter.rb:78:in `fully_formatted'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/notifications.rb:200:in `fully_formatted'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/notifications.rb:114:in `block in fully_formatted_failed_examples'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/notifications.rb:113:in `each'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/notifications.rb:113:in `each_with_index'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/notifications.rb:113:in `fully_formatted_failed_examples'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/formatters/base_text_formatter.rb:32:in `dump_failures'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:206:in `block in notify'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:205:in `each'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:205:in `notify'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:175:in `block in finish'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:191:in `close_after'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:171:in `finish'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:81:in `report'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'
-  /usr/local/bundle/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'
-  /usr/local/bundle/gems/rspec-core-3.7.1/exe/rspec:4:in `<top (required)>'
-  /usr/local/bundle/bin/rspec:29:in `load'
   /usr/local/bundle/bin/rspec:29:in `<top (required)>'
 ```
 
@@ -135,21 +101,16 @@ Ultimately this is a temporary fix, as any recursive logic could be a source of 
 
 ## Design problems
 
-This is a liskov substition principle violation.
+This is a Liskov-substitution principle violation.
 
 *Liskov substituion principle?? That's an object-oriented principle? How does libc relate to Objects?*
 
-The dependency on what libc implementation is used is controlled by the Linux distribution (the caller of your Ruby application).
+The dependency of what libc implementation is used is controlled by the Linux distribution (the caller of your Ruby application). 
 
-If you consider musl-libc and glibc as implementing the "libc" interface, then you will notice that they must also be liskov compatible.
+If you consider `musl-libc` and `glibc` as implementing an interface called `libc`, then you will notice that they must also be Liskov-compatible.
 
-The imperfection is that their public APIs are slightly different, possibily by mistake, or probably by choice.
+The imperfection is that their public APIs are slightly different, possibly by mistake, or probably by choice.
 
-The impact is that the Ruby codebase must be aware of what version of libc it is running against in order to provide a liskov-compliant programming language.
+The impact is that the Ruby codebase must be aware of what version of libc it is running against in order to provide a Liskov-compliant programming language.
 
 This is undesirable, as it creates a reverse dependency on musl-libc, which increases the total cost of maintaining Ruby (if musl changes, so must Ruby). 
-
-
-
-
-
