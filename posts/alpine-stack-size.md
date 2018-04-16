@@ -137,7 +137,7 @@ Ultimately this is a temporary fix, as any recursive logic could be a source of 
 
 This is a liskov substition principle violation.
 
-*Object-orientism? How does that come in?*
+*Liskov substituion principle?? That's an object-oriented principle? How does libc relate to Objects?*
 
 The dependency on what libc implementation is used is controlled by the Linux distribution (the caller of your Ruby application).
 
