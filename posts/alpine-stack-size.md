@@ -67,7 +67,7 @@ We thought this was very odd, since we still could not reproduce locally.
 
 ### Decreasing the stack size
 
-We then decided to attempt to reduce the stack size on our local machines (again with the `RUBY_THREAD_VM_STACK_SIZE` environment variable).
+We then decided to reduce the stack size on our local machines (again with the `RUBY_THREAD_VM_STACK_SIZE` environment variable).
 
 What we discovered was that we needed to have stack sizes <500KB in order to reproduce the issue.
 
