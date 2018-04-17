@@ -1,6 +1,6 @@
 # An Alpine linux gotcha and what it means for you
 
-If you read Wikipedia you will find that Alpine is a GNU/Linux distribution that is based on musl (more on this later) and BusyBox.
+If you read Wikipedia you will find that Alpine is a Linux distribution that is based on musl (more on this later) and BusyBox.
 
 With the rise of Docker, it has become a favoured distribution for Docker images due to the greatly reduced size of it's images.
 
@@ -92,6 +92,36 @@ What we learned is that musl provides a default stack size of 80k, which is a si
 Moreover, it requires programs to explicitly ask for more (or less) stack via `pthread_attr_setstacksize`, which MRI Ruby does not appear to do.
 
 There is an open Ruby bug here: https://bugs.ruby-lang.org/issues/14387
+
+### What is RSpec doing?
+
+RSpec prints out a list of errors, and helpfully includes a snippet of source code from your test suite.
+
+```
+Failures:
+
+  1) 1 equals 2
+     Failure/Error: expect(1).to eq(2)
+
+       expected: 2
+            got: 1
+
+       (compared using ==)
+     # ./spec/test_spec.rb:12:in `block (11 levels) in <top (required)>'
+
+Finished in 0.01589 seconds (files took 0.07908 seconds to load)
+1 example, 1 failure
+
+Failed examples:
+
+rspec ./spec/test_spec.rb:11 # 1 equals 2
+```
+
+In the example above, the string `expect(1).to eq(2)` is extracted from your test suite source code.
+
+The way it does is that it parses your Ruby source code using [Ruby ripper](http://ruby-doc.org/stdlib-2.5.0/libdoc/ripper/rdoc/Ripper.html), and then searches for the relevant nodes in the Ruby language Abstract Syntax Tree (AST). 
+
+This requires a Depth-First-Search algorithm, which is more elegant when expressed as a recursive algorithm.
 
 ## How did we solve it?
 
