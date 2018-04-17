@@ -55,6 +55,10 @@ This was extremely strange since we did not notice this error locally.
 
 ## Tracing the error
 
+What we knew from this error message:
+
+* The stack size was being restricted within our CI-environment.
+
 ### Increasing the stack size
 
 At first we thought there was an environment configuration difference between the Ruby in our CI pipeline and our local machines.
@@ -71,7 +75,7 @@ We then decided to reduce the stack size on our local machines (again with the `
 
 What we discovered was that we needed to have stack sizes <500KB in order to reproduce the issue.
 
-This got us no closer to a fix, but did tell us that somehow the stack size was being restricted in our CI environment.
+This got us no closer to a fix, but did enable us to see the error locally and trace it to a recursive algorithm within RSpec.
 
 ### Running with Alpine locally
 
@@ -85,7 +89,7 @@ SystemStackError: stack level too deep
 
 ## What was wrong?
 
-Doing some google searching we ended up at musl-libc's FAQs, specifically the ["functional differences"](https://wiki.musl-libc.org/functional-differences-from-glibc.html#Thread-stack-size) i.e. incompatibilities between glibc. 
+Doing some google searching we ended up at musl-libc's FAQs, specifically the ["functional differences"](https://wiki.musl-libc.org/functional-differences-from-glibc.html#Thread-stack-size) i.e. incompatibilities with glibc. 
 
 What we learned is that musl provides a default stack size of 80k, which is a significant difference to the stacksize provided by glibc (generally 2MB-10MB).
 
