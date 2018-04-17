@@ -2,14 +2,14 @@
 
 If you read Wikipedia you will find that Alpine is a Linux distribution that is based on musl (more on this later) and BusyBox.
 
-With the rise of Docker, it has become a favoured distribution for Docker images due to the greatly reduced size of it's images.
+With the rise of Docker, it has become a favoured distribution for Docker images due to the greatly reduced size of its images.
 
-At the time of writing, the [Ruby docker images](https://hub.docker.com/_/ruby/tags/) are 343MB in their standard linux distribution format, but are 28MB in their Alpine flavour.
+At the time of writing, the [Ruby docker images](https://hub.docker.com/_/ruby/tags/) are 343MB in their standard Linux distribution format, but are 28MB in their Alpine flavour.
 
 ## The tooling
 
 We use RSpec to test our code, a common testing framework for the Ruby language. 
-One of it's most distinctive features is the ability to create "hierarchical test suites" by using context blocks.
+One of its most distinctive features is the ability to create "hierarchical test suites" by using context blocks.
 
 As an example:
 
@@ -31,9 +31,9 @@ end
 
 These context blocks can get more powerful, and indeed allow sharing of setup between multiple test suites (can be desirable when controlling simulators of external services in tests).
 
-We used Alpine linux as our docker image in our CI-pipeline, but locally we were using our native Ruby installation at this point in development since there are performance benefits.
+We used Alpine Linux as our Docker image in our Continuous Integration pipeline (CI pipeline), but locally we were using our native Ruby installation at this point in development since there are performance benefits.
 
-What we noticed was our CI-pipeline went red:
+What we noticed was our CI pipeline went red:
 
 ```
 SystemStackError: stack level too deep
@@ -57,13 +57,13 @@ This was extremely strange since we did not notice this error locally.
 
 **What we knew from this error message:**
 
-* The stack size was being restricted within our CI-environment.
+* The stack size was being restricted within our CI pipeline.
 
 ### Increasing the stack size
 
 At first we thought there was an environment configuration difference between the Ruby in our CI pipeline and our local machines.
 
-So we attempted to increase the stack-size with the CI environment via the `RUBY_THREAD_VM_STACK_SIZE` environment variable.
+So we attempted to increase the stack-size within the CI pipeline via the `RUBY_THREAD_VM_STACK_SIZE` environment variable.
 
 This had no effect.
 
@@ -71,7 +71,7 @@ We thought this was very odd, since we still could not reproduce locally.
 
 **What we knew now:**
 
-* The stack size was being restricted within our CI-environment.
+* The stack size was being restricted within our CI pipeline.
 * This was not a configuration issue backed into the Docker image, and changing Ruby configuration did not work (which it should).
 
 ### Decreasing the stack size
@@ -84,7 +84,7 @@ This got us no closer to a fix, but did enable us to see the error locally and t
 
 **What we knew now:**
 
-* The stack size was being restricted within our CI-environment.
+* The stack size was being restricted within our CI pipeline.
 * This was not a configuration issue backed into the Docker image, and changing Ruby configuration did not work (which it should).
 * The configuration had an affect locally.
 
@@ -105,7 +105,7 @@ SystemStackError: stack level too deep
 
 ## What was wrong?
 
-Doing some google searching we ended up at musl-libc's FAQs, specifically the ["functional differences"](https://wiki.musl-libc.org/functional-differences-from-glibc.html#Thread-stack-size) i.e. incompatibilities with glibc. 
+Doing some Google searching we ended up at musl-libc's FAQs, specifically the ["functional differences"](https://wiki.musl-libc.org/functional-differences-from-glibc.html#Thread-stack-size) i.e. incompatibilities with glibc. 
 
 What we learned is that musl provides a default stack size of 80k, which is a significant difference to the stacksize provided by glibc (generally 2MB-10MB).
 
@@ -139,7 +139,7 @@ rspec ./spec/test_spec.rb:11 # 1 equals 2
 
 In the example above, the string `expect(1).to eq(2)` is extracted from your test suite source code.
 
-The way it does is that it parses your Ruby source code using [Ruby ripper](http://ruby-doc.org/stdlib-2.5.0/libdoc/ripper/rdoc/Ripper.html), and then searches for the relevant nodes in the Ruby language Abstract Syntax Tree (AST). 
+The way it does is that it parses your Ruby source code using [Ruby ripper](http://ruby-doc.org/stdlib-2.5.0/libdoc/ripper/rdoc/Ripper.html), and then searches for the relevant nodes in the Ruby language Abstract Syntax Tree (AST). The more context nested our context blocks were in our RSpec specs, the more recursion occurred during this process.
 
 This requires a Depth-First-Search algorithm, which is more elegant when expressed as a recursive algorithm.
 
@@ -159,7 +159,10 @@ The dependency of what libc implementation is used is controlled by the Linux di
 
 If you consider `musl-libc` and `glibc` as implementing an interface called `libc`, then you will notice that they must also be Liskov-compatible to ensure smooth operation.
 
-The imperfection here is that their public APIs are slightly different, possibly by mistake, or probably by choice.
+The imperfection here is that their public APIs are slightly different, which in Alpine's case is by choice. 
+Alpine linux is derived from the [LEAF Project] (https://en.wikipedia.org/wiki/LEAF_Project), which specifically targets low-powered hardware. The sort of hardware that would not have much space for 2MB-10MB of memory allocated for a stack.
+
+The interesting implication here is the community has decided to use, by defacto choice, a Linux distribution that has historically made some design choices to achieve both low memory and disk-size footprint. In our modern cloud environments, where we can spare 2-10MB of memory allocation for a stack, these design choices don't appear to apply.
 
 The impact is that the Ruby codebase must be aware of what version of libc it is running against in order to provide a stable programming language to us Ruby developers.
 
