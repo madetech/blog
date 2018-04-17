@@ -160,7 +160,7 @@ The dependency of what libc implementation is used is controlled by the Linux di
 If you consider `musl-libc` and `glibc` as implementing an interface called `libc`, then you will notice that they must also be Liskov-compatible to ensure smooth operation.
 
 The imperfection here is that their public APIs are slightly different, which in Alpine's case is by choice. 
-Alpine linux is derived from the [LEAF Project] (https://en.wikipedia.org/wiki/LEAF_Project), which specifically targets low-powered hardware. The sort of hardware that would not have much space for 2MB-10MB of memory allocated for a stack.
+Alpine linux is derived from the [LEAF Project](https://en.wikipedia.org/wiki/LEAF_Project), which specifically targets low-powered hardware. The sort of hardware that would not have much space for 2MB-10MB of memory allocated for a stack.
 
 The interesting implication here is the community has decided to use, by defacto choice, a Linux distribution that has historically made some design choices to achieve both low memory and disk-size footprint. In our modern cloud environments, where we can spare 2-10MB of memory allocation for a stack, these design choices don't appear to apply.
 
