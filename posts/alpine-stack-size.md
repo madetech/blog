@@ -55,7 +55,7 @@ This was extremely strange since we did not notice this error locally.
 
 ## Tracing the error
 
-What we knew from this error message:
+**What we knew from this error message:**
 
 * The stack size was being restricted within our CI-environment.
 
@@ -69,6 +69,11 @@ This had no effect.
 
 We thought this was very odd, since we still could not reproduce locally.
 
+**What we knew now:**
+
+* The stack size was being restricted within our CI-environment.
+* This was not a configuration issue backed into the Docker image, and changing Ruby configuration did not work (which it should).
+
 ### Decreasing the stack size
 
 We then decided to reduce the stack size on our local machines (again with the `RUBY_THREAD_VM_STACK_SIZE` environment variable).
@@ -76,6 +81,12 @@ We then decided to reduce the stack size on our local machines (again with the `
 What we discovered was that we needed to have stack sizes <500KB in order to reproduce the issue.
 
 This got us no closer to a fix, but did enable us to see the error locally and trace it to a recursive algorithm within RSpec.
+
+**What we knew now:**
+
+* The stack size was being restricted within our CI-environment.
+* This was not a configuration issue backed into the Docker image, and changing Ruby configuration did not work (which it should).
+* The configuration had an affect locally.
 
 ### Running with Alpine locally
 
@@ -86,6 +97,11 @@ Immediately we noticed the error locally.
 ```
 SystemStackError: stack level too deep
 ```
+
+**What we knew now:**
+
+* The stack size was being restricted within the Alpine docker image
+* The `RUBY_THREAD_VM_STACK_SIZE` environment variable had no affect within this docker image
 
 ## What was wrong?
 
