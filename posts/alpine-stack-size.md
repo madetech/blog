@@ -53,7 +53,7 @@ SystemStackError: stack level too deep
 
 This was extremely strange since we did not notice this error locally. 
 
-## Tracing the error
+## Step 1: Tracing the error
 
 **What we knew from this error message:**
 
@@ -69,7 +69,7 @@ This had no effect.
 
 We thought this was very odd, since we still could not reproduce locally.
 
-**What we knew now:**
+**What we knew then:**
 
 * The stack size was being restricted within our CI pipeline.
 * This was not a configuration issue backed into the Docker image, and changing Ruby configuration did not work (which it should).
@@ -82,7 +82,7 @@ What we discovered was that we needed to have stack sizes <500KB in order to rep
 
 This got us no closer to a fix, but did enable us to see the error locally and trace it to a recursive algorithm within RSpec.
 
-**What we knew now:**
+**What we learnt here:**
 
 * The stack size was being restricted within our CI pipeline.
 * This was not a configuration issue backed into the Docker image, and changing Ruby configuration did not work (which it should).
@@ -98,12 +98,12 @@ Immediately we noticed the error locally.
 SystemStackError: stack level too deep
 ```
 
-**What we knew now:**
+**What we took away:**
 
 * The stack size was being restricted within the Alpine docker image
 * The `RUBY_THREAD_VM_STACK_SIZE` environment variable had no affect within this docker image
 
-## What was wrong?
+## Step 2: Analyse the problem. What was wrong?
 
 Doing some Google searching we ended up at musl-libc's FAQs, specifically the ["functional differences"](https://wiki.musl-libc.org/functional-differences-from-glibc.html#Thread-stack-size) i.e. incompatibilities with glibc. 
 
@@ -143,7 +143,7 @@ The way it does is that it parses your Ruby source code using [Ruby ripper](http
 
 This requires a Depth-First-Search algorithm, which is more elegant when expressed as a recursive algorithm.
 
-## How did we solve it?
+## Step 3: How we solved the error
 
 We submitted a [patch upstream to RSpec](https://github.com/rspec/rspec-support/pull/343) to change the implementation from a recursive algorithm to a loop-based algorithm that does not use the stack.
 
@@ -165,7 +165,6 @@ Alpine linux is derived from the [LEAF Project](https://en.wikipedia.org/wiki/LE
 The interesting implication here is the community has decided to use, by defacto choice, a Linux distribution that has historically made some design choices to achieve both low memory and disk-size footprint. In our modern cloud environments, where we can spare 2-10MB of memory allocation for a stack, these design choices don't appear to apply.
 
 The impact is that the Ruby codebase must be aware of what version of libc it is running against in order to provide a stable programming language to us Ruby developers.
-
 This is undesirable to the Ruby language developers, as it creates a reverse dependency on musl-libc, which increases the total cost of maintaining Ruby (if musl changes, so must Ruby). 
 
 Ideally, the community that maintain libc implementations need to work together to expose the same behaviour (and agree on what this behaviour looks like). 
