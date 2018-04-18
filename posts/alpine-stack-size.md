@@ -139,7 +139,7 @@ rspec ./spec/test_spec.rb:11 # 1 equals 2
 
 In the example above, the string `expect(1).to eq(2)` is extracted from your test suite source code.
 
-The way it does is that it parses your Ruby source code using [Ruby ripper](http://ruby-doc.org/stdlib-2.5.0/libdoc/ripper/rdoc/Ripper.html), and then searches for the relevant nodes in the Ruby language Abstract Syntax Tree (AST). The more context nested our context blocks were in our RSpec specs, the more recursion occurred during this process.
+The way it does is that it parses your Ruby source code using [Ruby ripper](http://ruby-doc.org/stdlib-2.5.0/libdoc/ripper/rdoc/Ripper.html), and then searches for the relevant nodes in the Ruby language Abstract Syntax Tree (AST). The more deeply nested our context blocks were in our RSpec specs, the more recursion occurred during this process.
 
 This requires a Depth-First-Search algorithm, which is more elegant when expressed as a recursive algorithm.
 
