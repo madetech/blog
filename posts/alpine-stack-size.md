@@ -1,4 +1,4 @@
-# An Alpine linux gotcha and what it means for you
+# A tale in adopting Alpine Linux for Docker - problems we faced with RSpec testing
 
 If you read Wikipedia you will find that Alpine is a Linux distribution that is based on musl (more on this later) and BusyBox.
 
