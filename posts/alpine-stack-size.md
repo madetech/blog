@@ -4,7 +4,7 @@ If you read Wikipedia you will find that Alpine is a Linux distribution that is 
 
 With the rise of Docker, it has become a favoured distribution for Docker images due to the greatly reduced size of its images.
 
-At the time of writing, the [Ruby docker images](https://hub.docker.com/_/ruby/tags/) are 343MB in their standard Linux distribution format, but are 28MB in their Alpine flavour.
+At the time of writing, the [Ruby docker images](https://hub.docker.com/r/library/ruby/tags/) are 343MB in their standard Linux distribution format, but are 28MB in their Alpine flavour.
 
 ## The tooling
 
