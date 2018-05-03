@@ -43,6 +43,6 @@ This is all a more specific application of one of the key parts of iterative dev
 
 But once you’ve learnt this lesson, there’s still some work to do. Whether you’re an executive trying to encourage this in your culture, or a developer trying to make the right decisions, you need to understand the *context*.
 
-The same things that might hit you - emotional attachment to a project, fear of losing face - can affect your colleagues and clients as well. Don’t fall into the trap of trying to explain why people’s feelings aren’t valid!
+Making the rational choice isn't the only thing that motivates people. Don’t fall into the trap of explaining why abandoning a sunk cost might be the best decision, whilst neglecting the emotional attachment your colleagues may have to their work.
 
 You need a culture that accepts failure and change in order to make the right decisions, and many organisations aren’t there yet. Be bold and explain yourself clearly, but don’t despair if it doesn’t go perfectly straight away - that’s part of the process of getting better.
