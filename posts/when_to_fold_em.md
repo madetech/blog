@@ -2,11 +2,11 @@
 
 Some years ago, I worked as part of a development team on a project to upgrade a tangled legacy system managing a company’s payment systems. Two months in, and we had very little to show for it - pages of diagrams that looked like spiderwebs, a few outages caused by failed attempts to untangle the pile, and a rising level of frustration.
 
-That company had spent thousands of pounds, not to mention missed out on a bunch of other opportunities - and not got a good return on that investment. Stakeholders weren’t any happier than we were, and it was time to decide what to do next.
+That company had spent thousands of pounds, not to mention missed out on a bunch of other opportunities - and not got a good return on that investment. Stakeholders weren’t any happier than we were, and so we talked about what to do next:
 
 > We’ve learned some things about what we’re trying to tackle here. Let’s give it another couple of months and see if we can make any progress.
 
-Of course, a month later, nothing had changed - it was the same team, with the same tools, and the same level of support.
+Of course, a month later, nothing had changed - it was the same team, with the same tools, and the same level of support. But we didn't look at how to make it better. Instead, we talked about "not giving up":
 
 > We’ve already sunk so much money into this. We can’t throw that away now. Let’s keep fighting!
 
