@@ -12,14 +12,14 @@ Of course, a month later, nothing had changed - it was the same team, with the s
 
 This is the **sunk cost** fallacy in action - treating what you’ve already lost as a factor in the decision on what to do next.
 
-Our brains were compiled in caves, and some of its software is very out-of-date. Today, we’re going to do some bug-fixing.
+Our brains were compiled in caves, and some of the software is very out-of-date. Today, we’re going to do some bug-fixing.
 
 
 ## Let the project die - kill it, if you have to
 
 But what is the bug? Aren’t you right to care about wasting money?
 
-Sure, waste is bad. But if you’re looking at in the past, it’s already wasted. Since the past loss is happening no matter what, *only look at the future results* if you want to make the right decision.
+Sure, waste is bad. But if you’re looking at it in the past, it’s already wasted. Since the past loss is happening no matter what, *only look at the future results* if you want to make the right decision.
 
 Let’s say this half-finished project of ours has cost £100,000 so far, and the cost of finishing it will be another £50,000. When complete, it’ll reward us with £150,000 of business value.
 
