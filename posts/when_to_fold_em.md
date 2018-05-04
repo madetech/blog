@@ -41,8 +41,8 @@ In real life, decisions aren’t this clear cut - outcomes can’t be exactly pr
 
 This is all a more specific application of one of the key parts of iterative development - *we’ll learn as we go, so we’ll make better decisions later on*. It’s important to stop, breathe and reflect, even when you’re in the middle of work, or you’ll miss opportunities to make the right decisions.
 
-But once you’ve learnt this lesson, there’s still some work to do. Whether you’re an executive trying to encourage this in your culture, or a developer trying to make the right decisions, you need to understand the *context*.
+Once you’ve learnt this lesson, there’s still some work to do. Whether you’re an executive trying to encourage this in your culture, or a developer trying to make the right decisions, you need to understand the *context*.
 
-Making the rational choice isn't the only thing that motivates people. Don’t fall into the trap of explaining why abandoning a sunk cost might be the best decision, whilst neglecting the emotional attachment your colleagues may have to their work.
+Remember, making the rational choice isn't the only thing that motivates people. Don’t fall into the trap of explaining why abandoning a sunk cost might be the best decision, whilst neglecting the emotional attachment your colleagues may have to their work.
 
-You need a culture that accepts failure and change in order to make the right decisions, and many organisations aren’t there yet. Be bold and explain yourself clearly, but don’t despair if it doesn’t go perfectly straight away - that’s part of the process of getting better.
+To make the right decisions, you need a culture that accepts failure and change, and many organisations aren’t there yet. Be bold and explain yourself clearly, and don’t despair if it doesn’t go perfectly straight away - that’s part of the process of getting better!
