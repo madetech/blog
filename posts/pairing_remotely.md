@@ -12,12 +12,24 @@
     - Terminal - tmux
       - Pros: Highly responsive, lower bandwidth requirements.
       - Cons: Not friendly to non-Vim or emacs users
-- The new alternatives:
+- The specialised alternatives:
+  - Our requirements
+    - Must work on a regular editor like Sublime Text, (Neo)vim, Emacs, Atom, ItelliJ IDEA (pycharm et al) or Visual Studio Code.
+      - Which is why we excluded cloud based IDEs like cloud 9, codeanywhere or codeenvy.
+    - Shared terminal access to provide access to specialised testing, debugging or deployment workflows.
   - Floobits
-    - Pros: 
-      - supports a lot of editors (atom, sublime text, intellj, vim and emacs)
-      - terminal support
-    - Cons: requires storing of "shared" workspaces
+    - Details
+      - Free trial tier, but with pricing tiers based on the number of private workspaces. Workspaces are centralized storage managed by Floobits that enable collaboration. These workspaces have one or more projects linked to them. 
+    - How it works
+      - Signup
+      - You install the extension
+    - Pros:
+      - Supports a lot of editors (atom, sublime text, intellj, vim and emacs)
+      - built-in video chat
+    - Cons:
+      - Confusing UX
+      - Synchronisation story between local and remote is not clear (loss of data)
+      - Setup per project requires importing of repo into a workspace
     - Trivia: code roulette
   - Teletype
     - How it works
@@ -48,7 +60,24 @@
 
 ### The problem
 
- at Madetech we try to spend at least 50% pairing with colleagues. We have dedicated pairing workstations. Where there are two screens one for the driver and one for the navigator.
+At MadeTech we try to spend at least 50% of our development time pairing with colleagues. We have dedicated pairing workstations, which consist of two screens mirrored one for the driver and the other for the navigator.
+
+We also do a lot of remote working, our current solution for remote pairing is to use screen sharing via Slack or Google Meets.
+
+This does have disadvantages:
+
+- If video quality degrades sufficiently, you end up with a screen that is a mess of random pixels.
+- If the audio quality degrades sufficiently, the flow of constant feedback is interrupted, so is productivity. Tip: get headsets to reduce the amount of background noise that will cause distraction.
+- If you're swapping roles, you either stay on the shared screen and your pairing partner's editor or you swap screen sharing. Again these are disruptions to productiivity.
+
+### The Solution
+
+Specialised collaboration tools!
+
+Our requirements were:
+
+- The tool must work on a regular editor like Sublime Text, (Neo)vim, Emacs, Atom, ItelliJ IDEA (pycharm et al) or Visual Studio Code. We have a varied collection of editors or our own customisations.
+- Shared terminal access to provide access to specialised testing, debugging or deployment workflows.
 
 
 ## Further Reading
