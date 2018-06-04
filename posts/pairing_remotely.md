@@ -2,11 +2,11 @@
 
 Pairing is a great way to boost productivity and help crack a particularly complex problem.
 
-At MadeTech we try to spend 50% of our development time pairing with colleagues. We have dedicated pairing workstations, which consist of two screens mirrored: one for the driver (the person write code) and the other for the navigator.
+At Made Tech we try to spend 50% of our development time pairing with colleagues. We have dedicated pairing workstations, which consist of two screens mirrored: one for the driver (the person write code) and the other for the navigator.
 
 If you'd like to know more about pairing, we have written the following articles and books:
 
-- Richard's excellent "[The best and worse times to pair program][link_richard_pairing]"
+- Richard's excellent "[The Best and Worst Times To Pair Program][link_richard_pairing]"
 - There is an entire chapter dedicated to pair programming in our "[Building high performance  agile teams][link_agile_book]"
 
 Pair programming on-site is an awesome experience, but there are a number of challenges when one or more of you are working remotely.
