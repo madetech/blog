@@ -2,7 +2,7 @@
 
 Pairing is a great way to boost productivity and help crack a particularly complex problem.
 
-At Made Tech we try to spend 50% of our development time pairing with colleagues. We have dedicated pairing workstations, which consist of two screens mirrored: one for the driver (the person write code) and the other for the navigator.
+At Made Tech we try to spend 50% of our development time pairing with colleagues. We have dedicated pairing workstations, which consist of two screens mirrored: one for the driver (the person who writes code) and the other for the navigator (the person who reviews the code being written by the driver).
 
 If you'd like to know more about pairing, we have written the following articles and books:
 
