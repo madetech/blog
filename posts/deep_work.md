@@ -14,11 +14,11 @@ Consequently, at Made Tech, we’ve been trying a number of techniques to help t
 
 ## Adapt your working environment
 
-Flexible working is embedded in our culture so people can choose where they work from and largely when. We do however try to discourage working in the evenings to ensure work/life balance, and because it has the potential to prevent relaxation and risk negatively impacting work being done the following day.     
+Flexible working is embedded in our culture so people can choose where they work from and as much as possible when. We do however require most of our teams to have larger overlap with their customers' working times as well as try to discourage working in the evenings. This is to ensure work/life balance, and because it has the potential to prevent relaxation and risk negatively impacting work being done the following day.     
 
 ## Time yourself
 
-During pairing activities our teams use [pomodoros](http://tomatotimers.com/) - a time management method which breaks down work into intervals of 25 minutes in length, separated by short five minute breaks.  Our developers and engineers have also used the timer system while working on client projects with good outcomes, so recently we extended its usage to the marketing and sales teams as well. 
+During pairing activities our teams use [pomodoros](http://tomatotimers.com/) - a time management method which breaks down work into intervals of deep work, separated by short breaks (25 minute pomodoros and 5 minute breaks for example). This technique is not limited to development or pairing environments - anything that requires periods of uninterrupted concentration can benefit. Our developers and engineers have started using the timer system while working on client projects with good outcomes, so we recently extended its usage to the marketing and sales teams as well.
 
 ## Make it a daily habit
 
