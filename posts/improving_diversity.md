@@ -1,4 +1,4 @@
-How do we solve a problem like diversity?
+# How do we solve a problem like diversity?
 
 Just over a year ago, I wrote about the [lack of diversity at Made Tech](https://www.madetech.com/blog/privilege-bingo) and how it was something we needed to work on as a business. We’d recognised our ‘ignorance’ had led to inactivity in identifying problem areas, but once we’d accepted our failures, we had to stop being passive bystanders and actually take active steps to address them. 
 
