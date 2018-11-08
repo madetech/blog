@@ -8,9 +8,7 @@ We'll see who the new players are, what are the new features to look for, and th
 
 [GitLab](https://about.gitlab.com/pricing/#self-managed) aims to provide seamless integration between self-hosted and SaaS. With multiple ways to deploy your own CI/CD instance. The added bonus of using GitLab is that you can buy support.
 
-*Note: Block quotes are temporary and will be removed before publication*
-
-> We have used this package microservices as charts (a deployable unit in Helm, which is Kubernetes' package manager) to be deployed to the Kubernetes cluster. And yes we hosted our GitLab in our cluster.
+We have used this package microservices as Helm charts (Helm is Kubernetes' package manager) to be deployed to the Kubernetes cluster. And yes we hosted our GitLab in our cluster.
 
 [Jenkins](https://jenkins.io/) is still our goto tool for self-hosting and combined with AWS [CodeBuild](https://aws.amazon.com/codebuild/) can allow you to dynamically scale your workers to meet with sudden demand in builds.
 
@@ -24,7 +22,7 @@ There's been a massive growth in this area with cloud independent solutions such
 
 Container images have replaced buildpacks as the way to assure consistent versions of software releases. Look for baked in Docker support to reduce the complexity and overhead of your pipeline.
 
-> We use docker images as a consistent way to base image for Ruby...
+We use docker images as a consistent way to provide base image for Rails.
 
 ### Pipelines/Workflow
 
@@ -36,13 +34,13 @@ Circle CI have turned workflow steps into shareable packages called Orbs.
 
 The "deploy anywhere" approach of [Microsoft Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) (part of the Azure DevOps suite) means you can release software to any environment: Kubernetes (Azure Kubernetes Service),  Serverless (Azure Functions) and Web. This is, of course, achievable because of the close integration with their Cloud platform Azure.
 
-> We have used this simplify CI/CD workflow from source control (VSTS) to platform Azure Kubenetes Service (AKS).
+Using Azure DevOps suite meant we could commit new features through source control (VSTS) and deploy onto Azure Kubenetes Service (AKS) with relative ease.
 
 ## Self Hosted or SaaS
 
 The general advice from our original article remains the same. If it's a single product then SaaS will provide the least amount of friction, whereas if you have multiple products, or are at enterprise scale, then self-hosted is still worth considering.
 
-In addition to this advice, we now also recommend that if you are delivering to multiple operating systems (Windows, MacOS and Linux) then SaaS can reduce the complexity of managing an exotic build farm. A common combination used by Rust developers is to use Travis CI for Linux and MacOS and [Appveyor](https://duckduckgo.com/?q=appveyor&t=ffab&ia=web) for Windows when building and packaging software.
+In addition to this advice, we now also recommend that if you are delivering to multiple operating systems (Windows, MacOS and Linux) then SaaS can reduce the complexity of managing an exotic build farm. A common combination used by Rust developers is to use Travis CI for Linux and MacOS and [Appveyor](https://www.appveyor.com/) for Windows when building and packaging software.
 
 The self-hosted route is only feasible if you have a dedicated Ops team, as the chances are that if your CD goes down, your CI will be down too (nearly all self-hosted solution provide CI/CD as an all-in-one package). If both are down then your developers can't release features.
 
