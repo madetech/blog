@@ -38,9 +38,13 @@ Using Azure DevOps suite meant we could commit new features through source contr
 
 ## Self Hosted or SaaS
 
-The general advice from our original article remains the same. If it's a single product then SaaS will provide the least amount of friction, whereas if you have multiple products, or are at enterprise scale, then self-hosted is still worth considering.
+To quote from our original article:
 
-In addition to this advice, we now also recommend that if you are delivering to multiple operating systems (Windows, MacOS and Linux) then SaaS can reduce the complexity of managing an exotic build farm. A common combination used by Rust developers is to use Travis CI for Linux and MacOS and [Appveyor](https://www.appveyor.com/) for Windows when building and packaging software.
+> ...if you are maintaining a single product, a SaaS solution will most likely be your best bet, as you wont have to worry about the additional infrastructure. On the flip side of the coin, if you deliver a large number of client projects, a self-hosted solution that can be tailored to your needs will most likely be a better fit.
+
+Whilst the general advice from our original article remains the same, we have extended this advice further to include:
+
+If you are delivering to multiple operating systems (Windows, MacOS and Linux) then SaaS can reduce the complexity of managing an exotic build farm. A common combination used by Rust developers is to use Travis CI for Linux and MacOS and [Appveyor](https://www.appveyor.com/) for Windows when building and packaging software.
 
 The self-hosted route is only feasible if you have a dedicated Ops team, as the chances are that if your CD goes down, your CI will be down too (nearly all self-hosted solution provide CI/CD as an all-in-one package). If both are down then your developers can't release features.
 
