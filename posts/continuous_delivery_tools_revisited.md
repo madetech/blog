@@ -12,9 +12,11 @@ We'll see who the new players are, what are the new features to look for, and th
 
 > We have used this package microservices as charts (a deployable unit in Helm, which is Kubernetes' package manager) to be deployed to the Kubernetes cluster. And yes we hosted our GitLab in our cluster.
 
+[Jenkins](https://jenkins.io/) is still our goto tool for self-hosting and combined with AWS [CodeBuild](https://aws.amazon.com/codebuild/) can allow you to dynamically scale your workers to meet with sudden demand in builds.
+
 ## SaaS
 
-There's been a massive growth in this area with cloud independent solutions such as [Travis CI](https://travis-ci.org/), [Circle CI](https://circleci.com/). On the flip side Microsoft's Azure Pipeline has strong integration with their cloud offering Azure.
+There's been a massive growth in this area with cloud independent solutions such as [Travis CI](https://travis-ci.org/), [Circle CI](https://circleci.com/). On the flip side, Microsoft's Azure Pipeline has strong integration with their cloud offering Azure.
 
 ## New Features
 
@@ -46,4 +48,8 @@ The self-hosted route is only feasible if you have a dedicated Ops team, as the 
 
 ## Summary
 
-To be continued...
+So whilst the landscape has changed in the last two years, the features we have seen have made building that all important pipeline ergonomic and less the prioriety domain of the Ops team.
+
+Also the trade off between self-hosted and SaaS providers remains relatively unchanged. Although perhaps self-hosted has become easier to provision and scale.
+
+The important take away is that continuous deployment is a key component is rapid and frequent software delivery.
