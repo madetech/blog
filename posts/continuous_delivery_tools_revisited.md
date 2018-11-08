@@ -42,7 +42,7 @@ To quote from our original article:
 
 > ...if you are maintaining a single product, a SaaS solution will most likely be your best bet, as you wont have to worry about the additional infrastructure. On the flip side of the coin, if you deliver a large number of client projects, a self-hosted solution that can be tailored to your needs will most likely be a better fit.
 
-Whilst the general advice from our original article remains the same, we have extended this advice further to include:
+While the general advice from our original article remains the same, we have extended this advice further to include:
 
 If you are delivering to multiple operating systems (Windows, MacOS and Linux) then SaaS can reduce the complexity of managing an exotic build farm. A common combination used by Rust developers is to use Travis CI for Linux and MacOS and [Appveyor](https://www.appveyor.com/) for Windows when building and packaging software.
 
@@ -50,8 +50,8 @@ The self-hosted route is only feasible if you have a dedicated Ops team, as the 
 
 ## Summary
 
-So whilst the landscape has changed in the last two years, the features we have seen have made building that all-important pipeline ergonomic and less the proprietary domain of the Ops team.
+So while the landscape has changed in the last two years, the new features we have seen have made building that all-important pipeline ergonomic and no longer the proprietary domain of the Ops team.
 
 Also, the trade off between self-hosted and SaaS providers remains relatively unchanged. Although perhaps self-hosted has become easier to provision and scale.
 
-The important take away is that continuous deployment is a key component is rapid and frequent software delivery.
+The important take away is that continuous delivery is a key component in rapid and frequent software delivery.
