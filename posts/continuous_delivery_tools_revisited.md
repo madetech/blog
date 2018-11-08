@@ -48,8 +48,8 @@ The self-hosted route is only feasible if you have a dedicated Ops team, as the 
 
 ## Summary
 
-So whilst the landscape has changed in the last two years, the features we have seen have made building that all important pipeline ergonomic and less the prioriety domain of the Ops team.
+So whilst the landscape has changed in the last two years, the features we have seen have made building that all-important pipeline ergonomic and less the proprietary domain of the Ops team.
 
-Also the trade off between self-hosted and SaaS providers remains relatively unchanged. Although perhaps self-hosted has become easier to provision and scale.
+Also, the trade off between self-hosted and SaaS providers remains relatively unchanged. Although perhaps self-hosted has become easier to provision and scale.
 
 The important take away is that continuous deployment is a key component is rapid and frequent software delivery.
