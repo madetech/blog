@@ -22,7 +22,7 @@ There's been a massive growth in this area with cloud independent solutions such
 
 Container images have replaced buildpacks as the way to assure consistent versions of software releases. Look for baked in Docker support to reduce the complexity and overhead of your pipeline.
 
-We use docker images as a consistent way to provide base image for Rails.
+We use docker images as a consistent way to provide [base image](https://hub.docker.com/r/madetech/docker-rails-deps/) for Rails.
 
 ### Pipelines/Workflow
 
@@ -30,11 +30,13 @@ This is the heart of continuous delivery and there has been a lot of innovation 
 
 [GitHub](https://github.com/), who traditionally are the first step in building a CD pipeline now provides [GitHub Actions](https://developer.github.com/actions/) which allow pipeline functionality from within your source code repository. It provides a similar "look and feel" to [IFTTT](https://ifttt.com/) allowing build your workflow visually.
 
-Circle CI have turned workflow steps into shareable packages called Orbs.
+Circle CI have turned workflow steps into shareable packages called [Orbs](https://circleci.com/docs/2.0/orb-intro/).
 
 The "deploy anywhere" approach of [Microsoft Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) (part of the Azure DevOps suite) means you can release software to any environment: Kubernetes (Azure Kubernetes Service),  Serverless (Azure Functions) and Web. This is, of course, achievable because of the close integration with their Cloud platform Azure.
 
 Using Azure DevOps suite meant we could commit new features through source control (VSTS) and deploy onto Azure Kubenetes Service (AKS) with relative ease.
+
+Heroku Pipelines' [Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) allows us to review Pull Requests as a one time deploy version of the application.
 
 ## Self Hosted or SaaS
 
