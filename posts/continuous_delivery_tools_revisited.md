@@ -36,13 +36,13 @@ The "deploy anywhere" approach of [Microsoft Azure Pipelines](https://azure.micr
 
 Using Azure DevOps suite meant we could commit new features through source control (VSTS) and deploy onto Azure Kubenetes Service (AKS) with relative ease.
 
-Heroku Pipelines' [Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) allows us to review Pull Requests as a one time deploy version of the application.
+Heroku Pipelines' [Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) allows us to review Pull Requests in a single-use version of the application.
 
 ## Self Hosted or SaaS
 
 To quote from our original article:
 
-> ...if you are maintaining a single product, a SaaS solution will most likely be your best bet, as you wont have to worry about the additional infrastructure. On the flip side of the coin, if you deliver a large number of client projects, a self-hosted solution that can be tailored to your needs will most likely be a better fit.
+> ...if you are maintaining a single product, a SaaS solution will most likely be your best bet, as you won't have to worry about the additional infrastructure. On the flip side of the coin, if you deliver a large number of client projects, a self-hosted solution that can be tailored to your needs will most likely be a better fit.
 
 While the general advice from our original article remains the same, we have extended this advice further to include:
 
@@ -54,6 +54,6 @@ The self-hosted route is only feasible if you have a dedicated Ops team, as the 
 
 So while the landscape has changed in the last two years, the new features we have seen have made building that all-important pipeline ergonomic and no longer the proprietary domain of the Ops team.
 
-Also, the trade off between self-hosted and SaaS providers remains relatively unchanged. Although perhaps self-hosted has become easier to provision and scale.
+Also, the trade-off between self-hosted and SaaS providers remains relatively unchanged. Although perhaps self-hosted has become easier to provision and scale.
 
 The important take away is that continuous delivery is a key component in rapid and frequent software delivery.
